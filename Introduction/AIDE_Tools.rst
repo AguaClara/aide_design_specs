@@ -1,4 +1,4 @@
-.. _La_Herramienta_de_Diseño_Automática:
+.. _title_La_Herramienta_de_Diseño_Automática:
 
 ***********************************
 La Herramienta de Diseño Automática

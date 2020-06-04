@@ -25,6 +25,22 @@ This textbook is written and maintained in `Github <https://github.com/AguaClara
   Introduction/Requirements.rst
   Introduction/AIDE_Tools.rst
 
+.. toctree::
+  :caption: Materiales de Construcción
+  :maxdepth: 1
+
+  Construction_Materials/Tubing.rst
+  Construction_Materials/Brickwork.rst
+
+.. toctree::
+  :caption: Tanque de Entrada
+  :maxdepth: 1
+
+  Entrance_Tank/Tank_Purpose_and_Description.rst
+  Entrance_Tank/LFOM.rst
+  .. Entrance_Tank/Tank_Design_Data.rst
+  .. Entrance_Tank/Tank_Design_Algorithm.rst
+
 `PDF and LaTeX versions <https://github.com/AguaClara/Textbook/releases/latest>`_ [#pdf_warning]_.
 
 .. rubric:: **Notes**
