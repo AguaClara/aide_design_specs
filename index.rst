@@ -20,10 +20,10 @@ This textbook is written and maintained in `Github <https://github.com/AguaClara
   :caption: Introducción a la Tecnología AguaClara
   :maxdepth: 1
 
-  Introducción_a_la_Tecnología_AguaClara/Historia.rst
-  Introducción_a_la_Tecnología_AguaClara/Procesos_de_Tratamiento.rst
-  Introducción_a_la_Tecnología_AguaClara/Necesidades_para_Operar_una_Planta_AguaClara.rst
-  Introducción_a_la_Tecnología_AguaClara/La_Herramienta_de_Diseño_Automática.rst
+  Introduction/History.rst
+  Introduction/Treatment_Process.rst
+  Introduction/Requirements.rst
+  Introduction/AIDE_Tools.rst
 
 `PDF and LaTeX versions <https://github.com/AguaClara/Textbook/releases/latest>`_ [#pdf_warning]_.
 
