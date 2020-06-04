@@ -1,0 +1,10 @@
+.. _title_Historia:
+
+********
+Historia
+********
+AguaClara inició en 2005 como programa de la Facultad de Ingeniería Civil y Ambiental de la Universidad de Cornell que tenía como propósito diseñar tecnologías robustas de tratamiento de agua potable. Vinculado con la ONG Hondureña Agua Para el Pueblo (APP) como socio de implementación en Centroamérica, el programa AguaClara pretendía desarrollar soluciones sostenibles para proveer agua de calidad en la zona rural y periurbana de ese país.
+
+Empezando con el proyecto piloto en el casco urbano del municipio de Ojojona en 2006 y 2007, la tecnología AguaClara ha evolucionado con cada proyecto mediante un proceso de integración de las experiencias del campo en las investigaciones y diseños de la Universidad. El resultado es un producto que está a la vez basado en las necesidades de las comunidades, en la experiencia de los implementadores, y en los experimentos e innovaciones del laboratorio de Cornell. Las plantas son sostenibles por cuanto se construyen empleando materiales disponibles localmente y el proceso de tratamiento y los sistemas de suministro de insumos químicos se diseñan aprovechando la fuerza de gravedad, de esta forma eliminando la necesidad de energía eléctrica. Además, las versiones más recientes de la tecnología producen agua que cumple con las normas más estrictas de calidad.
+
+Hoy en día el programa tiene iniciativas en diversos contextos alrededor del mundo. En Honduras, APP sigue diseñando y construyendo plantas, con diez proyectos exitosos ya funcionando. Además de la implementación de la tecnología y la capacitación de nuevos operadores y juntas de agua, APP brinda asistencia técnica para las plantas existentes, distribuye los insumos para su operación, y ha facilitado la formación de una asociación de juntas de agua con plantas AguaClaras, denominada ACACH (Asociación Comunitaria de AguaClara de Honduras). APP trabaja con la versión más actualizada de los diseños de la Universidad de Cornell, de esta manera facilitando la innovación en cada etapa del desarrollo del programa.
