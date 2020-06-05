@@ -16,7 +16,7 @@ Personal e insumos
 
 Equipo básico de laboratorio
 ----------------------------
- - Un turbidímetro portátil, la herramienta más fundamental para la operación de la planta (:numref:`figure_microtpi`). Este instrumento se usa para medir la cantidad de sedimento que trae el afluente a la planta para elegir la dosis de coagulante, para evaluar el rendimiento de cada proceso con medidas de su efluente, y para registrar la calidad de agua que la planta produce durante el día. En las plantas AguaClaras existentes se ha usado el MicroTPI turbidímetro portátil con luz infrarroja de HF Scientific con un rango efectivo de 0.02 UTN a 1100 UTN.
+ - Un turbidímetro portátil, la herramienta más fundamental para la operación de la planta (:numref:`figure_microtpi`). Este instrumento se usa para medir la cantidad de sedimento que trae el afluente a la planta para elegir la dosis de coagulante, para evaluar el rendimiento de cada proceso con medidas de su efluente, y para registrar la calidad de agua que la planta produce durante el día. En las plantas AguaClara existentes se ha usado el MicroTPI turbidímetro portátil con luz infrarroja de HF Scientific con un rango efectivo de 0.02 UTN a 1100 UTN.
  - El kit de calibración del turbidímetro para asegurar mediciones precisas.
  - Comparador de cloro para comprobar con regularidad que la concentración de cloro libre residual está dentro del rango aceptable en la red de distribución.
  - Probetas para medir volúmenes pequeños de líquidos, especialmente para pruebas del sistema de dosificación de químicos.
