@@ -71,6 +71,20 @@ This textbook is written and maintained in `Github <https://github.com/AguaClara
   Sedimentation/Collect_Tube.rst
   Sedimentation/Sed_Tank_General_Data.rst
 
+.. toctree::
+  :caption: Filtración Rápida con Arena
+  :maxdepth: 1
+
+  Filtration/Filt_Purpose_and_Description.rst
+  Filtration/Fluid_Distribution.rst
+  Filtration/Filter_Size.rst
+  Filtration/Sand.rst
+  Filtration/Entry_Manifolds.rst
+  Filtration/Exit_Manifolds.rst
+  Filtration/Backwash_Siphon.rst
+  Filtration/Flow_Control.rst
+  Filtration/Filt_General_Data.rst
+
 `PDF and LaTeX versions <https://github.com/AguaClara/Textbook/releases/latest>`_ [#pdf_warning]_.
 
 .. rubric:: **Notes**
