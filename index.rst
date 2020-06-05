@@ -38,8 +38,16 @@ This textbook is written and maintained in `Github <https://github.com/AguaClara
 
   Entrance_Tank/Tank_Purpose_and_Description.rst
   Entrance_Tank/LFOM.rst
-  .. Entrance_Tank/Tank_Design_Data.rst
-  .. Entrance_Tank/Tank_Design_Algorithm.rst
+  Entrance_Tank/Tank_Design_Data.rst
+  Entrance_Tank/Tank_Design_Algorithm.rst
+
+.. toctree::
+  :caption: Dosificación de Químicos
+  :maxdepth: 1
+
+  Chemical_Dosing/Dosing_Purpose_and_Description.rst
+  Chemical_Dosing/Dosing_Design_Algorithm.rst
+  Chemical_Dosing/Dosing_Design_Data.rst
 
 `PDF and LaTeX versions <https://github.com/AguaClara/Textbook/releases/latest>`_ [#pdf_warning]_.
 

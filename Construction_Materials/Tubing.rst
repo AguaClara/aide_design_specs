@@ -1,9 +1,9 @@
 .. |H.Fi| replace:: H.Fi value
-.. |ND.FiTrunk(superior)| replace:: Fi Trunk superior value
-.. |ND.FiBwTrunk(inferior)| replace:: Fi Bw Trunk inferior value
+.. |ND.FiTrunk| replace:: Fi Trunk superior value
+.. |ND.FiBwTrunk| replace:: Fi Bw Trunk inferior value
 .. |PS.FiTrunkStr| replace:: Fi Trunk Str value
-.. |ND.FiManBranch(superior)| replace:: Fi Man Branch superior value
-.. |ND.FiBwManBranch(inferior)| replace:: Fi Bw Man Branch inferior value
+.. |ND.FiManBranch| replace:: Fi Man Branch superior value
+.. |ND.FiBwManBranch| replace:: Fi Bw Man Branch inferior value
 .. |PS.FiBranchStr| replace:: Fi Branch Str value
 .. |ND.FiBranchHolder| replace:: Fi Branch Holder value
 .. |PS.FiBranchHolderStr| replace:: Fi Branch Holder Str value
@@ -12,14 +12,14 @@
 
 .. _title_Tubería:
 
-**************
+*******
 Tubería
-**************
+*******
 La planta AguaClara utiliza tubería y accesorios de PVC para toda la fontanería
 con la excepción de:
 
 #. La tubería de entrada, salida, y drenaje que está expuesta fuera del edificio (:numref:`figure_moroceli`). Aquí se usan tubos y accesorios de hierro galvanizado por su durabilidad.
-#. Algunas conexiones de los sistemas de dosificación de químicos, que tienen que ser flexibles (:ref:`chapter_placeholder`). Se usan mangueras de varios tamaños.
+#. Algunas conexiones de los sistemas de dosificación de químicos, que tienen que ser flexibles (:ref:`chapter4_placeholder`). Se usan mangueras de varios tamaños.
 
 En la planta no existen altas presiones estáticas, pues la mayor se produce en
 la parte inferior del filtro, que tiene |H.Fi| de profundidad, y no pasa de los
@@ -66,8 +66,8 @@ especificación diferente de la guía general:
     :header: "Descripción", "Diámetro nominal", "Especificación", "Justificación"
     :align: center
 
-    "Líneas troncales de los manifolds del filtro", |ND.FiTrunk(superior)| - |ND.FiBwTrunk(inferior)|, |PS.FiTrunkStr|, "El grosor hace más segura la conexión especial que se hace con los ramales."
-    "Ramales de los manifolds del filtro", |ND.FiManBranch(superior)| – |ND.FiBwManBranch(inferior)|, |PS.FiBranchStr|, "El grosor es necesario para la fabricación de las ranuras finas."
+    "Líneas troncales de los manifolds del filtro", |ND.FiTrunk| (superior) – |ND.FiBwTrunk| (inferior), |PS.FiTrunkStr|, "El grosor hace más segura la conexión especial que se hace con los ramales."
+    "Ramales de los manifolds del filtro", |ND.FiManBranch| (superior) – |ND.FiBwManBranch| (inferior), |PS.FiBranchStr|, "El grosor es necesario para la fabricación de las ranuras finas."
     "Receptores de los ramales de los manifolds del filtro", |ND.FiBranchHolder|, |PS.FiBranchHolderStr|, "El grosor hace más segura la conexión especial que se hace con los ramales. La durabilidad también facilita el trabajo de instalación."
     "Obstáculos del floculador", |ND.FlocObs|, |PS.FlocObsStr|, "La rigidez no es necesaria aquí aunque se usen tubos de diámetro menor de 6”."
     "Cualquier pistón de PVC que se usa para tapar un desagüe", "-", "SDR 41", "Para facilitar la operación de los desagües es mejor que los pistones sean livianos."
