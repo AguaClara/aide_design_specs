@@ -50,6 +50,14 @@ This textbook is written and maintained in `Github <https://github.com/AguaClara
   Chemical_Dosing/Dosing_Design_Data.rst
 
 .. toctree::
+  :caption: Mezcla Rápida
+  :maxdepth: 1
+
+  Mix/Mix_Purpose_and_Description.rst
+  Mix/Mix_Design_Algorithm.rst
+  Mix/Mix_Design_Data.rst
+
+.. toctree::
   :caption: Sedimentación
   :maxdepth: 1
 
