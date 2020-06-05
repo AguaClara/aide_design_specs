@@ -32,9 +32,9 @@ La pérdida de carga debida a expansiones está definida por
     h_e=\frac{K_eV^2}{2g}
 
 | En donde
-| :math:`K_e` = coeficiente de expansión,que depende del cambio de geometría
+| :math:`K_e` = coeficiente de expansión, que depende del cambio de geometría
 | :math:`V` = velocidad del fluido en la manguera
-| :math:`g` = acceleración debido a la gravidad :math:`\approx 9.81 \frac{m} {s^2}`
+| :math:`g` = aceleración debido a la gravedad :math:`\approx 9.81 \frac{m} {s^2}`
 
 La pérdida de carga debida a expansiones aumenta con la cuadrada de la velocidad, y por lo tanto no provee una relación lineal entre el caudal y la pérdida de carga. Por otro lado, la pérdida de carga debida a tensiones con las paredes del tubo sí tiene una relación lineal:
 
@@ -46,7 +46,7 @@ La pérdida de carga debida a expansiones aumenta con la cuadrada de la velocida
 | En donde
 | :math:`\mu` = viscosidad dinámica del fluido
 | :math:`L` = longitud del tubo o manguera
-| :math:`\rho` = densidad de agua :math:`\approx1000 \frac{kg}{m^3}``
+| :math:`\rho` = densidad de agua :math:`\approx 1000 \frac{kg}{m^3}``
 | :math:`D` = diámetro interior del tubo o manguera
 
 .. _heading_diseño_de_las_mangueras_de_diámetro_pequeño:
