@@ -29,7 +29,7 @@ El número de placas de sedimentación necesario para lograr la velocidad de cap
 .. math::
   :label: number_of_plates
 
-    N = ciel\left(\sqrt{\frac{Q}{\left(S+T\right)WV_{C}\sin {\alpha}}}\right)
+    N = ceil\left(\sqrt{\frac{Q}{\left(S+T\right)WV_{C}\sin {\alpha}}}\right)
 
 | Donde:
 | :math:`N` = el número de placas = |N.EtPlates|

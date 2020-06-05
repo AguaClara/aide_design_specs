@@ -21,12 +21,7 @@ con la excepción de:
 #. La tubería de entrada, salida, y drenaje que está expuesta fuera del edificio (:numref:`figure_moroceli`). Aquí se usan tubos y accesorios de hierro galvanizado por su durabilidad.
 #. Algunas conexiones de los sistemas de dosificación de químicos, que tienen que ser flexibles (:ref:`title_Dosing_Propósito_y_Descripción`). Se usan mangueras de varios tamaños.
 
-En la planta no existen altas presiones estáticas, pues la mayor se produce en
-la parte inferior del filtro, que tiene |H.Fi| de profundidad, y no pasa de los
-7 psi. La tubería de drenaje más delgada podría aguantar la presión en cualquier
-punto de la planta, y por tanto las especificaciones de los tubos no están
-basadas en las presiones sino en la durabilidad general y otras consideraciones
-prácticas.
+En la planta no existen altas presiones estáticas, pues la mayor se produce en la parte inferior del filtro, que tiene |H.Fi| de profundidad, y no pasa de los 7 psi. La tubería de drenaje más delgada podría aguantar la presión en cualquier punto de la planta, y por tanto las especificaciones de los tubos no están basadas en las presiones sino en la durabilidad general y otras consideraciones prácticas.
 
 .. _figure_moroceli:
 
@@ -34,17 +29,9 @@ prácticas.
     :width: 400px
     :align: center
 
-    La tubería entrada de hierro galvanizado de la planta AguaClara
-    de Morocelí, El Paraíso.
+    La tubería entrada de hierro galvanizado de la planta AguaClara de Morocelí, El Paraíso.
 
-Se ha observado que los tubos de diámetro pequeño y paredes delgadas se deforman
-bajo el peso de los materiales que están encima al fundirlos en las paredes de
-ladrillo que se construyen en la planta, provocando fugas de agua. Además, hay
-más probabilidad de romper los que están expuestos durante la operación normal.
-Con los tubos de mayor diámetro las especificaciones de drenaje tienen paredes
-lo suficiente gruesas para no deformarse al fundirlos y aguantar el abuso normal
-de la operación. Como regla general, se recomiendan las especificaciones de la
-tubería de la planta en base a la siguiente guía:
+Se ha observado que los tubos de diámetro pequeño y paredes delgadas se deforman bajo el peso de los materiales que están encima al fundirlos en las paredes de ladrillo que se construyen en la planta, provocando fugas de agua. Además, hay más probabilidad de romper los que están expuestos durante la operación normal. Con los tubos de mayor diámetro las especificaciones de drenaje tienen paredes lo suficiente gruesas para no deformarse al fundirlos y aguantar el abuso normal de la operación. Como regla general, se recomiendan las especificaciones de la tubería de la planta en base a la siguiente guía:
 
 .. _table_general_guide:
 
@@ -57,8 +44,7 @@ tubería de la planta en base a la siguiente guía:
     "1''-4''", "SDR 26"
     ">4''", "SDR 41"
 
-La siguiente tabla resume algunos casos en que se recomiendo a veces una
-especificación diferente de la guía general:
+La siguiente tabla resume algunos casos en que se recomiendo a veces una especificación diferente de la guía general:
 
 .. _table_guide_exceptions:
 
