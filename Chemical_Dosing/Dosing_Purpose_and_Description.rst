@@ -6,7 +6,7 @@
 ***********************
 Propósito y Descripción
 ***********************
-Los procesos de coagulación y desinfección requieren de la dosificación precisa de coagulante y de hipoclorito de calcio. Para realizar este proceso sin bombas, la planta AguaClara utiliza un sistema de dosificación por gravedad.
+Los procesos de coagulación y desinfección requieren de la dosificación precisa de coagulante y de hipoclorito de calcio. Para realizar estos procesos sin bombas, la planta AguaClara utiliza un sistema de dosificación por gravedad.
 
 .. _heading_componentes_principales:
 
@@ -14,8 +14,8 @@ Componentes principales
 -----------------------
 Los componentes principales del sistema son:
 
- - Dos barriles para almacenar la solución madre de cada químico (cuatro en total).
- - Una plataforma para elevar los barriles.
+ - Dos tanques para almacenar la solución madre de cada químico (cuatro en total).
+ - Una plataforma para elevar los tanques.
  - Dos botes de carga constante para cada químico (4 en total) que mantienen un reservorio a un nivel constante usando una válvula flotadora en la entrada.
  - Una balanza que conecta el nivel de agua en el tanque de entrada de la planta con el nivel de la salida del sistema de químicos.
  - Una serie de mangueras en el recorrido del químico del bote de carga constante a la balanza, que provee la relación necesaria entre la pérdida de carga y el caudal del químico.

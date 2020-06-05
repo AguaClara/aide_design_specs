@@ -61,4 +61,4 @@ Con el medidor de caudal lineal de 20cm, cada incremento en el caudal provoca el
     :width: 500px
     :align: center
 
-    Funcionamiento de un medidor lineal de caudal (LFOM) de 20cm.
+    Funcionamiento de un medidor lineal de caudal (LFOM) de 20 cm.
