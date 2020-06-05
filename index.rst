@@ -49,6 +49,20 @@ This textbook is written and maintained in `Github <https://github.com/AguaClara
   Chemical_Dosing/Dosing_Design_Algorithm.rst
   Chemical_Dosing/Dosing_Design_Data.rst
 
+.. toctree::
+  :caption: Sedimentación
+  :maxdepth: 1
+
+  Sedimentation/Sed_Purpose_and_Description.rst
+  Sedimentation/Cape.rst
+  Sedimentation/Water_Route.rst
+  Sedimentation/Sed_Tank_Canals.rst
+  Sedimentation/Manifold_Distributor.rst
+  Sedimentation/Drainage_Valve.rst
+  Sedimentation/Sed_Plates.rst
+  Sedimentation/Collect_Tube.rst
+  Sedimentation/Sed_Tank_General_Data.rst
+
 `PDF and LaTeX versions <https://github.com/AguaClara/Textbook/releases/latest>`_ [#pdf_warning]_.
 
 .. rubric:: **Notes**

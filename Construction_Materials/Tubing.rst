@@ -19,7 +19,7 @@ La planta AguaClara utiliza tubería y accesorios de PVC para toda la fontanerí
 con la excepción de:
 
 #. La tubería de entrada, salida, y drenaje que está expuesta fuera del edificio (:numref:`figure_moroceli`). Aquí se usan tubos y accesorios de hierro galvanizado por su durabilidad.
-#. Algunas conexiones de los sistemas de dosificación de químicos, que tienen que ser flexibles (:ref:`chapter4_placeholder`). Se usan mangueras de varios tamaños.
+#. Algunas conexiones de los sistemas de dosificación de químicos, que tienen que ser flexibles (:ref:`title_Dosing_Propósito_y_Descripción`). Se usan mangueras de varios tamaños.
 
 En la planta no existen altas presiones estáticas, pues la mayor se produce en
 la parte inferior del filtro, que tiene |H.Fi| de profundidad, y no pasa de los
