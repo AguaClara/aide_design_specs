@@ -23,7 +23,7 @@ Tubos Recolectores
 
 Arriba de las placas el agua sale por los agujeros de un tubo perforado que corre a lo largo del tanque, con la fila de orificios en la parte superior. Los orificios provocan una pérdida de carga suficiente para lograr una distribución de caudal uniforme, tanto a lo largo de cada tanque como entre los |N.SedTanks| tanques. La meta es que cada recorrido del agua, entre la entrada en el canal distribuidor hasta el canal de salida, tiene una pérdida de carga parecida a los demás. Esto garantiza que los caudales en cada recorrido se parezcan también. Los |HL.SedLaunderOrifice| de pérdida de carga que provocan los orificios del tubo recolector dominan la pérdida total, y así controlan la distribución de caudal. La pérdida de carga en los orificios tiene la ventaja adicional de crear un sobrenadante sobre el tubo recolector que impide que material flotante en la superficie salga del tanque por el tubo.
 
-El diámetro del tubo recolector se diseña como manifold para que el flujo sea constante a lo largo del tubo, que el radio del flujo mínimo al flujo máximo a través de los orificios no baje menos de |Pi.QLaunderOrifices|:
+El diámetro del tubo recolector se diseña como manifold para que el flujo en cada orificio sea igual a lo largo del tubo, que el radio del flujo mínimo al flujo máximo a través de los orificios no baje menos de |Pi.QLaunderOrifices|:
 
 .. math::
   :label: min_max_flow_rate
