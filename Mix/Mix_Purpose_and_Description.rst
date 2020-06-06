@@ -62,7 +62,7 @@ coagulación. Esta parte del can
 
 al se considera como espacio adicional porque no
 está incluido en el volumen que contribuye a la floculación en el algoritmo de
-diseño de ese proceso (:numref:`chapter6.4_placeholder`). Al proveer este
+diseño de ese proceso (:ref:`title_Floc_Algoritmo_de_Diseño`). Al proveer este
 espacio para el proceso de coagulación, no se desperdicia volumen del floculador
 donde la suspensión ya debe de estar inestable para que pueda funcionar la
 floculación.

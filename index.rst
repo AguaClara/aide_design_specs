@@ -58,11 +58,21 @@ This textbook is written and maintained in `Github <https://github.com/AguaClara
   Mix/Mix_Design_Data.rst
 
 .. toctree::
+  :caption: Floculación
+  :maxdepth: 1
+
+  Flocculation/Floc_Purpose_and_Description.rst
+  Flocculation/Floc_Design_Data.rst
+  Flocculation/Floc_Design_Concepts.rst
+  Flocculation/Floc_Design_Algorithm.rst
+
+
+.. toctree::
   :caption: Sedimentación
   :maxdepth: 1
 
   Sedimentation/Sed_Purpose_and_Description.rst
-  Sedimentation/Cape.rst
+  Sedimentation/Floc_Blanket.rst
   Sedimentation/Water_Route.rst
   Sedimentation/Sed_Tank_Canals.rst
   Sedimentation/Manifold_Distributor.rst
