@@ -21,7 +21,7 @@ Las funciones principales del tanque de entrada son:
 
 Ubicación
 ---------
-El tanque de entrada está ubicado en la primera parte del primer canal del floculador (:numref:`figure_tank_and_flocculator`). Con los procesos integrados de esta forma se mantiene un diseño eficiente con respecto al área ocupada. Se diseñan el tanque de entrada y el floculador en conjunto para así optimizar el espacio necesario, minimizando el costo y cumpliendo con los requisitos operacionales (:ref:`title_6.4name`).
+El tanque de entrada está ubicado en la primera parte del primer canal del floculador (:numref:`figure_tank_and_flocculator`). Con los procesos integrados de esta forma se mantiene un diseño eficiente con respecto al área ocupada. Se diseñan el tanque de entrada y el floculador en conjunto para así optimizar el espacio necesario, minimizando el costo y cumpliendo con los requisitos operacionales (:ref:`title_Floc_Algoritmo_de_Diseño`).
 
 .. _figure_tank_and_flocculator:
 
