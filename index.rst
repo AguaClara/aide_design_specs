@@ -95,6 +95,14 @@ This textbook is written and maintained in `Github <https://github.com/AguaClara
   Filtration/Flow_Control.rst
   Filtration/Filt_General_Data.rst
 
+.. toctree::
+  :caption: Apéndice
+  :maxdepth: 1
+
+  Appendix/General_Design_Data.rst
+  Appendix/License.rst
+  
+
 `PDF and LaTeX versions <https://github.com/AguaClara/Textbook/releases/latest>`_ [#pdf_warning]_.
 
 .. rubric:: **Notes**
