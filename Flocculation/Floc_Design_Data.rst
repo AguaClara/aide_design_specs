@@ -12,12 +12,10 @@
 .. |W.FlocPort| replace:: **PLACEHOLDER**
 .. |N.FlocSpaceObstacles| replace:: **PLACEHOLDER**
 .. |W.FlocObstacleWake| replace:: **PLACEHOLDER**
-.. |ED.FlocMax| replace:: **PLACEHOLDER**
-.. |ED.FlocAve| replace:: **PLACEHOLDER**
 .. |HL.Floc| replace:: **PLACEHOLDER**
 .. |Ti.Floc| replace:: **PLACEHOLDER**
-.. |CP.Floc| replace:: **PLACEHOLDER**
-.. |G.FlocAve| replace:: **PLACEHOLDER**
+.. |Gt.Floc| replace:: **PLACEHOLDER**
+.. |G.Floc| replace:: **PLACEHOLDER**
 .. |ND.FlocDrain| replace:: **PLACEHOLDER**
 .. |PS.FlocDrainStr| replace:: **PLACEHOLDER**
 .. |ND.FlocObs| replace:: **PLACEHOLDER**
@@ -51,12 +49,11 @@ Datos del Diseño
     "Número de obstáculos entre cada dos deflectores", |N.FlocSpaceObstacles|
     "Ancho del flujo de agua pasando por el obstáculo", |W.FlocObstacleWake|
     **Parámetros Hidráulicos**
-    "Tasa máxima de la disipación de energía", |ED.FlocMax|
-    "Tasa media de la disipación de energía", |ED.FlocAve|
+    "Gradiente de velocidad medio", |G.Floc|
     "Pérdida de carga total con el caudal máximo de diseño", |HL.Floc|
     "Tiempo de retención mínimo", |Ti.Floc|
-    "Potencial de colisiones real", |CP.Floc|
-    "Gradiente de velocidad medio (calculado retroactivamente)", |G.FlocAve|
+    "Potencial de colisiones (numero de Camp)", |Gt.Floc|
+    "Gradiente de velocidad medio (calculado retroactivamente)", |G.Floc|
     **Datos de Tubería**,
     "Los desagües", "|ND.FlocDrain|, |PS.FlocDrainStr|"
     "Los obstáculos", "|ND.FlocObs|, |PS.FlocObsStr|"
