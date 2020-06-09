@@ -33,14 +33,31 @@ Empezamos con energía potencial que se puede ver por el desnivel entre aguas ar
 
   \bar \varepsilon \theta = g h_L
 
+<<<<<<< HEAD
 donde :math:`\bar \varepsilon \theta` es la energía mecánica que se convierte a calor en el floculador y :math:`g h_L` es la energía potencial que se pierde a calor en el floculador. En el proceso de convertir la energía de los remolinos a calor el agua se deforma. La tasa de deformación del fluido es la gradiente de velocidad, G. La tasa de la disipación de energía está relacionada al gradiente de velocidad por la fórmula:
 
 .. math::
   :label: EDR_of_G
+=======
+.. math::
+    :label: energy_dissipation
+
+    \varepsilon=vG^2
+
+| Donde:
+| :math:`v` es la viscosidad cinemática del fluido.
+>>>>>>> 71e1deb... updated chapter 6 and removed some instances relating to the textbook
 
   \bar \varepsilon=\nu G_{CS}^2
 
+<<<<<<< HEAD
 Donde :math:`\nu` es la viscosidad cinemática del agua y :math:`G_{CS}` es la gradiente de velocidad definido de Camp y Stein (1955)
+=======
+.. math::
+    :label: collision_potential
+
+    \psi = \alpha _{\psi}\theta \varepsilon ^\frac{1}{3}
+>>>>>>> 71e1deb... updated chapter 6 and removed some instances relating to the textbook
 
 Para reducir la concentración de partículas primerias que no han combinado con otras partículas tenemos que dar un cierto cantidad de deformación del agua. La cantidad de deformación del agua es lo que da las colisiones entre las partículas y por eso el potencial de colisiones es el producto de el tiempo de retención :math:`\theta` y el gradiente de velocidad, :math:`G_{CS}`, de Camp y Stein (1955).
 
@@ -51,9 +68,18 @@ El modelo de floculación de AguaClara da la forma de la relación entre el pote
 
 	 G_{CS}\theta = \frac{3}{2}\frac{{\left( {{\bar \Lambda ^2} - \bar \Lambda_0^2} \right)}}{{k\pi\bar{\alpha} \bar{d}_P^2}}
 
+<<<<<<< HEAD
 donde :math:`\bar \Lambda_0` es la distancia entre partículas primeras en el agua cruda, :math:`\bar \Lambda` es la distancia entre partículas primeras saliendo del floculador, :math:`\bar{\alpha}` es la probabilidad que el punto de colisión entre dos partículas primerias sea en una partícula nano de coagulante, :math:`\bar{d}_P` es el diámetro de las partículas primerias, y :math:`k` representa la fracción de partículas primerias que conviertan a un floculo con una velocidad de sedimentación terminal mayor que la velocidad de captura de las placas de sedimentación. Ecuación :eq:`Gtlam` muestra que para lograr una baja concentración de partículas primerias en la salida del floculador, una alta :math:`\bar \Lambda`, es necesario diseñar un floculador con alta potencia de colisiones, :math:`G_{CS}\theta`.
 
 El potencial de colisiones, :math:`G_{CS}\theta`, es una propiedad del floculador en sí, independiente de las características del agua cruda, la dosis de coagulante, y el diseño del proceso de sedimentación. Se diseña el floculador de la planta AguaClara con un potencial de colisiones mínimo de |Gt.FlocBod|, el cual ha sido exitoso en las plantas que tiene manto de lodo.
+=======
+.. math::
+    :label: turbulent_floc
+
+    pC ^* = \frac{9}{8}log\Bigg(\frac{8}{9} \Big(\frac{6}{\pi} \Big)^\frac{8}
+    {9} \pi k \Gamma \phi_{0}^\frac{8}{9} \frac{t \varepsilon^\frac{1}{3}}{d_
+    {Coloide}^\frac{2}{3}}+1 \Bigg)`
+>>>>>>> 71e1deb... updated chapter 6 and removed some instances relating to the textbook
 
 
 
@@ -83,6 +109,20 @@ La expansión del chorro provocada por la vuelta alrededor de un deflector ocupa
 
     Distribución de la tasa de la disipación de energía en un floculador según análisis de CFD.
 
+<<<<<<< HEAD
+=======
+Una medida de la falta de uniformidad de la disipación de energía en el floculador es el radio :math:`\alpha _{\varepsilon}`, definido como:
+
+.. math::
+    :label: uneven_energy
+
+    \alpha _{\varepsilon}= \frac{\varepsilon_{max}}{\bar{\varepsilon}}
+
+| Donde:
+| :math:`\varepsilon _{max}` = la tasa máxima de la disipación de energía (W/kg)
+| :math:`\bar {\varepsilon}` = la tasa media de la disipación de energía (W/kg)
+
+>>>>>>> 71e1deb... updated chapter 6 and removed some instances relating to the textbook
 La geometría de los deflectores determina la uniformidad de la disipación de energía. En particular, el radio de la longitud de la expansión del chorro a la separación entre los deflectores (H/S) está relacionado directamente a la uniformidad de la expansión. Es decir, este radio determina la eficiencia del floculador en cuanto al porcentaje del espacio que contribuye a la unión de partículas. Si el espacio para la expansión es muy largo comparado con la separación entre los deflectores, la expansión del chorro se termina en la primera parte del espacio disponible y se desperdicia una gran parte del volumen del floculador (:numref:`figure_energy_dissipation_uniformity`).
 
 .. _figure_energy_dissipation_uniformity:
@@ -95,7 +135,14 @@ La geometría de los deflectores determina la uniformidad de la disipación de e
 
 Según una serie de análisis de CFD, el rango óptimo del radio H/S está entre |Pi.HSMin| y |Pi.HSTransition|. Aquí el radio :math:`\frac{\varepsilon_{max}}{\bar \varepsilon}` es igual a 2. Arriba del rango óptimo la uniformidad de la turbulencia se deteriora.
 
+<<<<<<< HEAD
 Las restricciones constructivas para caudales menores requieren un radio H/S demasiado alto para un diseño eficiente. La altura mínima de los canales se determinaba por la altura del tanque de sedimentación adyacente, y el ancho mínimo de los canales se determinaba por el espacio necesario durante la construcción. Por el ancho del canal la separación entre deflectores tenía que ser menor para alcanzar la gradiente de velocidad requerida. Por simplicidad de fabricación, sólo había una expansión entre cada dos láminas. Especialmente para caudales menores, el resultado de estas restricciones era un radio H/S muy arriba del rango óptimo. Había que compensar con un floculador más grande para cumplir el objetivo del potencial de colisiones.
+=======
+.. math::
+    :label: turb_above_range
+
+    \alpha _{\varepsilon}=\frac{\Pi_{Jet}^3}{\Pi_{VC}^4} \frac{2}{K_{B}}\Big(\frac{H}{S} \Big)
+>>>>>>> 71e1deb... updated chapter 6 and removed some instances relating to the textbook
 
 Ahora se diseña el floculador con obstáculos adicionales entre las láminas que provocan expansiones adicionales. De esta manera se reduce la longitud del espacio después de cada expansión y se puede mantener el radio H/S dentro del rango óptimo. Los obstáculos son dos pedazos de tubo de PVC entre los cuales el agua tiene que fluir, causando una contracción igual a la contracción que ocurre después de la vuelta alrededor de un deflector.
 
@@ -106,7 +153,14 @@ La tasa máxima de la disipación de energía
 
 No es el tamaño máximo de los flóculos que realmente determina la calidad de agua sedimentada, sino el número de partículas primarias que no han floculado al alcanzar el fin del proceso. Por ejemplo, los flóculos más grandes, si se dividen en dos por la fuerza cortante del flujo, siempre se captarán en el tanque de sedimentación, ya que la velocidad de captura es mucho menos que la velocidad de sedimentación de estos flóculos. Las partículas que constituyen la turbiedad del efluente son mucho más pequeñas, y es probable que su origen se deba a la falta de cobertura del coagulante, no a la alta disipación de energía.
 
+<<<<<<< HEAD
 En varias simulaciones de laboratorio en que se variaron el tiempo de retención y el gradiente de velocidad en un floculador de flujo laminar, los datos preliminares sugieren que se puede compensar una reducción en el tiempo de retención con un aumento en el gradiente de velocidad (así manteniendo constante el potencial de colisiones) para producir el mismo resultado con respecto a la calidad de agua sedimentada. Es cierto que al aumentar el gradiente de velocidad se limita el tamaño máximo de los flóculos. Entonces, este resultado sugiere que el tamaño máximo de los flóculos no es crítico para el rendimiento del sistema de tratamiento especialmente cuando incluye un manto de lodo donde los flóculos siguen creciendo.
+=======
+.. math::
+    :label: final_floc_efficiency
+
+    \alpha _{\psi}=\frac{1}{\alpha_{\varepsilon}^\frac{1}{6}}
+>>>>>>> 71e1deb... updated chapter 6 and removed some instances relating to the textbook
 
 Al final, los flóculos serán sometidos a una tasa de la disipación de energía de |ED.SedInlet| en la entrada al tanque de sedimentación para causar |HL.SedDiffuser| de pérdida de carga y así mantener la distribución de caudal uniforme a lo largo del manifold y lograr suspender los flóculos que reposaron en el fondo del tanque de sedimentación. Los datos de la simulación de laboratorio que se hizo para probar este diseño sugieren que no se disminuye la calidad de agua sedimentada hasta que la tasa de la disipación de energía en la entrada al tanque supera 300 mW/kg lo cual es equivalente a una gradiente de velocidad de 550 Hz. Dado que el tamaño máximo de los flóculos será limitado por la entrada al tanque de sedimentación, es claro que no es necesario diseñar un floculador para producir flóculos grandes que después se van a romper.
 
@@ -114,8 +168,15 @@ Dado que el gradiente de velocidad en la entrada del tanque de sedimentación es
 
 .. _heading_Las_dimensiones_del_floculador_y_la_gradiente_de_velocidad:
 
+<<<<<<< HEAD
 Las dimensiones del floculador y la gradiente de velocidad
 ----------------------------------------------------------
+=======
+.. math::
+    :label: jet_expansion_energy_dissipation
+
+    \varepsilon _{max}=\frac{\big(\Pi_{Jet}V_{Jet}\big)^3}{S\Pi_{VC}}
+>>>>>>> 71e1deb... updated chapter 6 and removed some instances relating to the textbook
 
 El diseño comienza con el potencial de colisiones,  |Gt.FlocBod|, y la perdida de carga disponible para el floculador, |HL.FlocBod|. Con la combinación de ecuación :eq:`EDR_of_G` y ecuación :eq:`EDR_of_headloss` se obtiene una relación entre perdida de carga y gradiente de velocidad.
 
@@ -137,7 +198,14 @@ El valor de :math:`G_{CS}` es |G.Floc| y se puede combinar eso con la potencial 
 .. math::
    :label: Floc_volume
 
+<<<<<<< HEAD
    \rlap{--} V_{floc} = \frac{\theta}{Q}
+=======
+.. math::
+    :label: average_dissipation
+
+    \bar {\varepsilon} = \frac{Energ\acute{\imath}a \hspace{1mm} perdida}{Tiempo}= \frac{K_B \frac{\bar{V}^2}{2}}{\theta_B}= \frac{K_B\bar{V}^3}{2H}
+>>>>>>> 71e1deb... updated chapter 6 and removed some instances relating to the textbook
 
 Para calcular el espacio entre placas usamos el valor de :math:`G_{CS}`, |G.Floc|, y consideramos el diseño de una expansion. Para los próximos pasos, consideramos el flujo por un expansión en el floculador. La distancia entre expansions, :math:`H_e`, tiene un valor de |He.Floc|. El tiempo de retención de una expansion es :math:`\theta_e` y la perdida de carga para una expansion es :math:`h_{L_{e}}`.
 
@@ -145,7 +213,13 @@ Comenzamos igualando la tasa de disipación de energía, :math:`\bar \varepsilon
 :math:`\bar \varepsilon = \frac{g h_{L_e}}{\theta_e}` para obtener una ecuación en base de :math:`G_{CS}`.
 
 .. math::
+<<<<<<< HEAD
    :label: G_of_HL
+=======
+    :label: perp_flow_avg_velocity
+
+    \bar{V} = \frac{Q}{A}= \frac{Q}{WS}
+>>>>>>> 71e1deb... updated chapter 6 and removed some instances relating to the textbook
 
     \nu G_{CS}^2 = \frac{g h_{L_e}}{\theta_e}
 
@@ -160,10 +234,18 @@ Sustituyendo los tres relaciones en ecuación :eq:`G_of_HL` empezando con la eli
 .. math::
    :label: G_of_Ktheta
 
+<<<<<<< HEAD
    \nu G_{CS}^2 = K \frac{\bar v^2}{2 \theta_e}
+=======
+.. math::
+    :label: avg_vel_sub_avg_energy_dissipation
+
+    \bar{\varepsilon} = \frac {K_BQ^3}{2HW^3S^3}
+>>>>>>> 71e1deb... updated chapter 6 and removed some instances relating to the textbook
 
 Eliminar el tiempo de retención.
 
+<<<<<<< HEAD
 .. math::
    :label: G_of_KHev
 
@@ -189,6 +271,28 @@ Dado el ancho del canal, |W.FlocChannel|, en este diseño podemos calcular el es
 | :math:`\theta _e` = tiempo de retención en una expansión
 | :math:`H_e` = longitud de la expansión del chorro después de un deflector, antes de la siguiente contracción
 
+=======
+ #. Para encontrar el ancho mínimo del canal W cuando el radio H/S está restringido al valor mínimo del rango eficiente (|Pi.HSMin|):
+
+     .. math::
+        :label: min_width_hs
+
+        W= \Big(\frac{H}{S} \Big)_{Min} \Big(\frac{K_B}{2H\bar{\varepsilon}}\Big)^\frac{1}{3} \frac{Q}{H}
+
+ #. Para calcular la separación máxima entre expansiones que mantiene el radio H/S dentro del rango eficiente:
+
+     .. math::
+        :label: max_gap_hs
+
+        H_{Max} = \Big(\frac{K_B}{2\bar{\varepsilon}} \Big)^\frac{1}{4}\bigg(\frac{(\frac{H}{S})_{Max}Q}{W} \bigg)^\frac{3}{4}
+
+ #. Para encontrar la separación entre deflectores cuando ya se saben las otras dimensiones:
+
+     .. math::
+        :label: gap_with_known_dimensions
+
+         S = \Big(\frac{K_B}{2H\bar{\varepsilon}}\Big)^\frac{1}{3} \frac{Q}{W}
+>>>>>>> 71e1deb... updated chapter 6 and removed some instances relating to the textbook
 
 .. _heading_Bibliografía:
 

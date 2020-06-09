@@ -75,15 +75,15 @@ Algoritmo de Diseño
     :header: "Parámetro",	"Valor",	"Notas"
 
     Potencial de colisiones mínimo,	|CP.FlocBod|,
-    Pérdida de carga máxima,	|HL.FlocMax|,	Entrada opcional del usuario. La pérdida de carga real podría salir menor si no se necesita.
-    Longitud de los canales,	|L.Floc|,	Basada en la longitud del tanque de sedimentación para que compartan una pared.
-    Profundidad de agua al final,	|HW.FlocEnd|,	Basada en la profundidad del tanque de sedimentación para que los dos tanques compartan una sola cimentación.
-    Ancho mínimo de los canales,	|W.FlocChannelMinPlate|,	Basado en 1) el espacio que necesita un obrero para terminar de construir el canal cuando está dentro y 2) el ancho de la mitad de las láminas de policarbonato que se usan para los deflectores, para conservar el material.
-    Ancho máximo de los canales,	|W.FlocChannelMaxPlate|,	Basado en el ancho total de las láminas de policarbonato que se usan para los deflectores.
-    Radio de la longitud de cada expansión a la separación entre deflectores (H/S),	|Pi.HSMin| - |Pi.HSMax|,	El radio H/S debe estar en el rango eficiente.
-    Radio de la tasa máxima a la tasa media de la disipación de energía (:math:`\alpha_{\varepsilon}`),	|Alpha.EpsilonFloc|,	La medida de la falta de uniformidad de la tasa de la disipación de energía, que corresponde a la geometría descrita por el radio H/S.
-    Eficiencia del floculador (:math:`\alpha _{\psi}`),	|Alpha.PsiFloc|,	Eficiencia del floculador que corresponde al radio :math:`\alpha_{\varepsilon}`.
-    Valor mínimo de la tasa media de la disipación de energía,	|ED.FlocAveMinSettling|,	Se impone esta restricción para evitar la sedimentación de los flóculos en el floculador.
+    Pérdida de carga máxima, |HL.FlocMax|, Entrada opcional del usuario. La pérdida de carga real podría salir menor si no se necesita.
+    Longitud de los canales, |L.Floc|, Basada en la longitud del tanque de sedimentación para que compartan una pared.
+    Profundidad de agua al final, |HW.FlocEnd|, Basada en la profundidad del tanque de sedimentación para que los dos tanques compartan una sola cimentación.
+    Ancho mínimo de los canales, |W.FlocChannelMinPlate|, Basado en 1) el espacio que necesita un obrero para terminar de construir el canal cuando está dentro y 2) el ancho de la mitad de las láminas de policarbonato que se usan para los deflectores, para conservar el material.
+    Ancho máximo de los canales, |W.FlocChannelMaxPlate|, Basado en el ancho total de las láminas de policarbonato que se usan para los deflectores.
+    Radio de la longitud de cada expansión a la separación entre deflectores (H/S), |Pi.HSMin| - |Pi.HSMax|, El radio H/S debe estar en el rango eficiente.
+    Radio de la tasa máxima a la tasa media de la disipación de energía (:math:`\alpha _{\varepsilon}`), |Alpha.EpsilonFloc|, La medida de la falta de uniformidad de la tasa de la disipación de energía, que corresponde a la geometría descrita por el radio H/S.
+    Eficiencia del floculador (:math:`\alpha _{\psi}`), |Alpha.PsiFloc|, Eficiencia del floculador que corresponde al radio :math:`\alpha _{\varepsilon}`.
+    Valor mínimo de la tasa media de la disipación de energía, |ED.FlocAveMinSettling|, Se impone esta restricción para evitar la sedimentación de los flóculos en el floculador.
 
 .. _heading_2_Volumen_máximo_dedicado_al_tanque_de_entrada:
 
@@ -123,22 +123,31 @@ Hay dos restricciones para el volumen mínimo dedicado a la floculación:
  #. **Constructiva**: Tiene que haber por lo menos dos canales para mantener la configuración de la planta, para que tanto el tanque de entrada como los canales de entrada y salida de los tanques de sedimentación estén pegados al canal de limpieza. Ya se sabe la longitud y la profundidad de los canales del floculador en base a las dimensiones de los tanques de sedimentación. También hay una restricción para el ancho mínimo de cada canal. Multiplicando estas dimensiones mínimas y restando el volumen inactivo (:numref:`figure_floc_entrance_tank`) se encuentra el volumen mínimo dedicado a la floculación |Vol.FlocMinChannels|.
  #. **Hidráulica:** Asumiendo una geometría eficiente (:ref:`title_Conceptos_de_Diseño`), del potencial de colisiones y la pérdida de carga máxima se calcula la tasa media de la disipación de energía directamente:
 
-    :math:`\bar{\varepsilon} = \Big(\frac{h_{eMax}g}{\psi \alpha_{\varepsilon}^\frac{1}{6}}\Big)^\frac{3}{2}`
+     .. math::
+         :label: efficient_avg_energy_dissipation_rate
 
-    | Donde:
-    | :math:`\bar {\varepsilon}` = la tasa media de la disipación de energía máxima para este diseño = |ED.FlocAveMax|
-    | :math:`h _{eMax}` = la pérdida de carga máxima en el floculador = |HL.FlocMax|
-    | :math:`g` = la aceleración debida a la fuerza de gravedad ≈ :math:`9.81 \frac{m}{s^2}`
-    | :math:`\psi` = el potencial de colisiones deseado = |CP.FlocBod|
-    | :math:`\alpha _{\varepsilon}` = medida de la uniformidad de la disipación de energía = |Alpha.EpsilonFloc|
+         \bar{\varepsilon} = \Big(\frac{h_{eMax}g}{\psi \alpha_{\varepsilon}^\frac{1}{6}}\Big)^\frac{3}{2}
+
+     | Donde:
+     | :math:`\bar {\varepsilon}` = la tasa media de la disipación de energía máxima para este diseño = |ED.FlocAveMax|
+     | :math:`h _{eMax}` = la pérdida de carga máxima en el floculador = |HL.FlocMax|
+     | :math:`g` = la aceleración debida a la fuerza de gravedad ≈ :math:`9.81 \frac{m}{s^2}`
+     | :math:`\psi` = el potencial de colisiones deseado = |CP.FlocBod|
+     | :math:`\alpha _{\varepsilon}` = medida de la uniformidad de la disipación de energía = |Alpha.EpsilonFloc|
 
     Con esto se calcula el tiempo de retención necesario para lograr el potencial de colisiones, igual a |Ti.FlocMinCP|:
 
-    :math:`\theta = \frac{\psi}{(\bar{\varepsilon})^\frac{1}{3}\alpha_{\psi}`
+        .. math::
+            :label: potential_collision_time
+
+            \theta = \frac{\psi}{(\bar{\varepsilon})^\frac{1}{3}\alpha_{\psi}
 
     Por fin se calcula el volumen necesario, igual a |Vol.FlocMinCP|:
 
-    :math:`Vol = Q \theta`
+        .. math::
+            :label: necessary_volume_calc
+
+            Vol = Q \theta
 
     Donde :math:`Q` = el caudal de diseño de la planta = |Q.Plant|.
 
@@ -153,11 +162,14 @@ Como se mencionó en la sección anterior, en los diseños de AguaClara ya no se
 
 La *mínima* tasa de la disipación de energía sí tiene dos restricciones:
 
- #. Hidráulica: Con el volumen del floculador calculado en el paso anterior, y el tiempo de retención correspondiente, la tasa media de la disipación de energía necesaria para lograr el potencial de colisiones deseado se calcula directamente. Es igual a |ED.FlocAveCP|.
+ #. **Hidráulica:** Con el volumen del floculador calculado en el paso anterior, y el tiempo de retención correspondiente, la tasa media de la disipación de energía necesaria para lograr el potencial de colisiones deseado se calcula directamente. Es igual a |ED.FlocAveCP|.
 
-    :math:`\bar{\varepsilon} = \Big(\frac{\psi}{\theta \alpha_{\psi}}\Big)^3`
+     .. math::
+         :label: floc_average_collision_potential
 
- #. Práctica: Es importante que el piso del floculador se mantenga libre de sedimento para no crear trabajo de mantenimiento innecesario y desperdicio de agua para la limpieza. A este fin se impone una restricción mínima para la tasa media de la disipación de energía, igual a |ED.FlocAveMinSettling|.
+         \bar{\varepsilon} = \Big(\frac{\psi}{\theta \alpha_{\psi}}\Big)^3
+
+ #. **Práctica:** Es importante que el piso del floculador se mantenga libre de sedimento para no crear trabajo de mantenimiento innecesario y desperdicio de agua para la limpieza. A este fin se impone una restricción mínima para la tasa media de la disipación de energía, igual a |ED.FlocAveMinSettling|.
 
 .. _heading_Ancho_de_los_canales_y_el_número_de_canales:
 
@@ -170,7 +182,10 @@ Hay dos restricciones para el ancho mínimo de los canales:
 
  #. **Hidráulica:** Se ha asumido que la geometría del floculador sería eficiente. Es decir, el radio de la longitud de las expansiones a la separación entre deflectores (H/S) está dentro del rango |Pi.HSMin| a |Pi.HSTransition|. Ya se sabe también la profundidad al final del floculador (|HW.FlocEnd|) que corresponde a la profundidad del tanque de sedimentación. Con esta profundidad y la separación entre deflectores que mantiene el radio H/S dentro del rango eficiente, hay un ancho mínimo que da la tasa media de la disipación de energía que se calculó anteriormente.
 
- :math:`W_{Min} = \Big(\frac{H}{S}\Big)_{Min} \Big(\frac{K_B}{2H\bar{\varepsilon}}\Big)^\frac{1}{3}\frac{Q}{H}`
+     .. math::
+         :label: min_width_energy_dissipation
+
+         W_{Min} = \Big(\frac{H}{S}\Big)_{Min} \Big(\frac{K_B}{2H\bar{\varepsilon}}\Big)^\frac{1}{3}\frac{Q}{H}
 
  Donde en este caso :math:`H` = la profundidad al final del floculador = |HW.FlocEnd|.
 
@@ -184,14 +199,20 @@ Para encontrar el número necesario de canales se asume que el ancho de cada can
 
 Si todos los canales del floculador contribuyeran igualmente a la floculación, el número de canales se encontraría por la siguiente ecuación, redondeando para arriba.
 
-:math:`N = \frac{Vol}{W_{Max}HL}`
+.. math::
+    :label: num_of_floc_channels
+
+    N = \frac{Vol}{W_{Max}HL}
 
 | Donde:
 | :math:`L` = la longitud de los canales que corresponde a la longitud de los tanques de sedimentación = |L.Floc|
 
 Sin embargo, del volumen total hay que restar el volumen que ocupa el tanque de entrada y el espacio inactivo al final del floculador donde el agua entra en el canal de entrada de los tanques de sedimentación. Además, tiene que haber un número par de canales. El verdadero número de canales, igual a |N.FlocChannels|, se encuentra por:
 
-:math:`N_{Canal} = Ceil \Bigg(\frac{\frac{Vol}{W_{Max} H}+L_{Et}+T+2W_{SedCanal}}{L},2 \Bigg)`
+.. math::
+    :label: true_floc_channel_number
+
+    N_{Canal} = Ceil \Bigg(\frac{\frac{Vol}{W_{Max} H}+L_{Et}+T+2W_{SedCanal}}{L},2 \Bigg)
 
 | Donde:
 | La función :math:`Ceil\left(x,2\right)` redondea el valor x para arriba al número par más cercano
@@ -212,18 +233,27 @@ Por último, se toma el máximo del ancho calculado para alcanzar el volumen y e
 
 Existe la opción de colocar obstáculos entre los deflectores que provocan la misma expansión que sucede después de la vuelta alrededor de un deflector, para reducir la separación entre expansiones y mantener el radio H/S dentro del rango eficiente. Dado el ancho de los canales, la tasa de la disipación de energía nos da la separación máxima entre obstáculos que mantiene la geometría eficiente (véase :ref:`title_Conceptos_de_Diseño`):
 
-:math:`H_{MaxExp} = \Big(\frac{K_B}{2\bar{\varepsilon}}\Big)^\frac{1}{4} \bigg(\frac{(\frac{H}{S})_{Max}Q}{W}\bigg)^\frac{3}{4}`
+.. math::
+    :label: max_efficient_separation
+
+    H_{MaxExp} = \Big(\frac{K_B}{2\bar{\varepsilon}}\Big)^\frac{1}{4} \bigg(\frac{(\frac{H}{S})_{Max}Q}{W}\bigg)^\frac{3}{4}
 
 | Donde:
 | :math:`H _{MaxExp}` = la separación entre expansiones, que podrían ser provocadas por obstáculos o deflectores
 
 El número de expansiones entre cada dos deflectores se encuentra por la profundidad del tanque entre la separación máxima, igual a |N.FlocSpaceExpansions|:
 
-:math:`N _{Exp}= ceil \Big(\frac{H_{Floculador}}{H_{MaxExp}}\Big)`
+.. math::
+    :label: num_expansions_depth_separation
+
+    N _{Exp}= ceil \Big(\frac{H_{Floculador}}{H_{MaxExp}}\Big)
 
 Por fin, la separación real entre expansiones, igual a |H.FlocObs|, es:
 
-:math:`H _{Exp}=\frac{H_{Floculador}}{N_{Exp}}`
+.. math::
+    :label: acutual_separation_between_expansions
+
+    H _{Exp}=\frac{H_{Floculador}}{N_{Exp}}
 
 
 
@@ -238,7 +268,10 @@ Ya con las otras dimensiones determinadas, la separación entre deflectores, igu
 
 Sin embargo, tiene que haber un número entero de deflectores en el canal de longitud predeterminada. El número de espacios entre deflectores que mantiene la separación mínima se encuentra por:
 
-:math:`N _{Esp}=Ceil\Big(\frac{L+T}{S_{Min}+T},2\Big)`
+.. math::
+    :label: floc_baffel_sep_min
+
+    N _{Esp}=Ceil\Big(\frac{L+T}{S_{Min}+T},2\Big)
 
 | Donde:
 | :math:`N _{Esp}` = el número de espacios entre deflectores en cada canal = |N.FlocChannelSpaces|
@@ -250,7 +283,10 @@ Este número de espacios corresponde a |N.FlocChannelBaffles| deflectores en cad
 
 Por fin se calcula la separación precisa entre los deflectores, igual a |S.FlocBaffle|:
 
-:math:`S = \frac{L-N_{Def}T}{N_{Esp}}`
+.. math::
+    :label: precise_baffle_min
+
+    S = \frac{L-N_{Def}T}{N_{Esp}}
 
 | Donde:
 | :math:`S` = la separación entre los deflectores = |S.FlocBaffle|
@@ -265,57 +301,84 @@ Este paso que corrige la separación por la necesidad de tener un número entero
 
  #. El potencial de colisiones provocado por una sola expansión:
 
-    :math:`\psi _{Exp}=\bigg(\frac{K_B^2H_{Exp}^4}{4\alpha_{\varepsilon}}\bigg)^\frac{1}{6}`
+     .. math::
+         :label: single_expansion_collision_potential
 
-    | Donde:
-    | :math:`\psi _{Exp}` = el potencial de colisiones para una expansión = |CP.FlocExpansion|
-    | :math:`H _{Exp}` = la separación entre expansiones = |H.FlocObs|
+         \psi _{Exp}=\bigg(\frac{K_B^2H_{Exp}^4}{4\alpha_{\varepsilon}}\bigg)^\frac{1}{6}`
+
+     | Donde:
+     | :math:`\psi _{Exp}` = el potencial de colisiones para una expansión = |CP.FlocExpansion|
+     | :math:`H _{Exp}` = la separación entre expansiones = |H.FlocObs|
 
     El potencial de colisiones total del floculador:
 
-    :math:`\psi _{Floc}=N_{Exp}\psi_{Exp}`
+     .. math::
+         :label: floc_total_potential_collisions
 
-    | Donde:
-    | :math:`\psi _{Floc}` = el potencial de colisiones total del floculador = |CP.Floc|
-    | :math:`N _{Exp}`` = el número de expansiones en el floculador = |N.FlocExpansions|
+         \psi _{Floc}=N_{Exp}\psi_{Exp}
+
+     | Donde:
+     | :math:`\psi _{Floc}` = el potencial de colisiones total del floculador = |CP.Floc|
+     | :math:`N _{Exp}`` = el número de expansiones en el floculador = |N.FlocExpansions|
 
  #. La velocidad media del fluido:
 
-    :math:`V = \frac{Q}{SW}`
+     .. math::
+         :label: floc_avg_fluid_velocity
 
-    | Donde:
-    | :math:`V` = la velocidad media del fluido = |V.Floc|
-    | :math:`S` = la separación entre deflectores = |S.FlocBaffle|
-    | :math:`W` = el ancho de los canales = |W.FlocChannel|
+        V = \frac{Q}{SW}
+
+     | Donde:
+     | :math:`V` = la velocidad media del fluido = |V.Floc|
+     | :math:`S` = la separación entre deflectores = |S.FlocBaffle|
+     | :math:`W` = el ancho de los canales = |W.FlocChannel|
 
  #. La pérdida de carga:
 
-    :math:`h_e = K_B\frac{V^2}{2g} N_{Exp}`
+     .. math::
+         :label: floc_headloss_calc
 
-    | Donde:
-    | :math:`h_e` = la pérdida de carga total del floculador = |HL.Floc|
-    | :math:`V` = la velocidad media del fluido = |V.Floc|
-    | :math:`g` = la aceleración debida a la gravedad = :math:`9.81 \frac {m}{s^2}`
+         h_e = K_B\frac{V^2}{2g} N_{Exp}
+
+     | Donde:
+     | :math:`h_e` = la pérdida de carga total del floculador = |HL.Floc|
+     | :math:`V` = la velocidad media del fluido = |V.Floc|
+     | :math:`g` = la aceleración debida a la gravedad = :math:`9.81 \frac {m}{s^2}`
 
  #. La tasa real de la disipación de energía después de la corrección de la separación entre deflectores, igual a |ED.FlocAve|:
 
-    :math:`\bar{\varepsilon} = \frac{K_B}{2H_{Exp}}\Big(\frac{Q}{WS}\Big)^3`
+     .. math::
+         :label: after_correction_dissipation_rate
+
+         \bar{\varepsilon} = \frac{K_B}{2H_{Exp}}\Big(\frac{Q}{WS}\Big)^3
 
     Y la tasa máxima de la disipación de energía que corresponde, igual a |ED.FlocMax|:
 
-    :math:`\varepsilon_{Max} = \alpha_{\varepsilon}\bar{\varepsilon}`
+     .. math::
+         :label: floc_max_dissipation_rate
+
+         \varepsilon_{Max} = \alpha_{\varepsilon}\bar{\varepsilon}
 
  #. El gradiente medio de velocidad, igual a |G.FlocAve|:
 
-    :math:`G = \sqrt{\frac{\bar{\varepsilon}}{v}}`
+     .. math::
+         :label: avg_vel_gradient
 
-    Donde :math:`v` es la viscosidad cinemática del agua, igual a |Nu.Water|.
+         G = \sqrt{\frac{\bar{\varepsilon}}{v}}
+
+     Donde :math:`v` es la viscosidad cinemática del agua, igual a |Nu.Water|.
 
  #. El tiempo de retención total, incluyendo el espacio inactivo al final del último canal y contribuido por la pérdida de carga, igual a |Ti.Floc|:
 
-    :math:`Vol _{Total}=WLH=W(N_{Canal}L_{Canal}-L_{Et}-T)\Big(H+\frac{h_e}{2}\Big)`
+     .. math::
+         :label: total_retention_time_1
 
-    :math:`\theta = \frac{Vol_{Total}}{Q}`
+         Vol _{Total}=WLH=W(N_{Canal}L_{Canal}-L_{Et}-T)\Big(H+\frac{h_e}{2}\Big)
+
+     .. math::
+         :label: total_retention_time_2
+
+         \theta = \frac{Vol_{Total}}{Q}
 
     El tiempo de retención activo se calcula restando el volumen inactivo, y es
     igual a |Ti.FlocActive|.
@@ -329,7 +392,10 @@ Este paso que corrige la separación por la necesidad de tener un número entero
 
 Cada obstáculo es dos pedazos de tubo de PVC entre los cuales el agua tiene que fluir (:numref:`figure_deflectors_lateral`). Las expansiones provocadas por los obstáculos deben ser iguales a las que provocan los deflectores. Se asume que, por la forma redonda de los tubos y la curva gradual de las líneas de corriente, no hay vena contracta que sigue el obstáculo en el flujo, sino una expansión inmediata. Por tanto, el ancho del espacio entre los tubos debe ser igual al ancho de la parte más estrecha de la vena contracta que sigue después de la vuelta alrededor de un deflector:
 
-:math:`W = S_{Def}(1-\Pi_{VC})`
+.. math::
+    :label: width_between_tubes
+
+    W = S_{Def}(1-\Pi_{VC})
 
 | Donde:
 | :math:`W` = el ancho del espacio entre los tubos = |W.FlocObstacleWake|
@@ -355,7 +421,10 @@ Por fin, el algoritmo busca el tamaño mínimo del tubo que ocupe el espacio nec
 
 La altura del floculador se calcula sumando desde el nivel de agua en el canal de entrada al tanque de sedimentación:
 
-:math:`H_{Floc} = HW_{Final}+h_e+H_{Borde}`
+.. math::
+    :label: add_water_floc_height
+
+    H_{Floc} = HW_{Final}+h_e+H_{Borde}
 
 | Donde:
 | :math:`H _{Floc}` = la altura total del tanque = |H.Floc|
@@ -372,7 +441,10 @@ La altura de la losa del floculador es relativa a la solera inferior que amarra 
 
 En el diseño de las compuertas el área perpendicular al flujo de agua se conserva de tal forma que no hay regiones con tasas de la disipación de energía muy arriba del límite del diseño. Es decir, el área de la compuerta es igual al área del espacio entre los deflectores. La compuerta debe caber en el espacio antes del primer deflector en el canal. Por tanto, el ancho se calcula en base a la separación entre deflectores:
 
-:math:`W = S-d`
+.. math::
+    :label: width_based_on_sep
+
+    W = S-d
 
 | Donde:
 | :math:`W` = el ancho de la compuerta = |W.FlocPort|
@@ -381,7 +453,10 @@ En el diseño de las compuertas el área perpendicular al flujo de agua se conse
 
 Con el fin de conservar el área perpendicular al flujo en todo el recorrido de agua a lo largo del floculador, la altura de la compuerta se calcula como:
 
-:math:`H = \frac{SW_{Canal}}{W_{Compuerta}}`
+.. math::
+    :label: gate_height_calc
+
+    H = \frac{SW_{Canal}}{W_{Compuerta}}
 
 Donde :math:`H` = la altura de la compuerta = |H.FlocPort|.
 
@@ -395,7 +470,10 @@ desagüe pegado al canal de limpieza de la planta. Se diseñan para que toda el
 agua se vaya del floculador dentro de |Ti.FlocDrain|, lo cual da el siguiente
 caudal de diseño:
 
-:math:`Q _{Des}=\frac{Vol_{Floc}}{(N_{Canales}-1)Ti}`
+.. math::
+    :label: floc_drain_design_flow
+
+    Q _{Des}=\frac{Vol_{Floc}}{(N_{Canales}-1)Ti}
 
 | Donde:
 | :math:`Q _{Des}` = el caudal de diseño de cada desagüe = |Q.FlocDrain|
