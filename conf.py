@@ -35,6 +35,7 @@
 extensions = ['sphinx.ext.doctest',
               'sphinx.ext.mathjax',
               'sphinx.ext.todo',
+              'sphinxcontrib.bibtex',
               'sphinxcontrib.disqus',
               'matplotlib.sphinxext.only_directives',
               'matplotlib.sphinxext.plot_directive'
@@ -217,18 +218,6 @@ rst_prolog = """
 # If this grows too much, we'll need to add a global rst as described in the
 # post above.
 
-def makeReplaceList(dictionary, file):
-    f = open(file, "a")
-    prefix = ".. |"
-    suffix = "| replace:: "
-
-    for key in dictionary:
-        insertion = prefix + key + suffix + dictionary[key] + "\n"
-        f.write(insertion)
-
 # Here's a function to define custom styles to be used with the roles:
 def setup(app):
-    test_dict = {"L.Floc": "5 m", "W.FlocChannel": "42 cm"}
-    makeReplaceList(test_dict, "C:\\Users\\Fletch\\Documents\\test.rst")
-
     app.add_stylesheet('css/custom.css')
