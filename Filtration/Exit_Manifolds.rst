@@ -1,20 +1,4 @@
-.. |W.FiManSlots| replace:: **PLACEHOLDER**
-.. |A.FiOutletManSlots| replace:: **PLACEHOLDER**
-.. |B.FiManSlot| replace:: **PLACEHOLDER**
-.. |N.FiManBranch| replace:: **PLACEHOLDER**
-.. |L.FiOutletBranchSlotted| replace:: **PLACEHOLDER**
-.. |N.FiSlotRows| replace:: **PLACEHOLDER**
-.. |Pi.VCOrifice| replace:: **PLACEHOLDER**
-.. |ε.FiSand| replace:: **PLACEHOLDER**
-.. |ND.FiTrunk| replace:: **PLACEHOLDER**
-.. |PS.FiTrunkStr| replace:: **PLACEHOLDER**
-.. |ND.FiManBranch| replace:: **PLACEHOLDER**
-.. |PS.FiBranchStr| replace:: **PLACEHOLDER**
-.. |L.FiManBranch| replace:: **PLACEHOLDER**
-.. |L.FiManBranchExt| replace:: **PLACEHOLDER**
-.. |N.FiOutletManSlotsPerRow| replace:: **PLACEHOLDER**
-.. |N.FiOutletManSlotsPerBranch| replace:: **PLACEHOLDER**
-.. |L.FiOutletManSlotCurvedInner| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Manifolds de Salida:
 

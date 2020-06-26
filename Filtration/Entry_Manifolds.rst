@@ -1,34 +1,4 @@
-.. |ND.FiBranchHolder| replace:: **PLACEHOLDER**
-.. |A.FiBwManOrificesEst| replace:: **PLACEHOLDER**
-.. |Q.Fi| replace:: **PLACEHOLDER**
-.. |Pi.VCOrifice| replace:: **PLACEHOLDER**
-.. |PR.FiBwManTotal| replace:: **PLACEHOLDER**
-.. |Pi.FiManifoldQ| replace:: **PLACEHOLDER**
-.. |B.FiManOrificeEst| replace:: **PLACEHOLDER**
-.. |ND.FiBwTrunk| replace:: **PLACEHOLDER**
-.. |PS.FiTrunkStr| replace:: **PLACEHOLDER**
-.. |ND.FiBwManBranch| replace:: **PLACEHOLDER**
-.. |PS.FiBranchStr| replace:: **PLACEHOLDER**
-.. |PS.FiBranchHolderStr| replace:: **PLACEHOLDER**
-.. |N.FiManBranch| replace:: **PLACEHOLDER**
-.. |L.FiBwManBranch| replace:: **PLACEHOLDER**
-.. |L.FiManBranchExt| replace:: **PLACEHOLDER**
-.. |N.FiBwManOrificesPerBranch| replace:: **PLACEHOLDER**
-.. |B.FiBwManOrifice| replace:: **PLACEHOLDER**
-.. |D.FiBwManOrifice| replace:: **PLACEHOLDER**
-.. |HL.FiBwManOrifice| replace:: **PLACEHOLDER**
-.. |HL.FiBwManOrificeForward| replace:: **PLACEHOLDER**
-.. |ND.FiTrunk| replace:: **PLACEHOLDER**
-.. |ND.FiManBranch| replace:: **PLACEHOLDER**
-.. |L.FiManBranch| replace:: **PLACEHOLDER**
-.. |N.FiInletManOrificesPerBranch| replace:: **PLACEHOLDER**
-.. |B.FiInletManOrifice| replace:: **PLACEHOLDER**
-.. |D.FiInletManOrifice| replace:: **PLACEHOLDER**
-.. |HL.FiInletManOrificeForward| replace:: **PLACEHOLDER**
-.. |N.FiTopManOrificesPerBranch| replace:: **PLACEHOLDER**
-.. |B.FiTopManOrifice| replace:: **PLACEHOLDER**
-.. |D.FiTopManOrifice| replace:: **PLACEHOLDER**
-.. |HL.FiTopManOrificeForward| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 
 .. _title_Manifolds_de_Entrada:

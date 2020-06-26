@@ -1,15 +1,4 @@
-.. |N.SedTanks| replace:: **PLACEHOLDER**
-.. |HL.SedLaunderOrifice| replace:: **PLACEHOLDER**
-.. |Pi.QLaunderOrifices| replace:: **PLACEHOLDER**
-.. |HL.SedLaunderBod| replace:: **PLACEHOLDER**
-.. |B.SedLaunderOrificesEst| replace:: **PLACEHOLDER**
-.. |ND.SedLaunder| replace:: **PLACEHOLDER**
-.. |PS.SedLaunderStr| replace:: **PLACEHOLDER**
-.. |L.SedLaunder| replace:: **PLACEHOLDER**
-.. |N.SedLaunderOrifices| replace:: **PLACEHOLDER**
-.. |B.SedLaunderOrifice| replace:: **PLACEHOLDER**
-.. |D.SedLaunderOrifice| replace:: **PLACEHOLDER**
-.. |Pi.VCOrifice| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Tubos_Recolectores:
 

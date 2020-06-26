@@ -1,0 +1,19 @@
+{
+  "q": "1",
+  "channelLength": "0.001*meter",
+  "channelWidth": "0.001*meter",
+  "entranceLength": "0.001*meter",
+  "Number of Channel Pairs": "1",
+  "Number of Obstacles": "1",
+  "Obstacles on both sides": false,
+  "Drain Pipe Size": "2",
+  "LFOM_config":
+    {
+      "q": "1",
+      "hL": "0.2*meter",
+      "temp": "21",
+      "elevation_difference": "0.2*meter",
+      "height of hole above pipe": "0.05*meter"
+    },
+  "fabrication tolerance": "0.02*meter"
+}

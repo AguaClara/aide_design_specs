@@ -1,5 +1,4 @@
-.. |ND.SedHopperDrain| replace:: **PLACEHOLDER**
-.. |ND.SedJetReverser| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Válvulas_de_Drenaje:
 

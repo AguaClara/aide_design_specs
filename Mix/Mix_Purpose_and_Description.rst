@@ -1,4 +1,4 @@
-.. |ED.RapidMix| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Propósito_y_Descripción:
 

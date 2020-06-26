@@ -1,29 +1,4 @@
-.. |L.Floc| replace:: **PLACEHOLDER**
-.. |W.FlocChannel| replace:: **PLACEHOLDER**
-.. |H.Floc| replace:: **PLACEHOLDER**
-.. |N.FlocChannels| replace:: **PLACEHOLDER**
-.. |N.FlocFirstChannelBaffles| replace:: **PLACEHOLDER**
-.. |N.FlocLastChannelBaffles| replace:: **PLACEHOLDER**
-.. |N.FlocChannelBaffles| replace:: **PLACEHOLDER**
-.. |H.FlocBaffleHigh| replace:: **PLACEHOLDER**
-.. |H.FlocBaffleLow| replace:: **PLACEHOLDER**
-.. |S.FlocBaffle| replace:: **PLACEHOLDER**
-.. |H.FlocPort| replace:: **PLACEHOLDER**
-.. |W.FlocPort| replace:: **PLACEHOLDER**
-.. |N.FlocSpaceObstacles| replace:: **PLACEHOLDER**
-.. |W.FlocObstacleWake| replace:: **PLACEHOLDER**
-.. |HL.Floc| replace:: **PLACEHOLDER**
-.. |Ti.Floc| replace:: **PLACEHOLDER**
-.. |Gt.Floc| replace:: **PLACEHOLDER**
-.. |G.Floc| replace:: **PLACEHOLDER**
-.. |ND.FlocDrain| replace:: **PLACEHOLDER**
-.. |PS.FlocDrainStr| replace:: **PLACEHOLDER**
-.. |ND.FlocObs| replace:: **PLACEHOLDER**
-.. |PS.FlocObsStr| replace:: **PLACEHOLDER**
-.. |ND.FlocSpacer| replace:: **PLACEHOLDER**
-.. |PS.FlocSpacerStr| replace:: **PLACEHOLDER**
-.. |ND.FlocMod| replace:: **PLACEHOLDER**
-.. |PS.FlocModStr| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_floc_Datos_del_Diseño:
 
@@ -36,7 +11,7 @@ Datos del Diseño
 .. csv-table:: Datos del floculador
 
     **Datos Constructivos**,
-    "Longitud de los canales", |L.Floc|
+    "Longitud de los canales", |channelLength|
     "Ancho de los canales", |W.FlocChannel|
     "Profundidad de los canales", |H.Floc|
     "Número de canales", |N.FlocChannels|

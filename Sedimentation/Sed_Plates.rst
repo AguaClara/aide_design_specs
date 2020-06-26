@@ -1,19 +1,4 @@
-.. |S.SedPlate| replace:: **PLACEHOLDER**
-.. |V.SedUpBod| replace:: **PLACEHOLDER**
-.. |V.SedCBod| replace:: **PLACEHOLDER**
-.. |T.SedPlate| replace:: **PLACEHOLDER**
-.. |AN.SedPlate| replace:: **PLACEHOLDER**
-.. |L.SedActiveEst| replace:: **PLACEHOLDER**
-.. |W.SedPlate| replace:: **PLACEHOLDER**
-.. |L.SedPlate| replace:: **PLACEHOLDER**
-.. |N.SedModPlates| replace:: **PLACEHOLDER**
-.. |N.SedModules| replace:: **PLACEHOLDER**
-.. |N.SedPlates| replace:: **PLACEHOLDER**
-.. |N.SedPlatesTotal| replace:: **PLACEHOLDER**
-.. |ND.SedMod| replace:: **PLACEHOLDER**
-.. |PS.SedModStr| replace:: **PLACEHOLDER**
-.. |ND.SedModSpacer| replace:: **PLACEHOLDER**
-.. |PS.SedModSpacerStr| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Placas_de_Sedimentación:
 

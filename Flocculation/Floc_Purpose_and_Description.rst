@@ -1,7 +1,4 @@
-.. |ND.FlocMod| replace:: **PLACEHOLDER**
-.. |ND.FlocSpacer| replace:: **PLACEHOLDER**
-.. |ND.FlocDrain| replace:: **PLACEHOLDER**
-.. |HL.Floc| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Floc_Propósito_y_Descripción:
 
@@ -15,7 +12,7 @@ El proceso de colisiones entre partículas y flóculos en el manto de lodos es i
 
 El proceso de floculación antes del manto de lodo es clave por dos razones. Primero, floculación es muy eficiente en bajar la concentración cuando y picos de alta turbidez. Segundo, la planta potabilizadora tiene que funcionar y poder arrancarse sin manto de lodo. Por eso el floculador hidráulica es clave para el buen rendimiento de la planta AguaClara aun que es un proceso rápido.
 
-En el proceso de floculación hidráulica se empieza con energía potencia con una diferencia en nivel de agua entre aguas arriba y aguas abajo en el floculador de |HL.Floc|. Este energía potencial se convierte a energía cinética en los cambios de dirección y en las contracciones de flujo. Luego el agua saliendo de las contracciones hacen chorros que pierden su energía haciendo remolinos y los remolinos se deshacen cada vez mas pequeñas. Al fin la viscosidad del agua frena los remolinos pequeños pero en el proceso el agua se deforma. En el proceso de deformación las partículas en al agua están llevados a diferentes velocidades por el agua y en este transporte por el agua las partículas puedan chocar. 
+En el proceso de floculación hidráulica se empieza con energía potencia con una diferencia en nivel de agua entre aguas arriba y aguas abajo en el floculador de |HL.Floc|. Este energía potencial se convierte a energía cinética en los cambios de dirección y en las contracciones de flujo. Luego el agua saliendo de las contracciones hacen chorros que pierden su energía haciendo remolinos y los remolinos se deshacen cada vez mas pequeñas. Al fin la viscosidad del agua frena los remolinos pequeños pero en el proceso el agua se deforma. En el proceso de deformación las partículas en al agua están llevados a diferentes velocidades por el agua y en este transporte por el agua las partículas puedan chocar.
 
 
 .. _figure_turbid_water:
