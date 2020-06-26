@@ -1,8 +1,4 @@
-.. |HL.Lfom| replace:: **REPLACE**
-.. |D.LfomOrifices| replace:: **REPLACE**
-.. |B.LfomRows| replace:: **REPLACE**
-.. |N.LfomOrifices| replace:: **REPLACE**
-.. |H.LfomOrifices| replace:: **REPLACE**
+.. include:: ../global.rst
 
 .. _title_LFOM:
 

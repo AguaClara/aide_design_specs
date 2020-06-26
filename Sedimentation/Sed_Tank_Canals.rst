@@ -1,21 +1,4 @@
-.. |Q.Plant| replace:: **PLACEHOLDER**
-.. |HW.SedInletChannelMax| replace:: **PLACEHOLDER**
-.. |HL.SedInletChannelMax| replace:: **PLACEHOLDER**
-.. |L.SedChannel| replace:: **PLACEHOLDER**
-.. |W.SedInletChannelPreWeir| replace:: **PLACEHOLDER**
-.. |W.SedInletChannelPostWeir| replace:: **PLACEHOLDER**
-.. |W.SedInletChannel| replace:: **PLACEHOLDER**
-.. |W.SedExitChannelPreWeir| replace:: **PLACEHOLDER**
-.. |W.SedExitChannelPostWeir| replace:: **PLACEHOLDER**
-.. |W.SedExitChannel| replace:: **PLACEHOLDER**
-.. |H.SedInletChannel| replace:: **PLACEHOLDER**
-.. |H.SedWeirInlet| replace:: **PLACEHOLDER**
-.. |H.SedWeirExit| replace:: **PLACEHOLDER**
-.. |HW.SedInletChannel| replace:: **PLACEHOLDER**
-.. |HW.SedExitChannel| replace:: **PLACEHOLDER**
-.. |H.SedIChanStep| replace:: **PLACEHOLDER**
-.. |H.SedIChanLastCoupling| replace:: **PLACEHOLDER**
-
+.. include:: ../global.rst
 
 .. _title_Canales_del_Tanque_de_Sedimentación:
 

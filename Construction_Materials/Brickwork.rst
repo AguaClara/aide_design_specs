@@ -1,15 +1,4 @@
-.. |T.SedWall| replace:: sed wall value
-.. |T.SedDividingWall| replace:: sed dividing wall value
-.. |T.SedChannelWall| replace:: sed channel wall value
-.. |T.FlocWall| replace:: floc wall value
-.. |T.FlocDividingWall| replace:: floc dividing wall value
-.. |T.FiWall| replace:: fi wall value
-.. |T.FiBoxWall| replace:: fi box wall value
-.. |T.PlantWall| replace:: plant wall value
-.. |T.DrainChannelWall| replace:: drain channel wall value
-.. |T.FlocSlab| replace:: floc slab value
-.. |T.ChemSlab| replace:: chem slab value
-.. |T.PlantFloor| replace:: plant floor value
+.. include:: ../global.rst
 
 .. _title_Albañilería:
 

@@ -1,8 +1,4 @@
-.. |Q.Fi| replace:: **PLACEHOLDER**
-.. |N.FiLayer| replace:: **PLACEHOLDER**
-.. |V.FiLayer| replace:: **PLACEHOLDER**
-.. |W.FiMin| replace:: **PLACEHOLDER**
-.. |B.FiManifoldBranch| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Dimensionamiento_del_Filtro:
 

@@ -1,15 +1,4 @@
-.. |ND.SedManifold| replace:: **PLACEHOLDER**
-.. |ND.SedDiffuser| replace:: **PLACEHOLDER**
-.. |PS.SedManStr| replace:: **PLACEHOLDER**
-.. |D.SedManifoldPort| replace:: **PLACEHOLDER**
-.. |N.SedManifoldPorts| replace:: **PLACEHOLDER**
-.. |B.SedDiffuser| replace:: **PLACEHOLDER**
-.. |L.SedManHorizPipe2| replace:: **PLACEHOLDER**
-.. |PS.SedDiffuserStr| replace:: **PLACEHOLDER**
-.. |L.SedManifoldDiffuser| replace:: **PLACEHOLDER**
-.. |W.SedDiffuserInner| replace:: **PLACEHOLDER**
-.. |ED.SedInlet| replace:: **PLACEHOLDER**
-.. |H.JetReverserToDiffusers| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Manifold_Distribuidor:
 

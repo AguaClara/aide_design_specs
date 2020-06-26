@@ -1,9 +1,4 @@
-.. |Pi.FiManifoldQ| replace:: **PLACEHOLDER**
-.. |ND.FiBwTrunkMax| replace:: **PLACEHOLDER**
-.. |ND.FiTrunkMax| replace:: **PLACEHOLDER**
-.. |PR.FiManBranchEst| replace:: **PLACEHOLDER**
-.. |N.FiLayer| replace:: **PLACEHOLDER**
-.. |HL.FiBwSlotsEst| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Distribución_del_Flujo:
 
