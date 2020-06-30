@@ -1,12 +1,4 @@
-.. |D.FiSandES| replace:: **PLACEHOLDER**
-.. |Pi.UCFiSand| replace:: **PLACEHOLDER**
-.. |ε.FiSand| replace:: **PLACEHOLDER**
-.. |k.Kozeny| replace:: **PLACEHOLDER**
-.. |Nu.Water| replace:: **PLACEHOLDER**
-.. |V.FiLayer| replace:: **PLACEHOLDER**
-.. |D.FiSand60| replace:: **PLACEHOLDER**
-.. |Rho.FiSand| replace:: **PLACEHOLDER**
-.. |Rho.H2O| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Arena:
 
@@ -59,7 +51,7 @@ Una vez iniciado el retrolavado, la pérdida de carga a través de todo el lecho
 
 .. math::
     :label: head_loss_entire_sand
-    
+
     {HL}_{Retrolavado}=\left(1-\varepsilon_{Arena}\right)\left(\frac{\rho_{Arena}}{\rho_{H_2O}}-1\right)H_{Arena}
 
 | Donde

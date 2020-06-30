@@ -205,4 +205,3 @@ Chloride and Aluminum Sulfate Coagulants.” J. Environ. Eng., 140(3), 04014002.
 Weber-Shirk, M. L., Lion, L. W., 2010. Flocculation model and collision
 potential for reactors with flows characterized by high peclet numbers. Water
 Res. 44 (18), 5180-5187.
- 

@@ -1,3 +1,5 @@
+.. include:: ../global.rst
+
 .. _title_El_Manto_de_Lodos:
 
 *****************

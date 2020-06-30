@@ -1,16 +1,4 @@
-.. |Q.Fi| replace:: **PLACEHOLDER**
-.. |Pi.QFiBw| replace:: **PLACEHOLDER**
-.. |Q.Plant| replace:: **PLACEHOLDER**
-.. |Pi.VCOrifice| replace:: **PLACEHOLDER**
-.. |HL.FiBwFlowControlSlot| replace:: **PLACEHOLDER**
-.. |H.FiStopGate| replace:: **PLACEHOLDER**
-.. |HL.FiOpenWeirMax| replace:: **PLACEHOLDER**
-.. |W.FiStopGate| replace:: **PLACEHOLDER**
-.. |W.FiBwFlowControl| replace:: **PLACEHOLDER**
-.. |H.FiFlowControlSlotTotal| replace:: **PLACEHOLDER**
-.. |H.FiSlotStopper| replace:: **PLACEHOLDER**
-.. |N.FiSlotStopper| replace:: **PLACEHOLDER**
-.. |Q.FiSlotStopperIncrement| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Vertederos_de_Control_de_Caudal:
 

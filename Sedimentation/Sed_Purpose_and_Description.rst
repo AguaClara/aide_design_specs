@@ -1,3 +1,4 @@
+.. include:: ../global.rst
 
 .. _title_Sed_Propósito_y_Descripción:
 

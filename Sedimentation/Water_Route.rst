@@ -1,6 +1,4 @@
-.. |N.SedTanks| replace:: **PLACEHOLDER**
-.. |ND.SedManifold| replace:: **PLACEHOLDER**
-.. |ND.SedDiffuser| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Recorrido_del_Agua:
 

@@ -1,10 +1,4 @@
-.. |N.EtPlates| replace:: **PLACEHOLDER**
-.. |S.EtPlate| replace:: **PLACEHOLDER**
-.. |T.EtPlate| replace:: **PLACEHOLDER**
-.. |W.Et| replace:: **PLACEHOLDER**
-.. |V.EtCaptureBod| replace:: **PLACEHOLDER**
-.. |AN.EtPlate| replace:: **PLACEHOLDER**
-.. |L.EtPlate| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Tank_Algoritmo_de_Diseño:
 

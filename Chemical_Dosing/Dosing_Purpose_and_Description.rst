@@ -1,5 +1,4 @@
-.. |C.CoagDoseMax| replace:: **PLACEHOLDER**
-.. |C.ChlorDoseMax| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Dosing_Propósito_y_Descripción:
 

@@ -1,4 +1,4 @@
-.. |N.EtPlates| replace:: **REPLACEMENT**
+.. include:: ../global.rst
 
 .. _title_Tanque_Propósito_y_Descripción:
 

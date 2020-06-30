@@ -1,9 +1,4 @@
-.. |D.RMOrifice| replace:: **PLACEHOLDER**
-.. |HL.RMOrifice| replace:: **PLACEHOLDER**
-.. |ED.RapidMix| replace:: **PLACEHOLDER**
-.. |H.FlocContact| replace:: **PLACEHOLDER**
-.. |L.FlocContact| replace:: **PLACEHOLDER**
-.. |Ti.FlocContact| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Datos_del_Diseño:
 

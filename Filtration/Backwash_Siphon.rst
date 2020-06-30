@@ -1,12 +1,4 @@
-.. |HL.FiSiphonMax| replace:: **PLACEHOLDER**
-.. |N.FiSiphonManOrifices| replace:: **PLACEHOLDER**
-.. |Q.Fi| replace:: **PLACEHOLDER**
-.. |Pi.VCOrifice| replace:: **PLACEHOLDER**
-.. |ND.FiSiphon| replace:: **PLACEHOLDER**
-.. |PS.FiSiphonStr| replace:: **PLACEHOLDER**
-.. |ND.FiSiphonAirValve| replace:: **PLACEHOLDER**
-.. |B.FiSiphonManOrifices| replace:: **PLACEHOLDER**
-.. |D.FiSiphonManOrifices| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Sifón_del_Retrolavado:
 

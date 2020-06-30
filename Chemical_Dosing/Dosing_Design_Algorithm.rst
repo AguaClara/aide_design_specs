@@ -1,4 +1,4 @@
-.. |HL.Cdc| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Dosing_Algoritmo_de_Diseño:
 

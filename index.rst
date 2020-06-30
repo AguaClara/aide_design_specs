@@ -1,8 +1,6 @@
 .. _toc:
 
-====================================
-Welcome to the AguaClara Plant Design Documentation!
-====================================
+Memoria Tecnica
 This document is written and maintained in `Github <https://github.com/AguaClara/aide_design_specs>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_. It uses and refers to AguaClara code and functions in `aguaclara <https://github.com/AguaClara/aguaclara>`_. Listed below are the versions of the programs we use:
 
 .. _software_versions:

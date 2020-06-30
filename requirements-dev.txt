@@ -31,3 +31,5 @@ sphinxcontrib-bibtex==0.4.0
 -e git://github.com/rmk135/sphinxcontrib-disqus.git#egg=sphinxcontrib-disqus
 sphinxcontrib-websupport==1.1.0
 urllib3==1.23
+onshape_client==1.6.3
+pint==0.13
