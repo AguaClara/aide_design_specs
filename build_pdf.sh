@@ -1,5 +1,5 @@
 #!/bin/bash
-# This runs in Travis to build the textbook. You can run this locally.
+# This runs in Travis to build the documentation. You can run this locally.
 
 # Needed to check if conda already installed
 export PATH="$HOME/miniconda/bin:$PATH"
@@ -17,5 +17,5 @@ if ! command -v conda > /dev/null; then # Install conda if you don't have it.
   conda install tectonic;
 fi
 pipenv run make latex
-tectonic _build/latex/AideDesignSpec.tex -p -o _build/ &&
+tectonic _build/latex/AIDEDesignSpecs.tex -p -o _build/ &&
 zip -rj _build/zipped_latex.zip _build/latex/*
