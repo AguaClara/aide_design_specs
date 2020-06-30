@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# AguaClara Textbook documentation build configuration file, created by
+# AguaClara Plant Design documentation build configuration file, created by
 # sphinx-quickstart on Fri Jun 22 18:21:19 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -148,8 +148,7 @@ html_context = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'AideDesignSpec'
-
+htmlhelp_basename = 'AideDesignSpecs'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -182,7 +181,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'AideDesignSpec.tex', 'AIDE Design Specifications',
+    (master_doc, 'AideDesignSpecs.tex', 'AIDE Design Specifications',
      'AguaClara Cornell', 'manual'),
 ]
 
@@ -192,7 +191,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'aidedesignspec', 'AIDE Design Specifications',
+    (master_doc, 'aidedesignspecs', 'AIDE Design Specifications',
      [author], 1)
 ]
 
@@ -203,8 +202,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'AideDesignSpec', 'AIDE Design Specification',
-     author, 'AideDesignSpec', 'One line description of project.',
+    (master_doc, 'AideDesignSpecs', 'AIDE Design Specification',
+     author, 'AideDesignSpecs', 'One line description of project.',
      'Miscellaneous'),
 ]
 
