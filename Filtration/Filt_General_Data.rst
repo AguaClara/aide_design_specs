@@ -1,25 +1,4 @@
-.. |N.Fi| replace:: **PLACEHOLDER**
-.. |Q.Fi| replace:: **PLACEHOLDER**
-.. |H.Fi| replace:: **PLACEHOLDER**
-.. |N.FiLayer| replace:: **PLACEHOLDER**
-.. |H.FiLayer| replace:: **PLACEHOLDER**
-.. |H.FiBottomLayer| replace:: **PLACEHOLDER**
-.. |B.FiManifoldBranch| replace:: **PLACEHOLDER**
-.. |N.FiManBranch| replace:: **PLACEHOLDER**
-.. |Vol.FiSand| replace:: **PLACEHOLDER**
-.. |ND.FiSandOutlet| replace:: **PLACEHOLDER**
-.. |PS.FiSandOutletStr| replace:: **PLACEHOLDER**
-.. |ND.FiExitWaste| replace:: **PLACEHOLDER**
-.. |PS.FiExitWasteStr| replace:: **PLACEHOLDER**
-.. |ND.FiEntOverflow| replace:: **PLACEHOLDER**
-.. |PS.FiEntOverflowStr| replace:: **PLACEHOLDER**
-.. |ND.FiBwTrunkFlushValve| replace:: **PLACEHOLDER**
-.. |ND.FiTrunkFlushValve| replace:: **PLACEHOLDER**
-.. |V.FiLayer| replace:: **PLACEHOLDER**
-.. |V.FiB| replace:: **PLACEHOLDER**
-.. |HL.FiCleanPath| replace:: **PLACEHOLDER**
-.. |HL.FiTerminal| replace:: **PLACEHOLDER**
-.. |HL.FiBwTotalSS| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Filt_Datos_Generales:
 

@@ -1,33 +1,4 @@
-.. |L.Et| replace:: **PLACEHOLDER**
-.. |W.Et| replace:: **PLACEHOLDER**
-.. |H.EtApparent| replace:: **PLACEHOLDER**
-.. |H.Et| replace:: **PLACEHOLDER**
-.. |AN.EtSlope1| replace:: **PLACEHOLDER**
-.. |AN.EtSlope2| replace:: **PLACEHOLDER**
-.. |T.FlocDividingWall| replace:: **PLACEHOLDER**
-.. |T.FlocSlab| replace:: **PLACEHOLDER**
-.. |N.EtPlates| replace:: **PLACEHOLDER**
-.. |L.EtPlate| replace:: **PLACEHOLDER**
-.. |L.EtTopPlate| replace:: **PLACEHOLDER**
-.. |S.EtPlate| replace:: **PLACEHOLDER**
-.. |AN.EtPlate| replace:: **PLACEHOLDER**
-.. |ND.EtDrain| replace:: **PLACEHOLDER**
-.. |PS.EtDrainStr| replace:: **PLACEHOLDER**
-.. |ND.RMPipe| replace:: **PLACEHOLDER**
-.. |PS.RMPipeStr| replace:: **PLACEHOLDER**
-.. |ND.EtMod| replace:: **PLACEHOLDER**
-.. |PS.EtModStr| replace:: **PLACEHOLDER**
-.. |ND.EtModSpacer| replace:: **PLACEHOLDER**
-.. |PS.EtModSpacerStr| replace:: **PLACEHOLDER**
-.. |ND.EtPlateSupport| replace:: **PLACEHOLDER**
-.. |PS.EtPlateSupportStr| replace:: **PLACEHOLDER**
-.. |HL.Lfom| replace:: **PLACEHOLDER**
-.. |D.LfomOrifices| replace:: **PLACEHOLDER**
-.. |B.LfomRows| replace:: **PLACEHOLDER**
-.. |N.LfomOrifices| replace:: **PLACEHOLDER**
-.. |H.LfomOrifices| replace:: **PLACEHOLDER**
-.. |V.EtCaptureBod| replace:: **PLACEHOLDER**
-.. |V.EtCapture| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Tank_Datos del Diseño:
 

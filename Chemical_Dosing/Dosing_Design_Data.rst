@@ -1,35 +1,4 @@
-.. |C.CoagDoseMax| replace:: **PLACEHOLDER**
-.. |Vol.CoagStock| replace:: **PLACEHOLDER**
-.. |C.CoagStock| replace:: **PLACEHOLDER**
-.. |M.CoagSack| replace:: **PLACEHOLDER**
-.. |N.CoagSacks| replace:: **PLACEHOLDER**
-.. |ID.CoagTube| replace:: **PLACEHOLDER**
-.. |N.CoagTubesActive| replace:: **PLACEHOLDER**
-.. |N.CoagTubes| replace:: **PLACEHOLDER**
-.. |L.CoagTube| replace:: **PLACEHOLDER**
-.. |HL.Cdc| replace:: **PLACEHOLDER**
-.. |Q.CoagMax| replace:: **PLACEHOLDER**
-.. |ND.CoagColumn| replace:: **PLACEHOLDER**
-.. |ID.CoagColumn| replace:: **PLACEHOLDER**
-.. |H.CoagColumnScale| replace:: **PLACEHOLDER**
-.. |Ti.CoagColumnMin| replace:: **PLACEHOLDER**
-.. |D.CoagFloatValveOrifice| replace:: **PLACEHOLDER**
-.. |HL.CoagFloatValveOrifice| replace:: **PLACEHOLDER**
-.. |C.ChlorDoseMax| replace:: **PLACEHOLDER**
-.. |Vol.ChlorStock| replace:: **PLACEHOLDER**
-.. |C.ChlorStock| replace:: **PLACEHOLDER**
-.. |M.ChlorStock| replace:: **PLACEHOLDER**
-.. |ID.ChlorTube| replace:: **PLACEHOLDER**
-.. |N.ChlorTubesActive| replace:: **PLACEHOLDER**
-.. |N.ChlorTubes| replace:: **PLACEHOLDER**
-.. |L.ChlorTube| replace:: **PLACEHOLDER**
-.. |Q.ChlorMax| replace:: **PLACEHOLDER**
-.. |ND.ChlorColumn| replace:: **PLACEHOLDER**
-.. |ID.ChlorColumn| replace:: **PLACEHOLDER**
-.. |H.ChlorColumnScale| replace:: **PLACEHOLDER**
-.. |Ti.ChlorColumnMin| replace:: **PLACEHOLDER**
-.. |D.ChlorFloatValveOrifice| replace:: **PLACEHOLDER**
-.. |HL.ChlorFloatValveOrifice| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Dosing_Datos_del_Diseño:
 

@@ -1,8 +1,4 @@
-.. |Pi.JetRound| replace:: **PLACEHOLDER**
-.. |Q.Plant| replace:: **PLACEHOLDER**
-.. |D.RMOrifice| replace:: **PLACEHOLDER**
-.. |Pi.VCOrifice| replace:: **PLACEHOLDER**
-.. |HL.RMOrifice| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Algoritmo_de_Diseño:
 

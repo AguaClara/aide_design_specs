@@ -1,14 +1,4 @@
-.. |H.Fi| replace:: H.Fi value
-.. |ND.FiTrunk| replace:: Fi Trunk superior value
-.. |ND.FiBwTrunk| replace:: Fi Bw Trunk inferior value
-.. |PS.FiTrunkStr| replace:: Fi Trunk Str value
-.. |ND.FiManBranch| replace:: Fi Man Branch superior value
-.. |ND.FiBwManBranch| replace:: Fi Bw Man Branch inferior value
-.. |PS.FiBranchStr| replace:: Fi Branch Str value
-.. |ND.FiBranchHolder| replace:: Fi Branch Holder value
-.. |PS.FiBranchHolderStr| replace:: Fi Branch Holder Str value
-.. |ND.FlocObs| replace:: Floc Obs value
-.. |PS.FlocObsStr| replace:: Floc Obs Str value
+.. include:: ../global.rst
 
 .. _title_Tubería:
 

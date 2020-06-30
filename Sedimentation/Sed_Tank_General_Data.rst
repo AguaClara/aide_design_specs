@@ -1,20 +1,4 @@
-.. |Q.Sed| replace:: **PLACEHOLDER**
-.. |V.SedCBod| replace:: **PLACEHOLDER**
-.. |V.SedC| replace:: **PLACEHOLDER**
-.. |V.SedUpBod| replace:: **PLACEHOLDER**
-.. |V.SedUp| replace:: **PLACEHOLDER**
-.. |Ti.Sed| replace:: **PLACEHOLDER**
-.. |N.SedTanks| replace:: **PLACEHOLDER**
-.. |W.Sed| replace:: **PLACEHOLDER**
-.. |L.SedUpflow| replace:: **PLACEHOLDER**
-.. |L.Sed| replace:: **PLACEHOLDER**
-.. |H.Sed| replace:: **PLACEHOLDER**
-.. |H.SedSideSlopes| replace:: **PLACEHOLDER**
-.. |H.SedFlocWeir| replace:: **PLACEHOLDER**
-.. |H.SedLamellaBottom| replace:: **PLACEHOLDER**
-.. |HW.Sed| replace:: **PLACEHOLDER**
-.. |AN.SedSlope| replace:: **PLACEHOLDER**
-.. |AN.SedHopperSlopeMin| replace:: **PLACEHOLDER**
+.. include:: ../global.rst
 
 .. _title_Sed_Tank_Datos_Generales:
 
