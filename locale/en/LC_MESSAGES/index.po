@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../index.rst:109
 msgid "**Notas**"
-msgstr "**Notes**""
+msgstr "**Notes**"
 
 #: ../../index.rst:110
 msgid ""
