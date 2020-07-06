@@ -103,8 +103,8 @@ Este documento está escrito y mantenido en `Github <https://github.com/AguaClar
   Appendix/License.rst
 
 
-`PDF and LaTeX versions <https://github.com/AguaClara/aide_design_specs/releases/latest>`_ [#pdf_warning]_.
+`Las versiones de PDF y LaTeX <https://github.com/AguaClara/aide_design_specs/releases/latest>`_ [#pdf_warning]_.
 
-.. rubric:: **Notes**
+.. rubric:: **Notas**
 
 .. [#pdf_warning] Las versiones de PDF y LaTeX pueden contener rarezas visuales porque se genera automáticamente. El sitio web es la forma recomendada de leer este documento. `Por favor visite nuestro GitHub <https://github.com/AguaClara/aide_design_specs>`_ para enviar un problema, contribuir o comentar.
