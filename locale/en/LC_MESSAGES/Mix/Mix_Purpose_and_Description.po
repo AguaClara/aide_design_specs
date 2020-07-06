@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Mix/Mix_Purpose_and_Description.rst:7
+msgid "Propósito y Descripción"
+msgstr ""
+
+#: ../../Mix/Mix_Purpose_and_Description.rst:9
+msgid ""
+"Después de recibir la dosis de coagulante, el agua pasa por la mezcla "
+"rápida. Este proceso sirve para distribuir el coagulante uniformemente en"
+" el agua cruda. En esta planta, la mezcla ocurre en la expansión "
+"turbulenta del flujo que sigue después de un orificio en el tubo que "
+"conduce el agua del tanque de entrada al floculador."
+msgstr ""
+
+#: ../../Mix/Mix_Purpose_and_Description.rst:21
+msgid ""
+"La mezcla del químico con el agua ocurre en la zona turbulenta que sigue "
+"después del orificio."
+msgstr ""
+
+#: ../../Mix/Mix_Purpose_and_Description.rst:24
+msgid ""
+"El coagulante se inyecta a través de la pared del tubo justo antes del "
+"orificio. Es probable que sea importante minimizar la separación entre el"
+" punto de inyección y la mezcla para maximizar la eficiencia del "
+"coagulante. Al contactar el agua cruda el pH de la solución baja y el "
+"coagulante empieza a reaccionar con los otros componentes del agua y "
+"formar aglomeraciones a una escala microscópica. La distribución del "
+"químico debe ocurrir antes de que se termine el proceso de coagulación a "
+"esa escala. De otra forma puede resultar una distribución desigual de "
+"coagulante en las partículas suspendidas porque los glóbulos de "
+"coagulante precipitado se agregan entre sí antes de que se acerquen a las"
+" partículas. En este caso una fracción mayor de las partículas se queda "
+"sin cobertura de coagulante y el rendimiento de la floculación puede "
+"sufrir."
+msgstr ""
+
+#: ../../Mix/Mix_Purpose_and_Description.rst:36
+msgid ""
+"Por lo tanto, se coloca el tubo de inyección de coagulante lo más pegado "
+"posible al orificio de mezcla rápida, y con la salida en el centro del "
+"flujo donde la velocidad mayor arrastra el químico a la mezcla lo más "
+"rápido posible (:numref:`figure_mixture_tube_exit`)."
+msgstr ""
+
+#: ../../Mix/Mix_Purpose_and_Description.rst:47
+msgid ""
+"La salida del tubo de mezcla rápida en la entrada del floculador. La "
+"placa transparente con el orificio se mantiene en posición con los cuatro"
+" niples de PVC de atraviesan la pared del tubo. El coagulante se inyecta "
+"en el centro del flujo justo antes del orificio."
+msgstr ""
+
+#: ../../Mix/Mix_Purpose_and_Description.rst:52
+msgid ""
+"El orificio está diseñado para producir un chorro con una tasa de la "
+"disipación de energía máxima de |ED.RapidMix| con el caudal máximo de "
+"diseño. Con este tipo de mezcla rápida la tasa de la disipación de "
+"energía varía con el caudal. Así mismo varía la escala menor de la "
+"mezcla. La tasa de la disipación de energía de |ED.RapidMix| es "
+"conservadora para que la mezcla también funcione con caudales menores."
+msgstr ""
+
+#: ../../Mix/Mix_Purpose_and_Description.rst:59
+msgid ""
+"El chorro de la mezcla rápida sale en el espacio en la primera parte del "
+"floculador que sirve como cámara de contacto para terminar el proceso de "
+"coagulación. Esta parte del can"
+msgstr ""
+
+#: ../../Mix/Mix_Purpose_and_Description.rst:63
+msgid ""
+"al se considera como espacio adicional porque no está incluido en el "
+"volumen que contribuye a la floculación en el algoritmo de diseño de ese "
+"proceso (:ref:`title_Floc_Algoritmo_de_Diseño`). Al proveer este espacio "
+"para el proceso de coagulación, no se desperdicia volumen del floculador "
+"donde la suspensión ya debe de estar inestable para que pueda funcionar "
+"la floculación."
+msgstr ""
+
+#: ../../Mix/Mix_Purpose_and_Description.rst:76
+msgid ""
+"El orificio de mezcla rápida en el tubo de entrada del floculador. El "
+"punto de inyección del coagulante debe estar justo arriba de la placa en "
+"el tubo de mezcla rápida, aunque no aparece en este dibujo."
+msgstr ""
+

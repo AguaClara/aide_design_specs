@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Filtration/Exit_Manifolds.rst:7
+msgid "Manifolds de Salida"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:9
+msgid ""
+"A diferencia de los manifolds de entrada, los manifolds de salida cuentan"
+" con tubos ranurados en vez de tubos perforados para los ramales. Las "
+"ranuras tienen |W.FiManSlots| de ancho, de tal manera que el agua puede "
+"entrar en el tubo pero la arena no."
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:17
+msgid "Las ranuras de un ramal del manifold de salida."
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:25
+msgid "El manifold de salida con los tubos ranurados."
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:27
+msgid ""
+"El área colectiva de las ranuras por manifold es el doble del área "
+"colectiva de los orificios en el manifold de retrolavado, porque estos "
+"manifolds de salida extraen el agua de dos capas de arena cada uno. El "
+"largo de las ranuras se define para lograr el área colectiva querida:"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:34
+#: ../../Filtration/Exit_Manifolds.rst:49
+msgid "Donde"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:35
+msgid ":math:`A_{Capa}` = el área colectiva querida = |A.FiOutletManSlots|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:36
+msgid ":math:`S_{Ranura}` = la separación de las ranuras = |B.FiManSlot|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:37
+msgid ":math:`W_{Ranura}` = el ancho de las ranuras = |W.FiManSlots|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:38
+msgid ":math:`N_{Ramal}` = el número de ramales por manifold = |N.FiManBranch|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:39
+msgid ""
+":math:`L_{Ramal}` = el largo ranurado del ramal = "
+"|L.FiOutletBranchSlotted|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:40
+msgid ""
+":math:`N_{Filas}` = el número de filas de ranuras por ramal = "
+"|N.FiSlotRows| (significa que ambos lados tienen ranuras)"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:42
+msgid ""
+"La pérdida de carga a través de las ranuras durante la filtración normal "
+"es dada por:"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:50
+msgid ":math:`Q_{Capa}` = el caudal de agua que sale por el manifold"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:51
+msgid ":math:`A_{Capa}` = el área colectiva de las ranuras en el manifold"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:52
+msgid ""
+":math:`\\Pi _{VC}` = el coeficiente de vena contracta para un orificio = "
+"|Pi.VCOrifice|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:53
+msgid ""
+":math:`\\varepsilon_{Arena}` = la porosidad del lecho de arena = "
+"|ε.FiSand|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:57
+msgid "Datos de los manifolds de salida"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "Líneas troncales de los manifolds"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|ND.FiTrunk| |PS.FiTrunkStr|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "Ramales de salida superiores"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|ND.FiManBranch| |PS.FiBranchStr|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "Número de ramales en cada manifold de salida"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|N.FiManBranch|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "Longitud de los ramales"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|L.FiManBranch|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid ""
+"Longitud de la parte del ramal que entra en los orificios del tronco y el"
+" tubo que recibe el ramal en el otro extremo"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|L.FiManBranchExt|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "Longitud de la parte ranurada de cada ramal"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|L.FiOutletBranchSlotted|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "Número de filas de ranuras en cada ramal"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|N.FiSlotRows|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "Separación entre ranuras"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|B.FiManSlot|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "Número de ranuras en cada fila"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|N.FiOutletManSlotsPerRow|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "Número de ranuras en cada ramal"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|N.FiOutletManSlotsPerBranch|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "Ancho de las ranuras"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|W.FiManSlots|"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "Longitud interior de las ranuras, medida en la curva del tubo"
+msgstr ""
+
+#: ../../Filtration/Exit_Manifolds.rst:1
+msgid "|L.FiOutletManSlotCurvedInner|"
+msgstr ""
+

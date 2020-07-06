@@ -18,9 +18,6 @@
 Conceptos de Diseño del Floculador
 **********************************
 
-
-
-
 .. _heading_El_potencial_de_colisiones_y el_rendimiento_del_floculador:
 
 El potencial de colisiones y el rendimiento del floculador

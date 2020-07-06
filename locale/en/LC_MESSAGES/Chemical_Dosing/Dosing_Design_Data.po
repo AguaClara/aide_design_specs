@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:7
+msgid "Datos del Diseño"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:11
+msgid "Datos del dosificador de coagulante"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Tipo de coagulante"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Policloruro de aluminio (PAC)"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Dosis máxima"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|C.CoagDoseMax|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Volumen de cada contenedor de almacenamiento"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|Vol.CoagStock|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Concentración madre"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|C.CoagStock|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid ""
+"Número de sacos de coagulante de |M.CoagSack| para mezclar la solución "
+"madre"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|N.CoagSacks|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Diámetro interno de las mangueras de diámetro pequeño"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|ID.CoagTube|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Número de mangueras activas en paralelo"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|N.CoagTubesActive|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Número total de mangueras en paralelo"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|N.CoagTubes|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Longitud de las mangueras"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|L.CoagTube|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Pérdida de carga máxima del dosificador"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|HL.Cdc|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Caudal máximo del químico"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|Q.CoagMax|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Diámetro nominal de la columna de medición de caudal"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|ND.CoagColumn|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Diámetro interno de la columna de medición de caudal"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|ID.CoagColumn|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Altura de la escala de la columna de medición de caudal"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|H.CoagColumnScale|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Tiempo mínimo de una prueba de la columna de calibración"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|Ti.CoagColumnMin|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Diámetro del orificio en la válvula flotadora"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|D.CoagFloatValveOrifice|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid ""
+"Pérdida de carga en el orificio de la válvula flotadora con el caudal "
+"máximo de coagulante"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|HL.CoagFloatValveOrifice|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:34
+msgid "Datos del dosificador de cloro"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Tipo de cloro"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Hipoclorito de calcio"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|C.ChlorDoseMax|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|Vol.ChlorStock|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|C.ChlorStock|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "Masa de hipoclorito de calcio para mezclar la solución madre"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|M.ChlorStock|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|ID.ChlorTube|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|N.ChlorTubesActive|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|N.ChlorTubes|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|L.ChlorTube|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|Q.ChlorMax|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|ND.ChlorColumn|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|ID.ChlorColumn|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|H.ChlorColumnScale|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|Ti.ChlorColumnMin|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|D.ChlorFloatValveOrifice|"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid ""
+"Pérdida de cargo en el orificio de la válvula flotadora con el caudal "
+"máximo de cloro"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
+msgid "|HL.ChlorFloatValveOrifice|"
+msgstr ""
+
