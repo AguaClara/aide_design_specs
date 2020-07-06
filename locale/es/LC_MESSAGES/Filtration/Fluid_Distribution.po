@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Filtration/Fluid_Distribution.rst:7
+msgid "Distribución del Flujo"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst:9
+msgid ""
+"El buen funcionamiento del filtro depende de una buena distribución del "
+"agua por todas partes del lecho de arena, tanto durante la filtración "
+"normal como en el retrolavado. Las restricciones de diseño durante estos "
+"dos regímenes son:"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst:15
+#: ../../Filtration/Fluid_Distribution.rst:33
+msgid "Filtración Normal"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst:16
+#: ../../Filtration/Fluid_Distribution.rst:34
+msgid "Retrolavado"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst:19
+msgid ""
+"La pérdida de carga por una capa de arena es significativamente mayor que"
+" la pérdida por la recuperación de la presión en la tubería, que el radio"
+" del flujo por el camino largo sobre el flujo por el camino corto no sea "
+"menor que |Pi.FiManifoldQ|"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst:20
+msgid ""
+"La pérdida de carga por las ranuras toma en cuenta la obstrucción de las "
+"ranuras por la arena"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst:24
+msgid ""
+"Los orificios y las ranuras, en vez de la arena, proveen la pérdida "
+"uniformisante durante el retrolavado"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst:25
+msgid ""
+"La pérdida de carga por los orificios o las ranuras es significativamente"
+" mayor que las pérdidas por la recuperación de presión en los manifolds –"
+" los manifolds necesitan mayor área un sus troncos que el área colectivo "
+"de sus puertos"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst:27
+msgid ""
+"Estas restricciones, conjuntamente con las restricciones constructivas de"
+" no usar tubería mayor que |ND.FiBwTrunkMax| de diámetro en la línea de "
+"retrolavado y que |ND.FiTrunkMax| de diámetro en la demás tubería, "
+"definan el caudal máximo de un filtro. Las velocidades máximas y los "
+"caudales máximos que puede haber en los troncos durante la filtración y "
+"el retrolavado son:"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid "Donde"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`HL_{Capa}` = la pérdida de carga mínima por una capa de arena "
+"limpia (véase :ref:`title_Arena`)"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`\\Pi _{Q}` = el radio mínimo del flujo por el camino largo sobre "
+"el flujo por el camino corto = |Pi.FiManifoldQ|"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`PR _{Est}` = la recuperación de presión estimada en un ramal = "
+"|PR.FiManBranchEst|"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`D_{M\\acute a xFi}` = el diámetro máximo nominal del tronco "
+"superior = |ND.FiTrunkMax|"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ":math:`N _{Capa}` = el número de capas de arena = |N.FiLayer|"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`HL_{Re}` = la pérdida de carga estimada por los orificios de "
+"entrada durante el retrolavado = |HL.FiBwSlotsEst|"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`D_{M\\acute a xRe}` = el diámetro máximo nominal del tronco "
+"inferior = |ND.FiBwTrunkMax|"
+msgstr ""
+
+#: ../../Filtration/Fluid_Distribution.rst:68
+msgid ""
+"El caudal máximo por filtro se define como el menor de los dos caudales "
+"máximos bajo las restricciones de la distribución del flujo. El número "
+"total de los filtros se define en consecuencia para no sobrepasar de este"
+" límite:"
+msgstr ""
+

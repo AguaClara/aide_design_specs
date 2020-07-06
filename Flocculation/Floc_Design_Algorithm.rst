@@ -63,7 +63,7 @@ Hay dos restricciones para el volumen mínimo dedicado a la floculación:
 
 
  #. **Constructiva**: Tiene que haber por lo menos dos canales para mantener la configuración de la planta, para que tanto el tanque de entrada como los canales de entrada y salida de los tanques de sedimentación estén pegados al canal de limpieza. Ya se sabe la longitud y la profundidad de los canales del floculador en base a las dimensiones de los tanques de sedimentación. También hay una restricción para el ancho mínimo de cada canal. Multiplicando estas dimensiones mínimas y restando el volumen inactivo (:numref:`figure_floc_entrance_tank`) se encuentra el volumen mínimo dedicado a la floculación |Vol.FlocMinChannels|.
- #. **Hidráulica:** Asumiendo una geometría eficiente (:ref:`title_Conceptos_de_Diseño`), del potencial de colisiones y la pérdida de carga máxima se calcula la tasa media de la disipación de energía directamente:
+ #. **Hidráulica:** Asumiendo una geometría eficiente (:ref:`title_Conceptos_de_Diseño_del_Floculador`), del potencial de colisiones y la pérdida de carga máxima se calcula la tasa media de la disipación de energía directamente:
 
      .. math::
          :label: efficient_avg_energy_dissipation_rate
@@ -173,7 +173,7 @@ Por último, se toma el máximo del ancho calculado para alcanzar el volumen y e
 6. Separación entre expansiones
 -------------------------------------------------
 
-Existe la opción de colocar obstáculos entre los deflectores que provocan la misma expansión que sucede después de la vuelta alrededor de un deflector, para reducir la separación entre expansiones y mantener el radio H/S dentro del rango eficiente. Dado el ancho de los canales, la tasa de la disipación de energía nos da la separación máxima entre obstáculos que mantiene la geometría eficiente (véase :ref:`title_Conceptos_de_Diseño`):
+Existe la opción de colocar obstáculos entre los deflectores que provocan la misma expansión que sucede después de la vuelta alrededor de un deflector, para reducir la separación entre expansiones y mantener el radio H/S dentro del rango eficiente. Dado el ancho de los canales, la tasa de la disipación de energía nos da la separación máxima entre obstáculos que mantiene la geometría eficiente (véase :ref:`title_Conceptos_de_Diseño_del_Floculador`):
 
 .. math::
     :label: max_efficient_separation

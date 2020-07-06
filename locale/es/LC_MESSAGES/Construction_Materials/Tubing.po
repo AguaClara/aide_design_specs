@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Construction_Materials/Tubing.rst:7
+msgid "Tubería"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:8
+msgid ""
+"La planta AguaClara utiliza tubería y accesorios de PVC para toda la "
+"fontanería con la excepción de:"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:11
+msgid ""
+"La tubería de entrada, salida, y drenaje que está expuesta fuera del "
+"edificio (:numref:`figure_moroceli`). Aquí se usan tubos y accesorios de "
+"hierro galvanizado por su durabilidad."
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:12
+msgid ""
+"Algunas conexiones de los sistemas de dosificación de químicos, que "
+"tienen que ser flexibles (:ref:`title_Dosing_Propósito_y_Descripción`). "
+"Se usan mangueras de varios tamaños."
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:14
+msgid ""
+"En la planta no existen altas presiones estáticas, pues la mayor se "
+"produce en la parte inferior del filtro, que tiene |H.Fi| de profundidad,"
+" y no pasa de los 7 psi. La tubería de drenaje más delgada podría "
+"aguantar la presión en cualquier punto de la planta, y por tanto las "
+"especificaciones de los tubos no están basadas en las presiones sino en "
+"la durabilidad general y otras consideraciones prácticas."
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:22
+msgid ""
+"La tubería entrada de hierro galvanizado de la planta AguaClara de "
+"Morocelí, El Paraíso."
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:24
+msgid ""
+"Se ha observado que los tubos de diámetro pequeño y paredes delgadas se "
+"deforman bajo el peso de los materiales que están encima al fundirlos en "
+"las paredes de ladrillo que se construyen en la planta, provocando fugas "
+"de agua. Además, hay más probabilidad de romper los que están expuestos "
+"durante la operación normal. Con los tubos de mayor diámetro las "
+"especificaciones de drenaje tienen paredes lo suficiente gruesas para no "
+"deformarse al fundirlos y aguantar el abuso normal de la operación. Como "
+"regla general, se recomiendan las especificaciones de la tubería de la "
+"planta en base a la siguiente guía:"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:28
+msgid "Guía general para las especificaciones de tubería dentro de la planta"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "Diámetro de tubería de PVC"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "Especificación"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "1/2''"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "SDR 13.5"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "3/4''"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "SDR 17"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "1''-4''"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "SDR 26"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid ">4''"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "SDR 41"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:37
+msgid ""
+"La siguiente tabla resume algunos casos en que se recomiendo a veces una "
+"especificación diferente de la guía general:"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:41
+msgid "Excepciones a la guía general para las especificaciones de tubería"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "Descripción"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "Diámetro nominal"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "Justificación"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "Líneas troncales de los manifolds del filtro"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "|ND.FiTrunk| (superior) – |ND.FiBwTrunk| (inferior)"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "|PS.FiTrunkStr|"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid ""
+"El grosor hace más segura la conexión especial que se hace con los "
+"ramales."
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "Ramales de los manifolds del filtro"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "|ND.FiManBranch| (superior) – |ND.FiBwManBranch| (inferior)"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "|PS.FiBranchStr|"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "El grosor es necesario para la fabricación de las ranuras finas."
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "Receptores de los ramales de los manifolds del filtro"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "|ND.FiBranchHolder|"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "|PS.FiBranchHolderStr|"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid ""
+"El grosor hace más segura la conexión especial que se hace con los "
+"ramales. La durabilidad también facilita el trabajo de instalación."
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "Obstáculos del floculador"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "|ND.FlocObs|"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "|PS.FlocObsStr|"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid ""
+"La rigidez no es necesaria aquí aunque se usen tubos de diámetro menor de"
+" 6”."
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid "Cualquier pistón de PVC que se usa para tapar un desagüe"
+msgstr ""
+
+#: ../../Construction_Materials/Tubing.rst:1
+msgid ""
+"Para facilitar la operación de los desagües es mejor que los pistones "
+"sean livianos."
+msgstr ""
+

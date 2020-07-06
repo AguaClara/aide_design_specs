@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Sedimentation/Drainage_Valve.rst:7
+msgid "Válvulas de Drenaje"
+msgstr ""
+
+#: ../../Sedimentation/Drainage_Valve.rst:9
+msgid ""
+"La cámara de sedimentación lleva dos válvulas para purgar los lodos y "
+"vaciar los tanques para limpieza y mantenimiento. La que se utiliza más "
+"durante la operación normal es la válvula de diámetro |ND.SedHopperDrain|"
+" que sale de la tolva de flóculos. Esta válvula se usa solamente para "
+"sacar el lodo acumulado de la tolva. Para vaciar el tanque completamente "
+"para limpieza y mantenimiento, se usa la válvula inferior de diámetro "
+"|ND.SedJetReverser|."
+msgstr ""
+

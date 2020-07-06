@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Sedimentation/Floc_Blanket.rst:7
+msgid "El Manto de Lodos"
+msgstr ""
+
+#: ../../Sedimentation/Floc_Blanket.rst:8
+msgid ""
+"Los tanques de sedimentación de AguaClara se diseñan con la meta de "
+"lograr otro fenómeno físico en la parte inferior del tanque que se llama "
+"el manto de lodos. Esta característica del tanque puede mejorar la "
+"calidad de agua que produce. El manto de lodos es un lecho denso de "
+"flóculos suspendidos en el agua, producto de la acumulación de sólidos "
+"captados durante tiempo. El lecho de flóculos funciona como un pre "
+"filtro. Las partículas que entran y pasan por el manto de lodos chocan "
+"con los flóculos ya suspendidas, y de esta forma las partículas más "
+"pequeñas, que quizás no se capten sin la presencia del manto de lodos, "
+"permanecen en la parte inferior del tanque. Las placas inclinadas impiden"
+" que los sólidos más pequeños salgan por arriba."
+msgstr ""
+
+#: ../../Sedimentation/Floc_Blanket.rst:10
+msgid ""
+"Las investigaciones del laboratorio han demostrado que se establece una "
+"superficie bien definida entre el manto de lodos y el agua más clara que "
+"sale por arriba. La suspensión de flóculos y el agua por encima se "
+"comportan como dos fluidos distintos. Se mantiene el nivel de la "
+"superficie entre el manto de lodos y el agua limpia con el **vertedero de"
+" flóculos**, una pared sobre la que los flóculos caen en una tolva cuando"
+" alcanzan la cima del vertedero. Los flóculos en el lecho se mantienen "
+"suspendidos por los chorros de entrada en el fondo del tanque."
+msgstr ""
+
+#: ../../Sedimentation/Floc_Blanket.rst:18
+msgid ""
+"Vista frontal del tanque de sedimentación experimental en el laboratorio "
+"de AguaClara de la Universidad de Cornell."
+msgstr ""
+
