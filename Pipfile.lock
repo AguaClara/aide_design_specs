@@ -470,6 +470,10 @@
             "index": "pypi",
             "version": "==1.2.1"
         },
+        "sphinxcontrib-disqus": {
+            "git": "https://github.com/rmk135/sphinxcontrib-disqus",
+            "ref": "5d7f87882423c8d6c092e6a52936b8d29f1a7d2b"
+        },
         "sphinx": {
             "hashes": [
                 "sha256:217ad9ece2156ed9f8af12b5d2c82a499ddf2c70a33c5f81864a08d8c67b9efc",
@@ -501,10 +505,6 @@
             ],
             "index": "pypi",
             "version": "==0.4.2"
-        },
-        "sphinxcontrib-disqus": {
-            "git": "https://github.com/rmk135/sphinxcontrib-disqus",
-            "ref": "5d7f87882423c8d6c092e6a52936b8d29f1a7d2b"
         },
         "sphinxcontrib-websupport": {
             "hashes": [
