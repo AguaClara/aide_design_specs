@@ -87,13 +87,13 @@
 .. |EntTankConc_TrashRack_config| replace:: {}
 .. |EntTankConc_channelH| replace:: 2.0 m
 .. |EntTankConc_channelW| replace:: 54.0 cm
+.. |EntTankConc_entTankL| replace:: 1.5 m
+.. |EntTankConc_entTankPlatesN| replace:: 18.0
+.. |EntTankConc_entTankPlatesT| replace:: 4.0 cm
 .. |EntTankConc_exitFunnelH| replace:: 30.0 cm
 .. |EntTankConc_fabrication_tolerance| replace:: 2.0 cm
-.. |EntTankConc_h_channel| replace:: 2.5 m
 .. |EntTankConc_hello| replace:: {"ND":"_5"}
-.. |EntTankConc_l_ent_tank| replace:: 1.5 m
-.. |EntTankConc_l_platesupports| replace:: 32.6 cm
-.. |EntTankConc_number_plates| replace:: 18.0
+.. |EntTankConc_l_platesupports| replace:: 99.2 cm
 .. |EntTankConc_pipeClearanceL| replace:: 5.0 cm
 .. |EntTankConc_plateS| replace:: 1.2 cm
 .. |EntTankConc_plates_n| replace:: 18.0
@@ -101,8 +101,7 @@
 .. |EntTankConc_s_plates| replace:: 1.39 cm
 .. |EntTankConc_startPlateT| replace:: 2.0 mm
 .. |EntTankConc_supportPlateOffsetL| replace:: 2.0 cm
-.. |EntTankConc_t_plate| replace:: 3.0 mm
-.. |EntTankConc_t_wall| replace:: 15.0 cm
+.. |EntTankConc_wallT| replace:: 15.0 cm
 .. |EntTankConcreteExt_config| replace:: {}
 .. |EntTankConcrete_config| replace:: {}
 .. |Instancing| replace:: {}
@@ -171,8 +170,6 @@
 .. |lengthMaxVolume| replace:: 34.58 m
 .. |maxChannelWidth| replace:: 1.07 m
 .. |maxLength| replace:: 6.0 m
-.. |n_channel_check| replace:: n_4
-.. |n_even| replace:: n_4
 .. |name| replace:: floc
 .. |obstacleN| replace:: 1.0
 .. |obstaclePipeOd| replace:: 5.08 cm
