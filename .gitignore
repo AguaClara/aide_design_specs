@@ -1,5 +1,6 @@
 # sphinx build files:
 _build/
+aide_design_specs/
 
 # jetbrains config files:
 .idea/
