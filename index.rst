@@ -1,10 +1,12 @@
 .. _toc:
 
+===============
 Memoria Tecnica
-This document is written and maintained in `Github <https://github.com/AguaClara/aide_design_specs>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_. It uses and refers to AguaClara code and functions in `aguaclara <https://github.com/AguaClara/aguaclara>`_. Listed below are the versions of the programs we use:
+===============
+Este documento está escrito y mantenido en `Github <https://github.com/AguaClara/aide_design_specs>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_. Utiliza y se refiere a código y funciones de AguaClara en `AguaClara <https://github.com/AguaClara/aguaclara>`_. A continuación se enumeran las versiones de los programas que utilizamos:
 
 .. _software_versions:
-.. csv-table:: These are the software versions used to compile this documentation
+.. csv-table:: Estas son las versiones de software utilizadas para compilar esta documentación.
    :header: "Software", "version"
    :widths: 10, 10
    :align: center
@@ -101,8 +103,8 @@ This document is written and maintained in `Github <https://github.com/AguaClara
   Appendix/License.rst
 
 
-`PDF and LaTeX versions <https://github.com/AguaClara/aide_design_specs/releases/latest>`_ [#pdf_warning]_.
+`Las versiones de PDF y LaTeX <https://github.com/AguaClara/aide_design_specs/releases/latest>`_ [#pdf_warning]_.
 
-.. rubric:: **Notes**
+.. rubric:: **Notas**
 
-.. [#pdf_warning] PDF and LaTeX versions may contain visual oddities because it is generated automatically. The website is the recommended way to read this document. `Please visit our GitHub site <https://github.com/AguaClara/aide_design_specs>`_ to submit an issue, contribute, or comment.
+.. [#pdf_warning] Las versiones de PDF y LaTeX pueden contener rarezas visuales porque se genera automáticamente. El sitio web es la forma recomendada de leer este documento. `Por favor visite nuestro GitHub <https://github.com/AguaClara/aide_design_specs>`_ para enviar un problema, contribuir o comentar.

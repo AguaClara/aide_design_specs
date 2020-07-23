@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:7
+msgid "Datos del Diseño"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:11
+msgid "Datos del tanque de entrada"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "**Datos constructivos**"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Largo (la dirección del flujo de agua)"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|L.Et|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Ancho"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|W.Et|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Profundidad"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|H.EtApparent|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid ""
+"Altura de la pared medida de la losa del floculador (incluyendo cualquier"
+" relleno en la parte inferior)"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|H.Et|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Ángulo de la primera pendiente (en la dirección del flujo de agua)"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|AN.EtSlope1|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Ángulo de la segunda pendiente"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|AN.EtSlope2|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Grosor de la pared que lo separa del floculador"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|T.FlocDividingWall|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Grosor de la losa (compartida con el floculador)"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|T.FlocSlab|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "**Placas de sedimentación**"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Número de placas de sedimentación"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|N.EtPlates|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Longitud de las placas"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|L.EtPlate|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Longitud de la placa superior"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|L.EtTopPlate|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Separación entre las placas"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|S.EtPlate|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Ángulo de inclinación de las placas"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|AN.EtPlate|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "**Tubería**"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "El desagüe  |ND.EtDrain| |PS.EtDrainStr|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "El tubo de mezcla rápida (con el LFOM)"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|ND.RMPipe| |PS.RMPipeStr|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Los conectadores del módulo de placas"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|ND.EtMod| |PS.EtModStr|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Los separadores del módulo de placas"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|ND.EtModSpacer| |PS.EtModSpacerStr|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Los tubos de apoyo del módulo de placas     ND.EtPlateSupport"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|PS.EtPlateSupportStr|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "**Medidor lineal de caudal**"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid ""
+"Rango de niveles de agua (distancia vertical entre el nivel cero y el "
+"nivel máximo)"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|HL.Lfom|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Diámetro de los agujeros"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|D.LfomOrifices|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Separación entre las filas de agujeros (centro a centro)"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|B.LfomRows|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Número de agujeros en cada fila, empezando con la fila inferior"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|N.LfomOrifices|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Altura de cada fila arriba del nivel cero, empezando con la fila inferior"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|H.LfomOrifices|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "**Parámetros hidráulicos**"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Velocidad de captura de diseño"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|V.EtCaptureBod|"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "Velocidad de captura final de las placas de sedimentación"
+msgstr ""
+
+#: ../../Entrance_Tank/Tank_Design_Data.rst:1
+msgid "|V.EtCapture|"
+msgstr ""
+

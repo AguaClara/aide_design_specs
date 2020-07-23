@@ -1,0 +1,296 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:7
+msgid "Canales del Tanque de Sedimentación"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:9
+msgid ""
+"A un extremo de los tanques de sedimentación hay un sistema de canales de"
+" entrada y salida (:numref:`figure_sed_tank_channels`). Una pared que "
+"corre a lo largo de los canales los divide en dos secciones: el **canal "
+"distribuidor** (de entrada) y el **canal recolector** (de salida)."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:11
+msgid ""
+"El efluente del floculador se distribuye entre los tanques de "
+"sedimentación a través del canal de entrada. Este está dividido en dos "
+"secciones por un vertedero: la primera donde están ubicadas las entradas "
+"a los tanques de sedimentación, y la segunda que sólo sirve para botar "
+"agua en el caso de una falla de tratamiento."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:16
+msgid "Primera sección canal de entrada"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:22
+msgid ""
+"La primera sección del canal se diseña para tener una velocidad máxima lo"
+" suficiente baja para mantener una distribución uniforme de flujo a los "
+"varios tanques de sedimentación. Nuevas pruebas en los laboratorios de "
+"Cornell demuestran que la rotura de los flóculos en el canal no tiene un "
+"efecto significante en el rendimiento del tanque de sedimentación. Los "
+"flóculos, aunque sean muy pequeños, con una velocidad mayor que la "
+"velocidad de captura serán capturados por las placas de sedimentación. "
+"También se diseña con una velocidad lo suficiente alta que los flóculos "
+"no se sedimentan en el canal. Otras restricciones en el dimensionamiento "
+"del canal son:"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:24
+msgid ""
+"Tiene que ser lo suficiente ancho para los tubos que lo conectan a los "
+"tanques de sedimentación"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:25
+msgid ""
+"Tiene que tener profundidad suficiente para apoyar los tubos recolectores"
+" de salida de los tanques de sedimentación (hay una sola losa para todos "
+"los canales)"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:26
+msgid ""
+"No puede ser tan profundo que la construcción y el acceso se ponen "
+"difíciles"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:28
+msgid ""
+"La consideración de la uniformidad de la distribución del flujo entre los"
+" tanques de sedimentación se toma en cuenta fijando la pérdida de carga "
+"máxima, :math:`\\Delta H`, en este canal a no más que diez por ciento de "
+"la pérdida de carga total a través de un tanque. Con esta pérdida de "
+"carga, el ancho se calcula por:"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:35
+msgid "Donde"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:36
+msgid ":math:`Q` = el caudal de la planta = |Q.Plant|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:37
+msgid ""
+":math:`H` = el nivel máximo de agua en el canal de entrada = "
+"|HW.SedInletChannelMax|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:38
+msgid ""
+":math:`\\Delta H` = la pérdida de carga máxima en el canal de entrada = "
+"|HL.SedInletChannelMax|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:39
+msgid ":math:`L` = el largo del canal de entrada = |L.SedChannel|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:40
+msgid ":math:`f` = el coeficiente de fricción para un canal rectangular*"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:41
+msgid ":math:`R_k` = el número de Reynolds para un canal rectangular*"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:43
+msgid ""
+"\\*Los valores de los coeficientes fluidos varían con las dimensiones del"
+" canal, entonces hay que calcular este ancho iterativamente actualizando "
+"los coeficientes hasta llegar a un valor constante de este ancho."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:48
+msgid "Segunda sección canal de entrada"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:49
+msgid ""
+"El propósito de esta segunda sección es botar agua en el caso de una "
+"falla de tratamiento, y mantener el nivel de agua en el floculador para "
+"que se pueda recuperar la floculación sin que agua sucia salga de los "
+"tanques de sedimentación. La altura del vertedero que separa las dos "
+"secciones está justa arriba del nivel máximo de agua en la primera "
+"sección según el caudal de diseño, para que no se llene con agua sucia "
+"durante la operación normal."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:54
+msgid "Canal de salida"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:56
+msgid ""
+"Los tubos recolectores entregan el agua limpia a la primera sección del "
+"canal de salida. Este canal tiene otro vertedero que mantiene el nivel de"
+" agua en los tanques. Ya que el agua no está fluyendo a lo largo de la "
+"primera parte del canal, así que no hay pérdida de carga, la única "
+"restricción con respeto al ancho es que se necesita poder colocar y "
+"quitar los tapones de los tubos recolectores. En el otro lado del "
+"vertedero, el ancho se base en:"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:58
+msgid "una pérdida de carga máxima"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:59
+msgid "un ancho mínimo para la facilidad de construcción"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:60
+msgid "el diámetro de la tubería que sale hacia los filtros"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:62
+msgid ""
+"Todos los accesorios de PVC en rojo son desmontables, incluso los niples "
+"que tapan las entradas de las cámaras, los tapones en las salidas de los "
+"tubos recolectores, el niple que tapa el desagüe del canal de entrada, y "
+"los tapones de los tubos de limpieza de la superficie de los tanques."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:70
+msgid "Canales de los tanques de sedimentación."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:74
+msgid "Datos de los canales de los tanques de sedimentación"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Longitud"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|L.SedChannel|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Ancho – Entrada, primera sección (la más pegada al pasillo)"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|W.SedInletChannelPreWeir|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Ancho – Entrada, segunda sección"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|W.SedInletChannelPostWeir|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Ancho – Entrada con las dos secciones y el vertedero"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|W.SedInletChannel|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Ancho – Salida, primera sección (la más pegada al tanque)"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|W.SedExitChannelPreWeir|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Ancho – Salida, segunda sección"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|W.SedExitChannelPostWeir|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Ancho – Salida con las dos secciones"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|W.SedExitChannel|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Altura total, medida de la losa a las paredes exteriores"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|H.SedInletChannel|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Altura del vertedero – canal de entrada"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|H.SedWeirInlet|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Altura del vertedero – canal de salida"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|H.SedWeirExit|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Profundidad máxima del agua durante la operación normal – canal de entrada"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|HW.SedInletChannel|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Profundidad máxima del agua – canal de salida"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|HW.SedExitChannel|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Incremento de la pendiente entre cada dos entrada – canal de entrada"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|H.SedIChanStep|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "Altura total de la pendiente, medida de la losa a la parte superior"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Tank_Canals.rst:1
+msgid "|H.SedIChanLastCoupling|"
+msgstr ""
+

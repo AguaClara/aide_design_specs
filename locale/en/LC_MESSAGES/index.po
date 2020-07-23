@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:51-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../index.rst:5
+msgid "Memoria Tecnica"
+msgstr "Technical Specifications"
+
+#: ../../index.rst:6
+msgid ""
+"Este documento está escrito y mantenido en `Github "
+"<https://github.com/AguaClara/aide_design_specs>`_ via `Sphinx "
+"<http://www.sphinx-doc.org/en/master/>`_. Utiliza y se refiere a código y funciones de AguaClara en `AguaClara "
+"<https://github.com/AguaClara/aguaclara>`_. A continuación se enumeran "
+"las versiones de los programas que utilizamos:"
+msgstr ""
+"This document is written and maintained in `GitHub "
+"<https://github.com/AguaClara/aide_design_specs>`_ via `Sphinx "
+"<http://www.sphinx-doc.org/en/master/>`_. It uses and refers to AguaClara code and functions in `AguaClara "
+"<https://github.com/AguaClara/aguaclara>`_. Listed below are "
+"the versions of the programs we use:"
+
+#: ../../index.rst:9
+msgid ""
+"Estas son las versiones de software utilizadas para compilar esta "
+"documentación."
+msgstr ""
+"These are the software versions used to compile this "
+"documentation."
+
+#: ../../index.rst:1
+msgid "Software"
+msgstr ""
+
+#: ../../index.rst:1
+msgid "version"
+msgstr ""
+
+#: ../../index.rst:1
+msgid "Sphinx"
+msgstr ""
+
+#: ../../index.rst:1
+msgid "1.7.5"
+msgstr ""
+
+#: ../../index.rst:1
+msgid "aguaclara"
+msgstr ""
+
+#: ../../index.rst:1
+msgid "0.1.8"
+msgstr ""
+
+#: ../../index.rst:1
+msgid "Anaconda"
+msgstr ""
+
+#: ../../index.rst:1
+msgid "4.5.4"
+msgstr ""
+
+#: ../../index.rst:1
+msgid "Python"
+msgstr ""
+
+#: ../../index.rst:1
+msgid "3.6.5"
+msgstr ""
+
+#: ../../index.rst:19
+msgid "Introducción a la Tecnología AguaClara"
+msgstr "Introduction to AguaClara Technology"
+
+#: ../../index.rst:28
+msgid "Materiales de Construcción"
+msgstr "Construction Materials"
+
+#: ../../index.rst:35
+msgid "Tanque de Entrada"
+msgstr "Entrance Tank"
+
+#: ../../index.rst:44
+msgid "Dosificación de Químicos"
+msgstr "Chemical Dosing"
+
+#: ../../index.rst:52
+msgid "Mezcla Rápida"
+msgstr "Rapid Mix"
+
+#: ../../index.rst:60
+msgid "Floculación"
+msgstr "Flocculation"
+
+#: ../../index.rst:70
+msgid "Sedimentación"
+msgstr "Sedimentation"
+
+#: ../../index.rst:84
+msgid "Filtración Rápida con Arena"
+msgstr "Rapid Sand Filtration"
+
+#: ../../index.rst:98
+msgid "Apéndice"
+msgstr "Appendix"
+
+#: ../../index.rst:106
+msgid ""
+"`Las versiones de PDF y LaTeX "
+"<https://github.com/AguaClara/aide_design_specs/releases/latest>`_ "
+"[#pdf_warning]_."
+msgstr ""
+"`PDF and LaTeX versions "
+"<https://github.com/AguaClara/aide_design_specs/releases/latest>`_ "
+"[#pdf_warning]_."
+
+#: ../../index.rst:109
+msgid "**Notas**"
+msgstr "**Notes**"
+
+#: ../../index.rst:110
+msgid ""
+"Las versiones de PDF y LaTeX pueden contener rarezas visuales porque se "
+"genera automáticamente. El sitio web es la forma recomendada de leer este"
+" documento. `Por favor visite nuestro GitHub "
+"<https://github.com/AguaClara/aide_design_specs>`_ para enviar un "
+"problema, contribuir o comentar."
+msgstr ""
+"PDF and LaTeX versions may contain visual oddities because "
+"it is generated automatically. The website is the recommended way to read this"
+" document. `Please visit our GitHub "
+"<https://github.com/AguaClara/aide_design_specs>`_ to submit an "
+"issue, contribute, or comment."

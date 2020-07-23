@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Sedimentation/Collect_Tube.rst:7
+msgid "Tubos Recolectores"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:13
+msgid ""
+"Arriba de las placas el agua sale por los agujeros de un tubo perforado "
+"que corre a lo largo del tanque, con la fila de orificios en la parte "
+"superior. Los orificios provocan una pérdida de carga suficiente para "
+"lograr una distribución de caudal uniforme, tanto a lo largo de cada "
+"tanque como entre los |N.SedTanks| tanques. La meta es que cada recorrido"
+" del agua, entre la entrada en el canal distribuidor hasta el canal de "
+"salida, tiene una pérdida de carga parecida a los demás. Esto garantiza "
+"que los caudales en cada recorrido se parezcan también. Los "
+"|HL.SedLaunderOrifice| de pérdida de carga que provocan los orificios del"
+" tubo recolector dominan la pérdida total, y así controlan la "
+"distribución de caudal. La pérdida de carga en los orificios tiene la "
+"ventaja adicional de crear un sobrenadante sobre el tubo recolector que "
+"impide que material flotante en la superficie salga del tanque por el "
+"tubo."
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:15
+msgid ""
+"El diámetro del tubo recolector se diseña como manifold para que el flujo"
+" en cada orificio sea igual a lo largo del tubo, que el radio del flujo "
+"mínimo al flujo máximo a través de los orificios no baje menos de "
+"|Pi.QLaunderOrifices|:"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:22
+msgid "Donde:"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:23
+msgid ""
+":math:`Q_{M \\acute{i} n}` = el caudal mínimo que pase por un orificio "
+"del tubo recolector"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:24
+msgid ""
+":math:`Q_{M \\acute{a} x}` = el caudal máximo que pase por un orificio "
+"del tubo recolector"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:25
+msgid ""
+":math:`{\\Pi}_Q` = el radio mínimo de caudal a través de los orificios "
+"del tubo recolector = |Pi.QLaunderOrifices|"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:27
+msgid ""
+"Los orificios en el tubo recolector se diseñan para provocar "
+"aproximadamente |HL.SedLaunderBod| de pérdida de carga, tomando en cuenta"
+" el largo del tubo, una separación entre los orificios de aproximadamente"
+" |B.SedLaunderOrificesEst| y los diámetros de las brocas comúnmente "
+"disponibles. Los pasos del diseño son:"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:29
+msgid "Calcular el largo útil del tubo, tomando en cuenta su entrada al tanque"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:30
+msgid ""
+"Estimar el número de orificios con una separación estimada de "
+"|B.SedLaunderOrificesEst|"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:31
+msgid "Estimar el caudal por orificio dado el número de orificios estimado"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:32
+msgid "Calcular el diámetro querido de los orificios dado el caudal estimado por:"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst
+msgid "Donde"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst
+msgid ":math:`Q_{Orificio}` = el caudal estimado por orificio"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst
+msgid ""
+":math:`{\\Pi}_{VC}` = el coeficiente de vena contracta para el orificio ="
+" |Pi.VCOrifice|"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst
+msgid ""
+":math:`{HL}_{Orificio}` = la pérdida de carga asignada por los orificios "
+"= |HL.SedLaunderBod|"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:46
+msgid ""
+"Definir el diámetro final de los orificios según las brocas comúnmente "
+"disponibles"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:47
+msgid "Calcular el caudal real por orificio según el diámetro final"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:48
+msgid ""
+"Calcular la separación y el número final de los orificios según el caudal"
+" real por orificio"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:52
+msgid "Datos de los tubos recolectores de los tanques de sedimentación"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "Diámetro nominal del tubo"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "|ND.SedLaunder| |PS.SedLaunderStr|"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "Longitud de cada tubo recolector"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "|L.SedLaunder|"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "Número de agujeros en cada tubo recolector"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "|N.SedLaunderOrifices|"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "Separación entre agujeros"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "|B.SedLaunderOrifice|"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "Diámetro de los agujeros"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "|D.SedLaunderOrifice|"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "Pérdida de carga por los agujeros"
+msgstr ""
+
+#: ../../Sedimentation/Collect_Tube.rst:1
+msgid "|HL.SedLaunderOrifice|"
+msgstr ""
+
