@@ -76,7 +76,7 @@ El punto donde la manguera que conduce el químico a la balanza está montada en
 .. _figure_final_height:
 
 .. figure:: Images/final_height.png
-    :width: 1000px
+    :width: 500px
     :align: center
 
     La altura final del recorrido del químico puede cambiar porque 1) cambia el caudal de agua en la planta o 2) se manipula la posición del deslizador para cambiar la dosis.

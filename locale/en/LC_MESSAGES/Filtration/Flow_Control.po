@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Filtration/Flow_Control.rst:7
+msgid "Vertederos de Control de Caudal"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:9
+msgid ""
+"Durante el retrolavado del filtro, para fluidizar el lecho de arena "
+"entero y purgar el sedimento acumulado completamente, se necesita un "
+"caudal cerca del caudal de diseño. Un problema ocurre cuando se está "
+"operando la planta con un caudal menor, y por lo tanto cada filtro recibe"
+" solo una parte del caudal de diseño de |Q.Fi| cuando el agua se "
+"distribuye equitativamente. En las plantas que tienen más de un filtro, "
+"entre el canal de entrada y las cajas de entrada se puede instalar un "
+"sistema de vertederos que sirve para dirigir el caudal necesario al "
+"filtro que se está retrolavando (:numref:`figure_iso_enter_filter`)."
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:17
+msgid "Vista isométrica de los vertederos de entrada al filtro."
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:19
+msgid ""
+"Para iniciar el proceso de retrolavado se quita el vertedero desmontable "
+"sobre el cual se cae el agua del canal de entrada a la caja de entrada. "
+"La ranura detrás del vertedero hace que el nivel de agua en el canal de "
+"entrada suba al nivel de los vertederos de entrada de los otros filtros "
+"cuando está pasando el caudal deseado de |Q.Fi|. Si el caudal en la "
+"planta es mayor que |Q.Fi|, el nivel en el canal de entrada sube aún más "
+"y los otros filtros reciben la mayoría del caudal adicional. De esta "
+"manera el filtro que se está retrolavado recibe un caudal muy cerca del "
+"caudal de diseño independiente del caudal en la planta."
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:27
+msgid "Vista lateral de los vertederos de entrada al filtro."
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:29
+msgid ""
+"Las dimensiones de la ranura de control de caudal se calculan para que, "
+"cuando se saca la compuerta desmontable para retrolavar ese filtro, el "
+"caudal entrando no sobrepase de |Pi.QFiBw| veces más que el caudal de "
+"diseño del filtro de |Q.Fi|. La altura es dado por:"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:36 ../../Filtration/Flow_Control.rst:50
+#: ../../Filtration/Flow_Control.rst:60
+msgid "Donde"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:37
+msgid ":math:`Q_{Planta}` = el caudal de la planta = |Q.Plant|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:38
+msgid ""
+":math:`\\Pi _Q` = el radio del caudal máximo admisible de retrolavado "
+"sobre el caudal del filtro = |Pi.QFiBw|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:39
+msgid ":math:`Q _{Fi}` = el caudal del filtro = |Q.Fi|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:40
+msgid ""
+":math:`\\Pi _{VC}` = el coeficiente de vena contracta para un orificio = "
+"|Pi.VCOrifice|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:41
+msgid ""
+":math:`W _{Dem \\acute as}` = el ancho colectivo de los demás vertederos "
+"de entrada de los demás filtros"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:43
+msgid "Con la altura, se puede calcular el ancho:"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:51
+msgid ":math:`H_{Ranura}` = la altura de la ranura = |HL.FiBwFlowControlSlot|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:53
+msgid ""
+"Al fondo de la ranura se colocan algunos tapones incrementales para "
+"calibrar y controlar finamente el caudal que entrará al filtro durante el"
+" retrolavado. La altura de estos tapones se define para poder ajustar el "
+"caudal de entrada en incrementos de aproximadamente 10% (redondeada al "
+"centímetro):"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:61
+msgid ":math:`H_C` = la altura de la compuerta = |H.FiStopGate|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:62
+msgid ""
+":math:`{HL}_C` = la pérdida de carga permitida por la compuerta (modelada"
+" como orificio) = |HL.FiOpenWeirMax|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:66
+msgid "Datos del sistema de vertederos de entrada del FRAMCA"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "Altura de la compuerta en el primer vertedero"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "|H.FiStopGate|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "Ancho de la compuerta en el primer vertedero"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "|W.FiStopGate|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid ""
+"Radio del caudal máximo (que entra cuando la planta está tratando el "
+"caudal máximo de diseño) al caudal deseado de retrolavado de |Q.Fi|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "|Pi.QFiBw|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "Ancho de la ranura en el segundo vertedero"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "|W.FiBwFlowControl|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "Altura total de la ranura en el segundo vertedero"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "|H.FiFlowControlSlotTotal|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "Altura de cada tapón incremental de la ranura"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "|H.FiSlotStopper|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "Número de tapones incrementales de la ranura"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "|N.FiSlotStopper|"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "Caudal adicional estimado que corresponde a cada tapón incremental"
+msgstr ""
+
+#: ../../Filtration/Flow_Control.rst:1
+msgid "|Q.FiSlotStopperIncrement|"
+msgstr ""
+

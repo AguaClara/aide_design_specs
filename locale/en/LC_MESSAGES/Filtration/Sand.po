@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Filtration/Sand.rst:7
+msgid "Arena"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:9
+msgid ""
+"Los filtros rápidos de arena utilizan un tipo especifico de arena, y aún "
+"más el FRAMCA. A través de la vida del filtro, la arena tiene la "
+"tendencia de estratificarse, con los granos mayores cayendo por el fondo "
+"del filtro y los granos mayores subiendo por la parte superior. En el "
+"FRAMCA, ya que es un filtro en múltiples capas o un filtro apilado, es "
+"crítico que la arena en cada capa sea igual – que no haya estratificación"
+" de ella y por consiguiente que la arena en todo el filtro sea bien "
+"uniforme. El diámetro de la arena se caracteriza por el **diámetro "
+"efectivo** y la uniformidad por el **coeficiente de uniformidad**, los "
+"dos definidos abajo."
+msgstr ""
+
+#: ../../Filtration/Sand.rst:13
+msgid "Datos de la arena del FRAMCA"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "Parámetro"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "Valor"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "Descripción"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "Diámetro efectivo (D:sub:`10`)"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "|D.FiSandES|"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+#, python-format
+msgid ""
+"El tamaño de la malla que sólo 10% de la masa de una muestra pasa cuando "
+"se tamiza. Mayor diámetro haría más difícil la fluidización de la arena "
+"(necesitaría más velocidad). Menor diámetro significa más pérdida de "
+"carga y posibles fugas de arena."
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "Coeficiente de uniformidad (D:sub:`60`/D:sub:`10`)"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "< |Pi.UCFiSand|"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid ""
+"La medida de la uniformidad en el tamaño de los granos de la arena. Más "
+"alto significa que los granos de arena son menos uniformes (más "
+"variación)."
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "Porosidad"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "|ε.FiSand|"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid ""
+"El volumen de espacio vacío que queda entre los granos de areno sobre el "
+"volumen total."
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "Peso específico"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "> 2.5"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid ""
+"La densidad de la arena entre la densidad de agua (la arena debe pesar "
+"por lo menos 2.5 veces lo que pesa el mismo volumen de agua)."
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "Dureza"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "6-8"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid ""
+"La resistencia de la arena al abuso físico. La arena debe tener cierta "
+"dureza para que no se degrade después de muchos ciclos de retrolavado."
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "Solubilidad en ácido"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid "< 5%"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:1
+msgid ""
+"No debe tener mucho material soluble que se va a disolver en el agua "
+"durante tiempo."
+msgstr ""
+
+#: ../../Filtration/Sand.rst:24
+msgid ""
+"Las propiedades de la arena afectan el comportamiento del filtro, tanto "
+"durante la filtración normal como en el retrolavado. En la filtración "
+"normal, la pérdida de carga a través de una capa *limpia* de arena es "
+"dada por:"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:31 ../../Filtration/Sand.rst:46
+#: ../../Filtration/Sand.rst:57
+msgid "Donde"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:32
+msgid ":math:`k` = el constante de Carman-Kozeny = |k.Kozeny|"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:33
+msgid ""
+":math:`\\varepsilon_{Arena}` = la porosidad del lecho de arena = "
+"|ε.FiSand|"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:34
+msgid ":math:`\\nu` = la viscosidad cinemática del agua = |Nu.Water|"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:35
+msgid ":math:`V_{Fi}` = la velocidad de aproximación en filtración = |V.FiLayer|"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:36
+#, python-format
+msgid ""
+":math:`D_{60}` = el tamaño de tamiz por cual pasa 60% de la arena = "
+"|D.FiSand60|"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:37
+msgid ":math:`H_{Capa}` = la altura de la capa de arena"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:39
+msgid ""
+"El inicio del retrolavado necesita una cierta velocidad mínima de "
+"aproximación para fluidizar la arena:"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:47
+msgid ":math:`\\rho_{Arena}` = la densidad de la arena = |Rho.FiSand|"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:48
+msgid ":math:`\\rho_{H_2O}` = la densidad del agua = |Rho.H2O|"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:50
+msgid ""
+"Una vez iniciado el retrolavado, la pérdida de carga a través de todo el "
+"lecho de arena fluidizado es:"
+msgstr ""
+
+#: ../../Filtration/Sand.rst:58
+msgid ":math:`H_{Arena}` = la altura total del lecho de arena (*no expandido*)"
+msgstr ""
+

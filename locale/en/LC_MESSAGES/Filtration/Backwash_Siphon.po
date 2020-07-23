@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Filtration/Backwash_Siphon.rst:7
+msgid "Sifón del Retrolavado"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:9
+msgid ""
+"Se controla el ciclo de retrolavado del FRAMCA utilizando un sifón que "
+"cambia el nivel de la salida del filtro, según el dibujo abajo. Cuando el"
+" sifón está activo, el agua pasa por él al desagüe en el canal de "
+"limpieza de la planta, a una altura mucho más baja que las cajas de "
+"entrada y salida. Este cambio de nivel es necesario con la gran pérdida "
+"de carga durante el ciclo de retrolavado. Por otro lado, cuando el sifón "
+"está roto el aire impide el flujo de agua, y por fuerza el agua tiene que"
+" salir en la caja de salida a una altura mucho más alta que corresponde a"
+" la pérdida de carga menor durante el ciclo de filtración. La ventaja del"
+" sifón es que se evita el uso de una válvula grande que se necesitaría "
+"para cambiar entre las dos salidas de otra forma."
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:17
+msgid "El FRAMCA de AguaClara en el ciclo de retrolavado."
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:19
+msgid ""
+"El diámetro de la tubería del sifón se define para que las pérdidas de "
+"carga a través de ella no superen de :math:`HL_{M \\acute a x}` = "
+"|HL.FiSiphonMax|. Estas pérdidas de carga incluyen:"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:26
+#: ../../Filtration/Backwash_Siphon.rst:39
+#: ../../Filtration/Backwash_Siphon.rst:52
+msgid "Donde"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:27
+msgid ""
+":math:`HL_{Entrada}` = la pérdida de carga por la entrada del flujo en "
+"los orificios del sifón"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:28
+msgid ""
+":math:`HL_{Tuber \\acute i a}` = la pérdida de carga por la tubería y los"
+" accesorios en el corrido del sifón"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:29
+msgid ""
+":math:`{HL}_{Salida}`` = la pérdida de carga por la salida del sifón en "
+"el canal de limpieza"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:30
+msgid ""
+":math:`HL_{M\\acute a x}` = la pérdida de carga máxima permisible por "
+"todo el sifón = |HL.FiSiphonMax|"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:32
+msgid ""
+"Durante el retrolavado, el flujo entra en el sifón por unos orificios "
+"cuya área colectiva es aproximadamente igual al área transversal de la "
+"tubería."
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:40
+msgid ""
+":math:`CeilNearest\\left(x,M\\right)` = una función para el valor en la "
+"matriz :math:`M` más cercana y mayor que el objetivo :math:`x`"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:41
+#: ../../Filtration/Backwash_Siphon.rst:55
+msgid ":math:`ID_{Sif \\acute on}` = el diámetro interior de la tubería del sifón"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:42
+msgid ""
+":math:`N_{Orificios}` = el número de orificios de salida, definido según "
+"el espacio disponible = |N.FiSiphonManOrifices|"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:43
+msgid ""
+":math:`D_{Broca}` = la matriz de los diámetros de las brocas comúnmente "
+"disponibles"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:45
+msgid ""
+"La salida del sifón en el canal de limpieza es la boca del tubo, la cual "
+"se aproxima como vertedero. La pérdida de carga por la salida entonces "
+"es:"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:53
+msgid ":math:`Q` = el caudal del retrolavado, igual al caudal por filtro = |Q.Fi|"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:54
+msgid ""
+":math:`\\Pi _{VC}` = el coeficiente de vena contracta para un orificio = "
+"|Pi.VCOrifice|"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:59
+msgid "Datos del sifón"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:1
+msgid "Tubo principal"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:1
+msgid "|ND.FiSiphon| |PS.FiSiphonStr|"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:1
+msgid "Diámetro de la válvula de aire"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:1
+msgid "|ND.FiSiphonAirValve|"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:1
+msgid "Número de agujeros en el manifold de salida"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:1
+msgid "|N.FiSiphonManOrifices|"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:1
+msgid "Separación entre agujeros del manifold (centro a centro)"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:1
+msgid "|B.FiSiphonManOrifices|"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:1
+msgid "Diámetro de los agujeros del manifold"
+msgstr ""
+
+#: ../../Filtration/Backwash_Siphon.rst:1
+msgid "|D.FiSiphonManOrifices|"
+msgstr ""
+
