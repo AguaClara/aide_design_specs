@@ -4,247 +4,248 @@
 # Specifications package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 15:41-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-22 18:32-0500\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:7
 msgid "Datos del Diseño"
-msgstr ""
+msgstr "Design Data"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:11
 msgid "Datos del dosificador de coagulante"
-msgstr ""
+msgstr "Coagulant dispenser data"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Tipo de coagulante"
-msgstr ""
+msgstr "Type of coagulant"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Policloruro de aluminio (PAC)"
-msgstr ""
+msgstr "Aluminium Polychloride (PAC)"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Dosis máxima"
-msgstr ""
+msgstr "Maximum dose"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|C.CoagDoseMax|"
-msgstr ""
+msgstr "|C.CoagDoseMax|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Volumen de cada contenedor de almacenamiento"
-msgstr ""
+msgstr "Volume of each storage container"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|Vol.CoagStock|"
-msgstr ""
+msgstr "|Vol.CoagStock|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Concentración madre"
-msgstr ""
+msgstr "Mother's Concentration"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|C.CoagStock|"
-msgstr ""
+msgstr "|C.CoagStock|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid ""
-"Número de sacos de coagulante de |M.CoagSack| para mezclar la solución "
-"madre"
+"Número de sacos de coagulante de |M.CoagSack| para mezclar la solución madre"
 msgstr ""
+"Number of coagulant sacks of |M.CoagSack| for mixing the mother solution"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|N.CoagSacks|"
-msgstr ""
+msgstr "|N.CoagSacks|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Diámetro interno de las mangueras de diámetro pequeño"
-msgstr ""
+msgstr "Internal diameter of small diameter hoses"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|ID.CoagTube|"
-msgstr ""
+msgstr "|ID.CoagTube|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Número de mangueras activas en paralelo"
-msgstr ""
+msgstr "Number of parallel active hoses"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|N.CoagTubesActive|"
-msgstr ""
+msgstr "|N.CoagTubesActive|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Número total de mangueras en paralelo"
-msgstr ""
+msgstr "Total number of hoses in parallel"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|N.CoagTubes|"
-msgstr ""
+msgstr "|N.CoagTubes|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Longitud de las mangueras"
-msgstr ""
+msgstr "Hose length"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|L.CoagTube|"
-msgstr ""
+msgstr "|L.CoagTube|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Pérdida de carga máxima del dosificador"
-msgstr ""
+msgstr "Maximum pressure drop of the dosing device"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|HL.Cdc|"
-msgstr ""
+msgstr "|HL.Cdc|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Caudal máximo del químico"
-msgstr ""
+msgstr "Maximum flow rate of the chemical"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|Q.CoagMax|"
-msgstr ""
+msgstr "|Q.CoagMax|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Diámetro nominal de la columna de medición de caudal"
-msgstr ""
+msgstr "Nominal diameter of the flow measurement column"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|ND.CoagColumn|"
-msgstr ""
+msgstr "|ND.CoagColumn|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Diámetro interno de la columna de medición de caudal"
-msgstr ""
+msgstr "Internal diameter of the flow measurement column"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|ID.CoagColumn|"
-msgstr ""
+msgstr "|ID.CoagColumn|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Altura de la escala de la columna de medición de caudal"
-msgstr ""
+msgstr "Scale height of the flow measurement column"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|H.CoagColumnScale|"
-msgstr ""
+msgstr "|H.CoagColumnScale|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Tiempo mínimo de una prueba de la columna de calibración"
-msgstr ""
+msgstr "Minimum time for a test of the calibration column"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|Ti.CoagColumnMin|"
-msgstr ""
+msgstr "|Ti.CoagColumnMin|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Diámetro del orificio en la válvula flotadora"
-msgstr ""
+msgstr "Float valve orifice diameter"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|D.CoagFloatValveOrifice|"
-msgstr ""
+msgstr "|D.CoagFloatValveOrifice|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid ""
-"Pérdida de carga en el orificio de la válvula flotadora con el caudal "
-"máximo de coagulante"
-msgstr ""
+"Pérdida de carga en el orificio de la válvula flotadora con el caudal máximo "
+"de coagulante"
+msgstr "Pressure drop at float valve orifice at maximum coagulant flow"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|HL.CoagFloatValveOrifice|"
-msgstr ""
+msgstr "|HL.CoagFloatValveOrifice"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:34
 msgid "Datos del dosificador de cloro"
-msgstr ""
+msgstr "Chlorine dispenser data"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Tipo de cloro"
-msgstr ""
+msgstr "Chlorine type"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Hipoclorito de calcio"
-msgstr ""
+msgstr "Calcium Hypochlorite"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|C.ChlorDoseMax|"
-msgstr ""
+msgstr "|C.ChlorDoseMax|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|Vol.ChlorStock|"
-msgstr ""
+msgstr "|Vol.ChlorStock|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|C.ChlorStock|"
-msgstr ""
+msgstr "|C.ChlorStock|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Masa de hipoclorito de calcio para mezclar la solución madre"
-msgstr ""
+msgstr "Mass of calcium hypochlorite for mixing the stock solution"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|M.ChlorStock|"
-msgstr ""
+msgstr "|M.ChlorStock|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|ID.ChlorTube|"
-msgstr ""
+msgstr "|ID.ChlorTube|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|N.ChlorTubesActive|"
-msgstr ""
+msgstr "|N.ChlorTubesActive|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|N.ChlorTubes|"
-msgstr ""
+msgstr "|N.ChlorTubes|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|L.ChlorTube|"
-msgstr ""
+msgstr "|L.ChlorTube|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|Q.ChlorMax|"
-msgstr ""
+msgstr "|Q.ChlorMax|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|ND.ChlorColumn|"
-msgstr ""
+msgstr "|ND.ChlorColumn|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|ID.ChlorColumn|"
-msgstr ""
+msgstr "|ID.ChlorColumn|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|H.ChlorColumnScale|"
-msgstr ""
+msgstr "|H.ChlorColumnScale|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|Ti.ChlorColumnMin|"
-msgstr ""
+msgstr "|Ti.ChlorColumnMin|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|D.ChlorFloatValveOrifice|"
-msgstr ""
+msgstr "|D.ChlorFloatValveOrifice|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid ""
-"Pérdida de cargo en el orificio de la válvula flotadora con el caudal "
-"máximo de cloro"
-msgstr ""
+"Pérdida de cargo en el orificio de la válvula flotadora con el caudal máximo "
+"de cloro"
+msgstr "Loss of charge at the float valve orifice at maximum chlorine flow"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|HL.ChlorFloatValveOrifice|"
-msgstr ""
-
+msgstr "|HL.ChlorFloatValveOrifice"

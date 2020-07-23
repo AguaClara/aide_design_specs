@@ -4,328 +4,346 @@
 # Specifications package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 15:41-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-22 18:12-0500\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 
 #: ../../Appendix/General_Design_Data.rst:7
 msgid "Datos Generales del Diseño"
-msgstr ""
+msgstr "General Design Data"
 
 #: ../../Appendix/General_Design_Data.rst:11
 msgid "Datos generales del diseño"
-msgstr ""
+msgstr "General design data"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Caudal máximo de diseño"
-msgstr ""
+msgstr "Maximum design flow rate"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|Q.Plant|"
-msgstr ""
+msgstr "|Q.Plant|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Procesos de tratamiento"
-msgstr ""
+msgstr "Treatment processes"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid ""
 "Coagulación con policloruro de aluminio, mezcla rápida, floculación "
-"hidráulica vertical, sedimentación ascendente con placas y manto de "
-"lodos, filtración rápida de arena, desinfección con hipoclorito de calcio"
+"hidráulica vertical, sedimentación ascendente con placas y manto de lodos, "
+"filtración rápida de arena, desinfección con hipoclorito de calcio"
 msgstr ""
+"Coagulation with aluminium polychloride, rapid mixing, vertical hydraulic "
+"flocculation, upward sedimentation with plates and sludge blanket, rapid "
+"sand filtration, disinfection with calcium hypochlorite"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Pérdida de carga hidráulica aproximada total"
-msgstr ""
+msgstr "Approximate total hydraulic pressure loss"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|HL.PlantTotal|"
-msgstr ""
+msgstr "|HL.PlantTotal|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Diseño del dosificador de coagulante"
-msgstr ""
+msgstr "Coagulant dispenser design"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid ""
-"Dosis máxima: |C.CoagDoseMax|, Pérdida de carga hidráulica: |HL.Cdc|, "
-"Número de mangueras de diámetro pequeño: |N.CoagTubes| (se usan "
-"|N.CoagTubesActive| a la vez), Diámetro interno de las mangueras: "
-"|ID.CoagTube|, Longitud de las mangueras: |L.CoagTube|, Concentración "
-"madre: |C.CoagStock|"
+"Dosis máxima: |C.CoagDoseMax|, Pérdida de carga hidráulica: |HL.Cdc|, Número "
+"de mangueras de diámetro pequeño: |N.CoagTubes| (se usan |N.CoagTubesActive| "
+"a la vez), Diámetro interno de las mangueras: |ID.CoagTube|, Longitud de las "
+"mangueras: |L.CoagTube|, Concentración madre: |C.CoagStock|"
 msgstr ""
+"Maximum Dose: |C.CoagDoseMax|, Hydraulic Pressure Drop: |HL.Cdc|, Number of "
+"Small Diameter Hoses: |N.CoagTubes| (|N.CoagTubesActive| are used at the "
+"same time), Internal Diameter of Hoses: |ID.CoagTube|, Length of Hoses: |L."
+"CoagTube|, Concentration Mother: |C.CoagStock|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Dimensionamiento del dosificador de cloro"
-msgstr ""
+msgstr "Sizing of the chlorine dispenser"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid ""
 "Dosis máxima: |C.ChlorDoseMax|, Pérdida de carga hidráulica: |HL.Cdc|, "
-"Número de mangueras de diámetro pequeño: |N.ChlorTubes| (se usan "
-"|N.ChlorTubesActive| a la vez), Diámetro interno de las mangueras: "
-"|ID.ChlorTube|, Longitud de las mangueras: |L.ChlorTube|, Concentración "
-"madre: |C.ChlorStock|"
+"Número de mangueras de diámetro pequeño: |N.ChlorTubes| (se usan |N."
+"ChlorTubesActive| a la vez), Diámetro interno de las mangueras: |ID."
+"ChlorTube|, Longitud de las mangueras: |L.ChlorTube|, Concentración madre: |"
+"C.ChlorStock|"
 msgstr ""
+"Maximum Dose: |C.ChlorDoseMax|, Hydraulic Pressure Drop: |HL.Cdc|, Number of "
+"Small Diameter Hoses: |N.ChlorTubes| (used |N.ChlorTubesActive| at a time), "
+"Internal Diameter of Hoses: |ID.ChlorTube|, Length of Hoses: |L.ChlorTube|, "
+"Concentration Mother: |C.ChlorStock|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Tipo de mezcla rápida"
-msgstr ""
+msgstr "Quick mixing type"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Orificio de |D.RMOrifice| en la entrada al floculador"
-msgstr ""
+msgstr "Orifice of |D.RMOrifice| at flocculator inlet"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Número de canales en el tanque de floculación"
-msgstr ""
+msgstr "Number of channels in the flocculation tank"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|N.FlocChannels|"
-msgstr ""
+msgstr "|N.FlocChannels|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Dimensiones de cada canal de floculación"
-msgstr ""
+msgstr "Dimensions of each flocculation channel"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|W.FlocChannel| de ancho, |L.Floc| de largo, |H.Floc| de profundidad"
-msgstr ""
+msgstr "|W.FlocChannel| in width, |L.Floc| in length, |H.Floc| in depth"
 
 #: ../../Appendix/General_Design_Data.rst:1
-msgid "Tiempo de retención del tanque de floculación al caudal máximo de diseño"
-msgstr ""
+msgid ""
+"Tiempo de retención del tanque de floculación al caudal máximo de diseño"
+msgstr "Flocculation tank retention time at maximum design flow"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|Ti.Floc|"
-msgstr ""
+msgstr "|Ti.Floc|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Tasa máxima de disipación de energía"
-msgstr ""
+msgstr "Maximum energy dissipation rate"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|ED.FlocMax|"
-msgstr ""
+msgstr "|ED.FlocMax|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Potencial de colisiones en el floculador"
-msgstr ""
+msgstr "Collision potential in the flocculator"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|CP.Floc|"
-msgstr ""
+msgstr "|CP.Floc|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Pérdida de carga total el floculador"
-msgstr ""
+msgstr "Total flocculator pressure loss"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|HL.Floc|"
-msgstr ""
+msgstr "|HL.Floc|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Número total de deflectores en el floculador"
-msgstr ""
+msgstr "Total number of baffles in the flocculator"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|N.FlocBaffles|"
-msgstr ""
+msgstr "|N.FlocBaffles|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Material de los deflectores de floculación"
-msgstr ""
+msgstr "Material of the flocculation baffles"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Láminas de policarbonato"
-msgstr ""
+msgstr "Polycarbonate sheets"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Dimensiones del canal distribuidor de los tanques de sedimentación"
-msgstr ""
+msgstr "Dimensions of the distribution channel of the sedimentation tanks"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid ""
-"|L.SedChannel| de largo, |W.SedInletChannel| de ancho, "
-"|H.SedInletChannel| de profundidad"
+"|L.SedChannel| de largo, |W.SedInletChannel| de ancho, |H.SedInletChannel| "
+"de profundidad"
 msgstr ""
+"|L.SedChannel| in length, |W.SedInletChannel| in width, |H.SedInletChannel| "
+"in depth"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Dimensiones del canal de salida de los tanques de sedimentación"
-msgstr ""
+msgstr "Dimensions of the outlet channel of the sedimentation tanks"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid ""
-"|L.SedChannel| de largo, |W.SedExitChannel| de ancho, |H.SedExitChannel| "
-"de profundidad"
+"|L.SedChannel| de largo, |W.SedExitChannel| de ancho, |H.SedExitChannel| de "
+"profundidad"
 msgstr ""
+"|L.SedChannel| in length, |W.SedInletChannel| in width, |H.SedInletChannel| "
+"in depth"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Número de tanques de sedimentación"
-msgstr ""
+msgstr "Number of sedimentation tanks"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|N.SedTanks|"
-msgstr ""
+msgstr "|N.SedTanks|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Dimensiones de cada tanque de sedimentación"
-msgstr ""
+msgstr "Dimensions of each sedimentation tank"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|W.Sed| de ancho, |L.Sed| de largo, |H.Sed| de profundidad"
-msgstr ""
+msgstr "|W.Sed| in width, |L.Sed| in length, |H.Sed| in depth"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid ""
-"Tiempo de detención hidráulico aproximado de los tanques de sedimentación"
-" al caudal máximo de diseño"
+"Tiempo de detención hidráulico aproximado de los tanques de sedimentación al "
+"caudal máximo de diseño"
 msgstr ""
+"Approximate hydraulic stop time of sedimentation tanks at maximum design flow"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|Ti.Sed|"
-msgstr ""
+msgstr "|Ti.Sed|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Número total de placas de sedimentación"
-msgstr ""
+msgstr "Total number of sedimentation plates"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|N.SedPlatesTotal|"
-msgstr ""
+msgstr "|N.SedPlatesTotal|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Angulo de láminas de sedimentación con respeto al horizontal"
-msgstr ""
+msgstr "Angle of sedimentation plates with respect to the horizontal"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|AN.SedPlate|"
-msgstr ""
+msgstr "|AN.SedPlate|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Longitud de láminas de sedimentación"
-msgstr ""
+msgstr "Length of sedimentation plates"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|L.SedPlate|"
-msgstr ""
+msgstr "|L.SedPlate|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Separación perpendicular entre placas de sedimentación"
-msgstr ""
+msgstr "Perpendicular separation between sedimentation plates"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|S.SedPlate|"
-msgstr ""
+msgstr "|S.SedPlate|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid ""
 "Velocidad ascendente en los tanques de sedimentación al caudal máximo de "
 "diseño"
-msgstr ""
+msgstr "Upward velocity in sedimentation tanks at maximum design flow"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|V.SedUp|"
-msgstr ""
+msgstr "|V.SedUp|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Velocidad de captura de las placas en los tanques de sedimentación"
-msgstr ""
+msgstr "Capture rate of the plates in the sedimentation tanks"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|V.SedCBod|"
-msgstr ""
+msgstr "|V.SedCBod|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Numero de filtros rápidos de arena en múltiples capas"
-msgstr ""
+msgstr "Number of multilayer quick sand filters"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|N.Fi|"
-msgstr ""
+msgstr "|N.Fi|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Numero de capas de arena en cada filtro"
-msgstr ""
+msgstr "Number of sand layers in each filter"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|N.FiLayer|"
-msgstr ""
+msgstr "|N.FiLayer|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Profundidad de cada capa del lecho filtrante"
-msgstr ""
+msgstr "Depth of each filter bed layer"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid ""
 "|H.FiLayer| (las cinco capas superiores), |H.FiBottomLayer| (la capa "
 "inferior)"
 msgstr ""
+"|H.FiLayer| (the five upper layers), |H.FiBottomLayer| (the lower layer)"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Profundidad total del lecho filtrante"
-msgstr ""
+msgstr "Total depth of the filter bed"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|H.FiSand|"
-msgstr ""
+msgstr "|H.FiSand|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Material filtrante"
-msgstr ""
+msgstr "Filter material"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Arena de sílice"
-msgstr ""
+msgstr "Silica sand"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Tasa de filtración con el caudal máximo de diseño"
-msgstr ""
+msgstr "Filtration rate at maximum design flow"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|V.FiLayer|"
-msgstr ""
+msgstr "|V.FiLayer|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Tasa de retrolavado con el caudal máximo de diseño"
-msgstr ""
+msgstr "Backwash rate at maximum design flow"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|V.FiBw|"
-msgstr ""
+msgstr "|V.FiBw|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Profundidad de la caja de filtración"
-msgstr ""
+msgstr "Filter box depth"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|H.Fi|"
-msgstr ""
+msgstr "|H.Fi|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Largo de una caja de filtración"
-msgstr ""
+msgstr "Length of a filter box"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|L.Fi|"
-msgstr ""
+msgstr "|L.Fi|"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Ancho de una caja de filtración"
-msgstr ""
+msgstr "Width of a filter box"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "|W.Fi|"
-msgstr ""
-
+msgstr "|W.Fi|"
