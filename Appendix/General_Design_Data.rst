@@ -8,7 +8,7 @@ Datos Generales del Diseño
 
 .. _table_appendix:
 
-.. csv-table:: Datos generales del diseño
+.. csv-table:: Datos del diseño
     :align: center
 
     Caudal máximo de diseño, |Q.Plant|
