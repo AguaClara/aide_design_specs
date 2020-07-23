@@ -25,8 +25,8 @@ msgid "Datos Generales del Diseño"
 msgstr "General Design Data"
 
 #: ../../Appendix/General_Design_Data.rst:11
-msgid "Datos generales del diseño"
-msgstr "General design data"
+msgid "Datos del diseño"
+msgstr "Design data"
 
 #: ../../Appendix/General_Design_Data.rst:1
 msgid "Caudal máximo de diseño"
