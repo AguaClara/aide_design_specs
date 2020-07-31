@@ -301,6 +301,7 @@ def parse_variables_from_map(unparsed):
     is_map = False
     for to_parse in unparsed:
         if is_fs_type(to_parse, "BTFSValueMapEntry"):
+            print(to_parse)
             is_map = True
             key = to_parse["message"]["key"]["message"]["value"]
             candidate_message = to_parse["message"]["value"]
@@ -322,9 +323,13 @@ def parse_variables_from_map(unparsed):
 
 def get_parsed_measurements(link):
     script = r"""
-        function(context, queries) {
-                return getAllVariables(context);
-            }
+        function (context is Context, queries is map)
+        {
+            return getAttributes(context, {
+                "entities" : qEverything(),
+                "attributePattern" : { 'type' : 'Documenter' }
+            });
+        }
         """
 
     client = Client(
@@ -335,7 +340,7 @@ def get_parsed_measurements(link):
         }
     )
 
-    #will probably need to turn this into a loop if there are more parts together but need to handle duplicate variables
+    # will probably need to turn this into a loop if there are more parts together but need to handle duplicate variables
     element = OnshapeElement(link)
     # element = OnshapeElement("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/w/de9ad5474448b34f33fef097/e/d75b2f7a41dde39791b154e8")
 
@@ -348,27 +353,46 @@ def get_parsed_measurements(link):
         bt_feature_script_eval_call_2377=script_call,
         _preload_content=False,
     )
-    measurements = json.loads(response.data.decode("utf-8"))["result"]["message"]["value"]
 
-    return parse_variables_from_map(measurements)
+    documenters = json.loads(response.data.decode("utf-8"))["result"]["message"]["value"]
+    measurements = {}
 
-def makeReplaceFile(parsed_dict, file, var_attachment=''):
+    for doc in documenters:
+        if is_fs_type(doc, "BTFSValueMap"):
+            for doc2 in doc["message"]["value"]:
+                if doc2["message"]["key"]["message"]["value"] == "documenter":
+                    doc3 = doc2["message"]["value"]["message"]["value"][0]["message"]["value"]
+                    unparsed = doc3["message"]["value"][0]["message"]["value"]
+                    for unp in unparsed:
+                        if is_fs_type(unp, "BTFSValueMapEntry"):
+                            if unp["message"]["key"]["message"]["value"] == "variables":
+                                measurements = parse_variables_from_map(unp["message"]["value"]["message"]["value"])
 
+    return measurements
+
+# from https://stackoverflow.com/questions/5914627/prepend-line-to-beginning-of-a-file
+def line_prepender(filename, line):
+    with open(filename, 'r+') as f:
+        content = f.read()
+        f.seek(0, 0)
+        f.write(line.rstrip('\r\n') + '\n' + content)
+
+def make_replace_file(parsed_dict, filename, var_attachment=''):
     prefix = '.. |'
     suffix = '| replace:: '
 
     for var in parsed_dict:
-
         if type(parsed_dict[var]) == dict:
-            makeReplaceFile(parsed_dict[var], file, var_attachment + var + "_")
+            make_replace_file(parsed_dict[var], filename, var_attachment + var + "_")
         else:
-            line = prefix + var_attachment + str(var) + suffix + str(parsed_dict[var]) + '\n'
-            file.write(line)
-
+            line = prefix + var_attachment + str(var) + suffix + str(parsed_dict[var])
+            line_prepender(filename, line)
 
 # Here's a function to define custom styles to be used with the roles:
 def setup(app):
-    parsed_measurements = get_parsed_measurements("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/w/de9ad5474448b34f33fef097/e/1336f29c2649ad86aceaeaeb")
-    makeReplaceFile(parsed_measurements, open('global.rst', 'w+'))
+    # parsed_measurements = get_parsed_measurements("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/w/de9ad5474448b34f33fef097/e/1336f29c2649ad86aceaeaeb")
+    parsed_measurements = get_parsed_measurements("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/v/91a2fde41dbdbf8ee3e1f1a2/e/d75b2f7a41dde39791b154e8")
+    # TODO: add way to retrieve file/path from Documenter
+    make_replace_file(parsed_measurements, './Entrance_Tank/LFOM.rst')
 
     app.add_stylesheet('css/custom.css')
