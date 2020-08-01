@@ -86,7 +86,8 @@ release = version
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'en'
+# TODO: set based on language param passed from Documenter
+language = 'es'
 locale_dirs = ['locale/']
 gettext_compact = False
 
@@ -313,6 +314,25 @@ def parse_variables_from_map(unparsed, default_key):
     parsed_variables = {}
     value = None
 
+    if default_key == "url":
+        pass
+        # write function to download that rst for editing, or if possible, that folder
+        # might have to be a file path instead of url
+    elif default_key == "index":
+        # write function to download that index
+        # name it index.rst unless index.rst already exists
+        # if index.rst is not None:
+            # merge_indexes(index.rst, newindex.rst)
+        pass
+    elif default_key == "process":
+        # write function to download that process
+        # name it treatmentprocss.rst unless treatmentprocss.rst already exists
+        # if treatmentprocss.rst is not None:
+            # merge_treatment_processes(treatmentprocss.rst, newxprocess.rst
+        pass
+    elif default_key == "language":
+        # set language variable to this
+
     if isinstance(unparsed, list):
         for to_parse in unparsed:
             if is_fs_type(to_parse, "BTFSValueMapEntry"):
@@ -343,8 +363,8 @@ def parse_attributes(attributes, type_tag, fields):
                     for doc in docs:
                         for unparsed in doc[msg_str][val_str]:
                             if is_fs_type(unparsed, "BTFSValueMapEntry"):
+                                key = unparsed[msg_str][key_str][msg_str][val_str]
                                 for field in fields:
-                                    key = unparsed[msg_str][key_str][msg_str][val_str]
                                     if key == field:
                                         measurements.update(parse_variables_from_map(unparsed[msg_str][val_str][msg_str][val_str], key))
 
@@ -385,12 +405,13 @@ def get_parsed_measurements(link):
 
     attributes = json.loads(response.data.decode("utf-8"))["result"][msg_str][val_str]
     type_tag = "Documenter"
-    fields = ["variables", "url"]
+    fields = ["variables", "url", "index", "process"]
 
     measurements = parse_attributes(attributes, type_tag, fields)
 
     return measurements
 
+# TODO: move this file and index file to "docs" folder
 # from https://stackoverflow.com/questions/5914627/prepend-line-to-beginning-of-a-file
 def line_prepender(filename, line):
     with open(filename, 'r+') as f:
@@ -398,6 +419,7 @@ def line_prepender(filename, line):
         f.seek(0, 0)
         f.write(line.rstrip('\r\n') + '\n' + content)
 
+# TODO: change name
 def make_replace_file(parsed_dict, filename, var_attachment=''):
     prefix = '.. |'
     suffix = '| replace:: '
