@@ -222,9 +222,13 @@ math_number_all = True
 rst_prolog = """
 .. role:: red
 """
+
+msg_str = "message"
+val_str = "value"
+key_str = "key"
+
 # create global roles using this: https://stackoverflow.com/questions/9698702/how-do-i-create-a-global-role-roles-in-sphinx
-# If this grows too much, we'll need to add a global rst as described in the
-# post above.
+# If this grows too much, we'll need to add a global rst as described in the post above.
 def parse_quantity(q):
     """
     Parse an Onshape units definition
@@ -250,28 +254,28 @@ def parse_quantity(q):
     >>> parse_quantity(d)
     '0.1414213562373095*millimeter**3'
     """
-    units_s = q["value"]
+    units_s = q[val_str]
     for u in q["unitToPower"]:
-        units_s = units_s * ureg(u["key"].lower()) ** u["value"]
+        units_s = units_s * ureg(u[key_str].lower()) ** u[val_str]
         try:
             log = math.floor(math.log10(units_s.magnitude))
         except:
             log = 0
-        if u["key"] == 'METER' and u["value"] == 1:
+        if u[key_str] == 'METER' and u[val_str] == 1:
             if log >= 3:
                 units_s = units_s.to(ureg.kilometer)
             elif log >= -2 and log <= -1:
                 units_s = units_s.to(ureg.centimeter)
             elif log <= -3:
                 units_s = units_s.to(ureg.millimeter)
-        elif u["key"] == 'METER' and u["value"] == 2:
+        elif u[key_str] == 'METER' and u[val_str] == 2:
             if log >= 6:
                 units_s = units_s.to(ureg.kilometer**2)
             elif log >= -4 and log <= -1:
                 units_s = units_s.to(ureg.centimeter**2)
             elif log <= -5:
                 units_s = units_s.to(ureg.millimeter**2)
-        elif u["key"] == 'METER' and u["value"] == 3:
+        elif u[key_str] == 'METER' and u[val_str] == 3:
             log += 3
             if log >= 3:
                 units_s = units_s.to(ureg.kiloliter)
@@ -294,32 +298,57 @@ def is_fs_type(candidate, type_name):
         result = False
     return result
 
-def parse_variables_from_map(unparsed):
-    parsed_variables = {}
+def parse_variables_from_list(unparsed):
     measurement_list = []
-    value = None
-    is_map = False
+
     for to_parse in unparsed:
-        if is_fs_type(to_parse, "BTFSValueMapEntry"):
-            print(to_parse)
-            is_map = True
-            key = to_parse["message"]["key"]["message"]["value"]
-            candidate_message = to_parse["message"]["value"]
-            if is_fs_type(candidate_message, ["BTFSValueMap", "BTFSValueArray"]):
-                value = parse_variables_from_map(candidate_message["message"]["value"])
-            elif is_fs_type(candidate_message, "BTFSValueWithUnits"):
-                value = parse_quantity(candidate_message["message"])
-            elif is_fs_type(candidate_message, ["BTFSValueNumber", "BTFSValueString"]):
-                value = candidate_message["message"]["value"]
-            parsed_variables[key] = value
-        # should ultimately write a new function that deals with lists
-        elif is_fs_type(to_parse, "BTFSValueWithUnits"):
-            measurement_list.append(parse_quantity(to_parse["message"]))
+        if is_fs_type(to_parse, "BTFSValueWithUnits"):
+            measurement_list.append(parse_quantity(to_parse[msg_str]))
         elif is_fs_type(to_parse, ["BTFSValueNumber", "BTFSValueString"]):
-            measurement_list.append(to_parse["message"]["value"])
-    if is_map:
-        return parsed_variables
+            measurement_list.append(to_parse[msg_str][val_str])
+
     return measurement_list
+
+def parse_variables_from_map(unparsed, default_key):
+    parsed_variables = {}
+    value = None
+
+    if isinstance(unparsed, list):
+        for to_parse in unparsed:
+            if is_fs_type(to_parse, "BTFSValueMapEntry"):
+                key = to_parse[msg_str][key_str][msg_str][val_str]
+                candidate_message = to_parse[msg_str][val_str]
+                if is_fs_type(candidate_message, "BTFSValueMap"):
+                    value = parse_variables_from_map(candidate_message[msg_str][val_str])
+                elif is_fs_type(candidate_message,  "BTFSValueArray"):
+                    value = parse_variables_from_list(candidate_message[msg_str][val_str])
+                elif is_fs_type(candidate_message, "BTFSValueWithUnits"):
+                    value = parse_quantity(candidate_message[msg_str])
+                elif is_fs_type(candidate_message, ["BTFSValueNumber", "BTFSValueString"]):
+                    value = candidate_message[msg_str][val_str]
+                parsed_variables[key] = value
+    else:
+        parsed_variables[default_key] = unparsed
+
+    return parsed_variables
+
+def parse_attributes(attributes, type_tag, fields):
+    measurements = {}
+
+    for attr in attributes:
+        if is_fs_type(attr, "BTFSValueMap"):
+            if attr[msg_str]["typeTag"] == type_tag:
+                for attr2 in attr[msg_str][val_str]:
+                    docs = attr2[msg_str][val_str][msg_str][val_str]
+                    for doc in docs:
+                        for unparsed in doc[msg_str][val_str]:
+                            if is_fs_type(unparsed, "BTFSValueMapEntry"):
+                                for field in fields:
+                                    key = unparsed[msg_str][key_str][msg_str][val_str]
+                                    if key == field:
+                                        measurements.update(parse_variables_from_map(unparsed[msg_str][val_str][msg_str][val_str], key))
+
+    return measurements
 
 def get_parsed_measurements(link):
     script = r"""
@@ -327,7 +356,7 @@ def get_parsed_measurements(link):
         {
             return getAttributes(context, {
                 "entities" : qEverything(),
-                "attributePattern" : { 'type' : 'Documenter' }
+                // "attributePattern" : { 'type' : 'Documenter' }
             });
         }
         """
@@ -354,19 +383,11 @@ def get_parsed_measurements(link):
         _preload_content=False,
     )
 
-    documenters = json.loads(response.data.decode("utf-8"))["result"]["message"]["value"]
-    measurements = {}
+    attributes = json.loads(response.data.decode("utf-8"))["result"][msg_str][val_str]
+    type_tag = "Documenter"
+    fields = ["variables", "url"]
 
-    for doc in documenters:
-        if is_fs_type(doc, "BTFSValueMap"):
-            for doc2 in doc["message"]["value"]:
-                if doc2["message"]["key"]["message"]["value"] == "documenter":
-                    doc3 = doc2["message"]["value"]["message"]["value"][0]["message"]["value"]
-                    unparsed = doc3["message"]["value"][0]["message"]["value"]
-                    for unp in unparsed:
-                        if is_fs_type(unp, "BTFSValueMapEntry"):
-                            if unp["message"]["key"]["message"]["value"] == "variables":
-                                measurements = parse_variables_from_map(unp["message"]["value"]["message"]["value"])
+    measurements = parse_attributes(attributes, type_tag, fields)
 
     return measurements
 
@@ -388,10 +409,12 @@ def make_replace_file(parsed_dict, filename, var_attachment=''):
             line = prefix + var_attachment + str(var) + suffix + str(parsed_dict[var])
             line_prepender(filename, line)
 
+# TODO: download entire folder from GitHub via this: https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo
+    # alternatively, use a file path since the Heroku server could store the source docs
 # Here's a function to define custom styles to be used with the roles:
 def setup(app):
     # parsed_measurements = get_parsed_measurements("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/w/de9ad5474448b34f33fef097/e/1336f29c2649ad86aceaeaeb")
-    parsed_measurements = get_parsed_measurements("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/v/91a2fde41dbdbf8ee3e1f1a2/e/d75b2f7a41dde39791b154e8")
+    parsed_measurements = get_parsed_measurements("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/v/e86333de5acab12a19f1d87b/e/d75b2f7a41dde39791b154e8")
     # TODO: add way to retrieve file/path from Documenter
     make_replace_file(parsed_measurements, './Entrance_Tank/LFOM.rst')
 
