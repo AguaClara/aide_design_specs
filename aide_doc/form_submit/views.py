@@ -23,7 +23,7 @@ def submit_form(request):
             link = form.cleaned_data["link"]
             language = form.cleaned_data["language"]
 
-            os.chdir("../doc_files/")
+            os.chdir("docs/")
             # TODO: add 'make clean' equivalent before 'build_sphinx'
             subprocess.call(['python', 'setup.py', 'build_sphinx'])
 
