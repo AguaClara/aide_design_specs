@@ -1,0 +1,10 @@
+{% extends "form_submit/layout.html" %}
+
+{% block body %}
+<h1>Enter an Onshape Link:</h1>
+<form method="post">
+  {% csrf_token %}
+  {{ form }}
+  <input type="submit">
+</form>
+{% endblock %}

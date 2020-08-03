@@ -40,6 +40,7 @@ onshape_client = "==1.6.3"
 pint = "==0.13"
 pathlib = "==1.0.1"
 sphinx-intl = "==2.0.1"
+Django = "==3.0.8"
 
 [dev-packages]
 
