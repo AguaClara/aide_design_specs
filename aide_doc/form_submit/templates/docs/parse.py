@@ -116,6 +116,7 @@ def parse_variables_from_map(unparsed, default_key):
         pass
     elif default_key == "language":
         # set language variable to this
+        pass
 
     if isinstance(unparsed, list):
         for to_parse in unparsed:
