@@ -14,7 +14,7 @@ La tasa máxima de la disipación de energía en un chorro redondo que sigue
 después de un orificio se encuentra por:
 
 .. math::
-    :label: epsilon_max
+    :label: \varepsilon_{max}
 
   \varepsilon_{max} = \frac{\big(\Pi_{Jet} \frac{4Q}{\pi}\big)^3}{D^7 \sqrt{{\Pi_{VC}}^7}}
 
@@ -57,7 +57,7 @@ media entre ellas.
 | :math:`L_{Sep}` = la separación media entre partículas
 | :math:`\phi_{Col}` = la fracción del volumen total ocupado por las partículas coloidales de la suspensión
 
-La tasa de la disipación de energía de ED.RapidMix está basada en una suspensión
+La tasa de la disipación de energía de |ED.RapidMix| está basada en una suspensión
 de 500 UTN. Es decir, la escala de Kolmogorov producida por ese chorro es
 parecida a la separación entre las partículas primeras de esa suspensión.
 

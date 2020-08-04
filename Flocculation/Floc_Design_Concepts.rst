@@ -1,16 +1,3 @@
-.. |Gt.FlocBod| replace:: **PLACEHOLDER**
-.. |G.Floc| replace:: **PLACEHOLDER**
-.. |HL.FlocBod| replace:: **PLACEHOLDER**
-.. |Pi.HSMin| replace:: **PLACEHOLDER**
-.. |Pi.HSTransition| replace:: **PLACEHOLDER**
-.. |Pi.JetPlane| replace:: **PLACEHOLDER**
-.. |Pi.VCBaffle| replace:: **PLACEHOLDER**
-.. |K.FlocBaffle| replace:: **PLACEHOLDER**
-.. |ED.SedInlet| replace:: **PLACEHOLDER**
-.. |HL.SedDiffuser| replace:: **PLACEHOLDER**
-.. |He.Floc| replace:: **PLACEHOLDER**
-.. |W.FlocChannel| replace:: **PLACEHOLDER**
-
 
 .. _title_Conceptos_de_Diseño_del_Floculador:
 

@@ -4,184 +4,220 @@
 # Specifications package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 15:41-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-30 15:38-0500\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #: ../../Sedimentation/Collect_Tube.rst:7
 msgid "Tubos Recolectores"
-msgstr ""
+msgstr "Collector Tubes"
 
 #: ../../Sedimentation/Collect_Tube.rst:13
 msgid ""
-"Arriba de las placas el agua sale por los agujeros de un tubo perforado "
-"que corre a lo largo del tanque, con la fila de orificios en la parte "
-"superior. Los orificios provocan una pérdida de carga suficiente para "
-"lograr una distribución de caudal uniforme, tanto a lo largo de cada "
-"tanque como entre los |N.SedTanks| tanques. La meta es que cada recorrido"
-" del agua, entre la entrada en el canal distribuidor hasta el canal de "
-"salida, tiene una pérdida de carga parecida a los demás. Esto garantiza "
-"que los caudales en cada recorrido se parezcan también. Los "
-"|HL.SedLaunderOrifice| de pérdida de carga que provocan los orificios del"
-" tubo recolector dominan la pérdida total, y así controlan la "
-"distribución de caudal. La pérdida de carga en los orificios tiene la "
-"ventaja adicional de crear un sobrenadante sobre el tubo recolector que "
-"impide que material flotante en la superficie salga del tanque por el "
-"tubo."
+"Arriba de las placas el agua sale por los agujeros de un tubo perforado que "
+"corre a lo largo del tanque, con la fila de orificios en la parte superior. Los "
+"orificios provocan una pérdida de carga suficiente para lograr una distribución "
+"de caudal uniforme, tanto a lo largo de cada tanque como entre los |N.SedTanks| "
+"tanques. La meta es que cada recorrido del agua, entre la entrada en el canal "
+"distribuidor hasta el canal de salida, tiene una pérdida de carga parecida a "
+"los demás. Esto garantiza que los caudales en cada recorrido se parezcan "
+"también. Los |HL.SedLaunderOrifice| de pérdida de carga que provocan los "
+"orificios del tubo recolector dominan la pérdida total, y así controlan la "
+"distribución de caudal. La pérdida de carga en los orificios tiene la ventaja "
+"adicional de crear un sobrenadante sobre el tubo recolector que impide que "
+"material flotante en la superficie salga del tanque por el tubo."
 msgstr ""
+"Above the plates the water comes out through holes in a perforated pipe that "
+"runs along the tank, with the row of orifices at the top. The orifices cause a "
+"sufficient head loss to achieve an even flow distribution along each tank such "
+"as those between the |N.SedTanks| tanks. The goal is that each water path, from "
+"the inlet in the distribution channel to the outlet channel, has a head loss "
+"similar to the others. This ensures that the flows in each run are similar as "
+"well. The head loss |HL.SedLaunderOrifice| caused by the orifices in the "
+"collecting pipe dominates the total loss, and thus controls the flow "
+"distribution. The head loss in the orifices has the additional advantage of "
+"creating a supernatant over the collection tube that prevents floating material "
+"on the surface from leaving the tank through the tube."
 
 #: ../../Sedimentation/Collect_Tube.rst:15
 msgid ""
-"El diámetro del tubo recolector se diseña como manifold para que el flujo"
-" en cada orificio sea igual a lo largo del tubo, que el radio del flujo "
-"mínimo al flujo máximo a través de los orificios no baje menos de "
-"|Pi.QLaunderOrifices|:"
+"El diámetro del tubo recolector se diseña como manifold para que el flujo en "
+"cada orificio sea igual a lo largo del tubo, que el radio del flujo mínimo al "
+"flujo máximo a través de los orificios no baje menos de |Pi.QLaunderOrifices|:"
 msgstr ""
+"The diameter of the collecting tube is designed as a manifold so that the flow "
+"at each orifice is equal throughout the tube, that the radius from minimum flow "
+"to maximum flow through the orifices does not fall below |Pi.QLaunderOrifices|:"
 
 #: ../../Sedimentation/Collect_Tube.rst:22
 msgid "Donde:"
-msgstr ""
+msgstr "Where:"
 
 #: ../../Sedimentation/Collect_Tube.rst:23
 msgid ""
-":math:`Q_{M \\acute{i} n}` = el caudal mínimo que pase por un orificio "
-"del tubo recolector"
+":math:`Q_{M \\acute{i} n}` = el caudal mínimo que pase por un orificio del tubo "
+"recolector"
 msgstr ""
+":math:`Q_{Min}` = the minimum flow rate passing through an orifice in the "
+"collection tube"
 
 #: ../../Sedimentation/Collect_Tube.rst:24
 msgid ""
-":math:`Q_{M \\acute{a} x}` = el caudal máximo que pase por un orificio "
-"del tubo recolector"
+":math:`Q_{M \\acute{a} x}` = el caudal máximo que pase por un orificio del tubo "
+"recolector"
 msgstr ""
+":math:`Q_{Max}` = the maximum flow rate through an orifice in the collecting "
+"pipe"
 
 #: ../../Sedimentation/Collect_Tube.rst:25
 msgid ""
-":math:`{\\Pi}_Q` = el radio mínimo de caudal a través de los orificios "
-"del tubo recolector = |Pi.QLaunderOrifices|"
+":math:`{\\Pi}_Q` = el radio mínimo de caudal a través de los orificios del tubo "
+"recolector = |Pi.QLaunderOrifices|"
 msgstr ""
+":math:`{\\Pi}_Q` = the minimum radius of flow through the orifices in the "
+"collecting pipe = |Pi.QLaunderOrifices|"
 
 #: ../../Sedimentation/Collect_Tube.rst:27
 msgid ""
-"Los orificios en el tubo recolector se diseñan para provocar "
-"aproximadamente |HL.SedLaunderBod| de pérdida de carga, tomando en cuenta"
-" el largo del tubo, una separación entre los orificios de aproximadamente"
-" |B.SedLaunderOrificesEst| y los diámetros de las brocas comúnmente "
-"disponibles. Los pasos del diseño son:"
+"Los orificios en el tubo recolector se diseñan para provocar aproximadamente |"
+"HL.SedLaunderBod| de pérdida de carga, tomando en cuenta el largo del tubo, una "
+"separación entre los orificios de aproximadamente |B.SedLaunderOrificesEst| y "
+"los diámetros de las brocas comúnmente disponibles. Los pasos del diseño son:"
 msgstr ""
+"The orifices in the collecting tube are designed to cause approximately |HL."
+"SedLaunderBod| head loss, taking into account the length of the tube, a "
+"separation between the orifices of approximately |B.SedLaunderOrificesEst| and "
+"the diameters of commonly available drills. The design steps are:"
 
 #: ../../Sedimentation/Collect_Tube.rst:29
 msgid "Calcular el largo útil del tubo, tomando en cuenta su entrada al tanque"
 msgstr ""
+"Calculate the useful length of the tube, taking into account its entrance to "
+"the tank"
 
 #: ../../Sedimentation/Collect_Tube.rst:30
 msgid ""
-"Estimar el número de orificios con una separación estimada de "
-"|B.SedLaunderOrificesEst|"
+"Estimar el número de orificios con una separación estimada de |B."
+"SedLaunderOrificesEst|"
 msgstr ""
+"Estimate the number of orifices with an estimated spacing of |B."
+"SedLaunderOrificesEst|"
 
 #: ../../Sedimentation/Collect_Tube.rst:31
 msgid "Estimar el caudal por orificio dado el número de orificios estimado"
-msgstr ""
+msgstr "Estimate the flow rate per orifice given the estimated number of orifices"
 
 #: ../../Sedimentation/Collect_Tube.rst:32
 msgid "Calcular el diámetro querido de los orificios dado el caudal estimado por:"
 msgstr ""
+"Calculate the desired diameter of the orifices given the estimated flow rate "
+"per:"
 
 #: ../../Sedimentation/Collect_Tube.rst
 msgid "Donde"
-msgstr ""
+msgstr "Where"
 
 #: ../../Sedimentation/Collect_Tube.rst
 msgid ":math:`Q_{Orificio}` = el caudal estimado por orificio"
-msgstr ""
+msgstr ":math:`Q_{Orifice}` = the estimated flow rate per orifice"
 
 #: ../../Sedimentation/Collect_Tube.rst
 msgid ""
-":math:`{\\Pi}_{VC}` = el coeficiente de vena contracta para el orificio ="
-" |Pi.VCOrifice|"
+":math:`{\\Pi}_{VC}` = el coeficiente de vena contracta para el orificio = |Pi."
+"VCOrifice|"
 msgstr ""
+":math:`{\\Pi}_{VC}` = the vein coefficient contracts for the orifice = |Pi."
+"VCOrifice|"
 
 #: ../../Sedimentation/Collect_Tube.rst
 msgid ""
-":math:`{HL}_{Orificio}` = la pérdida de carga asignada por los orificios "
-"= |HL.SedLaunderBod|"
+":math:`{HL}_{Orificio}` = la pérdida de carga asignada por los orificios = |HL."
+"SedLaunderBod|"
 msgstr ""
+":math:`{HL}_{Orifice}` = the pressure drop assigned by the holes = |HL."
+"SedLaunderBod|"
 
 #: ../../Sedimentation/Collect_Tube.rst:46
 msgid ""
 "Definir el diámetro final de los orificios según las brocas comúnmente "
 "disponibles"
 msgstr ""
+"Define the final diameter of the orifices according to the commonly available "
+"drill bits"
 
 #: ../../Sedimentation/Collect_Tube.rst:47
 msgid "Calcular el caudal real por orificio según el diámetro final"
 msgstr ""
+"Calculate the actual flow rate per orifice according to the final diameter"
 
 #: ../../Sedimentation/Collect_Tube.rst:48
 msgid ""
-"Calcular la separación y el número final de los orificios según el caudal"
-" real por orificio"
+"Calcular la separación y el número final de los orificios según el caudal real "
+"por orificio"
 msgstr ""
+"Calculate the separation and the final number of orifices according to the "
+"actual flow rate per orifice"
 
 #: ../../Sedimentation/Collect_Tube.rst:52
 msgid "Datos de los tubos recolectores de los tanques de sedimentación"
-msgstr ""
+msgstr "Data from the collecting tubes of the sedimentation tanks"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "Diámetro nominal del tubo"
-msgstr ""
+msgstr "Nominal pipe diameter"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "|ND.SedLaunder| |PS.SedLaunderStr|"
-msgstr ""
+msgstr "|ND.SedLaunder| |PS.SedLaunderStr|"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "Longitud de cada tubo recolector"
-msgstr ""
+msgstr "Length of each collecting tube"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "|L.SedLaunder|"
-msgstr ""
+msgstr "|L.SedLaunder|"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "Número de agujeros en cada tubo recolector"
-msgstr ""
+msgstr "Number of holes in each collecting tube"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "|N.SedLaunderOrifices|"
-msgstr ""
+msgstr "|N.SedLaunderOrifices|"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "Separación entre agujeros"
-msgstr ""
+msgstr "Branch hole spacing (center to center)"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "|B.SedLaunderOrifice|"
-msgstr ""
+msgstr "|B.SedLaunderOrifice|"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "Diámetro de los agujeros"
-msgstr ""
+msgstr "Diameter of the holes"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "|D.SedLaunderOrifice|"
-msgstr ""
+msgstr "|D.SedLaunderOrifice|"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "Pérdida de carga por los agujeros"
-msgstr ""
+msgstr "Head loss through holes"
 
 #: ../../Sedimentation/Collect_Tube.rst:1
 msgid "|HL.SedLaunderOrifice|"
-msgstr ""
-
+msgstr "|HL.SedLaunderOrifice|"
