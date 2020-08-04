@@ -4,81 +4,83 @@
 # Specifications package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 15:41-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-30 15:23-0500\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Source-Language: es\n"
 
 #: ../../Mix/Mix_Design_Data.rst:7
 msgid "Datos del Diseño"
-msgstr ""
+msgstr "Design Data"
 
 #: ../../Mix/Mix_Design_Data.rst:11
 msgid "Datos de la mezcla rápida"
-msgstr ""
+msgstr "Rapid mix data"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "**Orificio de mezcla rápida**"
-msgstr ""
+msgstr "**Rapid mix orifice**"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "El diámetro del orificio"
-msgstr ""
+msgstr "The diameter of the orifice"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "|D.RMOrifice|"
-msgstr ""
+msgstr "|D.RMOrifice|"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "La pérdida de carga del orificio"
-msgstr ""
+msgstr "The head loss from the orifice"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "|HL.RMOrifice|"
-msgstr ""
+msgstr "|HL.RMOrifice|"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "La tasa máxima de la disipación de energía"
-msgstr ""
+msgstr "The maximum rate of energy dissipation"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "|ED.RapidMix|"
-msgstr ""
+msgstr "| ED.RapidMix |"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "**Cámara de contacto**"
-msgstr ""
+msgstr "**Contact chamber**"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "Altura de la cámara"
-msgstr ""
+msgstr "Height of the chamber"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "|H.FlocContact|"
-msgstr ""
+msgstr "|H.FlocContact|"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "Longitud de la cámara"
-msgstr ""
+msgstr "Length of the chamber"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "|L.FlocContact|"
-msgstr ""
+msgstr "|L.FlocContact|"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "Tiempo de retención de la cámara (con el caudal máximo de diseño)"
-msgstr ""
+msgstr "Chamber retention time (at maximum design flow rate)"
 
 #: ../../Mix/Mix_Design_Data.rst:1
 msgid "|Ti.FlocContact|"
-msgstr ""
-
+msgstr "|Ti.FlocContact|"

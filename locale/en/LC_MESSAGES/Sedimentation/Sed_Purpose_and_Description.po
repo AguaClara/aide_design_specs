@@ -4,52 +4,64 @@
 # Specifications package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 15:41-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-30 17:07-0500\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #: ../../Sedimentation/Sed_Purpose_and_Description.rst:7
 msgid "Propósito y Descripción"
-msgstr ""
+msgstr "Purpose and Description"
 
 #: ../../Sedimentation/Sed_Purpose_and_Description.rst:9
 msgid ""
 "El objetivo principal de los tanques de sedimentación es quitar el "
 "sedimento del agua por la fuerza de gravedad. En este proceso el agua "
 "sube lentamente mientras las partículas suspendidas se caen y permanecen "
-"en la parte inferior del tanque. El operador purga los lodos acumulados a"
-" través de una válvula en el canal de limpieza de la planta."
+"en la parte inferior del tanque. El operador purga los lodos acumulados "
+"a través de una válvula en el canal de limpieza de la planta."
 msgstr ""
+"The main objective of the sedimentation tanks is to remove the sediment "
+"from the water by the force of gravity. In this process the water rises "
+"slowly while the suspended particles fall and remain at the bottom of "
+"the tank. The operator purges the accumulated sludge through a valve in "
+"the plant's cleaning channel."
 
 #: ../../Sedimentation/Sed_Purpose_and_Description.rst:17
 msgid "Vista lateral de un tanque de sedimentación."
-msgstr ""
+msgstr "Side view of a sedimentation tank."
 
 #: ../../Sedimentation/Sed_Purpose_and_Description.rst:19
 msgid ""
 "Los tanques cuentan con placas inclinadas que permiten la captura de "
 "partículas más finas. Además, los tanques están diseñados de tal manera "
 "que los lodos sedimentados no pueden permanecer en el fondo, sino que se "
-"re-suspenden para mantener un **manto de lodos** en la parte inferior. El"
-" manto de lodos es una suspensión concentrada de sedimento que mejora el "
-"rendimiento del tanque y concentra el lodo excedente."
+"re-suspenden para mantener un **manto de lodos** en la parte inferior. "
+"El manto de lodos es una suspensión concentrada de sedimento que mejora "
+"el rendimiento del tanque y concentra el lodo excedente."
 msgstr ""
+"The tanks have sloping plates that allow the capture of finer particles. "
+"In addition, the tanks are designed in such a way that the settled "
+"sludge cannot remain on the bottom, but is re-suspended to maintain a "
+"**sludge blanket** at the bottom. The sludge blanket is a concentrated "
+"suspension of sediment that improves the performance of the tank and "
+"concentrates the surplus sludge."
 
 #: ../../Sedimentation/Sed_Purpose_and_Description.rst:27
 msgid "Los componentes exteriores de un tanque de sedimentación"
-msgstr ""
+msgstr "The external components of a sedimentation tank"
 
 #: ../../Sedimentation/Sed_Purpose_and_Description.rst:35
 msgid "Los componentes interiores de un tanque de sedimentación"
-msgstr ""
-
+msgstr "The interior components of a sedimentation tank"

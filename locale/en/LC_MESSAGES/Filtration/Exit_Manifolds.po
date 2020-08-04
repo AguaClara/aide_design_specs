@@ -4,206 +4,223 @@
 # Specifications package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 15:41-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-24 16:39-0500\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 
 #: ../../Filtration/Exit_Manifolds.rst:7
 msgid "Manifolds de Salida"
-msgstr ""
+msgstr "Exit Manifolds"
 
 #: ../../Filtration/Exit_Manifolds.rst:9
 msgid ""
-"A diferencia de los manifolds de entrada, los manifolds de salida cuentan"
-" con tubos ranurados en vez de tubos perforados para los ramales. Las "
-"ranuras tienen |W.FiManSlots| de ancho, de tal manera que el agua puede "
-"entrar en el tubo pero la arena no."
+"A diferencia de los manifolds de entrada, los manifolds de salida cuentan "
+"con tubos ranurados en vez de tubos perforados para los ramales. Las ranuras "
+"tienen |W.FiManSlots| de ancho, de tal manera que el agua puede entrar en el "
+"tubo pero la arena no."
 msgstr ""
+"Unlike the entry manifolds, the exit manifolds have slotted pipes instead of "
+"perforated pipes for the branches. The slots are |W.FiManSlots| wide, so "
+"that water can enter the pipe but sand cannot."
 
 #: ../../Filtration/Exit_Manifolds.rst:17
 msgid "Las ranuras de un ramal del manifold de salida."
-msgstr ""
+msgstr "The slots in an exit manifold branch."
 
 #: ../../Filtration/Exit_Manifolds.rst:25
 msgid "El manifold de salida con los tubos ranurados."
-msgstr ""
+msgstr "The exit manifold with the slotted tubes."
 
 #: ../../Filtration/Exit_Manifolds.rst:27
 msgid ""
-"El área colectiva de las ranuras por manifold es el doble del área "
-"colectiva de los orificios en el manifold de retrolavado, porque estos "
-"manifolds de salida extraen el agua de dos capas de arena cada uno. El "
-"largo de las ranuras se define para lograr el área colectiva querida:"
+"El área colectiva de las ranuras por manifold es el doble del área colectiva "
+"de los orificios en el manifold de retrolavado, porque estos manifolds de "
+"salida extraen el agua de dos capas de arena cada uno. El largo de las "
+"ranuras se define para lograr el área colectiva querida:"
 msgstr ""
+"The collective area of the slots per manifold is twice the collective area "
+"of the holes in the backwash manifold, because these exit manifolds extract "
+"the water from two sand layers each. The length of the slots is defined to "
+"achieve the desired collective area:"
 
 #: ../../Filtration/Exit_Manifolds.rst:34
 #: ../../Filtration/Exit_Manifolds.rst:49
 msgid "Donde"
-msgstr ""
+msgstr "Where"
 
 #: ../../Filtration/Exit_Manifolds.rst:35
 msgid ":math:`A_{Capa}` = el área colectiva querida = |A.FiOutletManSlots|"
-msgstr ""
+msgstr ":math:`A_{Layer}` = the beloved collective area = |A.FiOutletManSlots|"
 
 #: ../../Filtration/Exit_Manifolds.rst:36
 msgid ":math:`S_{Ranura}` = la separación de las ranuras = |B.FiManSlot|"
-msgstr ""
+msgstr ":math:`S_{Slot}` = the separation of the slots = |B.FiManSlot|"
 
 #: ../../Filtration/Exit_Manifolds.rst:37
 msgid ":math:`W_{Ranura}` = el ancho de las ranuras = |W.FiManSlots|"
-msgstr ""
+msgstr ":math:`W_{Slot}` = the width of the slots = |W.FiManSlots|"
 
 #: ../../Filtration/Exit_Manifolds.rst:38
 msgid ":math:`N_{Ramal}` = el número de ramales por manifold = |N.FiManBranch|"
 msgstr ""
+":math:`N_{Ramal}` = the number of branches per manifold = |N.FiManBranch|"
 
 #: ../../Filtration/Exit_Manifolds.rst:39
 msgid ""
-":math:`L_{Ramal}` = el largo ranurado del ramal = "
-"|L.FiOutletBranchSlotted|"
+":math:`L_{Ramal}` = el largo ranurado del ramal = |L.FiOutletBranchSlotted|"
 msgstr ""
+":math:`L_{Ramal}` = the slotted length of the branch = |L."
+"FiOutletBranchSlotted|"
 
 #: ../../Filtration/Exit_Manifolds.rst:40
 msgid ""
-":math:`N_{Filas}` = el número de filas de ranuras por ramal = "
-"|N.FiSlotRows| (significa que ambos lados tienen ranuras)"
+":math:`N_{Filas}` = el número de filas de ranuras por ramal = |N.FiSlotRows| "
+"(significa que ambos lados tienen ranuras)"
 msgstr ""
+":math:`N_{Rows}` = the number of rows of slots per string = |N.FiSlotRows| "
+"(means both sides have slots)"
 
 #: ../../Filtration/Exit_Manifolds.rst:42
 msgid ""
-"La pérdida de carga a través de las ranuras durante la filtración normal "
-"es dada por:"
+"La pérdida de carga a través de las ranuras durante la filtración normal es "
+"dada por:"
 msgstr ""
+"The pressure drop through the slots during normal filtration is given by:"
 
 #: ../../Filtration/Exit_Manifolds.rst:50
 msgid ":math:`Q_{Capa}` = el caudal de agua que sale por el manifold"
-msgstr ""
+msgstr ":math:`Q_{Layer}` = the flow rate of water through the manifold"
 
 #: ../../Filtration/Exit_Manifolds.rst:51
 msgid ":math:`A_{Capa}` = el área colectiva de las ranuras en el manifold"
-msgstr ""
+msgstr ":math:`A_{Layer}` = the collective area of the slots in the manifold"
 
 #: ../../Filtration/Exit_Manifolds.rst:52
 msgid ""
-":math:`\\Pi _{VC}` = el coeficiente de vena contracta para un orificio = "
-"|Pi.VCOrifice|"
+":math:`\\Pi _{VC}` = el coeficiente de vena contracta para un orificio = |Pi."
+"VCOrifice|"
 msgstr ""
+":math:`\\Pi _{VC}` = the coefficient of vein contracted for an orifice = |Pi."
+"VCOrifice|"
 
 #: ../../Filtration/Exit_Manifolds.rst:53
 msgid ""
-":math:`\\varepsilon_{Arena}` = la porosidad del lecho de arena = "
-"|ε.FiSand|"
+":math:`\\varepsilon_{Arena}` = la porosidad del lecho de arena = |ε.FiSand|"
 msgstr ""
+":math:`\\varepsilon_{Sand}` = the porosity of the sand bed = |ε.FiSand|"
 
 #: ../../Filtration/Exit_Manifolds.rst:57
 msgid "Datos de los manifolds de salida"
-msgstr ""
+msgstr "Exit Manifold Data"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "Líneas troncales de los manifolds"
-msgstr ""
+msgstr "Filter manifold trunk lines"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|ND.FiTrunk| |PS.FiTrunkStr|"
-msgstr ""
+msgstr "|ND.FiTrunk| |PS.FiTrunkStr|"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "Ramales de salida superiores"
-msgstr ""
+msgstr "Upper exit branches"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|ND.FiManBranch| |PS.FiBranchStr|"
-msgstr ""
+msgstr "|ND.FiManBranch| |PS.FiBranchStr|"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "Número de ramales en cada manifold de salida"
-msgstr ""
+msgstr "Number of strings in each exit manifold"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|N.FiManBranch|"
-msgstr ""
+msgstr "|N.FiManBranch|"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "Longitud de los ramales"
-msgstr ""
+msgstr "Length of the branches"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|L.FiManBranch|"
-msgstr ""
+msgstr "|L.FiManBranch|"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid ""
-"Longitud de la parte del ramal que entra en los orificios del tronco y el"
-" tubo que recibe el ramal en el otro extremo"
+"Longitud de la parte del ramal que entra en los orificios del tronco y el "
+"tubo que recibe el ramal en el otro extremo"
 msgstr ""
+"Length of the part of the branch that enters the orifices in the trunk and "
+"the tube that receives the branch at the other end"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|L.FiManBranchExt|"
-msgstr ""
+msgstr "|L.FiManBranchExt|"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "Longitud de la parte ranurada de cada ramal"
-msgstr ""
+msgstr "Length of the slotted part of each branch"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|L.FiOutletBranchSlotted|"
-msgstr ""
+msgstr "|L.FiOutletBranchSlotted|"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "Número de filas de ranuras en cada ramal"
-msgstr ""
+msgstr "Number of rows of slots in each branch"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|N.FiSlotRows|"
-msgstr ""
+msgstr "|N.FiSlotRows|"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "Separación entre ranuras"
-msgstr ""
+msgstr "Gap between slots"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|B.FiManSlot|"
-msgstr ""
+msgstr "|B.FiManSlot|"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "Número de ranuras en cada fila"
-msgstr ""
+msgstr "Number of slots in each row"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|N.FiOutletManSlotsPerRow|"
-msgstr ""
+msgstr "|N.FiOutletManSlotsPerRow|"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "Número de ranuras en cada ramal"
-msgstr ""
+msgstr "Number of slots in each branch"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|N.FiOutletManSlotsPerBranch|"
-msgstr ""
+msgstr "|N.FiOutletManSlotsPerBranch|"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "Ancho de las ranuras"
-msgstr ""
+msgstr "Width of slots"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|W.FiManSlots|"
-msgstr ""
+msgstr "|W.FiManSlots|"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "Longitud interior de las ranuras, medida en la curva del tubo"
-msgstr ""
+msgstr "Internal length of the slots, measured in the pipe bend"
 
 #: ../../Filtration/Exit_Manifolds.rst:1
 msgid "|L.FiOutletManSlotCurvedInner|"
-msgstr ""
-
+msgstr "|L.FiOutletManSlotCurvedInner|"

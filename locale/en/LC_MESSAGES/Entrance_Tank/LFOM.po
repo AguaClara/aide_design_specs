@@ -43,7 +43,7 @@ msgstr ""
 "other, maintains a **linear relationship between** the water level and the "
 "flow that is passing through (Illustration 9). In the AguaClara plant, the "
 "function of the Sutro weir is imitated with an orifice design that creates "
-"the same relationship at the outlet of the inlet tank. The calculation of "
+"the same relationship at the outlet of the entrance tank. The calculation of "
 "this design is based on Torricelli's principle, which states that the flow "
 "through each submerged orifice is proportional to the square root of the "
 "water height above the center of the orifice:"
@@ -58,7 +58,7 @@ msgstr ":math:`Q` = the flow rate through the orifice"
 
 #: ../../Entrance_Tank/LFOM.rst:22
 msgid ":math:`A` = el área del orificio"
-msgstr ":math:'A' = the area of the orifice"
+msgstr ":math:`A` = the area of the orifice"
 
 #: ../../Entrance_Tank/LFOM.rst:23
 msgid ":math:`g` = la aceleración debida a la gravedad"
@@ -89,7 +89,7 @@ msgstr ""
 "To design the Linear Flow Orifice Meter (LFOM) the algorithm of the design "
 "tool optimizes the number of holes in each row so that the zero level (below "
 "the first row of holes) corresponds to a zero flow rate, the maximum level "
-"(the top of the last row of holes) corresponds to the maximum design flow "
+"(the top of the last row of orifices) corresponds to the maximum design flow "
 "rate, and the relationship between the flow rate and the water surface "
 "height between the two points is linear."
 
@@ -146,7 +146,7 @@ msgid ""
 "provoca el mismo incremento en el nivel de agua en el tanque de entrada."
 msgstr ""
 "With the 20cm linear flow meter, each increase in flow causes the same "
-"increase in the water level in the inlet tank."
+"increase in the water level in the entrance tank."
 
 #: ../../Entrance_Tank/LFOM.rst:60
 msgid "Funcionamiento de un medidor lineal de caudal (LFOM) de 20 cm."

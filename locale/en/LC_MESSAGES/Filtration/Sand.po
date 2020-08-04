@@ -4,205 +4,233 @@
 # Specifications package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 15:41-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-28 15:19-0500\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #: ../../Filtration/Sand.rst:7
 msgid "Arena"
-msgstr ""
+msgstr "Sand"
 
 #: ../../Filtration/Sand.rst:9
 msgid ""
-"Los filtros rápidos de arena utilizan un tipo especifico de arena, y aún "
-"más el FRAMCA. A través de la vida del filtro, la arena tiene la "
-"tendencia de estratificarse, con los granos mayores cayendo por el fondo "
-"del filtro y los granos mayores subiendo por la parte superior. En el "
-"FRAMCA, ya que es un filtro en múltiples capas o un filtro apilado, es "
-"crítico que la arena en cada capa sea igual – que no haya estratificación"
-" de ella y por consiguiente que la arena en todo el filtro sea bien "
-"uniforme. El diámetro de la arena se caracteriza por el **diámetro "
-"efectivo** y la uniformidad por el **coeficiente de uniformidad**, los "
-"dos definidos abajo."
+"Los filtros rápidos de arena utilizan un tipo especifico de arena, y aún más "
+"el FRAMCA. A través de la vida del filtro, la arena tiene la tendencia de "
+"estratificarse, con los granos mayores cayendo por el fondo del filtro y los "
+"granos mayores subiendo por la parte superior. En el FRAMCA, ya que es un "
+"filtro en múltiples capas o un filtro apilado, es crítico que la arena en cada "
+"capa sea igual – que no haya estratificación de ella y por consiguiente que la "
+"arena en todo el filtro sea bien uniforme. El diámetro de la arena se "
+"caracteriza por el **diámetro efectivo** y la uniformidad por el **coeficiente "
+"de uniformidad**, los dos definidos abajo."
 msgstr ""
+"Quick sand filters use a specific type of sand, and even more so the FRAMCA. "
+"Throughout the life of the filter, the sand has a tendency to stratify, with "
+"the larger grains falling through the bottom of the filter and the larger "
+"grains rising through the top. In the FRAMCA, whether it is a multi-layer "
+"filter or a stacked filter, it is critical that the sand in each layer is the "
+"same - that there is no stratification of the sand and therefore that the sand "
+"throughout the filter is very uniform. The diameter of the sand is "
+"characterized by the **effective diameter** and the uniformity by the "
+"**uniformity coefficient**, both defined below."
 
 #: ../../Filtration/Sand.rst:13
 msgid "Datos de la arena del FRAMCA"
-msgstr ""
+msgstr "FRAMCA arena data"
 
 #: ../../Filtration/Sand.rst:1
 msgid "Parámetro"
-msgstr ""
+msgstr "Parameter"
 
 #: ../../Filtration/Sand.rst:1
 msgid "Valor"
-msgstr ""
+msgstr "Value"
 
 #: ../../Filtration/Sand.rst:1
 msgid "Descripción"
-msgstr ""
+msgstr "Description"
 
 #: ../../Filtration/Sand.rst:1
 msgid "Diámetro efectivo (D:sub:`10`)"
-msgstr ""
+msgstr "Effective diameter (D:sub:`10`)"
 
 #: ../../Filtration/Sand.rst:1
 msgid "|D.FiSandES|"
-msgstr ""
+msgstr "|D.FiSandES|"
 
 #: ../../Filtration/Sand.rst:1
 #, python-format
 msgid ""
-"El tamaño de la malla que sólo 10% de la masa de una muestra pasa cuando "
-"se tamiza. Mayor diámetro haría más difícil la fluidización de la arena "
-"(necesitaría más velocidad). Menor diámetro significa más pérdida de "
-"carga y posibles fugas de arena."
+"El tamaño de la malla que sólo 10% de la masa de una muestra pasa cuando se "
+"tamiza. Mayor diámetro haría más difícil la fluidización de la arena "
+"(necesitaría más velocidad). Menor diámetro significa más pérdida de carga y "
+"posibles fugas de arena."
 msgstr ""
+"The size of the mesh that only 10% of the mass of a sample passes when sieved. "
+"A larger diameter would make it more difficult to fluidize the sand (it would "
+"need more speed). Smaller diameter means more pressure loss and possible sand "
+"leakage."
 
 #: ../../Filtration/Sand.rst:1
 msgid "Coeficiente de uniformidad (D:sub:`60`/D:sub:`10`)"
-msgstr ""
+msgstr "Uniformity coefficient (D:sub:`60`/D:sub:`10`)"
 
 #: ../../Filtration/Sand.rst:1
 msgid "< |Pi.UCFiSand|"
-msgstr ""
+msgstr "< |Pi.UCFiSand|"
 
 #: ../../Filtration/Sand.rst:1
 msgid ""
-"La medida de la uniformidad en el tamaño de los granos de la arena. Más "
-"alto significa que los granos de arena son menos uniformes (más "
-"variación)."
+"La medida de la uniformidad en el tamaño de los granos de la arena. Más alto "
+"significa que los granos de arena son menos uniformes (más variación)."
 msgstr ""
+"The measure of the uniformity in the size of the sand grains. Higher means "
+"that the sand grains are less uniform (more variation)."
 
 #: ../../Filtration/Sand.rst:1
 msgid "Porosidad"
-msgstr ""
+msgstr "Porosity"
 
 #: ../../Filtration/Sand.rst:1
 msgid "|ε.FiSand|"
-msgstr ""
+msgstr "|ε.FiSand|"
 
 #: ../../Filtration/Sand.rst:1
 msgid ""
 "El volumen de espacio vacío que queda entre los granos de areno sobre el "
 "volumen total."
 msgstr ""
+"The volume of empty space left between the sand grains over the total volume."
 
 #: ../../Filtration/Sand.rst:1
 msgid "Peso específico"
-msgstr ""
+msgstr "Specific weight"
 
 #: ../../Filtration/Sand.rst:1
 msgid "> 2.5"
-msgstr ""
+msgstr "> 2.5"
 
 #: ../../Filtration/Sand.rst:1
 msgid ""
-"La densidad de la arena entre la densidad de agua (la arena debe pesar "
-"por lo menos 2.5 veces lo que pesa el mismo volumen de agua)."
+"La densidad de la arena entre la densidad de agua (la arena debe pesar por lo "
+"menos 2.5 veces lo que pesa el mismo volumen de agua)."
 msgstr ""
+"The density of the sand between the density of water (the sand must weigh at "
+"least 2.5 times what the same volume of water weighs)."
 
 #: ../../Filtration/Sand.rst:1
 msgid "Dureza"
-msgstr ""
+msgstr "Hardness"
 
 #: ../../Filtration/Sand.rst:1
 msgid "6-8"
-msgstr ""
+msgstr "6-8"
 
 #: ../../Filtration/Sand.rst:1
 msgid ""
-"La resistencia de la arena al abuso físico. La arena debe tener cierta "
-"dureza para que no se degrade después de muchos ciclos de retrolavado."
+"La resistencia de la arena al abuso físico. La arena debe tener cierta dureza "
+"para que no se degrade después de muchos ciclos de retrolavado."
 msgstr ""
+"The sand's resistance to physical abuse. The sand must have a certain hardness "
+"so that it does not degrade after many backwash cycles."
 
 #: ../../Filtration/Sand.rst:1
 msgid "Solubilidad en ácido"
-msgstr ""
+msgstr "Acid Solubility"
 
 #: ../../Filtration/Sand.rst:1
 msgid "< 5%"
-msgstr ""
+msgstr "< 5%"
 
 #: ../../Filtration/Sand.rst:1
 msgid ""
-"No debe tener mucho material soluble que se va a disolver en el agua "
-"durante tiempo."
+"No debe tener mucho material soluble que se va a disolver en el agua durante "
+"tiempo."
 msgstr ""
+"You should not have too much soluble material that will dissolve in water for "
+"a long time."
 
 #: ../../Filtration/Sand.rst:24
 msgid ""
 "Las propiedades de la arena afectan el comportamiento del filtro, tanto "
-"durante la filtración normal como en el retrolavado. En la filtración "
-"normal, la pérdida de carga a través de una capa *limpia* de arena es "
-"dada por:"
+"durante la filtración normal como en el retrolavado. En la filtración normal, "
+"la pérdida de carga a través de una capa *limpia* de arena es dada por:"
 msgstr ""
+"The properties of the sand affect the behavior of the filter, both during "
+"normal filtration and during backwashing. In normal filtration, the pressure "
+"drop through a *clean* sand layer is given by:"
 
 #: ../../Filtration/Sand.rst:31 ../../Filtration/Sand.rst:46
 #: ../../Filtration/Sand.rst:57
 msgid "Donde"
-msgstr ""
+msgstr "Where"
 
 #: ../../Filtration/Sand.rst:32
 msgid ":math:`k` = el constante de Carman-Kozeny = |k.Kozeny|"
-msgstr ""
+msgstr ":math:`k` = the Carman-Kozeny constant = |k.Kozeny|"
 
 #: ../../Filtration/Sand.rst:33
 msgid ""
-":math:`\\varepsilon_{Arena}` = la porosidad del lecho de arena = "
-"|ε.FiSand|"
-msgstr ""
+":math:`\\varepsilon_{Arena}` = la porosidad del lecho de arena = |ε.FiSand|"
+msgstr ":math:`\\varepsilon_{Sand}` = the porosity of the sand bed = |ε.FiSand|"
 
 #: ../../Filtration/Sand.rst:34
 msgid ":math:`\\nu` = la viscosidad cinemática del agua = |Nu.Water|"
-msgstr ""
+msgstr ":math:`\\nu` = the kinematic viscosity of water = |Nu.Water|"
 
 #: ../../Filtration/Sand.rst:35
 msgid ":math:`V_{Fi}` = la velocidad de aproximación en filtración = |V.FiLayer|"
-msgstr ""
+msgstr ":math:`V_{Fi}` = the speed of approach in filtration = |V.FiLayer|"
 
 #: ../../Filtration/Sand.rst:36
 #, python-format
 msgid ""
-":math:`D_{60}` = el tamaño de tamiz por cual pasa 60% de la arena = "
-"|D.FiSand60|"
+":math:`D_{60}` = el tamaño de tamiz por cual pasa 60% de la arena = |D."
+"FiSand60|"
 msgstr ""
+":math:`D_{60}` = the size of sieve through which 60% of the sand passes = |D."
+"FiSand60|"
 
 #: ../../Filtration/Sand.rst:37
 msgid ":math:`H_{Capa}` = la altura de la capa de arena"
-msgstr ""
+msgstr ":math:`H_{Layer}` = the height of the sand layer"
 
 #: ../../Filtration/Sand.rst:39
 msgid ""
-"El inicio del retrolavado necesita una cierta velocidad mínima de "
-"aproximación para fluidizar la arena:"
+"El inicio del retrolavado necesita una cierta velocidad mínima de aproximación "
+"para fluidizar la arena:"
 msgstr ""
+"The start of the backwash needs a certain minimum approach speed to fluidize "
+"the sand:"
 
 #: ../../Filtration/Sand.rst:47
 msgid ":math:`\\rho_{Arena}` = la densidad de la arena = |Rho.FiSand|"
-msgstr ""
+msgstr ":math:`\\rho_{Sand}` = the density of the sand = |Rho.FiSand|"
 
 #: ../../Filtration/Sand.rst:48
 msgid ":math:`\\rho_{H_2O}` = la densidad del agua = |Rho.H2O|"
-msgstr ""
+msgstr ":math:`\\rho_{H_2O}` = the density of water = |Rho.H2O|"
 
 #: ../../Filtration/Sand.rst:50
 msgid ""
-"Una vez iniciado el retrolavado, la pérdida de carga a través de todo el "
-"lecho de arena fluidizado es:"
+"Una vez iniciado el retrolavado, la pérdida de carga a través de todo el lecho "
+"de arena fluidizado es:"
 msgstr ""
+"Once backwashing has been initiated, the pressure drop across the entire "
+"fluidized sand bed is:"
 
 #: ../../Filtration/Sand.rst:58
 msgid ":math:`H_{Arena}` = la altura total del lecho de arena (*no expandido*)"
-msgstr ""
-
+msgstr ":math:`H_{Sand}` = the total height of the sand bed (*not expanded*)"

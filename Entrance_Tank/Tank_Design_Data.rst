@@ -27,11 +27,11 @@ Datos del Diseño
     Separación entre las placas, |S.EtPlate|
     Ángulo de inclinación de las placas, |AN.EtPlate|
     **Tubería**
-    El desagüe	|ND.EtDrain| |PS.EtDrainStr|
+    El desagüe,	|ND.EtDrain| |PS.EtDrainStr|
     El tubo de mezcla rápida (con el LFOM), |ND.RMPipe| |PS.RMPipeStr|
     Los conectadores del módulo de placas, |ND.EtMod| |PS.EtModStr|
     Los separadores del módulo de placas, |ND.EtModSpacer| |PS.EtModSpacerStr|
-    Los tubos de apoyo del módulo de placas	ND.EtPlateSupport, |PS.EtPlateSupportStr|
+    Los tubos de apoyo del módulo de placas,	|ND.EtPlateSupport| |PS.EtPlateSupportStr|
     **Medidor lineal de caudal**
     Rango de niveles de agua (distancia vertical entre el nivel cero y el nivel máximo), |HL.Lfom|
     Diámetro de los agujeros, |D.LfomOrifices|

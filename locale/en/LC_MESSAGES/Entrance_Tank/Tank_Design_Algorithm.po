@@ -4,106 +4,120 @@
 # Specifications package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 15:41-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-24 14:36-0500\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:7
 msgid "Algoritmo de Diseño"
-msgstr ""
+msgstr "Design Algorithm"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:12
 msgid "Placas de sedimentación"
-msgstr ""
+msgstr "Sedimentation plates"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:13
 msgid ""
-"El número de placas de sedimentación necesario para lograr la velocidad "
-"de captura de diseño está relacionado con la longitud de las placas. Al "
-"incrementar la longitud, se necesitan menos placas. La longitud total del"
-" módulo de placas,"
+"El número de placas de sedimentación necesario para lograr la velocidad de "
+"captura de diseño está relacionado con la longitud de las placas. Al "
+"incrementar la longitud, se necesitan menos placas. La longitud total del "
+"módulo de placas,"
 msgstr ""
+"The number of sedimentation plates required to achieve the design capture "
+"rate is related to the length of the plates. By increasing the length, fewer "
+"plates are required. The total length of the plate module,"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:21
 msgid ""
-"Vista lateral del módulo de placas. La longitud total :math:`L` del "
-"módulo depende tanto del número de placas :math:`N` como de la longitud "
-"de las placas :math:`\\ell`. Ya que se puede compensar el efecto de menos"
-" placas con placas más largas hay un número óptimo para minimizar la "
-"longitud total."
+"Vista lateral del módulo de placas. La longitud total :math:`L` del módulo "
+"depende tanto del número de placas :math:`N` como de la longitud de las "
+"placas :math:`\\ell`. Ya que se puede compensar el efecto de menos placas "
+"con placas más largas hay un número óptimo para minimizar la longitud total."
 msgstr ""
+"Side view of the plate module. The total length :math:`L` of the module "
+"depends on both the number of plates :math:`N` and the length of the plates :"
+"math:`\\ell`. Since the effect of fewer plates can be compensated for by "
+"longer plates there is an optimal number to minimize the total length."
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:28
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:45
 msgid "Donde:"
-msgstr ""
+msgstr "Where:"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:29
 msgid ":math:`N` = el número de placas = |N.EtPlates|"
-msgstr ""
+msgstr ":math:`N` = the number of plates = |N.EtPlates|"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:30
 msgid ""
 "La función :math:`ceil\\left(x\\right)` redondea el valor :math:`x` para "
 "arriba al número entero más cercano"
 msgstr ""
+"The function :math:`ceil\\left(x\\right)` rounds up the value :math:`x` to "
+"the nearest whole number"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:31
 msgid ":math:`Q` = el caudal de diseño"
-msgstr ""
+msgstr ":math:`Q` = the design flow"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:32
 msgid ":math:`S` = la separación perpendicular entre las placas = |S.EtPlate|"
 msgstr ""
+":math:`S` = the perpendicular separation between the plates = |S.EtPlate|"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:33
 msgid ":math:`T` = el grosor de las placas = |T.EtPlate|"
-msgstr ""
+msgstr ":math:`T` = the thickness of the plates = |T.EtPlate|"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:34
 msgid ":math:`W` = el ancho del tanque = |W.Et|"
-msgstr ""
+msgstr ":math:`W` = the width of the tank = |W.Et|"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:35
 msgid ":math:`V_{C}` = la velocidad de captura de diseño = |V.EtCaptureBod|"
-msgstr ""
+msgstr ":math:`V_{C}` = the design capture rate = |V.EtCaptureBod|"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:36
 msgid ":math:`\\alpha` = el ángulo de inclinación de las placas = |AN.EtPlate|"
-msgstr ""
+msgstr ":math:`\\alpha` = the angle of inclination of the plates = |AN.EtPlate|"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:38
 msgid ""
-"La longitud de las placas que corresponde al número óptimo se encuentra "
-"por:"
-msgstr ""
+"La longitud de las placas que corresponde al número óptimo se encuentra por:"
+msgstr "The length of the plates corresponding to the optimal number is per:"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:46
 msgid ":math:`L` = la longitud de las placas = |L.EtPlate|"
-msgstr ""
+msgstr ":math:`L` = the length of the plates = |L.EtPlate|"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:47
 msgid ""
 "La función :math:`Ceil\\left(x,10cm\\right)` redondea el valor :math:`x` "
 "para arriba al múltiple de 10cm más cercano"
 msgstr ""
+"The function :math:`Ceil\\left(x,10cm\\right)` rounds up the value :math:`x` "
+"to the nearest multiple of 10cm"
 
 #: ../../Entrance_Tank/Tank_Design_Algorithm.rst:49
 msgid ""
-"Se redondea la longitud de las placas para arriba al múltiple de 10cm más"
-" cercano para 1) facilitar la fabricación del módulo de placas y 2) "
-"producir un diseño conservador con respecto a la velocidad de captura, "
-"para compensar cualquier ineficiencia debida a la distribución de caudal "
-"entre las placas."
+"Se redondea la longitud de las placas para arriba al múltiple de 10cm más "
+"cercano para 1) facilitar la fabricación del módulo de placas y 2) producir "
+"un diseño conservador con respecto a la velocidad de captura, para compensar "
+"cualquier ineficiencia debida a la distribución de caudal entre las placas."
 msgstr ""
-
+"The length of the plates are rounded up to the nearest 10cm manifold to 1) "
+"facilitate fabrication of the plate module and 2) produce a conservative "
+"design with respect to capture rate, to compensate for any inefficiencies "
+"due to flow distribution between the plates."
