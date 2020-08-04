@@ -23,7 +23,7 @@ def submit_form(request):
             link = form.cleaned_data["link"]
             language = form.cleaned_data["language"]
 
-            os.chdir("docs/")
+            os.chdir("form_submit/templates/docs")
             # TODO: add 'make clean' equivalent before 'build_sphinx'
             subprocess.call(['python', 'setup.py', 'build_sphinx'])
 
@@ -36,3 +36,13 @@ def submit_form(request):
     return render(request, 'form_submit/submit.html', {
         'form': DocGenForm()
     })
+
+
+def index(request):
+    return render(request,'docs/build/sphinx/html/index.html')
+
+def docs(request, doc=index, page=None):
+    if page:
+        return render(request,'docs/build/sphinx/html/' + doc + '/' + page + '.html')
+    else:
+        return render(request, 'docs/build/sphinx/html/' + page + '.html')
