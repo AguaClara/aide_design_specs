@@ -3,7 +3,7 @@
 **/_build
 
 # Byte-compiled / optimized / DLL files
-**/__pycache__
+**__pycache__
 *.py[cod]
 *$py.class
 
@@ -19,5 +19,6 @@ local_settings.py
 # jetbrains config files:
 .idea/
 
+.vscode
 .DS_store
 __pycache__
