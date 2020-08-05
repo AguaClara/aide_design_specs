@@ -6,3 +6,4 @@ aide_design_specs/
 .idea/
 
 .DS_store
+__pycache__
