@@ -41,8 +41,11 @@ def submit_form(request):
 def index(request):
     return render(request,'docs/build/sphinx/html/index.html')
 
-def docs(request, doc=index, page=None):
+def docs(request, doc='index', page=None):
     if page:
         return render(request,'docs/build/sphinx/html/' + doc + '/' + page + '.html')
     else:
         return render(request, 'docs/build/sphinx/html/' + page + '.html')
+
+def image(request, image):
+    return render(request,'docs/build/sphinx/html/_images/' + image + '.png')

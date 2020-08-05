@@ -117,5 +117,10 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
+STATICFILES_DIRS = [
+    "/form_submit/templates/docs/build/sphinx/html/_static",
+    "/home/polls.com/polls/static",
+    "/opt/webfiles/common",
+]
 
-STATIC_URL = '/static/'
+STATIC_URL = '/_static/'
