@@ -4,91 +4,109 @@
 # Specifications package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 15:41-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-28 19:42-0500\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #: ../../Introduction/Requirements.rst:5
 msgid "Necesidades para Operar una Planta AguaClara"
-msgstr ""
+msgstr "Requirements for Operating an AguaClara Plant"
 
 #: ../../Introduction/Requirements.rst:10
 msgid "Personal e insumos"
-msgstr ""
+msgstr "Personnel and supplies"
 
 #: ../../Introduction/Requirements.rst:11
 msgid ""
-"Operador capacitado en el manejo de la tecnología AguaClara presente "
-"siempre cuando la planta está funcionando, las 24 horas en la mayoría de "
-"los casos."
+"Operador capacitado en el manejo de la tecnología AguaClara presente siempre "
+"cuando la planta está funcionando, las 24 horas en la mayoría de los casos."
 msgstr ""
+"Operator trained in the use of AguaClara technology is always present when the "
+"plant is operating, 24 hours in most cases."
 
 #: ../../Introduction/Requirements.rst:12
 msgid ""
-"Dosis adecuada y constante de un químico coagulante (sulfato de aluminio "
-"o policloruro de aluminio) para la remoción de turbiedad."
+"Dosis adecuada y constante de un químico coagulante (sulfato de aluminio o "
+"policloruro de aluminio) para la remoción de turbiedad."
 msgstr ""
+"Adequate and constant dosage of a coagulating chemical (aluminium sulphate or "
+"poly aluminium chloride) for the removal of turbidity."
 
 #: ../../Introduction/Requirements.rst:13
 msgid ""
 "Dosis adecuada y constante de hipoclorito de calcio (cloro) para la "
 "desinfección."
 msgstr ""
+"Adequate and constant dose of calcium hypochlorite (chlorine) for disinfection."
 
 #: ../../Introduction/Requirements.rst:18
 msgid "Equipo básico de laboratorio"
-msgstr ""
+msgstr "Basic laboratory equipment"
 
 #: ../../Introduction/Requirements.rst:19
 msgid ""
-"Un turbidímetro portátil, la herramienta más fundamental para la "
-"operación de la planta (:numref:`figure_microtpi`). Este instrumento se "
-"usa para medir la cantidad de sedimento que trae el afluente a la planta "
-"para elegir la dosis de coagulante, para evaluar el rendimiento de cada "
-"proceso con medidas de su efluente, y para registrar la calidad de agua "
-"que la planta produce durante el día. En las plantas AguaClara existentes"
-" se ha usado el MicroTPI turbidímetro portátil con luz infrarroja de HF "
-"Scientific con un rango efectivo de 0.02 UTN a 1100 UTN."
+"Un turbidímetro portátil, la herramienta más fundamental para la operación de "
+"la planta (:numref:`figure_microtpi`). Este instrumento se usa para medir la "
+"cantidad de sedimento que trae el afluente a la planta para elegir la dosis de "
+"coagulante, para evaluar el rendimiento de cada proceso con medidas de su "
+"efluente, y para registrar la calidad de agua que la planta produce durante el "
+"día. En las plantas AguaClara existentes se ha usado el MicroTPI turbidímetro "
+"portátil con luz infrarroja de HF Scientific con un rango efectivo de 0.02 UTN "
+"a 1100 UTN."
 msgstr ""
+"A portable turbidimeter, the most fundamental tool for plant operation (:"
+"numref:`figure_microtpi`). This instrument is used to measure the amount of "
+"sediment brought to the plant by the influent to choose the coagulant dosage, "
+"to evaluate the performance of each process by measuring its effluent, and to "
+"record the water quality that the plant produces during the day. In the "
+"existing AguaClara plants, the HF Scientific Portable MicroTPI Turbidimeter "
+"with infrared light has been used with an effective range of 0.02 UTN to 1100 "
+"UTN."
 
 #: ../../Introduction/Requirements.rst:20
 msgid "El kit de calibración del turbidímetro para asegurar mediciones precisas."
-msgstr ""
+msgstr "The turbidimeter calibration kit to ensure accurate measurements."
 
 #: ../../Introduction/Requirements.rst:21
 msgid ""
-"Comparador de cloro para comprobar con regularidad que la concentración "
-"de cloro libre residual está dentro del rango aceptable en la red de "
-"distribución."
+"Comparador de cloro para comprobar con regularidad que la concentración de "
+"cloro libre residual está dentro del rango aceptable en la red de distribución."
 msgstr ""
+"Chlorine comparator to regularly check that the concentration of residual free "
+"chlorine is within the acceptable range in the distribution network."
 
 #: ../../Introduction/Requirements.rst:22
 msgid ""
-"Probetas para medir volúmenes pequeños de líquidos, especialmente para "
-"pruebas del sistema de dosificación de químicos."
+"Probetas para medir volúmenes pequeños de líquidos, especialmente para pruebas "
+"del sistema de dosificación de químicos."
 msgstr ""
+"Test tubes for measuring small volumes of liquids, especially for testing the "
+"chemical dosing system."
 
 #: ../../Introduction/Requirements.rst:23
 msgid ""
-"Una escala para medir las masas de químicos en polvo para la preparación "
-"de las soluciones madres del coagulante y cloro."
+"Una escala para medir las masas de químicos en polvo para la preparación de "
+"las soluciones madres del coagulante y cloro."
 msgstr ""
+"A scale to measure the masses of powdered chemicals for the preparation of the "
+"mother solutions of coagulant and chlorine."
 
 #: ../../Introduction/Requirements.rst:24
 msgid "Un cronómetro para medir caudales de agua y químicos."
-msgstr ""
+msgstr "A timer to measure water and chemical flows."
 
 #: ../../Introduction/Requirements.rst:32
 msgid "El MicroTPI turbidímetro de HF Scientific."
-msgstr ""
-
+msgstr "The HF Scientific MicroTPI Turbidimeter."

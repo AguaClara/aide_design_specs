@@ -4,185 +4,191 @@
 # Specifications package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 15:41-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-07-24 17:13-0500\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Source-Language: es\n"
 
 #: ../../Filtration/Filt_General_Data.rst:7
 msgid "Datos Generales"
-msgstr ""
+msgstr "General Data"
 
 #: ../../Filtration/Filt_General_Data.rst:11
 msgid "Datos del FRAMCA"
-msgstr ""
+msgstr "FRAMCA data"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "**Datos Constructivos**"
-msgstr ""
+msgstr "**Constructive Data**"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Numero de filtros en paralelo"
-msgstr ""
+msgstr "Number of filters in parallel"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|N.Fi|"
-msgstr ""
+msgstr "|N.Fi|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Caudal máximo de cada filtro"
-msgstr ""
+msgstr "Maximum flow rate of each filter"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|Q.Fi|"
-msgstr ""
+msgstr "|Q.Fi|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Profundidad total de la caja del filtro"
-msgstr ""
+msgstr "Total depth of the filter box"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|H.Fi|"
-msgstr ""
+msgstr "|H.Fi|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Numero de capas de arena en cada filtro"
-msgstr ""
+msgstr "Number of sand layers in each filter"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|N.FiLayer|"
-msgstr ""
+msgstr "|N.FiLayer|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Grosor de cada capa de arena"
-msgstr ""
+msgstr "Thickness of each layer of sand"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid ""
 "|H.FiLayer| (las cinco capas superiores) |H.FiBottomLayer| (la capa "
 "inferior)"
 msgstr ""
+"|H.FiLayer| (the five upper layers), |H.FiBottomLayer| (the lower "
+"layer)"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Separación entre los ramales de los manifolds"
-msgstr ""
+msgstr "Separation between manifold branches"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|B.FiManifoldBranch|"
-msgstr ""
+msgstr "|B.FiManifoldBranch|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Número de ramales en cada manifold de entrada y salida"
-msgstr ""
+msgstr "Number of strings in each entry and exit manifold"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|N.FiManBranch|"
-msgstr ""
+msgstr "|N.FiManBranch|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Volumen aproximado de arena"
-msgstr ""
+msgstr "Approximate volume of sand"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|Vol.FiSand|"
-msgstr ""
+msgstr "|Vol.FiSand|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "**Datos de Tubería**"
-msgstr ""
+msgstr "**Pipeline Data**"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Tubo para vaciar el filtro de arena"
-msgstr ""
+msgstr "Tube for emptying the sand filter"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|ND.FiSandOutlet| |PS.FiSandOutletStr|"
-msgstr ""
+msgstr "|ND.FiSandOutlet| |PS.FiSandOutletStr|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Drenaje de la caja de salida"
-msgstr ""
+msgstr "Outlet box drainage"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|ND.FiExitWaste| |PS.FiExitWasteStr|"
-msgstr ""
+msgstr "|ND.FiExitWaste| |PS.FiExitWasteStr|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Drenaje de la caja de rebose"
-msgstr ""
+msgstr "Overflow box drainage"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|ND.FiEntOverflow| |PS.FiEntOverflowStr|"
-msgstr ""
+msgstr "|ND.FiEntOverflow| |PS.FiEntOverflowStr|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Válvula de purga de la entrada inferior"
-msgstr ""
+msgstr "Bottom Inlet Purge Valve"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|ND.FiBwTrunkFlushValve|"
-msgstr ""
+msgstr "|ND.FiBwTrunkFlushValve|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Válvula de purga de las entrada y salidas superiores"
-msgstr ""
+msgstr "Bleed valve for the inlet and upper outlets"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|ND.FiTrunkFlushValve|"
-msgstr ""
+msgstr "|ND.FiTrunkFlushValve|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "**Parámetros Hidráulicos**"
-msgstr ""
+msgstr "**Hydraulic Parameters**"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Tasa de filtración"
-msgstr ""
+msgstr "Filtration rate"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|V.FiLayer|"
-msgstr ""
+msgstr "|V.FiLayer|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Tasa de retrolavado"
-msgstr ""
+msgstr "Backwash rate"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|V.FiB|"
-msgstr ""
+msgstr "|V.FiB|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Pérdida de carga total de filtración con la arena limpia"
-msgstr ""
+msgstr "Total filtration pressure loss with clean sand"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|HL.FiCleanPath|"
-msgstr ""
+msgstr "|HL.FiCleanPath|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid ""
-"Pérdida de carga total de filtración al final del ciclo de filtración con"
-" sedimento acumulado"
+"Pérdida de carga total de filtración al final del ciclo de filtración "
+"con sedimento acumulado"
 msgstr ""
+"Total filtration pressure drop at the end of the filtration cycle "
+"with accumulated sediment"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|HL.FiTerminal|"
-msgstr ""
+msgstr "|HL.FiTerminal|"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "Pérdida de carga total de retrolavado"
-msgstr ""
+msgstr "Total backwash pressure loss"
 
 #: ../../Filtration/Filt_General_Data.rst:1
 msgid "|HL.FiBwTotalSS|"
-msgstr ""
-
+msgstr "|HL.FiBwTotalSS|"

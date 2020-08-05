@@ -104,7 +104,7 @@ msgstr ""
 
 #: ../../Mix/Mix_Design_Algorithm.rst:60
 msgid ""
-"La tasa de la disipación de energía de ED.RapidMix está basada en una "
+"La tasa de la disipación de energía de |ED.RapidMix| está basada en una "
 "suspensión de 500 UTN. Es decir, la escala de Kolmogorov producida por "
 "ese chorro es parecida a la separación entre las partículas primeras de "
 "esa suspensión."
@@ -129,4 +129,3 @@ msgstr ""
 #: ../../Mix/Mix_Design_Algorithm.rst:78
 msgid ":math:`g` = la aceleración debida a la gravedad = :math:`9.81 m/s^{2}`"
 msgstr ""
-

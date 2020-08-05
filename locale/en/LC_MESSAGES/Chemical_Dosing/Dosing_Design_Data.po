@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 15:41-0700\n"
-"PO-Revision-Date: 2020-07-22 18:32-0500\n"
+"PO-Revision-Date: 2020-07-30 18:02-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,7 +54,7 @@ msgstr "|Vol.CoagStock|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Concentración madre"
-msgstr "Mother's Concentration"
+msgstr "Stock concentration"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|C.CoagStock|"
@@ -64,7 +64,7 @@ msgstr "|C.CoagStock|"
 msgid ""
 "Número de sacos de coagulante de |M.CoagSack| para mezclar la solución madre"
 msgstr ""
-"Number of coagulant sacks of |M.CoagSack| for mixing the mother solution"
+"Number of coagulant sacks of |M.CoagSack| for mixing the stock solution"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|N.CoagSacks|"
@@ -104,7 +104,7 @@ msgstr "|L.CoagTube|"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "Pérdida de carga máxima del dosificador"
-msgstr "Maximum pressure drop of the dosing device"
+msgstr "Maximum head loss of the dosing device"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|HL.Cdc|"
@@ -162,7 +162,7 @@ msgstr "|D.CoagFloatValveOrifice|"
 msgid ""
 "Pérdida de carga en el orificio de la válvula flotadora con el caudal máximo "
 "de coagulante"
-msgstr "Pressure drop at float valve orifice at maximum coagulant flow"
+msgstr "Head loss at float valve orifice at maximum coagulant flow"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|HL.CoagFloatValveOrifice|"
@@ -244,8 +244,8 @@ msgstr "|D.ChlorFloatValveOrifice|"
 msgid ""
 "Pérdida de cargo en el orificio de la válvula flotadora con el caudal máximo "
 "de cloro"
-msgstr "Loss of charge at the float valve orifice at maximum chlorine flow"
+msgstr "Head loss at the float valve orifice at maximum chlorine flow"
 
 #: ../../Chemical_Dosing/Dosing_Design_Data.rst:1
 msgid "|HL.ChlorFloatValveOrifice|"
-msgstr "|HL.ChlorFloatValveOrifice"
+msgstr "|HL.ChlorFloatValveOrifice|"
