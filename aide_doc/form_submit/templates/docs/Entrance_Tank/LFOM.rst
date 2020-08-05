@@ -1,4 +1,33 @@
-
+.. |N.LfomOrifices| replace:: [17.0, 4.0, 6.0, 3.0, 4.0, 3.0, 3.0, 3.0, 3.0, 2.0, 3.0, 1.0]
+.. |HL.Lfom| replace:: 20.0 cm
+.. |H.LfomOrifices| replace:: ['7.94 mm', '2.47 cm', '4.14 cm', '5.82 cm', '7.49 cm', '9.16 cm', '10.84 cm', '12.51 cm', '14.18 cm', '15.86 cm', '17.53 cm', '19.21 cm']
+.. |D.LfomOrifices| replace:: 1.59 cm
+.. |B.LfomRows| replace:: 1.67 cm
+.. |url| replace:: https://github.com/AguaClara/aide_design_specs/blob/LFOMDocs/Entrance_Tank/LFOM.rst
+.. |N.LfomOrifices| replace:: [17.0, 4.0, 6.0, 3.0, 4.0, 3.0, 3.0, 3.0, 3.0, 2.0, 3.0, 1.0]
+.. |HL.Lfom| replace:: 20.0 cm
+.. |H.LfomOrifices| replace:: ['7.94 mm', '2.47 cm', '4.14 cm', '5.82 cm', '7.49 cm', '9.16 cm', '10.84 cm', '12.51 cm', '14.18 cm', '15.86 cm', '17.53 cm', '19.21 cm']
+.. |D.LfomOrifices| replace:: 1.59 cm
+.. |B.LfomRows| replace:: 1.67 cm
+.. |url| replace:: https://github.com/AguaClara/aide_design_specs/blob/LFOMDocs/Entrance_Tank/LFOM.rst
+.. |N.LfomOrifices| replace:: [17.0, 4.0, 6.0, 3.0, 4.0, 3.0, 3.0, 3.0, 3.0, 2.0, 3.0, 1.0]
+.. |HL.Lfom| replace:: 20.0 cm
+.. |H.LfomOrifices| replace:: ['7.94 mm', '2.47 cm', '4.14 cm', '5.82 cm', '7.49 cm', '9.16 cm', '10.84 cm', '12.51 cm', '14.18 cm', '15.86 cm', '17.53 cm', '19.21 cm']
+.. |D.LfomOrifices| replace:: 1.59 cm
+.. |B.LfomRows| replace:: 1.67 cm
+.. |url| replace:: https://github.com/AguaClara/aide_design_specs/blob/LFOMDocs/Entrance_Tank/LFOM.rst
+.. |N.LfomOrifices| replace:: [17.0, 4.0, 6.0, 3.0, 4.0, 3.0, 3.0, 3.0, 3.0, 2.0, 3.0, 1.0]
+.. |HL.Lfom| replace:: 20.0 cm
+.. |H.LfomOrifices| replace:: ['7.94 mm', '2.47 cm', '4.14 cm', '5.82 cm', '7.49 cm', '9.16 cm', '10.84 cm', '12.51 cm', '14.18 cm', '15.86 cm', '17.53 cm', '19.21 cm']
+.. |D.LfomOrifices| replace:: 1.59 cm
+.. |B.LfomRows| replace:: 1.67 cm
+.. |url| replace:: https://github.com/AguaClara/aide_design_specs/blob/LFOMDocs/Entrance_Tank/LFOM.rst
+.. |N.LfomOrifices| replace:: [17.0, 4.0, 6.0, 3.0, 4.0, 3.0, 3.0, 3.0, 3.0, 2.0, 3.0, 1.0]
+.. |HL.Lfom| replace:: 20.0 cm
+.. |H.LfomOrifices| replace:: ['7.94 mm', '2.47 cm', '4.14 cm', '5.82 cm', '7.49 cm', '9.16 cm', '10.84 cm', '12.51 cm', '14.18 cm', '15.86 cm', '17.53 cm', '19.21 cm']
+.. |D.LfomOrifices| replace:: 1.59 cm
+.. |B.LfomRows| replace:: 1.67 cm
+.. |url| replace:: https://github.com/AguaClara/aide_design_specs/blob/LFOMDocs/Entrance_Tank/LFOM.rst
 .. _title_LFOM:
 
 *******************************
