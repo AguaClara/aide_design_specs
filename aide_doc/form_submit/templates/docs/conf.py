@@ -1,3 +1,5 @@
+language = 'es'
+link = 'https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/v/e86333de5acab12a19f1d87b/e/d75b2f7a41dde39791b154e8'
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
@@ -81,7 +83,6 @@ release = version
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 # TODO: set based on language param passed from Documenter
-language = 'es'
 locale_dirs = ['locale/']
 gettext_compact = False
 
@@ -223,7 +224,7 @@ rst_prolog = """
 # Here's a function to define custom styles to be used with the roles:
 def setup(app):
     # parsed_measurements = get_parsed_measurements("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/w/de9ad5474448b34f33fef097/e/1336f29c2649ad86aceaeaeb")
-    parsed_measurements = parse.get_parsed_measurements("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/v/e86333de5acab12a19f1d87b/e/d75b2f7a41dde39791b154e8")
+    parsed_measurements = parse.get_parsed_measurements(link)
     # TODO: add way to retrieve file/path from Documenter
     parse.make_replace_file(parsed_measurements, './Entrance_Tank/LFOM.rst')
 
