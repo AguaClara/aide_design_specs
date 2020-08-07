@@ -20,5 +20,7 @@ setup(
         'build_sphinx': {
             'project': ('setup.py', name),
             'version': ('setup.py', version),
-            'release': ('setup.py', release)}},
+            'release': ('setup.py', release),
+            'builder': ('setup.py', 'latex'),
+            'language': ('setup.py', 'es')}},
 )
