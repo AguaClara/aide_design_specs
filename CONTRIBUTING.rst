@@ -74,7 +74,7 @@ Poedit is opened, the user can follow these instructions:
 
     .. _figure_Poedit_lang_warning:
 
-    .. figure:: .images/Poedit_lang_warning.jpg
+    .. figure:: .images/poedit_lang_warning.JPG
         :width: 550px
         :align: center
 
@@ -82,7 +82,7 @@ Poedit is opened, the user can follow these instructions:
 
     .. _figure_catalog_properties:
 
-    .. figure:: .images/catalog_properties.jpg
+    .. figure:: .images/catalog_properties.JPG
         :width: 300px
         :align: center
 
@@ -96,7 +96,7 @@ Poedit is opened, the user can follow these instructions:
 
     .. _figure_change_source_lang_ex:
 
-    .. figure:: .images/change_source_lang_ex.jpg
+    .. figure:: .images/change_source_lang_ex.JPG
         :width: 500px
         :align: center
 
