@@ -25,7 +25,7 @@ Next, po files will be generated from the pot files using
 These po files will be found in these directories:
 
   ./locale/<source language>/LC_MESSAGES/
-  
+
   ./locale/<target language>/LC_MESSAGES/
 
 The .po files in ./locale/<target language>/LC_MESSAGES/ can then be translated
@@ -66,7 +66,7 @@ Poedit is opened, the user can follow these instructions:
 
     .. _figure_choose_file:
 
-    .. figure:: Images/choose_file.png
+    .. figure:: .images/choose_file.png
           :width: 400px
           :align: center
 
@@ -74,7 +74,7 @@ Poedit is opened, the user can follow these instructions:
 
     .. _figure_Poedit_lang_warning:
 
-    .. figure:: Images/Poedit_lang_warning.jpg
+    .. figure:: .images/Poedit_lang_warning.jpg
         :width: 550px
         :align: center
 
@@ -82,7 +82,7 @@ Poedit is opened, the user can follow these instructions:
 
     .. _figure_catalog_properties:
 
-    .. figure:: Images/catalog_properties.jpg
+    .. figure:: .images/catalog_properties.jpg
         :width: 300px
         :align: center
 
@@ -96,7 +96,7 @@ Poedit is opened, the user can follow these instructions:
 
     .. _figure_change_source_lang_ex:
 
-    .. figure:: Images/change_source_lang_ex.jpg
+    .. figure:: .images/change_source_lang_ex.jpg
         :width: 500px
         :align: center
 
