@@ -38,9 +38,9 @@ def submit_form(request):
             if file_type == 'website':
                 subprocess.call(['python', 'setup.py', 'build_sphinx'])
                 return HttpResponseRedirect('/index')
-            
+
             elif file_type == 'pdf':
-                subprocess.call(['python', 'setup2.py', 'build_sphinx'])
+                subprocess.call(['python', 'setup.py', 'build_sphinx'])
                 os.chdir("./build/sphinx/latex")
                 pdfl = PDFLaTeX.from_texfile('AideDesignSpecs.tex')
                 pdf, _, _ = pdfl.create_pdf(keep_pdf_file=True)
@@ -52,7 +52,7 @@ def submit_form(request):
                 response['Content-Disposition'] = 'attachment; filename="AideDesignSpecs.pdf"'
 
                 output_file.close()
-                
+
                 return response
 
         else:

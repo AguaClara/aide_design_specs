@@ -219,8 +219,6 @@ rst_prolog = """
 .. role:: red
 """
 
-# TODO: download entire folder from GitHub via this: https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo
-    # alternatively, use a file path since the Heroku server could store the source docs
 # Here's a function to define custom styles to be used with the roles:
 def setup(app):
     # parsed_measurements = get_parsed_measurements("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/w/de9ad5474448b34f33fef097/e/1336f29c2649ad86aceaeaeb")
