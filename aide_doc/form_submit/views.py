@@ -32,8 +32,15 @@ def submit_form(request):
             language = form.cleaned_data["language"]
             file_type = form.cleaned_data["file_type"]
 
-            os.chdir("form_submit/templates/docs")
+            if (os.path.basename(os.getcwd()) != "docs"):
+                print(os.getcwd())
+                os.chdir("form_submit/templates/docs")
             # TODO: add 'make clean' equivalent before 'build_sphinx'
+
+            f = open("settings.py", "w")
+            f.write("language = '" + language + "'\n")
+            f.write("link = '" + link + "'\n")
+            f.close()
 
             if file_type == 'website':
                 subprocess.call(['python', 'setup.py', 'build_sphinx'])
