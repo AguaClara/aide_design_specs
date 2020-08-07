@@ -21,6 +21,5 @@ setup(
             'project': ('setup.py', name),
             'version': ('setup.py', version),
             'release': ('setup.py', release),
-            'builder': ('setup.py', 'latex'),
-            'language': ('setup.py', 'es')}},
+            'builder': ('setup.py', 'latex')}},
 )
