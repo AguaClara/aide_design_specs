@@ -26,25 +26,10 @@ Este documento está escrito y mantenido en `Github <https://github.com/AguaClar
   Introduction/AIDE_Tools.rst
 
 .. toctree::
-  :caption: Materiales de Construcción
-  :maxdepth: 1
-
-  Construction_Materials/Tubing.rst
-  Construction_Materials/Brickwork.rst
-
-.. toctree::
   :caption: Tanque de Entrada
   :maxdepth: 1
 
   Entrance_Tank/LFOM.rst
-
-.. toctree::
-  :caption: Apéndice
-  :maxdepth: 1
-
-  Appendix/General_Design_Data.rst
-  Appendix/License.rst
-
 
 `Las versiones de PDF y LaTeX <https://github.com/AguaClara/aide_design_specs/releases/latest>`_ [#pdf_warning]_.
 

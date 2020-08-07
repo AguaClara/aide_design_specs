@@ -1,4 +1,3 @@
-.. include:: ../global.rst
 
 .. _title_Tubería:
 

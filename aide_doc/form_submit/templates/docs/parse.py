@@ -1,5 +1,7 @@
 import json
 import math
+import os
+from shutil import copyfile
 from onshape_client.oas import BTFeatureScriptEvalCall2377
 from onshape_client.onshape_url import OnshapeElement
 from onshape_client.utility import parse_quantity
@@ -83,6 +85,18 @@ def is_fs_type(candidate, type_name):
         result = False
     return result
 
+def move_to_docs(file_path, base="doc_files"):
+    file = os.path.basename(file_path)
+    dir = os.path.dirname(file_path)
+    while os.path.basename(dir) != base:
+        file = os.path.basename(dir) + "/" + file
+        dir = os.path.dirname(dir)
+    try:
+        copyfile(file_path, file)
+    except IOError as io_err:
+        os.makedirs(os.path.dirname(file))
+        copyfile(file_path, file)
+
 def parse_variables_from_list(unparsed):
     measurement_list = []
 
@@ -98,25 +112,31 @@ def parse_variables_from_map(unparsed, default_key):
     parsed_variables = {}
     value = None
 
-    if default_key == "url":
-        pass
+    if default_key == "template":
         # write function to download that rst for editing, or if possible, that folder
         # might have to be a file path instead of url
+        move_to_docs(unparsed)
     elif default_key == "index":
         # write function to download that index
         # name it index.rst unless index.rst already exists
         # if index.rst is not None:
             # merge_indexes(index.rst, newindex.rst)
-        pass
+        if unparsed != "" and unparsed is not None:
+            copyfile(unparsed, 'index.rst')
     elif default_key == "process":
         # write function to download that process
         # name it treatmentprocss.rst unless treatmentprocss.rst already exists
         # if treatmentprocss.rst is not None:
             # merge_treatment_processes(treatmentprocss.rst, newxprocess.rst
-        pass
-    elif default_key == "language":
-        # set language variable to this
-        pass
+        if unparsed != "" and unparsed is not None:
+            file = "Introduction/Treatment_Process.rst"
+            file_path = "../../../../doc_files/Introduction/Treatment_Process_" + unparsed + ".rst"
+            if not os.path.exists(file):
+                try:
+                    copyfile(file_path, file)
+                except IOError as io_err:
+                    os.makedirs(os.path.dirname(file))
+                    copyfile(file_path, file)
 
     if isinstance(unparsed, list):
         for to_parse in unparsed:
@@ -190,7 +210,7 @@ def get_parsed_measurements(link):
 
     attributes = json.loads(response.data.decode("utf-8"))["result"][msg_str][val_str]
     type_tag = "Documenter"
-    fields = ["variables", "url", "index", "process"]
+    fields = ["variables", "template", "index", "process"]
 
     measurements = parse_attributes(attributes, type_tag, fields)
 
