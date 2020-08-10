@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Construction_Materials/Brickwork.rst:7
+msgid "Albañilería"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:8
+msgid ""
+"Todo lo que no es tubería en la planta en Honduras se ha construido de "
+"piedras, varillas, ladrillos, y concreto. Las paredes del tanque de "
+"entrada, el floculador, los tanques de sedimentación, y los filtros de "
+"arena han sido de ladrillo reforzado (:numref:`figure_plant_exterior`). "
+"La base de los tanques de sedimentación, incluyendo las tolvas "
+"inclinadas, ha sido de mampostería de piedras. En algunos casos las "
+"paredes exteriores del edificio se han construido de bloques de concreto,"
+" aunque este material no es adecuado para las paredes de los tanques por "
+"su permeabilidad."
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:17
+msgid ""
+"Los materiales comunes que se usan en la construcción de las plantas en "
+"Honduras: paredes de ladrillos reforzados, cimentaciones de piedras, y "
+"paredes exteriores de bloque."
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:19
+msgid ""
+"Sin embargo, el diseño estructural de la planta es la responsabilidad del"
+" socio de implementación. El programa AguaClara de la Universidad de "
+"Cornell no pretende hacer recomendaciones acerca de los elementos "
+"estructurales del edificio; el diseño hidráulico simplemente da las "
+"dimensiones internas de cada recipiente, los diámetros de la tubería, las"
+" ubicaciones relativas de las instalaciones, y la orientación de cada "
+"una. Todo el trabajo de diseñar el edificio alrededor de las "
+"instalaciones hidráulicas de acuerdo con las normas técnicas del país del"
+" proyecto y los materiales disponibles le cae al socio. Es posible que en"
+" el futuro las mismas geometrías funcionales de la planta se construyan "
+"con distintos métodos y materiales. Ya que el diseño estructural influye "
+"en el diseño hidráulico, el usuario de la herramienta de diseño puede "
+"especificar el grosor de varias paredes y losas de la planta, con el fin "
+"de producir un diseño que corresponda a los materiales y métodos de "
+"construcción que en realidad se usarán. Por ejemplo, en Honduras se han "
+"construido paredes de ladrillo de aproximadamente 15cm de grosor para la "
+"mayoría de los tanques, pero en otros países es posible que haya que "
+"construir con concreto reforzado de otro grosor para cumplir con el "
+"reglamento nacional. Si los grosores de este diseño no corresponden al "
+"diseño estructural, siempre se puede pedir otro diseño de la herramienta "
+"para evitar cualquier conflicto entre el diseño estructural y el diseño "
+"hidráulico en el momento de construir. La siguiente tabla resume los "
+"grosores de los elementos estructurales para este diseño específico."
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:23
+msgid "Grosores de algunos elementos estructurales"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Pared exterior de los tanques de sedimentación"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.SedWall|"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes que dividen los tanques de sedimentación adyacentes"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.SedDividingWall|"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Pared del canal de salida del tanque de sedimentación"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.SedChannelWall|"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Pared exterior del floculador"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.FlocWall|"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes que dividen los canales adyacentes del floculador"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.FlocDividingWall|"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes de los filtros de arena"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.FiWall|"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes de las cajas auxiliares de los filtros de arena"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.FiBoxWall|"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes exteriores del edificio"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.PlantWall|"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes del canal de limpieza"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.DrainChannelWall|"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Losa del floculador"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.FlocSlab|"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Losa de la plataforma de químicos"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.ChemSlab|"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Losa del piso de la planta"
+msgstr ""
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.PlantFloor|"
+msgstr ""
+

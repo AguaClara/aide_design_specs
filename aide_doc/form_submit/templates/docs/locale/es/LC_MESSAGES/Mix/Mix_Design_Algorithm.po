@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:7
+msgid "Algoritmo de Diseño"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:12
+msgid "Diseño del orificio"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:13
+msgid ""
+"La tasa máxima de la disipación de energía en un chorro redondo que sigue"
+" después de un orificio se encuentra por:"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:21 ../../Mix/Mix_Design_Algorithm.rst:53
+#: ../../Mix/Mix_Design_Algorithm.rst:76
+msgid "Donde:"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:22
+msgid ""
+":math:`\\Pi_{Jet} =` un parámetro relacionado a la geometría del flujo en"
+" un chorro redondo = |Pi.JetRound|"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:23
+msgid ":math:`Q =` el caudal de diseño = |Q.Plant|"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:24
+msgid ":math:`D =` el diámetro del orificio = |D.RMOrifice|"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:25
+msgid ""
+":math:`\\Pi_{VC} =` el coeficiente de vena contracta para un orificio = "
+"|Pi.VCOrifice|"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:27
+msgid ""
+"Organizando esta ecuación de otra forma, se encuentra el diámetro del "
+"orificio:"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:37
+msgid "La tasa de la disipación de energía necesaria"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:38
+msgid ""
+"El objetivo de la mezcla rápida es distribuir el coagulante a través del "
+"proceso de transporte advectivo turbulento a una escala lo suficiente "
+"pequeña que el proceso lento de difusión molecular puede terminar de "
+"distribuir el coagulante entre las partículas de manera equitativa. La "
+"escala de Kolmogorov es una medida de la escala mínima de los remolinos "
+"en un flujo turbulento, y está relacionado directamente con la tasa de la"
+" disipación de energía. Para que los remolinos turbulentos puedan "
+"distribuir el coagulante equitativamente entre las partículas, la escala "
+"de Kolmogorov debe ser igual o menor que la separación media entre ellas."
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:54
+msgid ":math:`L_K` = la escala de Kolmogorov"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:55
+msgid ":math:`v` = la viscosidad cinética del fluido"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:56
+msgid ":math:`\\varepsilon` = la tasa de la disipación de energía"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:57
+msgid ":math:`L_{Sep}` = la separación media entre partículas"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:58
+msgid ""
+":math:`\\phi_{Col}` = la fracción del volumen total ocupado por las "
+"partículas coloidales de la suspensión"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:60
+msgid ""
+"La tasa de la disipación de energía de |ED.RapidMix| está basada en una "
+"suspensión de 500 UTN. Es decir, la escala de Kolmogorov producida por "
+"ese chorro es parecida a la separación entre las partículas primeras de "
+"esa suspensión."
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:67
+msgid "La pérdida de carga"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:68
+msgid ""
+"La pérdida de carga en la mezcla rápida, una consecuencia de la expansión"
+" del chorro, depende de la :math:`\\varepsilon_{max}`:"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:77
+msgid ""
+":math:`h_e` = la pérdida de carga a través del orificio de mezcla rápida "
+"= |HL.RMOrifice|"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Algorithm.rst:78
+msgid ":math:`g` = la aceleración debida a la gravedad = :math:`9.81 m/s^{2}`"
+msgstr ""

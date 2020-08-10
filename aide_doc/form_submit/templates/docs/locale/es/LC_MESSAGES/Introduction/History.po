@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Introduction/History.rst:5
+msgid "Historia"
+msgstr ""
+
+#: ../../Introduction/History.rst:6
+msgid ""
+"AguaClara Cornell inició en 2005 como programa de la Facultad de "
+"Ingeniería Civil y Ambiental de la Universidad de Cornell que tenía como "
+"propósito diseñar tecnologías robustas de tratamiento de agua potable. "
+"Vinculado con la ONG Hondureña Agua Para el Pueblo (APP) como primer "
+"socio de implementación en Centroamérica, el programa AguaClara Cornell "
+"pretendía desarrollar soluciones sostenibles para proveer agua de calidad"
+" en la zona rural y periurbana de ese país."
+msgstr ""
+
+#: ../../Introduction/History.rst:8
+msgid ""
+"Empezando con el proyecto piloto en el casco urbano del municipio de "
+"Ojojona en 2006 y 2007, la tecnología AguaClara ha evolucionado con cada "
+"proyecto mediante un proceso de integración de las experiencias del campo"
+" en las investigaciones y diseños de la Universidad. El resultado es un "
+"producto que está a la vez basado en las necesidades de las comunidades, "
+"en la experiencia de los implementadores, y en los experimentos e "
+"innovaciones del laboratorio de Cornell. Las plantas son sostenibles por "
+"cuanto se construyen empleando materiales disponibles al nivel nacional y"
+" el proceso de tratamiento y los sistemas de suministro de insumos "
+"químicos se diseñan aprovechando la fuerza de gravedad, de esta forma "
+"eliminando la necesidad de energía eléctrica. Además, las versiones más "
+"recientes de la tecnología producen agua que cumple con las normas más "
+"estrictas de calidad."
+msgstr ""
+
+#: ../../Introduction/History.rst:10
+msgid ""
+"Hoy en día el programa tiene iniciativas en diversos contextos alrededor "
+"del mundo incluyendo en Nicaragua, Colombia, y la India. En Honduras, APP"
+" sigue diseñando y construyendo plantas, con 20 proyectos exitosos. "
+"Además de la implementación de la tecnología y la capacitación de nuevos "
+"operadores y juntas de agua, APP brinda asistencia técnica para las "
+"plantas existentes, distribuye los insumos para su operación, y ha "
+"facilitado la formación de una asociación de juntas de agua con plantas "
+"AguaClara, denominada ACACH (Asociación Comunitaria de AguaClara de "
+"Honduras). APP trabaja con la versión más actualizada de los diseños de "
+"la Universidad de Cornell, de esta manera facilitando la innovación en "
+"cada etapa del desarrollo del programa."
+msgstr ""
+

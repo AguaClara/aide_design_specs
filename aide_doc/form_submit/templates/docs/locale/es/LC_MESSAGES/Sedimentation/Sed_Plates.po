@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Sedimentation/Sed_Plates.rst:7
+msgid "Placas de Sedimentación"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:13
+msgid ""
+"Los módulos de placas se montan en la parte superior de los tanques de "
+"sedimentación para reducir el tamaño de las partículas más pequeñas que "
+"se pueden capturar. Aumentan el área de la superficie en la que las "
+"partículas pueden pegar y ser captadas. Es decir, las placas reducen la "
+"distancia que una partícula suspendida entre ellas tiene que caerse antes"
+" de pegar en una superficie sólida (:numref:`figure_diff_diagram`)."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:21
+msgid ""
+"Las placas de sedimentación reducen la caída del flóculo a una superficie"
+" sólida. En los esquemas se ve la diferencia entre la distancia que una "
+"partícula tiene que caer en el mismo lapso de tiempo con placas y sin "
+"placas."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:23
+msgid ""
+"El ancho de las placas se define según las especificaciones del proveedor"
+" en que se fabrican. El largo de las placas, redondeado al próximo "
+"incremento de 10 cm para la facilidad de fabricación, se calcula por:"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:30 ../../Sedimentation/Sed_Plates.rst:44
+msgid "Donde"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:31
+msgid ":math:`S_{Placa}` = la separación entre las placas = |S.SedPlate|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:32
+msgid ""
+":math:`V_{Sed}` = la velocidad ascendente en el sedimentador = "
+"|V.SedUpBod|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:33
+msgid ":math:`V_{Captura}` = la velocidad de captura = |V.SedCBod|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:34
+msgid ":math:`T_{Placa}` = el espesor de las placas = |T.SedPlate|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:35
+msgid ""
+":math:`\\alpha_{Placa}` = el ángulo de inclinación de las placas = "
+"|AN.SedPlate|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:37
+msgid ""
+"El número de placas por tanque se calcula según el largo activo del "
+"tanque:"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:45
+msgid ""
+":math:`L_{SedActivo}` = el largo activo del sedimentador = "
+"|L.SedActiveEst|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:47
+msgid ""
+"El número de placas por módulo se define según el número total de placas "
+"por tanque para que haya un número entero de módulos por tanque, con un "
+"número mínimo de 8 placas por módulo."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:51
+msgid "Datos de las placas de sedimentación"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "Ancho de las placas"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "|W.SedPlate|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "Longitud de las placas"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "|L.SedPlate|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "Separación perpendicular entre las placas"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "|S.SedPlate|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "Ángulo de inclinación de las placas"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "|AN.SedPlate|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "Número de placas en cada módulo"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "|N.SedModPlates|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "Número de módulos en cada tanque"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "|N.SedModules|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "Número de placas en cada tanque"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "|N.SedPlates|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "Número de placas total en la planta"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "|N.SedPlatesTotal|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "Conectores de los módulos"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "|ND.SedMod| |PS.SedModStr|"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "Separadores de los módulos"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Plates.rst:1
+msgid "|ND.SedModSpacer| |PS.SedModSpacerStr|"
+msgstr ""
+
