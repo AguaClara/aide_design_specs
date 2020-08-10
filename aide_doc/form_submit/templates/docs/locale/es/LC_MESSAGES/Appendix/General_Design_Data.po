@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Appendix/General_Design_Data.rst:7
+msgid "Datos Generales del Diseño"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:11
+msgid "Datos generales del diseño"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Caudal máximo de diseño"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|Q.Plant|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Procesos de tratamiento"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid ""
+"Coagulación con policloruro de aluminio, mezcla rápida, floculación "
+"hidráulica vertical, sedimentación ascendente con placas y manto de "
+"lodos, filtración rápida de arena, desinfección con hipoclorito de calcio"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Pérdida de carga hidráulica aproximada total"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|HL.PlantTotal|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Diseño del dosificador de coagulante"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid ""
+"Dosis máxima: |C.CoagDoseMax|, Pérdida de carga hidráulica: |HL.Cdc|, "
+"Número de mangueras de diámetro pequeño: |N.CoagTubes| (se usan "
+"|N.CoagTubesActive| a la vez), Diámetro interno de las mangueras: "
+"|ID.CoagTube|, Longitud de las mangueras: |L.CoagTube|, Concentración "
+"madre: |C.CoagStock|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Dimensionamiento del dosificador de cloro"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid ""
+"Dosis máxima: |C.ChlorDoseMax|, Pérdida de carga hidráulica: |HL.Cdc|, "
+"Número de mangueras de diámetro pequeño: |N.ChlorTubes| (se usan "
+"|N.ChlorTubesActive| a la vez), Diámetro interno de las mangueras: "
+"|ID.ChlorTube|, Longitud de las mangueras: |L.ChlorTube|, Concentración "
+"madre: |C.ChlorStock|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Tipo de mezcla rápida"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Orificio de |D.RMOrifice| en la entrada al floculador"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Número de canales en el tanque de floculación"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|N.FlocChannels|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Dimensiones de cada canal de floculación"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|W.FlocChannel| de ancho, |L.Floc| de largo, |H.Floc| de profundidad"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Tiempo de retención del tanque de floculación al caudal máximo de diseño"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|Ti.Floc|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Tasa máxima de disipación de energía"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|ED.FlocMax|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Potencial de colisiones en el floculador"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|CP.Floc|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Pérdida de carga total el floculador"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|HL.Floc|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Número total de deflectores en el floculador"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|N.FlocBaffles|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Material de los deflectores de floculación"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Láminas de policarbonato"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Dimensiones del canal distribuidor de los tanques de sedimentación"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid ""
+"|L.SedChannel| de largo, |W.SedInletChannel| de ancho, "
+"|H.SedInletChannel| de profundidad"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Dimensiones del canal de salida de los tanques de sedimentación"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid ""
+"|L.SedChannel| de largo, |W.SedExitChannel| de ancho, |H.SedExitChannel| "
+"de profundidad"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Número de tanques de sedimentación"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|N.SedTanks|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Dimensiones de cada tanque de sedimentación"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|W.Sed| de ancho, |L.Sed| de largo, |H.Sed| de profundidad"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid ""
+"Tiempo de detención hidráulico aproximado de los tanques de sedimentación"
+" al caudal máximo de diseño"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|Ti.Sed|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Número total de placas de sedimentación"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|N.SedPlatesTotal|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Angulo de láminas de sedimentación con respeto al horizontal"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|AN.SedPlate|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Longitud de láminas de sedimentación"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|L.SedPlate|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Separación perpendicular entre placas de sedimentación"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|S.SedPlate|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid ""
+"Velocidad ascendente en los tanques de sedimentación al caudal máximo de "
+"diseño"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|V.SedUp|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Velocidad de captura de las placas en los tanques de sedimentación"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|V.SedCBod|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Numero de filtros rápidos de arena en múltiples capas"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|N.Fi|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Numero de capas de arena en cada filtro"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|N.FiLayer|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Profundidad de cada capa del lecho filtrante"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid ""
+"|H.FiLayer| (las cinco capas superiores), |H.FiBottomLayer| (la capa "
+"inferior)"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Profundidad total del lecho filtrante"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|H.FiSand|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Material filtrante"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Arena de sílice"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Tasa de filtración con el caudal máximo de diseño"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|V.FiLayer|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Tasa de retrolavado con el caudal máximo de diseño"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|V.FiBw|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Profundidad de la caja de filtración"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|H.Fi|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Largo de una caja de filtración"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|L.Fi|"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "Ancho de una caja de filtración"
+msgstr ""
+
+#: ../../Appendix/General_Design_Data.rst:1
+msgid "|W.Fi|"
+msgstr ""
+

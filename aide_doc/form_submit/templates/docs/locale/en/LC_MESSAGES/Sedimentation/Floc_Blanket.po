@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: 2020-07-30 15:41-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: ../../Sedimentation/Floc_Blanket.rst:7
+msgid "El Manto de Lodos"
+msgstr "The Sludge Blanket"
+
+#: ../../Sedimentation/Floc_Blanket.rst:8
+msgid ""
+"Los tanques de sedimentación de AguaClara se diseñan con la meta de "
+"lograr otro fenómeno físico en la parte inferior del tanque que se llama "
+"el manto de lodos. Esta característica del tanque puede mejorar la "
+"calidad de agua que produce. El manto de lodos es un lecho denso de "
+"flóculos suspendidos en el agua, producto de la acumulación de sólidos "
+"captados durante tiempo. El lecho de flóculos funciona como un pre "
+"filtro. Las partículas que entran y pasan por el manto de lodos chocan "
+"con los flóculos ya suspendidas, y de esta forma las partículas más "
+"pequeñas, que quizás no se capten sin la presencia del manto de lodos, "
+"permanecen en la parte inferior del tanque. Las placas inclinadas "
+"impiden que los sólidos más pequeños salgan por arriba."
+msgstr ""
+"AguaClara's sedimentation tanks are designed with the goal of achieving "
+"another physical phenomenon at the bottom of the tank called the sludge "
+"blanket. This feature of the tank can improve the quality of the water "
+"it produces. The sludge blanket is a dense bed of flocs suspended in the "
+"water, the product of the accumulation of solids captured over time. The "
+"floc bed functions as a pre-filter. The particles that enter and pass "
+"through the sludge blanket collide with the already suspended flocs, and "
+"thus the smaller particles, which may not be captured without the "
+"presence of the sludge blanket, remain at the bottom of the tank. The "
+"inclined plates prevent the smaller solids from escaping from the top."
+
+#: ../../Sedimentation/Floc_Blanket.rst:10
+msgid ""
+"Las investigaciones del laboratorio han demostrado que se establece una "
+"superficie bien definida entre el manto de lodos y el agua más clara que "
+"sale por arriba. La suspensión de flóculos y el agua por encima se "
+"comportan como dos fluidos distintos. Se mantiene el nivel de la "
+"superficie entre el manto de lodos y el agua limpia con el **vertedero "
+"de flóculos**, una pared sobre la que los flóculos caen en una tolva "
+"cuando alcanzan la cima del vertedero. Los flóculos en el lecho se "
+"mantienen suspendidos por los chorros de entrada en el fondo del tanque."
+msgstr ""
+"The laboratory investigations have shown that a well-defined surface is "
+"established between the sludge blanket and the clearer water coming from "
+"above. The floc suspension and the water above it behave as two "
+"different fluids. The surface level between the sludge blanket and the "
+"clean water is maintained by the **floc chute**, a wall over which the "
+"flocs fall into a hopper when they reach the top of the chute. The flocs "
+"in the bed are kept suspended by the inlet jets at the bottom of the "
+"tank."
+
+#: ../../Sedimentation/Floc_Blanket.rst:18
+msgid ""
+"Vista frontal del tanque de sedimentación experimental en el laboratorio "
+"de AguaClara de la Universidad de Cornell."
+msgstr ""
+"Front view of the experimental sedimentation tank at Cornell "
+"University's AguaClara Laboratory."

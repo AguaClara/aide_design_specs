@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: 2020-07-30 15:12-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:7
+msgid "Algoritmo de Diseño"
+msgstr "Design Algorithm"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:12
+msgid "Diseño del orificio"
+msgstr "Orifice design"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:13
+msgid ""
+"La tasa máxima de la disipación de energía en un chorro redondo que sigue "
+"después de un orificio se encuentra por:"
+msgstr ""
+"The maximum rate of energy dissipation in a round jet following an orifice "
+"is found by:"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:21 ../../Mix/Mix_Design_Algorithm.rst:53
+#: ../../Mix/Mix_Design_Algorithm.rst:76
+msgid "Donde:"
+msgstr "Where:"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:22
+msgid ""
+":math:`\\Pi_{Jet} =` un parámetro relacionado a la geometría del flujo en "
+"un chorro redondo = |Pi.JetRound|"
+msgstr ""
+":math:`\\Pi_{Jet} =` a parameter related to the geometry of flow in a round "
+"jet = |Pi.JetRound|"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:23
+msgid ":math:`Q =` el caudal de diseño = |Q.Plant|"
+msgstr ":math:`Q =` the design flow rate = |Q.Plant|"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:24
+msgid ":math:`D =` el diámetro del orificio = |D.RMOrifice|"
+msgstr ":math:`D =` the diameter of the orifice = |D.RMOrifice|"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:25
+msgid ""
+":math:`\\Pi_{VC} =` el coeficiente de vena contracta para un orificio = |Pi."
+"VCOrifice|"
+msgstr ""
+":math:`\\Pi_{VC} =` the vein coefficient contracts for an orifice = |Pi."
+"VCOrifice|"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:27
+msgid ""
+"Organizando esta ecuación de otra forma, se encuentra el diámetro del "
+"orificio:"
+msgstr ""
+"Organizing this equation differently, we find the diameter of the orifice:"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:37
+msgid "La tasa de la disipación de energía necesaria"
+msgstr "The rate of energy dissipation required"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:38
+msgid ""
+"El objetivo de la mezcla rápida es distribuir el coagulante a través del "
+"proceso de transporte advectivo turbulento a una escala lo suficiente "
+"pequeña que el proceso lento de difusión molecular puede terminar de "
+"distribuir el coagulante entre las partículas de manera equitativa. La "
+"escala de Kolmogorov es una medida de la escala mínima de los remolinos en "
+"un flujo turbulento, y está relacionado directamente con la tasa de la "
+"disipación de energía. Para que los remolinos turbulentos puedan distribuir "
+"el coagulante equitativamente entre las partículas, la escala de Kolmogorov "
+"debe ser igual o menor que la separación media entre ellas."
+msgstr ""
+"The goal of rapid mixing is to distribute the coagulant through the "
+"turbulent advective transport process on a small enough scale that the slow "
+"molecular diffusion process can finish distributing the coagulant equally "
+"among the particles. The Kolmogorov scale is a measure of the minimum scale "
+"of the eddies in a turbulent flow, and is directly related to the rate of "
+"energy dissipation. In order for the turbulent eddies to distribute the "
+"coagulant equally among the particles, the Kolmogorov scale must be equal "
+"to or less than the average separation between them."
+
+#: ../../Mix/Mix_Design_Algorithm.rst:54
+msgid ":math:`L_K` = la escala de Kolmogorov"
+msgstr ":math:`L_K` = the Kolmogorov scale"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:55
+msgid ":math:`v` = la viscosidad cinética del fluido"
+msgstr ":math:`v` = the kinetic viscosity of the fluid"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:56
+msgid ":math:`\\varepsilon` = la tasa de la disipación de energía"
+msgstr ":math:`\\varepsilon` = the rate of energy dissipation"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:57
+msgid ":math:`L_{Sep}` = la separación media entre partículas"
+msgstr ":math:`L_{Sep}` = the average particle separation"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:58
+msgid ""
+":math:`\\phi_{Col}` = la fracción del volumen total ocupado por las "
+"partículas coloidales de la suspensión"
+msgstr ""
+":math:`\\phi_{Col}` = the fraction of the total volume occupied by the "
+"colloidal particles in the suspension"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:60
+msgid ""
+"La tasa de la disipación de energía de |ED.RapidMix| está basada en una "
+"suspensión de 500 UTN. Es decir, la escala de Kolmogorov producida por ese "
+"chorro es parecida a la separación entre las partículas primeras de esa "
+"suspensión."
+msgstr ""
+"The energy dissipation rate of |ED.RapidMix| is based on a 500 UTN "
+"suspension. That is, the Kolmogorov scale produced by that jet is similar "
+"to the separation between the first particles of that suspension."
+
+#: ../../Mix/Mix_Design_Algorithm.rst:67
+msgid "La pérdida de carga"
+msgstr "The head loss"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:68
+msgid ""
+"La pérdida de carga en la mezcla rápida, una consecuencia de la expansión "
+"del chorro, depende de la :math:`\\varepsilon_{max}`:"
+msgstr ""
+"The head loss in the rapid mixture, a consequence of jet expansion, depends "
+"on the :math:`\\varepsilon_{max}`:"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:77
+msgid ""
+":math:`h_e` = la pérdida de carga a través del orificio de mezcla rápida = |"
+"HL.RMOrifice|"
+msgstr ""
+":math:`h_e` = the head loss through the rapid mixing hole = |HL.RMOrifice|"
+
+#: ../../Mix/Mix_Design_Algorithm.rst:78
+msgid ":math:`g` = la aceleración debida a la gravedad = :math:`9.81 m/s^{2}`"
+msgstr ":math:`g` = the acceleration due to gravity = :math:`9.81 m/s^{2}`"

@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Filtration/Filt_General_Data.rst:7
+msgid "Datos Generales"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:11
+msgid "Datos del FRAMCA"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "**Datos Constructivos**"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Numero de filtros en paralelo"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|N.Fi|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Caudal máximo de cada filtro"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|Q.Fi|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Profundidad total de la caja del filtro"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|H.Fi|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Numero de capas de arena en cada filtro"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|N.FiLayer|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Grosor de cada capa de arena"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid ""
+"|H.FiLayer| (las cinco capas superiores) |H.FiBottomLayer| (la capa "
+"inferior)"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Separación entre los ramales de los manifolds"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|B.FiManifoldBranch|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Número de ramales en cada manifold de entrada y salida"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|N.FiManBranch|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Volumen aproximado de arena"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|Vol.FiSand|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "**Datos de Tubería**"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Tubo para vaciar el filtro de arena"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|ND.FiSandOutlet| |PS.FiSandOutletStr|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Drenaje de la caja de salida"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|ND.FiExitWaste| |PS.FiExitWasteStr|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Drenaje de la caja de rebose"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|ND.FiEntOverflow| |PS.FiEntOverflowStr|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Válvula de purga de la entrada inferior"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|ND.FiBwTrunkFlushValve|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Válvula de purga de las entrada y salidas superiores"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|ND.FiTrunkFlushValve|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "**Parámetros Hidráulicos**"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Tasa de filtración"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|V.FiLayer|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Tasa de retrolavado"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|V.FiB|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Pérdida de carga total de filtración con la arena limpia"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|HL.FiCleanPath|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid ""
+"Pérdida de carga total de filtración al final del ciclo de filtración con"
+" sedimento acumulado"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|HL.FiTerminal|"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "Pérdida de carga total de retrolavado"
+msgstr ""
+
+#: ../../Filtration/Filt_General_Data.rst:1
+msgid "|HL.FiBwTotalSS|"
+msgstr ""
+

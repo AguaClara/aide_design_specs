@@ -1,9 +1,24 @@
 # sphinx build files:
-_build/
-aide_design_specs/
+**/build
+**/_build
+
+# Byte-compiled / optimized / DLL files
+**__pycache__
+*.py[cod]
+*$py.class
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+*.sqlite3
 
 # jetbrains config files:
 .idea/
 
+.vscode
 .DS_store
 __pycache__

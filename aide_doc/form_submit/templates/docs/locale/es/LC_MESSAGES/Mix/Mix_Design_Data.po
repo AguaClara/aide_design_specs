@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Mix/Mix_Design_Data.rst:7
+msgid "Datos del Diseño"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:11
+msgid "Datos de la mezcla rápida"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "**Orificio de mezcla rápida**"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "El diámetro del orificio"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "|D.RMOrifice|"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "La pérdida de carga del orificio"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "|HL.RMOrifice|"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "La tasa máxima de la disipación de energía"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "|ED.RapidMix|"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "**Cámara de contacto**"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "Altura de la cámara"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "|H.FlocContact|"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "Longitud de la cámara"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "|L.FlocContact|"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "Tiempo de retención de la cámara (con el caudal máximo de diseño)"
+msgstr ""
+
+#: ../../Mix/Mix_Design_Data.rst:1
+msgid "|Ti.FlocContact|"
+msgstr ""
+

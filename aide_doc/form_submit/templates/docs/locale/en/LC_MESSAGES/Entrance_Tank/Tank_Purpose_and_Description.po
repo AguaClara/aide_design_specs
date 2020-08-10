@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: 2020-07-24 15:26-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:7
+msgid "Propósito y Descripción"
+msgstr "Purpose and Description"
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:12
+msgid "Funciones"
+msgstr "Functions"
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:13
+msgid "Las funciones principales del tanque de entrada son:"
+msgstr "The main functions of the entrance tank are:"
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:15
+msgid "Remover los sólidos gruesos del agua por sedimentación."
+msgstr "Remove coarse solids from water by sedimentation."
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:16
+msgid "Medir el caudal de agua para la dosificación de los químicos."
+msgstr "Measure the water flow rate for chemical dosing."
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:17
+msgid ""
+"Colar materiales gruesos tal como las hojas para que no se acumulen en el "
+"floculador."
+msgstr ""
+"Strain thick materials such as leaves so that they do not accumulate in the "
+"flocculator."
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:18
+msgid "Proveer un espacio para la observación del agua cruda."
+msgstr "Provide a space for raw water observation."
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:23
+msgid "Ubicación"
+msgstr "Location"
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:24
+msgid ""
+"El tanque de entrada está ubicado en la primera parte del primer canal del "
+"floculador (:numref:`figure_tank_and_flocculator`). Con los procesos "
+"integrados de esta forma se mantiene un diseño eficiente con respecto al "
+"área ocupada. Se diseñan el tanque de entrada y el floculador en conjunto "
+"para así optimizar el espacio necesario, minimizando el costo y cumpliendo "
+"con los requisitos operacionales (:ref:`title_Floc_Algoritmo_de_Diseño`)."
+msgstr ""
+"The entrance tank is located in the first part of the first channel of the "
+"flocculator (:numref:`figure_tank_and_flocculator`). With processes "
+"integrated in this way an efficient design is maintained with respect to the "
+"occupied area. The entrance tank and the flocculator are designed together "
+"to optimize the necessary space, minimize the cost and meet the operational "
+"requirements (:ref:`title_Floc_Algoritmo_de_Diseño`)."
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:32
+msgid ""
+"El tanque de entrada está ubicado en la primera parte del primer canal del "
+"floculador."
+msgstr ""
+"The entrance tank is located in the first part of the first channel of the "
+"flocculator."
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:40
+msgid "Vista isométrica del tanque de entrada con paredes transparentes."
+msgstr "Isometric view of the entrance tank with transparent walls."
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:45
+msgid "Flujo de agua"
+msgstr "Water flow"
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:46
+msgid ""
+"Se coloca una te de PVC en cada tubo de entrada que dirige los chorros hacia "
+"las paredes laterales del tanque, así evitando las corrientes fuertes en la "
+"dirección de las placas de sedimentación. De la entrada el agua pasa por una "
+"rejilla que cuela los materiales gruesos tal como las hojas. Luego el flujo "
+"se da vuelta en la parte inferior del tanque para después subir, "
+"dividiéndose entre las |N.EtPlates| placas de sedimentación."
+msgstr ""
+"A PVC tee is placed in each inlet tube which directs the jets towards the "
+"side walls of the tank, thus avoiding strong currents in the direction of "
+"the sedimentation plates. From the inlet, the water passes through a screen "
+"that strains thick materials such as leaves. Then the flow turns around in "
+"the lower part of the tank and rises, dividing between the |N.EtPlates| "
+"sedimentation plates."
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:54
+msgid ""
+"Vista frontal del tanque de entrada con paredes transparentes. Las flechas "
+"azules demuestran la dirección del flujo de agua."
+msgstr ""
+"Front view of the entrance tank with transparent walls. The blue arrows show "
+"the direction of the water flow."
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:59
+msgid "El medidor de caudal lineal"
+msgstr "The linear flow meter"
+
+#: ../../Entrance_Tank/Tank_Purpose_and_Description.rst:60
+msgid ""
+"El tanque de entrada también sirve para medir el caudal de agua en la "
+"planta. El Medidor de Caudal Lineal de Orificios (LFOM por sus siglas en "
+"inglés) es una serie de agujeros en el tubo de salida del tanque que crea "
+"una relación lineal entre el nivel de agua y el caudal. La altura del agua "
+"está conectada al sistema de dosificación de químicos a través de un flote "
+"para que el operador no tenga que cambiar el flujo de químicos cada vez que "
+"cambia el caudal en la planta. El LFOM está descrito en más detalle en la "
+"siguiente sección."
+msgstr ""
+"The entrance tank also serves to measure the water flow in the plant. The "
+"Linear Flow Orifice Meter (LFOM) is a series of holes in the tank outlet "
+"pipe that creates a linear relationship between the water level and the flow "
+"rate. The height of the water is connected to the chemical dosing system "
+"through a float so that the operator does not have to change the flow of "
+"chemicals every time the flow in the plant changes. The LFOM is described in "
+"more detail in the next section."

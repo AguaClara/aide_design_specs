@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: 2020-07-28 15:11-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: ../../Filtration/Fluid_Distribution.rst:7
+msgid "Distribución del Flujo"
+msgstr "Flow Distribution"
+
+#: ../../Filtration/Fluid_Distribution.rst:9
+msgid ""
+"El buen funcionamiento del filtro depende de una buena distribución del "
+"agua por todas partes del lecho de arena, tanto durante la filtración "
+"normal como en el retrolavado. Las restricciones de diseño durante estos "
+"dos regímenes son:"
+msgstr ""
+"Good filter performance depends on good water distribution throughout "
+"the sand bed, both during normal filtration and backwashing. The design "
+"restrictions during these two regimes are:"
+
+#: ../../Filtration/Fluid_Distribution.rst:15
+#: ../../Filtration/Fluid_Distribution.rst:33
+msgid "Filtración Normal"
+msgstr "Normal Filtration"
+
+#: ../../Filtration/Fluid_Distribution.rst:16
+#: ../../Filtration/Fluid_Distribution.rst:34
+msgid "Retrolavado"
+msgstr "Backwash"
+
+#: ../../Filtration/Fluid_Distribution.rst:19
+msgid ""
+"La pérdida de carga por una capa de arena es significativamente mayor "
+"que la pérdida por la recuperación de la presión en la tubería, que el "
+"radio del flujo por el camino largo sobre el flujo por el camino corto "
+"no sea menor que |Pi.FiManifoldQ|"
+msgstr ""
+"The pressure loss through a layer of sand is significantly higher than "
+"the pressure recovery loss in the pipe, that the radius of the flow on "
+"the long path over the flow on the short path is not less than |Pi."
+"FiManifoldQ|"
+
+#: ../../Filtration/Fluid_Distribution.rst:20
+msgid ""
+"La pérdida de carga por las ranuras toma en cuenta la obstrucción de las "
+"ranuras por la arena"
+msgstr ""
+"The pressure drop through the slots takes into account the clogging of "
+"the slots by sand"
+
+#: ../../Filtration/Fluid_Distribution.rst:24
+msgid ""
+"Los orificios y las ranuras, en vez de la arena, proveen la pérdida "
+"uniformisante durante el retrolavado"
+msgstr ""
+"Holes and slots, instead of sand, provide uniform loss during backwashing"
+
+#: ../../Filtration/Fluid_Distribution.rst:25
+msgid ""
+"La pérdida de carga por los orificios o las ranuras es "
+"significativamente mayor que las pérdidas por la recuperación de presión "
+"en los manifolds – los manifolds necesitan mayor área un sus troncos que "
+"el área colectivo de sus puertos"
+msgstr ""
+"Pressure loss through holes or slots is significantly higher than "
+"pressure recovery losses in manifolds - manifolds need more area in "
+"their logs than the collective area of their ports"
+
+#: ../../Filtration/Fluid_Distribution.rst:27
+msgid ""
+"Estas restricciones, conjuntamente con las restricciones constructivas "
+"de no usar tubería mayor que |ND.FiBwTrunkMax| de diámetro en la línea "
+"de retrolavado y que |ND.FiTrunkMax| de diámetro en la demás tubería, "
+"definan el caudal máximo de un filtro. Las velocidades máximas y los "
+"caudales máximos que puede haber en los troncos durante la filtración y "
+"el retrolavado son:"
+msgstr ""
+"These restrictions, together with the construction restrictions of not "
+"using pipe larger than |ND.FiBwTrunkMax| diameter in the backwash line "
+"and |ND.FiTrunkMax| diameter in the other pipe, define the maximum flow "
+"rate of a filter. The maximum velocities and maximum flow rates that can "
+"occur in the logs during filtration and backwashing are:"
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid "Donde"
+msgstr "Where"
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`HL_{Capa}` = la pérdida de carga mínima por una capa de arena "
+"limpia (véase :ref:`title_Arena`)"
+msgstr ""
+":math:`HL_{Layer}` = the minimum pressure drop for a layer of clean sand "
+"(see :ref:`title_Arena`)"
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`\\Pi _{Q}` = el radio mínimo del flujo por el camino largo sobre "
+"el flujo por el camino corto = |Pi.FiManifoldQ|"
+msgstr ""
+":math:`\\Pi _{Q}` = the minimum radius of the flow on the long path over "
+"the flow on the short path = |Pi.FiManifoldQ|"
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`PR _{Est}` = la recuperación de presión estimada en un ramal = |"
+"PR.FiManBranchEst|"
+msgstr ""
+":math:`PR _{Est}` = the estimated pressure recovery on a branch = |PR."
+"FiManBranchEst|"
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`D_{M\\acute a xFi}` = el diámetro máximo nominal del tronco "
+"superior = |ND.FiTrunkMax|"
+msgstr ""
+":math:`D_{MaxFi}` = the nominal maximum diameter of the upper trunk = |"
+"ND.FiTrunkMax|"
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ":math:`N _{Capa}` = el número de capas de arena = |N.FiLayer|"
+msgstr ":math:`N _{Layer}` = the number of layers of sand = |N.FiLayer|"
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`HL_{Re}` = la pérdida de carga estimada por los orificios de "
+"entrada durante el retrolavado = |HL.FiBwSlotsEst|"
+msgstr ""
+":math:`HL_{Re}` = the estimated pressure loss through the inlet holes "
+"during backwash = |HL.FiBwSlotsEst|"
+
+#: ../../Filtration/Fluid_Distribution.rst
+msgid ""
+":math:`D_{M\\acute a xRe}` = el diámetro máximo nominal del tronco "
+"inferior = |ND.FiBwTrunkMax|"
+msgstr ""
+":math:`D_{MaxRe}` = the nominal maximum diameter of the lower trunk = |"
+"ND.FiBwTrunkMax|"
+
+#: ../../Filtration/Fluid_Distribution.rst:68
+msgid ""
+"El caudal máximo por filtro se define como el menor de los dos caudales "
+"máximos bajo las restricciones de la distribución del flujo. El número "
+"total de los filtros se define en consecuencia para no sobrepasar de "
+"este límite:"
+msgstr ""
+"The maximum flow rate per filter is defined as the lesser of the two "
+"maximum flow rates under the restrictions of the flow distribution. The "
+"total number of filters is defined accordingly so as not to exceed this "
+"limit:"
