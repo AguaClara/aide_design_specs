@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: 2020-07-30 17:22-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: ../../Sedimentation/Water_Route.rst:7
+msgid "Recorrido del Agua"
+msgstr "Water Route"
+
+#: ../../Sedimentation/Water_Route.rst:14
+msgid "El recorrido de agua en el tanque de sedimentación – vista lateral."
+msgstr "The water path in the sedimentation tank - side view."
+
+#: ../../Sedimentation/Water_Route.rst:19
+msgid "Canal distribuidor"
+msgstr "Distribution channel"
+
+#: ../../Sedimentation/Water_Route.rst:24
+msgid ""
+"Al terminar su recorrido en el floculador, el agua floculada entra en el "
+"canal distribuidor de los tanques de sedimentación. De este canal el "
+"agua se divide entre los |N.SedTanks| tanques de sedimentación. Hay un "
+"vertedero que corre a lo largo del canal que sirve para mantener el "
+"nivel de agua en el floculador cuando las entradas a los tanques de "
+"sedimentación están cerradas y se está botando agua floculada. El "
+"operador haría esto en caso de una falla de dosificación de coagulante "
+"hasta que se recupere la buena floculación, por ejemplo."
+msgstr ""
+"At the end of its journey in the flocculator, the flocculated water "
+"enters the distribution channel of the sedimentation tanks. From this "
+"channel the water is divided between the |N.SedTanks| sedimentation "
+"tanks. There is a chute that runs along the channel that serves to "
+"maintain the water level in the flocculator when the entrances to the "
+"sedimentation tanks are closed and flocculated water is being dumped. "
+"The operator would do this in the event of a coagulant dosing failure "
+"until good flocculation is recovered, for example."
+
+#: ../../Sedimentation/Water_Route.rst:29
+msgid "Manifold distribuidor y los difusores"
+msgstr "Manifold distributor and diffusers"
+
+#: ../../Sedimentation/Water_Route.rst:34
+msgid ""
+"Un tubo de diámetro |ND.SedManifold|, que se llama el manifold de "
+"entrada, lleva el agua del canal distribuidor a la parte inferior de "
+"cada tanque. El agua sale del manifold por debajo a través de una serie "
+"de tubos verticales de diámetro |ND.SedDiffuser| que corre a lo largo "
+"del tanque. Los extremos inferiores de estos tubos están formados de tal "
+"manera que los chorros se unen y resulta un solo chorro de forma lineal. "
+"Este sirve para mantener el manto de lodos, re-suspendiendo todas las "
+"partículas que se sedimentan y se deslizan por las pendientes del tanque "
+"hasta la curva en el fondo."
+msgstr ""
+"A pipe of diameter |ND.SedManifold|, which is called the inlet manifold, "
+"carries the water from the distribution channel to the bottom of each "
+"tank. The water exits the manifold from below through a series of "
+"vertical pipes of diameter |ND.SedDiffuser| that runs along the length "
+"of the tank. The lower ends of these tubes are formed in such a way that "
+"the jets are joined and a single linear jet results. This serves to "
+"maintain the sludge blanket, re-suspending all particles that settle and "
+"slide down the slopes of the tank to the curve at the bottom."
+
+#: ../../Sedimentation/Water_Route.rst:39
+msgid "Manto de lodos, placas y el tubo recolector"
+msgstr "Sludge blanket, plates and collecting tube"
+
+#: ../../Sedimentation/Water_Route.rst:44
+msgid ""
+"Después de salir del tubo distribuidor, el agua sube lentamente por el "
+"manto de lodos y las placas hasta la parte superior del tanque. Sale del "
+"tanque, ya limpia, por los orificios del tubo recolector. El tubo "
+"recolector lleva el agua al canal de salida, que tiene otro vertedero "
+"para mantener el nivel de agua en los tanques. Después de caer por el "
+"vertedero de salida, el agua sale por los tubos que la llevan a los "
+"filtros de arena."
+msgstr ""
+"After leaving the distribution pipe, the water slowly rises through the "
+"sludge blanket and plates to the top of the tank. It leaves the tank, "
+"already cleaned, through the holes in the collecting pipe. The "
+"collecting pipe takes the water to the outlet channel, which has another "
+"chute to maintain the water level in the tanks. After falling down the "
+"outlet chute, the water comes out through the tubes that take it to the "
+"sand filters."

@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: 2020-07-28 17:54-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: ../../Flocculation/Floc_Design_Data.rst:7
+msgid "Datos del Diseño"
+msgstr "Design Data"
+
+#: ../../Flocculation/Floc_Design_Data.rst:11
+msgid "Datos del floculador"
+msgstr "Flocculator data"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "**Datos Constructivos**"
+msgstr "**Constructive Data**"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Longitud de los canales"
+msgstr "Length of channels"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|channelLength|"
+msgstr "|channelLength|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Ancho de los canales"
+msgstr "Width of the channels"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|W.FlocChannel|"
+msgstr "|W.FlocChannel|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Profundidad de los canales"
+msgstr "Channel depth"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|H.Floc|"
+msgstr "|H.Floc|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Número de canales"
+msgstr "Number of channels"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|N.FlocChannels|"
+msgstr "|N.FlocChannels|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Número de deflectores en cada canal"
+msgstr "Number of baffles in each channel"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid ""
+"|N.FlocFirstChannelBaffles| en el primero, |N.FlocLastChannelBaffles| en "
+"el último, |N.FlocChannelBaffles| en los demás si hay más de 2 canales"
+msgstr ""
+"|N.FlocFirstChannelBaffles| on the first, |N.FlocLastChannelBaffles| on "
+"the last, |N.FlocChannelBaffles| on the others if there are more than 2 "
+"channels"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Altura de los deflectores superiores"
+msgstr "Height of the upper deflectors"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|H.FlocBaffleHigh|"
+msgstr "|H.FlocBaffleHigh|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Altura de los deflectores inferiores"
+msgstr "Height of lower deflectors"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|H.FlocBaffleLow|"
+msgstr "|H.FlocBaffleLow|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Separación entre los deflectores"
+msgstr "Deflector spacing"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|S.FlocBaffle|"
+msgstr "|S.FlocBaffle|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Altura de la compuerta entre los canales"
+msgstr "Height of the gate between the channels"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|H.FlocPort|"
+msgstr "|H.FlocPort|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Ancho de la compuerta entre los canales"
+msgstr "Width of the gate between the channels"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|W.FlocPort|"
+msgstr "|W.FlocPort|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Número de obstáculos entre cada dos deflectores"
+msgstr "Number of obstacles between every two deflectors"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|N.FlocSpaceObstacles|"
+msgstr "|N.FlocSpaceObstacles|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Ancho del flujo de agua pasando por el obstáculo"
+msgstr "Width of water flow through the obstacle"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|W.FlocObstacleWake|"
+msgstr "|W.FlocObstacleWake|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "**Parámetros Hidráulicos**"
+msgstr "**Hydraulic Parameters**"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Gradiente de velocidad medio"
+msgstr "Average speed gradient"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|G.Floc|"
+msgstr "|G.Floc|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Pérdida de carga total con el caudal máximo de diseño"
+msgstr "Total head loss at maximum design flow"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|HL.Floc|"
+msgstr "|HL.Floc|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Tiempo de retención mínimo"
+msgstr "Minimum retention time"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|Ti.Floc|"
+msgstr "|Ti.Floc|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Potencial de colisiones (numero de Camp)"
+msgstr "Collision potential (Camp's number)"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|Gt.Floc|"
+msgstr "|Gt.Floc|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Gradiente de velocidad medio (calculado retroactivamente)"
+msgstr "Average speed gradient (calculated retroactively)"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "**Datos de Tubería**"
+msgstr "**Pipeline Data**"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Los desagües"
+msgstr "The drains"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|ND.FlocDrain|, |PS.FlocDrainStr|"
+msgstr "|ND.FlocDrain|, |PS.FlocDrainStr|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Los obstáculos"
+msgstr "The obstacles"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|ND.FlocObs|, |PS.FlocObsStr|"
+msgstr "|ND.FlocObs|, |PS.FlocObsStr|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Los separadores de los deflectores"
+msgstr "Deflector spacers"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|ND.FlocSpacer|, |PS.FlocSpacerStr|"
+msgstr "|ND.FlocSpacer|, |PS.FlocSpacerStr|"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "Los conectores de los deflectores"
+msgstr "The connectors of the deflectors"
+
+#: ../../Flocculation/Floc_Design_Data.rst:1
+msgid "|ND.FlocMod|, |PS.FlocModStr|"
+msgstr "|ND.FlocMod|, |PS.FlocModStr|"

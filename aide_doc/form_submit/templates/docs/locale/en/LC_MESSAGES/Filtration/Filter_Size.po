@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: 2020-07-28 14:26-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: ../../Filtration/Filter_Size.rst:7
+msgid "Dimensionamiento del Filtro"
+msgstr "Filter Sizing"
+
+#: ../../Filtration/Filter_Size.rst:9
+msgid ""
+"Una vez definido el número de filtros, se calcula el caudal verdadero "
+"por filtro y se puede calcular el área superficial activa por filtro:"
+msgstr ""
+"Once the number of filters has been defined, the true flow rate per "
+"filter is calculated and the active surface area per filter can be "
+"calculated:"
+
+#: ../../Filtration/Filter_Size.rst:16
+msgid "Donde"
+msgstr "Where"
+
+#: ../../Filtration/Filter_Size.rst:17
+msgid ":math:`Q _{Fi}` = el caudal por filtro = |Q.Fi|"
+msgstr ":math:`Q _{Fi}` = the flow rate per filter = |Q.Fi|"
+
+#: ../../Filtration/Filter_Size.rst:18
+msgid ":math:`N _{Capa}` = el número de capas por filtro = |N.FiLayer|"
+msgstr ":math:`N _{Layer}` = the number of layers per filter = |N.FiLayer|"
+
+#: ../../Filtration/Filter_Size.rst:19
+msgid ""
+":math:`V _{Fi}` = la velocidad de aproximación de filtración por capa = |"
+"V.FiLayer|"
+msgstr ""
+":math:`V _{Fi}` = the rate of approach to filtering per layer = |V."
+"FiLayer|"
+
+#: ../../Filtration/Filter_Size.rst:25
+msgid ""
+"La definición del largo y del ancho del filtro es flexible hasta un "
+"cierto punto, siempre tomando en cuenta varias consideraciones "
+"constructivas y geometrías. En la herramienta de diseño se definen por "
+"las restricciones geométricas de la tubería de entrada y salida que "
+"lleva y trae el agua de la caja de entrada a la caja del filtro y de "
+"vuelta a la caja de salida. Las dimensiones de los accesorios de PVC "
+"para esta tubería que se funden en estas cajas y las tolerancias dejadas "
+"alrededor de ellos establecen un ancho mínimo para la caja del filtro, "
+"en este caso un ancho mínimo de |W.FiMin|."
+msgstr ""
+"The definition of the length and width of the filter is flexible up to a "
+"certain point, always taking into account various constructive "
+"considerations and geometries. In the design tool they are defined by "
+"the geometrical constraints of the inlet and outlet pipe that carries "
+"and brings the water from the inlet box to the filter box and back to "
+"the outlet box. The dimensions of the PVC fittings for this pipe that "
+"are melted in these boxes and the tolerances left around them establish "
+"a minimum width for the filter box, in this case a minimum width of |W."
+"FiMin|."
+
+#: ../../Filtration/Filter_Size.rst:27
+msgid ""
+"Con este ancho mínimo, se estima el largo de la caja del filtro para "
+"poder definir el número de ramales por cada módulo de entrada y salida "
+"con una separación entre ramales de |B.FiManifoldBranch|. Una vez "
+"definido el número de ramales, se definen el largo verdadero y luego el "
+"ancho verdadero del filtro. Siempre se toma en cuenta consideraciones "
+"geométricas para la fabricación de los módulos y su montaje en la caja "
+"del filtro. Además, el ancho del tronco de retrolavado no contribuirá al "
+"área activo:"
+msgstr ""
+"With this minimum width, the length of the filter box is estimated so "
+"that the number of strings per input and output module can be defined "
+"with a string-to-branch spacing of |B.FiManifoldBranch|. Once the number "
+"of strings has been defined, the actual length and then the actual width "
+"of the filter is defined. Geometrical considerations are always taken "
+"into account when manufacturing the modules and mounting them in the "
+"filter housing. In addition, the width of the backwash trunk will not "
+"contribute to the active area:"

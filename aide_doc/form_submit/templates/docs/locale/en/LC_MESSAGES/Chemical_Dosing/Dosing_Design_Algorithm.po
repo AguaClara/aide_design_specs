@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: 2020-07-30 17:58-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:7
+msgid "Algoritmo de Diseño"
+msgstr "Design Algorithm"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:12
+msgid "Dosis de los químicos"
+msgstr "Dosage of the chemicals"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:13
+msgid ""
+"El dosificador está diseñado para las dosis detalladas en las tablas de "
+"dimensionamiento abajo. Las concentraciones de las soluciones madres se "
+"seleccionan para que sean prácticas de mezclar, lo suficiente bajas para que "
+"el químico se disuelva fácilmente y lo suficiente altas para que duren por "
+"lo menos un día cuando las dosis están altas. El caudal máximo del químico "
+"no debe ocasionar pérdidas de carga significantes en la tubería que lo lleva "
+"a la balanza, ni causar una pérdida mayor de 30 cm en el orificio de la "
+"válvula flotadora del bote de carga constante. De igual manera, el volumen "
+"de los contenedores de almacenamiento se selecciona para que las mezclas de "
+"químicos duren un tiempo práctico dada la concentración madre. La losa donde "
+"están los barriles de almacenamiento de los químicos tiene una elevación de "
+"31 cm medida de la parte superior de la pared del tanque de entrada para que "
+"la pérdida de carga en la válvula flotadora no tenga ningún efecto en el "
+"flujo del químico. Las salidas de los contenedores están elevadas 10 cm "
+"arriba del piso para dejar espacio para que el sedimento pueda caerse al "
+"fondo."
+msgstr ""
+"The dispenser is designed for the doses detailed in the dimensioning tables "
+"below. The concentrations of the stock solutions are selected to be "
+"practical for mixing, low enough for the chemical to dissolve easily and "
+"high enough to last at least one day when doses are high. The maximum flow "
+"rate of the chemical should not cause significant head losses in the pipe "
+"leading to the scale, nor cause a loss of more than 30 cm at the float valve "
+"orifice of the constant load boat. Similarly, the volume of the storage "
+"containers is selected so that the chemical mixtures last a practical time "
+"given the stock concentration. The slab where the chemical storage barrels "
+"are located has an elevation of 31 cm measured from the top of the entrance "
+"tank wall so that the pressure drop at the float valve has no effect on the "
+"flow of the chemical. The outlets of the containers are raised 10 cm above "
+"the floor to leave room for the sediment to fall to the bottom."
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:18
+msgid "Mangueras de diámetro pequeño: elemento principal de pérdida de carga"
+msgstr "Small diameter hoses: main element of head loss"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:19
+msgid ""
+"Las mangueras de diámetro pequeño están diseñadas para proveer |HL.Cdc| de "
+"pérdida de carga con el caudal máximo del químico. Se diseñan de tal manera "
+"que las pérdidas mayores (debidas a la fricción con las paredes de la "
+"manguera) dominen, y las pérdidas menores (debidas a expansiones y cambios "
+"de dirección en el flujo) sean mínimas. Este criterio limita el caudal que "
+"puede pasar por una sola manguera, ya que las pérdidas menores crecen más "
+"rápido que las mayores con aumentos en caudal. Para caudales en este rango, "
+"se selecciona un diámetro interno de ⅛” por la facilidad de encontrar esas "
+"mangueras en mercados locales. Luego, el número de mangueras en paralelo (y "
+"así el caudal máximo en cada una) está basado en un porcentaje máximo de las "
+"pérdidas de carga total que se debe a pérdidas menores. Por fin, la longitud "
+"de las mangueras se define en base a la pérdida de carga máxima deseada de "
+"30 cm, dado el caudal máximo en cada una."
+msgstr ""
+"The small diameter hoses are designed to provide |HL.Cdc| head loss at the "
+"maximum flow rate of the chemical. They are designed so that larger losses "
+"(due to friction with the hose walls) dominate, and smaller losses (due to "
+"expansions and changes in flow direction) are minimal. This approach limits "
+"the flow rate that can pass through a single hose, as smaller losses grow "
+"faster than larger losses with increases in flow. For flows in this range, "
+"an internal diameter of ⅛\" is selected because of the ease of finding such "
+"hoses in local markets. Then, the number of hoses in parallel (and thus the "
+"maximum flow in each) is based on a maximum percentage of the total head "
+"loss that is due to lower losses. Finally, the length of the hoses is "
+"defined based on the desired maximum head loss of 30 cm, given the maximum "
+"flow rate in each hose."
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:24
+msgid "Pérdidas de carga"
+msgstr "Head loss"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:25
+msgid ""
+"Hay dos tipos de pérdida de carga que ocurren en el sistema dosificador. Las "
+"pérdidas *mayores* se deben a la fuerza de fricción que siente el fluido en "
+"las paredes del tubo. Las pérdidas *menores* se deben a las expansiones del "
+"fluido cuando hay un cambio de la geometría de su camino. El diseño busca a "
+"hacer que las pérdidas de carga menores sean insignificantes comparadas con "
+"las pérdidas mayores. Esto asegurará que haya una relación lineal entre la "
+"pérdida de carga y el caudal del fluido."
+msgstr ""
+"There are two types of head loss that occur in the dosing system. The "
+"*larger* losses are due to the frictional force felt by the fluid on the "
+"pipe walls. The *lower* losses are due to the expansions of the fluid when "
+"there is a change in the geometry of its path. The design seeks to make the "
+"lower pressure losses negligible compared to the higher losses. This will "
+"ensure that there is a linear relationship between head loss and fluid flow."
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:27
+msgid "La pérdida de carga debida a expansiones está definida por"
+msgstr "Head loss due to expansion is defined by"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:34
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:46
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:63
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:93
+msgid "En donde"
+msgstr "Where"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:35
+msgid ""
+":math:`K_e` = coeficiente de expansión, que depende del cambio de geometría"
+msgstr ""
+":math:`K_e` = coefficient of expansion, which depends on the change of "
+"geometry"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:36
+msgid ":math:`V` = velocidad del fluido en la manguera"
+msgstr ":math:`V` = velocity of the fluid in the hose"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:37
+msgid ""
+":math:`g` = aceleración debido a la gravedad :math:`\\approx 9.81 \\frac{m} "
+"{s^2}`"
+msgstr ""
+":math:`g` = acceleration due to gravity :math:`\\approx 9.81 \\frac{m} {s^2}`"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:39
+msgid ""
+"La pérdida de carga debida a expansiones aumenta con la cuadrada de la "
+"velocidad, y por lo tanto no provee una relación lineal entre el caudal y la "
+"pérdida de carga. Por otro lado, la pérdida de carga debida a tensiones con "
+"las paredes del tubo sí tiene una relación lineal:"
+msgstr ""
+"The head loss due to expansion increases with the square of the velocity, "
+"and therefore does not provide a linear relationship between flow rate and "
+"head loss. On the other hand, the head loss due to stresses with the pipe "
+"walls does have a linear relationship:"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:47
+msgid ":math:`\\mu` = viscosidad dinámica del fluido"
+msgstr ":math:`\\mu` = dynamic viscosity of the fluid"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:48
+msgid ":math:`L` = longitud del tubo o manguera"
+msgstr ":math:`L` = length of tube or hose"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:49
+msgid ":math:`\\rho` = densidad de agua :math:`\\approx 1000 \\frac{kg}{m^3}``"
+msgstr ":math:`\\rho` = water density :math:`\\approx 1000 \\frac{kg}{m^3}``"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:50
+msgid ":math:`D` = diámetro interior del tubo o manguera"
+msgstr ":math:`D` = inside diameter of pipe or hose"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:55
+msgid "Diseño de las mangueras de diámetro pequeño"
+msgstr "Small diameter hose design"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:56
+msgid ""
+"El caudal máximo del químico en una sola manguera para controlar el error "
+"causado por la no-linealidad de las pérdidas menores se encuentra con la "
+"siguiente ecuación:"
+msgstr ""
+"The maximum flow rate of the chemical in a single hose to control the error "
+"caused by the non-linearity of the minor losses is found with the following "
+"equation:"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:64
+msgid ":math:`h_L` = pérdida de carga en el sistema dosificador"
+msgstr ":math:`h_L` = head loss in the dosing system"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:65
+msgid ""
+":math:`{\\Pi}_{Error}` = error debido a la falta de linealidad en el "
+"sistema :math:`\\approx` 0.1 - 0.2"
+msgstr ""
+":math:`{\\Pi}_{Error}` = error due to non-linearity in the system :math:`"
+"\\approx` 0.1 - 0.2"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:66
+msgid ":math:`D` = diámetro interior de la manguera = 1/8\""
+msgstr ":math:`D` = inside diameter of the hose = 1/8\""
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:68
+msgid ""
+"El caudal máximo de químico que se podría utilizar se encuentra en base a la "
+"dosis máxima, el caudal máximo de la planta, y la concentración de la "
+"solución madre. Dividir ese caudal entre el caudal máximo en una manguera y "
+"redondear para arriba da el número de mangueras funcionando en paralelo:"
+msgstr ""
+"The maximum flow rate of the chemical that could be used is based on the "
+"maximum dose, the maximum flow rate of the plant, and the concentration of "
+"the stock solution. Dividing that flow rate by the maximum flow rate in one "
+"hose and rounding up gives the number of hoses running in parallel:"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:75
+msgid ""
+"Con el caudal máximo que se espera en cada manguera, la longitud de cada una "
+"se encuentra con:"
+msgstr ""
+"With the maximum flow expected in each hose, the length of each hose is with:"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:85
+msgid "Válvula flotadora"
+msgstr "Float valve"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:86
+msgid ""
+"El diámetro mínimo del orificio de la válvula flotadora necesario para "
+"mantener el caudal de coagulante diseñado es dado por:"
+msgstr ""
+"The minimum float valve orifice diameter required to maintain the designed "
+"coagulant flow rate is given by:"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:94
+msgid ":math:`Q` = caudal del químico"
+msgstr ":math:`Q` = flow rate of the chemical"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:95
+msgid ""
+":math:`{\\Pi}_{VC}` = coeficiente de vena contracta para el orificio :math:`"
+"\\approx` 0.62"
+msgstr ""
+":math:`{\\Pi}_{VC}` = coefficient of contracted vein for the orifice :math:`"
+"\\approx` 0.62"
+
+#: ../../Chemical_Dosing/Dosing_Design_Algorithm.rst:96
+msgid ":math:`\\Delta h` = pérdida de carga máxima por la altura del barril"
+msgstr ":math:`\\Delta h` = maximum head loss due to barrel height"
