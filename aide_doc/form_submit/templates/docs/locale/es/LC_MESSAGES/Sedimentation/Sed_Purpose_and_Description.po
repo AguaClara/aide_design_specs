@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Sedimentation/Sed_Purpose_and_Description.rst:7
+msgid "Propósito y Descripción"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Purpose_and_Description.rst:9
+msgid ""
+"El objetivo principal de los tanques de sedimentación es quitar el "
+"sedimento del agua por la fuerza de gravedad. En este proceso el agua "
+"sube lentamente mientras las partículas suspendidas se caen y permanecen "
+"en la parte inferior del tanque. El operador purga los lodos acumulados a"
+" través de una válvula en el canal de limpieza de la planta."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Purpose_and_Description.rst:17
+msgid "Vista lateral de un tanque de sedimentación."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Purpose_and_Description.rst:19
+msgid ""
+"Los tanques cuentan con placas inclinadas que permiten la captura de "
+"partículas más finas. Además, los tanques están diseñados de tal manera "
+"que los lodos sedimentados no pueden permanecer en el fondo, sino que se "
+"re-suspenden para mantener un **manto de lodos** en la parte inferior. El"
+" manto de lodos es una suspensión concentrada de sedimento que mejora el "
+"rendimiento del tanque y concentra el lodo excedente."
+msgstr ""
+
+#: ../../Sedimentation/Sed_Purpose_and_Description.rst:27
+msgid "Los componentes exteriores de un tanque de sedimentación"
+msgstr ""
+
+#: ../../Sedimentation/Sed_Purpose_and_Description.rst:35
+msgid "Los componentes interiores de un tanque de sedimentación"
+msgstr ""
+

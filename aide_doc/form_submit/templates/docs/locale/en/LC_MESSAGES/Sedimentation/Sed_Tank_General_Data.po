@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: 2020-07-30 17:20-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:7
+msgid "Datos Generales"
+msgstr "General Data"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:12
+msgid "Parámetros hidráulicos de los tanques de sedimentación"
+msgstr "Hydraulic parameters of the sedimentation tanks"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Caudal de diseño de cada tanque de sedimentación"
+msgstr "Design flow rate of each sedimentation tank"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|Q.Sed|"
+msgstr "|Q.Sed|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Velocidad de captura de diseño"
+msgstr "Design capture velocity"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|V.SedCBod|"
+msgstr "|V.SedCBod|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Velocidad de captura real"
+msgstr "Actual capture rate"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|V.SedC|"
+msgstr "|V.SedC|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Velocidad ascendente de diseño"
+msgstr "Upward design speed"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|V.SedUpBod|"
+msgstr "|V.SedUpBod|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Velocidad ascendente real"
+msgstr "True upward speed"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|V.SedUp|"
+msgstr "|V.SedUp|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Tiempo de retención estimado, con el caudal máximo de diseño"
+msgstr "Estimated retention time, at maximum design flow"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|Ti.Sed|"
+msgstr "|Ti.Sed|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:25
+msgid "Datos constructivos generales de los tanques de sedimentación"
+msgstr "General construction data of the sedimentation tanks"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Número de tanques de sedimentación"
+msgstr "Number of sedimentation tanks"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|N.SedTanks|"
+msgstr "|N.SedTanks|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Ancho de cada tanque"
+msgstr "Width of each tank"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|W.Sed|"
+msgstr "|W.Sed|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid ""
+"Longitud de la parte activa de cada tanque (sin incluir el espacio debajo de "
+"los canales)"
+msgstr ""
+"Length of the active part of each tank (not including the space under the "
+"channels)"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|L.SedUpflow|"
+msgstr "|L.SedUpflow|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid ""
+"Longitud total de cada tanque, interior (sin incluir el grosor de las paredes)"
+msgstr "Total length of each tank, inside (not including wall thickness)"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|L.Sed|"
+msgstr "|L.Sed|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Altura total del tanque, medida de la orilla de la media caña"
+msgstr "Total height of the tank, measured from the edge of the half pipe"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|H.Sed|"
+msgstr "|H.Sed|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Altura de las pendientes laterales, medida de la orilla de la media caña"
+msgstr "Height of the side slopes, measured from the edge of the half pipe"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|H.SedSideSlopes|"
+msgstr "|H.SedSideSlopes|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Altura del vertedero de flóculos, medida de la orilla de la media caña"
+msgstr "Height of flock chute, measured from the edge of the half pipe"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|H.SedFlocWeir|"
+msgstr "|H.SedFlocWeir|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Altura de la parte inferior de las placas, de la orilla de la media caña"
+msgstr "Height of the lower part of the plates, from the edge of the half pipe"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|H.SedLamellaBottom|"
+msgstr "|H.SedLamellaBottom|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Profundidad del agua, medida de la orilla de la media caña"
+msgstr "Water depth, measured from the edge of the half pipe"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|HW.Sed|"
+msgstr "|HW.Sed|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "Ángulo de inclinación de las pendientes laterales"
+msgstr "Slope angle of side slopes"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|AN.SedSlope|"
+msgstr "|AN.SedSlope|"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid ""
+"Ángulo mínimo de inclinación de las pendientes de la tolva de flóculos (la "
+"pendiente menos inclinada de las cuatro)"
+msgstr ""
+"Minimum slope angle of flock hopper slopes (the least slope of the four)"
+
+#: ../../Sedimentation/Sed_Tank_General_Data.rst:1
+msgid "|AN.SedHopperSlopeMin|"
+msgstr "|AN.SedHopperSlopeMin|"

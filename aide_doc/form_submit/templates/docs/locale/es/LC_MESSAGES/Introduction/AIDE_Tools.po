@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Introduction/AIDE_Tools.rst:5
+msgid "La Herramienta de Diseño Automática"
+msgstr ""
+
+#: ../../Introduction/AIDE_Tools.rst:10
+msgid "Concepto: diseño paramétrico generalizado"
+msgstr ""
+
+#: ../../Introduction/AIDE_Tools.rst:11
+msgid ""
+"*La Herramienta de Diseño de Infraestructura AguaClara* conocido por "
+"conocido por su abreviatura en inglés como AIDE esta elaborada usando "
+"Onshape. Los algoritmos del diseño hidráulico se escriben usando "
+"FeatureScript. La geometría de la planta se dibuja usando la potencia del"
+" diseño paramétrico. El programa se ejecuta para producir un modelo en "
+"tres dimensiones que contiene todas las estructuras, tuberías, y "
+"accesorios hidráulicos para una planta AguaClara de esa capacidad. De "
+"este modelo se puede sacar la información necesaria para la construcción "
+"de esa instalación, tal como los cortes que se adaptan para los planos de"
+" construcción y la configuración de todos los accesorios y tubería."
+msgstr ""
+

@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: 2020-07-22 18:11-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: ../../Entrance_Tank/LFOM.rst:7
+msgid "Medidor Lineal de Caudal (LFOM)"
+msgstr "Linear Flow Orifice Meter (LFOM)"
+
+#: ../../Entrance_Tank/LFOM.rst:12
+msgid "El vertedero tipo Sutro"
+msgstr "The Sutro weir"
+
+#: ../../Entrance_Tank/LFOM.rst:13
+msgid ""
+"El vertedero tipo Sutro es una apertura que, al pasar agua de un lado al "
+"otro, mantiene una relación **lineal entre** el nivel de agua y el caudal "
+"que está pasando (Ilustración 9). En la planta AguaClara se imita la función "
+"del vertedero tipo Sutro con un diseño de orificios que crea la misma "
+"relación en la salida del tanque de entrada. El cálculo de este diseño está "
+"basado en el principio de Torricelli, el cual dice que el caudal que pasa "
+"por cada orificio sumergido es proporcional a la raíz cuadrada de la altura "
+"de agua arriba del centro del orificio:"
+msgstr ""
+"The Sutro weir is an opening that, when water passes from one side to the "
+"other, maintains a **linear relationship between** the water level and the "
+"flow that is passing through (Illustration 9). In the AguaClara plant, the "
+"function of the Sutro weir is imitated with an orifice design that creates "
+"the same relationship at the outlet of the entrance tank. The calculation of "
+"this design is based on Torricelli's principle, which states that the flow "
+"through each submerged orifice is proportional to the square root of the "
+"water height above the center of the orifice:"
+
+#: ../../Entrance_Tank/LFOM.rst:20
+msgid "Donde:"
+msgstr "Where:"
+
+#: ../../Entrance_Tank/LFOM.rst:21
+msgid ":math:`Q` = el caudal que pasa por el orifico"
+msgstr ":math:`Q` = the flow rate through the orifice"
+
+#: ../../Entrance_Tank/LFOM.rst:22
+msgid ":math:`A` = el área del orificio"
+msgstr ":math:`A` = the area of the orifice"
+
+#: ../../Entrance_Tank/LFOM.rst:23
+msgid ":math:`g` = la aceleración debida a la gravedad"
+msgstr ":math:`g` = the acceleration due to gravity"
+
+#: ../../Entrance_Tank/LFOM.rst:24
+msgid ":math:`h` = la altura del agua arriba del centro del orificio"
+msgstr ":math:`h` = the height of the water above the center of the orifice"
+
+#: ../../Entrance_Tank/LFOM.rst:32
+msgid "La forma de un vertedero tipo Sutro."
+msgstr "The shape of a Sutro weir."
+
+#: ../../Entrance_Tank/LFOM.rst:37
+msgid "Diseño de los orificios"
+msgstr "Design of the orifice"
+
+#: ../../Entrance_Tank/LFOM.rst:38
+msgid ""
+"Para diseñar el Medidor Lineal de Caudal (LFOM por sus siglas en inglés) el "
+"algoritmo de la herramienta de diseño optimiza el número de agujeros en cada "
+"fila de tal forma que el nivel cero (debajo de la primera fila de agujeros) "
+"corresponde un caudal de cero, el nivel máximo (la parte arriba de la última "
+"fila de orificios) corresponde al caudal máximo de diseño, y la relación "
+"entre el caudal y la altura de la superficie del agua entre los dos puntos "
+"es lineal."
+msgstr ""
+"To design the Linear Flow Orifice Meter (LFOM) the algorithm of the design "
+"tool optimizes the number of holes in each row so that the zero level (below "
+"the first row of holes) corresponds to a zero flow rate, the maximum level "
+"(the top of the last row of orifices) corresponds to the maximum design flow "
+"rate, and the relationship between the flow rate and the water surface "
+"height between the two points is linear."
+
+#: ../../Entrance_Tank/LFOM.rst:42
+msgid "Diseño del medidor lineal de caudal"
+msgstr "Linear flow orifice meter design"
+
+#: ../../Entrance_Tank/LFOM.rst:1
+msgid ""
+"Rango de niveles de agua (distancia vertical entre el nivel cero y el nivel "
+"máximo)"
+msgstr "Water level range (vertical distance between zero and maximum level)"
+
+#: ../../Entrance_Tank/LFOM.rst:1
+msgid "|HL.Lfom|"
+msgstr "|HL.Lfom|"
+
+#: ../../Entrance_Tank/LFOM.rst:1
+msgid "Diámetro de los agujeros"
+msgstr "Diameter of the holes"
+
+#: ../../Entrance_Tank/LFOM.rst:1
+msgid "|D.LfomOrifices|"
+msgstr "|D.LfomOrifices|"
+
+#: ../../Entrance_Tank/LFOM.rst:1
+msgid "Separación entre las filas de agujeros (centro a centro)"
+msgstr "Separation between rows of holes (center to center)"
+
+#: ../../Entrance_Tank/LFOM.rst:1
+msgid "|B.LfomRows|"
+msgstr "|B.LfomRows|"
+
+#: ../../Entrance_Tank/LFOM.rst:1
+msgid "Número de agujeros en cada fila, empezando con la fila inferior"
+msgstr "Number of holes in each row, starting with the bottom row"
+
+#: ../../Entrance_Tank/LFOM.rst:1
+msgid "|N.LfomOrifices|"
+msgstr "|N.LfomOrifices|"
+
+#: ../../Entrance_Tank/LFOM.rst:1
+msgid ""
+"Altura de cada fila arriba del nivel cero, empezando con la fila inferior"
+msgstr "Height of each row above the zero level, starting with the bottom row"
+
+#: ../../Entrance_Tank/LFOM.rst:1
+msgid "|H.LfomOrifices|"
+msgstr "|H.LfomOrifices|"
+
+#: ../../Entrance_Tank/LFOM.rst:52
+msgid ""
+"Con el medidor de caudal lineal de 20cm, cada incremento en el caudal "
+"provoca el mismo incremento en el nivel de agua en el tanque de entrada."
+msgstr ""
+"With the 20cm linear flow meter, each increase in flow causes the same "
+"increase in the water level in the entrance tank."
+
+#: ../../Entrance_Tank/LFOM.rst:60
+msgid "Funcionamiento de un medidor lineal de caudal (LFOM) de 20 cm."
+msgstr "Operation of a 20 cm linear flow orifice meter (LFOM)."

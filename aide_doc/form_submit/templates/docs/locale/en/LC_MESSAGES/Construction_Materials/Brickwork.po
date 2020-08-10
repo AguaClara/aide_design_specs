@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: 2020-07-22 19:06-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: ../../Construction_Materials/Brickwork.rst:7
+msgid "Albañilería"
+msgstr "Masonry"
+
+#: ../../Construction_Materials/Brickwork.rst:8
+msgid ""
+"Todo lo que no es tubería en la planta en Honduras se ha construido de "
+"piedras, varillas, ladrillos, y concreto. Las paredes del tanque de entrada, "
+"el floculador, los tanques de sedimentación, y los filtros de arena han sido "
+"de ladrillo reforzado (:numref:`figure_plant_exterior`). La base de los "
+"tanques de sedimentación, incluyendo las tolvas inclinadas, ha sido de "
+"mampostería de piedras. En algunos casos las paredes exteriores del edificio "
+"se han construido de bloques de concreto, aunque este material no es "
+"adecuado para las paredes de los tanques por su permeabilidad."
+msgstr ""
+"Everything that is not pipe in the plant in Honduras has been built of "
+"stone, rod, brick, and concrete. The walls of the inlet tank, the "
+"flocculator, the sedimentation tanks, and the sand filters have been made of "
+"reinforced brick (:numref:`figure_plant_exterior`). The base of the "
+"sedimentation tanks, including the sloping hoppers, has been made of stone "
+"masonry. In some cases the exterior walls of the building have been "
+"constructed of concrete blocks, although this material is not suitable for "
+"the tank walls because of its permeability."
+
+#: ../../Construction_Materials/Brickwork.rst:17
+msgid ""
+"Los materiales comunes que se usan en la construcción de las plantas en "
+"Honduras: paredes de ladrillos reforzados, cimentaciones de piedras, y "
+"paredes exteriores de bloque."
+msgstr ""
+"Common materials used in plant construction in Honduras: reinforced brick "
+"walls, stone foundations, and exterior block walls."
+
+#: ../../Construction_Materials/Brickwork.rst:19
+msgid ""
+"Sin embargo, el diseño estructural de la planta es la responsabilidad del "
+"socio de implementación. El programa AguaClara de la Universidad de Cornell "
+"no pretende hacer recomendaciones acerca de los elementos estructurales del "
+"edificio; el diseño hidráulico simplemente da las dimensiones internas de "
+"cada recipiente, los diámetros de la tubería, las ubicaciones relativas de "
+"las instalaciones, y la orientación de cada una. Todo el trabajo de diseñar "
+"el edificio alrededor de las instalaciones hidráulicas de acuerdo con las "
+"normas técnicas del país del proyecto y los materiales disponibles le cae al "
+"socio. Es posible que en el futuro las mismas geometrías funcionales de la "
+"planta se construyan con distintos métodos y materiales. Ya que el diseño "
+"estructural influye en el diseño hidráulico, el usuario de la herramienta de "
+"diseño puede especificar el grosor de varias paredes y losas de la planta, "
+"con el fin de producir un diseño que corresponda a los materiales y métodos "
+"de construcción que en realidad se usarán. Por ejemplo, en Honduras se han "
+"construido paredes de ladrillo de aproximadamente 15cm de grosor para la "
+"mayoría de los tanques, pero en otros países es posible que haya que "
+"construir con concreto reforzado de otro grosor para cumplir con el "
+"reglamento nacional. Si los grosores de este diseño no corresponden al "
+"diseño estructural, siempre se puede pedir otro diseño de la herramienta "
+"para evitar cualquier conflicto entre el diseño estructural y el diseño "
+"hidráulico en el momento de construir. La siguiente tabla resume los "
+"grosores de los elementos estructurales para este diseño específico."
+msgstr ""
+"However, the structural design of the plant is the responsibility of the "
+"implementation partner. The Cornell University AguaClara program does not "
+"attempt to make recommendations about the structural elements of the "
+"building; the hydraulic design simply gives the internal dimensions of each "
+"vessel, the pipe diameters, the relative locations of the facilities, and "
+"the orientation of each. All the work of designing the building around the "
+"hydraulic facilities according to the technical standards of the project "
+"country and the available materials falls to the partner. It is possible "
+"that in the future the same functional plant geometries will be built with "
+"different methods and materials. Since the structural design influences the "
+"hydraulic design, the user of the design tool can specify the thickness of "
+"various walls and slabs of the plant, in order to produce a design that "
+"corresponds to the materials and construction methods that will actually be "
+"used. For example, in Honduras, brick walls of approximately 15cm thickness "
+"have been built for most tanks, but in other countries it may be necessary "
+"to build with reinforced concrete of another thickness to comply with "
+"national regulations. If the thicknesses of this design do not correspond to "
+"the structural design, another tool design can always be requested to avoid "
+"any conflict between the structural design and the hydraulic design at the "
+"time of construction. The following table summarizes the structural element "
+"thicknesses for this specific design."
+
+#: ../../Construction_Materials/Brickwork.rst:23
+msgid "Grosores de algunos elementos estructurales"
+msgstr "Thickness of some structural elements"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Pared exterior de los tanques de sedimentación"
+msgstr "Exterior wall of the sedimentation tanks"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.SedWall|"
+msgstr "|T.SedWall|"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes que dividen los tanques de sedimentación adyacentes"
+msgstr "Walls dividing adjacent sedimentation tanks"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.SedDividingWall|"
+msgstr "|T.SedDividingWall|"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Pared del canal de salida del tanque de sedimentación"
+msgstr "Wall of the sedimentation tank outlet channel"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.SedChannelWall|"
+msgstr "|T.SedChannelWall|"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Pared exterior del floculador"
+msgstr "Flocculator outer wall"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.FlocWall|"
+msgstr "|T.FlocWall|"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes que dividen los canales adyacentes del floculador"
+msgstr "Walls dividing adjacent flocculator channels"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.FlocDividingWall|"
+msgstr "|T.FlocDividingWall|"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes de los filtros de arena"
+msgstr "Sand filter walls"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.FiWall|"
+msgstr "|T.FiWall|"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes de las cajas auxiliares de los filtros de arena"
+msgstr "Walls of the sand filter auxiliary boxes"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.FiBoxWall|"
+msgstr "|T.FiBoxWall|"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes exteriores del edificio"
+msgstr "Exterior walls of the building"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.PlantWall|"
+msgstr "|T.PlantWall|"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Paredes del canal de limpieza"
+msgstr "Cleaning channel walls"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.DrainChannelWall|"
+msgstr "|T.DrainChannelWall|"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Losa del floculador"
+msgstr "Flocculator slab"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.FlocSlab|"
+msgstr "|T.FlocSlab|"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Losa de la plataforma de químicos"
+msgstr "Chemical platform slab"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.ChemSlab|"
+msgstr "|T.ChemSlab|"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "Losa del piso de la planta"
+msgstr "Plant floor slab"
+
+#: ../../Construction_Materials/Brickwork.rst:1
+msgid "|T.PlantFloor|"
+msgstr "|T.PlantFloor|"

@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AguaClara Cornell
+# This file is distributed under the same license as the AIDE Design
+# Specifications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AIDE Design Specifications EXPERIMENTAL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-06 15:41-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:7
+msgid "Propósito y Descripción"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:8
+msgid ""
+"Los procesos de coagulación y desinfección requieren de la dosificación "
+"precisa de coagulante y de hipoclorito de calcio. Para realizar estos "
+"procesos sin bombas, la planta AguaClara utiliza un sistema de "
+"dosificación por gravedad."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:13
+msgid "Componentes principales"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:14
+msgid "Los componentes principales del sistema son:"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:16
+msgid ""
+"Dos tanques para almacenar la solución madre de cada químico (cuatro en "
+"total)."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:17
+msgid "Una plataforma para elevar los tanques."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:18
+msgid ""
+"Dos botes de carga constante para cada químico (4 en total) que mantienen"
+" un reservorio a un nivel constante usando una válvula flotadora en la "
+"entrada."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:19
+msgid ""
+"Una balanza que conecta el nivel de agua en el tanque de entrada de la "
+"planta con el nivel de la salida del sistema de químicos."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:20
+msgid ""
+"Una serie de mangueras en el recorrido del químico del bote de carga "
+"constante a la balanza, que provee la relación necesaria entre la pérdida"
+" de carga y el caudal del químico."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:21
+msgid "Una columna de medición de caudal para cada químico."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:23
+msgid ""
+"Las flechas azules indican el recorrido del químico. La altura de la "
+"salida de la manguera en el deslizador controla el caudal del químico."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:31
+msgid ""
+"Esquema de un dosificador de AguaClara montado en la pared del tanque de "
+"entrada."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:36
+msgid "Sistema semi-automático"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:37
+msgid "Este sistema tiene las siguientes características:"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:39
+msgid ""
+"El flujo del químico se detiene automáticamente cuando no hay flujo de "
+"agua en la planta."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:40
+msgid ""
+"Cambia el caudal de los químicos automáticamente en proporción al nivel "
+"de agua en el tanque de entrada, que es proporcional al caudal de la "
+"planta gracias al medidor lineal de caudal (sección anterior)."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:42
+msgid ""
+"La primera provee seguridad contra una sobredosis y el derroche de "
+"químicos en el caso de que se para el flujo de agua en la planta sin que "
+"se detenga el flujo de químico manualmente. La segunda permite que un(a) "
+"operador(a) con experiencia elija la dosis del químico fácilmente, sin "
+"hacer ningún cálculo, y sin necesidad de manipular el sistema cada vez "
+"que cambia el caudal en la planta."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:44
+msgid ""
+"El sistema no es completamente automático porque requiere de un operador "
+"para elegir la dosis de cada químico y verificar que esa dosis se está "
+"aplicando."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:49
+msgid "Bote de carga constante"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:50
+msgid ""
+"El bote de carga constante mantiene un nivel constante de fluido que "
+"define la altura de inicio del recorrido del químico. El nivel se "
+"mantiene con una válvula flotadora en la entrada de la botella.  Con el "
+"bote la altura del inicio del recorrido del químico es independiente de "
+"la cantidad de químico almacenada."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:58
+msgid "Bote de carga constante de sulfato de aluminio."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:63
+msgid "La balanza"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:64
+msgid ""
+"Con el bote de carga constante definiendo la altura del inicio del "
+"recorrido y los tubos y mangueras que conducen el químico instalados "
+"permanentemente, el caudal del químico depende únicamente de la altura "
+"del final del recorrido. Este extremo del sistema está conectado a una "
+"balanza montada en la pared del tanque de entrada. Al otro lado de la "
+"balanza está conectado un flote sumergido en el tanque de entrada que "
+"inclina la balanza dependiendo del nivel de agua en el tanque "
+"(:numref:`figure_balance`), el cual depende del caudal de agua "
+"(:ref:`title_LFOM`)."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:72
+msgid ""
+"La balanza se inclina dependiendo del nivel de agua en el tanque de "
+"entrada."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:74
+msgid ""
+"El punto donde la manguera que conduce el químico a la balanza está "
+"montada en ella es un deslizador que puede correr a lo largo de la "
+"balanza. Se elige la dosis del químico manipulando la posición del "
+"deslizador, así cambiando la altura del final del recorrido "
+"(:numref:`figure_final_height`)."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:82
+msgid ""
+"La altura final del recorrido del químico puede cambiar porque 1) cambia "
+"el caudal de agua en la planta o 2) se manipula la posición del "
+"deslizador para cambiar la dosis."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:84
+msgid ""
+"Cuando no hay flujo de agua en la planta la balanza está a nivel, de tal "
+"manera que la altura final del recorrido es igual al nivel de agua en el "
+"bote de carga constante. En esta situación el químico no fluye. Cuando "
+"sube el caudal en la planta, el flote hace que la balanza se incline más,"
+" bajando la altura de la manguera y aumentando el caudal del químico en "
+"proporción al caudal en la planta."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:86
+#, python-format
+msgid ""
+"Para manipular la dosis de coagulante, el operador cambia la posición del"
+" deslizador en la balanza. Entre más bajo en la balanza inclinada se "
+"coloca este deslizador, mayor es el caudal del químico y la dosis "
+"correspondiente. En la posición más alta posible (marcado como 0% en la "
+"numeración) la salida de la manguera está a nivel del fluido en el bote "
+"de carga constante y el químico no fluye independientemente de la "
+"inclinación de la balanza. En la posición más baja posible (marcado como "
+"100% en la numeración), se aplicará la dosis máxima (|C.CoagDoseMax| de "
+"coagulante o |C.ChlorDoseMax| de cloro para este diseño). Entre estos dos"
+" extremos la relación es lineal, de tal forma que el porcentaje indicado "
+"por la numeración en la balanza es el porcentaje de la dosis máxima que "
+"se aplica con la balanza en esa posición."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:88
+msgid ""
+"Al alcanzar el deslizador en la balanza, el químico cae libremente por un"
+" tubo de ½”, así aislando el recorrido a la balanza hidráulicamente. Para"
+" que la balanza pueda moverse libremente, este tubo está conectado con "
+"otra manguera flexible de diámetro grande bajo el piso de la planta. Esta"
+" manguera se conecta a la tubería que lleva el químico al punto de "
+"inyección."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:93
+msgid "Mangueras de diámetro pequeño: elemento principal de pérdida de carga"
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:94
+msgid ""
+"En el recorrido del bote de carga constante a la balanza, el químico pasa"
+" por una serie de mangueras de diámetro pequeño en paralelo. Casi toda la"
+" pérdida de carga a lo largo del recorrido del químico ocurre aquí. De "
+"esta manera, con el diseño de las mangueras se puede controlar la "
+"relación entre el caudal del químico y el cambio de altura del recorrido."
+msgstr ""
+
+#: ../../Chemical_Dosing/Dosing_Purpose_and_Description.rst:96
+msgid ""
+"El flujo por las mangueras rectas hace que la pérdida de carga mayor "
+"domine, y que se mantengan mínimas las pérdidas menores (de expansiones)."
+" Esto es importante porque el dosificador cuenta con una relación lineal "
+"entre la altura del extremo del recorrido del químico (conectada al nivel"
+" de agua en el tanque de entrada) y el caudal del químico. Los sistemas "
+"con pérdidas mayores con flujo laminar proveen esta relación lineal "
+"mientras las pérdidas menores tienen una relación no lineal con el "
+"caudal."
+msgstr ""
+
