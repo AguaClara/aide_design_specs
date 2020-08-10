@@ -13,10 +13,8 @@ install:
   - pipenv install --dev --verbose
   - gem install html-proofer
 script:
-  - pipenv shell
-  - cd aide_doc/form_submit/templates/docs
-  - make html
-  - make doctest
+  - pipenv run aide_doc/form_submit/templates/docs/make html
+  - pipenv run aide_doc/form_submit/templates/docs/make doctest
   # Require a link check to work to pass a PR.
   - if $TRAVIS_PULL_REQUEST; then htmlproofer _build/html --allow_hash_href --file_ignore "_build/html/search.html" --url-ignore https://rawgit.com/AguaClara/aide_design_specs/test/html/index.html; fi;
 after_script:
