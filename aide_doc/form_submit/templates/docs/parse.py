@@ -108,20 +108,33 @@ def parse_variables_from_list(unparsed):
 
     return measurement_list
 
+def merge_indexes(new_index, old_index):
+    new_index_file = open(new_index, "w+")
+    old_index_file = open(old_index, "r+")
+    for old_line in old_index_file:
+        filename = os.path.basename(old_line.strip())
+        included = False
+        for new_line in new_index_file:
+            if filename in new_line:
+                included = True
+        # if not included:
+            # TODO: add functionality to insert in the correct location
+    old_index_file.close()
+    new_index_file.close()
+    os.remove(old_index)
+    copyfile(new_index, old_index)
+
 def parse_variables_from_map(unparsed, default_key):
     parsed_variables = {}
     value = None
 
     if default_key == "template":
-        # write function to download that rst for editing, or if possible, that folder
-        # might have to be a file path instead of url
         move_to_docs(unparsed)
     elif default_key == "index":
-        # write function to download that index
-        # name it index.rst unless index.rst already exists
-        # if index.rst is not None:
-            # merge_indexes(index.rst, newindex.rst)
-        if unparsed != "" and unparsed is not None:
+        if os.path.exists('index.rst'):
+            copyfile(unparsed, 'new_index.rst')
+            merge_indexes('new_index.rst', 'index.rst')
+        elif unparsed != "" and unparsed is not None:
             copyfile(unparsed, 'index.rst')
     elif default_key == "process":
         # write function to download that process
@@ -216,7 +229,6 @@ def get_parsed_measurements(link):
 
     return measurements
 
-# TODO: move this file and index file to "docs" folder
 # from https://stackoverflow.com/questions/5914627/prepend-line-to-beginning-of-a-file
 def line_prepender(filename, line):
     with open(filename, 'r+') as f:

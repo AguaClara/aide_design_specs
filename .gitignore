@@ -22,3 +22,8 @@ local_settings.py
 .vscode
 .DS_store
 __pycache__
+
+# files moved by Sphinx builder
+aide_doc/form_submit/templates/docs/Entrance_Tank/*
+aide_doc/form_submit/templates/docs/Introduction/*
+aide_doc/form_submit/templates/docs/index.rst
