@@ -108,9 +108,12 @@ def parse_variables_from_list(unparsed):
 
     return measurement_list
 
-# TODO: complete section merging logic
 def merge_index_sections(new_section, old_section):
-    return new_section
+    for line in old_section:
+        if line in new_section:
+            continue
+        else:
+            new_section.append(line)
 
 def merge_indexes(new_index, old_index):
     section_start = ".. toctree::\n"
@@ -118,29 +121,41 @@ def merge_indexes(new_index, old_index):
 
     old_section_limits = []
     old_start = 0
-    new_section_limits = []
-    new_start = 0
-
     old_index_file = open(old_index, "r+")
     old_lines = old_index_file.readlines()
+
     for i, old_line in enumerate(old_index_file):
         if old_line == section_start:
             old_start = i
         if old_line == section_end and old_start != 0:
-            old_end = i
-            old_section_limits.append([old_start, old_end])
-            old_start = old_end = 0
+            if first_newline:
+                first_newline = False
+            else:
+                old_end = i
+                old_section_limits.append([old_start, old_end])
+                old_start = old_end = 0
+                first_newline = True
+
     old_index_file.close()
 
+    new_section_limits = []
+    new_start = 0
+    first_newline = True
     new_index_file = open(new_index, "r+")
     new_lines = new_index_file.readlines()
+
     for j, new_line in enumerate(new_index_file):
         if new_line == section_start:
             new_start = j
         if new_line == section_end and new_start != 0:
-            new_end = j
-            new_section_limits.append([new_start, new_end])
-            new_start = new_end = 0
+            if first_newline:
+                first_newline = False
+            else:
+                new_end = j
+                new_section_limits.append([new_start, new_end])
+                new_start = new_end = 0
+                first_newline = True
+
     new_index_file.close()
 
     for start, end in old_section_limits:
@@ -189,9 +204,9 @@ def parse_variables_from_map(unparsed, default_key):
         return parsed_variables, templates
     elif default_key == "process":
         # write function to download that process
-        # name it treatmentprocss.rst unless treatmentprocss.rst already exists
+        # name it treatmentprocess.rst unless treatmentproecss.rst already exists
         # if treatmentprocss.rst is not None:
-            # merge_treatment_processes(treatmentprocss.rst, newxprocess.rst
+            # merge_treatment_processes(treatmentprocess.rst, newprocess.rst
         if unparsed != "" and unparsed is not None:
             file = "Introduction/Treatment_Process.rst"
             file_path = "../../../../doc_files/Introduction/Treatment_Process_" + unparsed + ".rst"
