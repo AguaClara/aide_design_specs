@@ -123,19 +123,25 @@ def merge_indexes(new_index, old_index):
     new_index_file.close()
     os.remove(old_index)
     copyfile(new_index, old_index)
+    os.remove(new_index)
 
 def parse_variables_from_map(unparsed, default_key):
     parsed_variables = {}
     value = None
+    templates = []
 
     if default_key == "template":
         move_to_docs(unparsed)
+        templates.append(unparsed)
+        return parsed_variables, templates
     elif default_key == "index":
-        if os.path.exists('index.rst'):
-            copyfile(unparsed, 'new_index.rst')
-            merge_indexes('new_index.rst', 'index.rst')
-        elif unparsed != "" and unparsed is not None:
-            copyfile(unparsed, 'index.rst')
+        if unparsed != "" and unparsed is not None:
+            if os.path.exists('index.rst'):
+                copyfile(unparsed, 'new_index.rst')
+                merge_indexes('new_index.rst', 'index.rst')
+            else:
+                copyfile(unparsed, 'index.rst')
+        return parsed_variables, templates
     elif default_key == "process":
         # write function to download that process
         # name it treatmentprocss.rst unless treatmentprocss.rst already exists
@@ -150,6 +156,7 @@ def parse_variables_from_map(unparsed, default_key):
                 except IOError as io_err:
                     os.makedirs(os.path.dirname(file))
                     copyfile(file_path, file)
+        return parsed_variables, templates
 
     if isinstance(unparsed, list):
         for to_parse in unparsed:
@@ -157,7 +164,8 @@ def parse_variables_from_map(unparsed, default_key):
                 key = to_parse[msg_str][key_str][msg_str][val_str]
                 candidate_message = to_parse[msg_str][val_str]
                 if is_fs_type(candidate_message, "BTFSValueMap"):
-                    value = parse_variables_from_map(candidate_message[msg_str][val_str])
+                    value, template = parse_variables_from_map(candidate_message[msg_str][val_str])
+                    templates.extend(template)
                 elif is_fs_type(candidate_message,  "BTFSValueArray"):
                     value = parse_variables_from_list(candidate_message[msg_str][val_str])
                 elif is_fs_type(candidate_message, "BTFSValueWithUnits"):
@@ -168,10 +176,11 @@ def parse_variables_from_map(unparsed, default_key):
     else:
         parsed_variables[default_key] = unparsed
 
-    return parsed_variables
+    return parsed_variables, templates
 
 def parse_attributes(attributes, type_tag, fields):
     measurements = {}
+    templates = []
 
     for attr in attributes:
         if is_fs_type(attr, "BTFSValueMap"):
@@ -184,9 +193,16 @@ def parse_attributes(attributes, type_tag, fields):
                                 key = unparsed[msg_str][key_str][msg_str][val_str]
                                 for field in fields:
                                     if key == field:
-                                        measurements.update(parse_variables_from_map(unparsed[msg_str][val_str][msg_str][val_str], key))
+                                        new_measure, new_templates = parse_variables_from_map(unparsed[msg_str][val_str][msg_str][val_str], key)
+                                        measurements.update(new_measure)
+                                        templates.extend(new_templates)
 
-    return measurements
+    for i in range(len(templates)):
+        new_template = './' + os.path.basename(os.path.dirname(templates[i])) + \
+                       '/' + os.path.basename(templates[i])
+        templates[i] = new_template
+
+    return measurements, templates
 
 def get_parsed_measurements(link):
     script = r"""
@@ -225,9 +241,9 @@ def get_parsed_measurements(link):
     type_tag = "Documenter"
     fields = ["variables", "template", "index", "process"]
 
-    measurements = parse_attributes(attributes, type_tag, fields)
+    measurements, templates = parse_attributes(attributes, type_tag, fields)
 
-    return measurements
+    return measurements, templates
 
 # from https://stackoverflow.com/questions/5914627/prepend-line-to-beginning-of-a-file
 def line_prepender(filename, line):

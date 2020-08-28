@@ -221,8 +221,9 @@ rst_prolog = """
 # Here's a function to define custom styles to be used with the roles:
 def setup(app):
     # parsed_measurements = get_parsed_measurements("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/w/de9ad5474448b34f33fef097/e/1336f29c2649ad86aceaeaeb")
-    parsed_measurements = parse.get_parsed_measurements(settings.link)
+    parsed_measurements, templates = parse.get_parsed_measurements(settings.link)
     # TODO: add way to retrieve file/path from Documenter
-    parse.make_replace_file(parsed_measurements, './Entrance_Tank/LFOM.rst')
+    for template in templates:
+        parse.make_replace_file(parsed_measurements, template)
 
     app.add_stylesheet('css/custom.css')
