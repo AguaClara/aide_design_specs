@@ -108,19 +108,64 @@ def parse_variables_from_list(unparsed):
 
     return measurement_list
 
+# TODO: complete section merging logic
+def merge_index_sections(new_section, old_section):
+    return new_section
+
 def merge_indexes(new_index, old_index):
-    new_index_file = open(new_index, "w+")
+    section_start = ".. toctree::\n"
+    section_end = "\n"
+
+    old_section_limits = []
+    old_start = 0
+    new_section_limits = []
+    new_start = 0
+
     old_index_file = open(old_index, "r+")
-    for old_line in old_index_file:
-        filename = os.path.basename(old_line.strip())
-        included = False
-        for new_line in new_index_file:
-            if filename in new_line:
-                included = True
-        # if not included:
-            # TODO: add functionality to insert in the correct location
+    old_lines = old_index_file.readlines()
+    for i, old_line in enumerate(old_index_file):
+        if old_line == section_start:
+            old_start = i
+        if old_line == section_end and old_start != 0:
+            old_end = i
+            old_section_limits.append([old_start, old_end])
+            old_start = old_end = 0
     old_index_file.close()
+
+    new_index_file = open(new_index, "r+")
+    new_lines = new_index_file.readlines()
+    for j, new_line in enumerate(new_index_file):
+        if new_line == section_start:
+            new_start = j
+        if new_line == section_end and new_start != 0:
+            new_end = j
+            new_section_limits.append([new_start, new_end])
+            new_start = new_end = 0
     new_index_file.close()
+
+    for start, end in old_section_limits:
+        included = False
+        caption = old_lines[start+1]
+        for new_start, new_end in new_section_limits:
+            if new_lines[new_start+1] == caption:
+                new_section = merge_index_sections(new_lines[new_start:new_end], old_lines[start:end])
+                del new_lines[new_start:new_end]
+                index = new_start
+                for line in new_section:
+                    new_lines.insert(index, line)
+                    index += 1
+                included = True
+        if not included:
+            index = new_end
+            new_lines.insert(index, "\n")
+            for line in old_lines[start:end]:
+                index += 1
+                new_lines.insert(index, line)
+
+    new_index_file = open(new_index, "w+")
+    new_index_file.write("".join(new_lines))
+    new_index_file.close()
+
     os.remove(old_index)
     copyfile(new_index, old_index)
     os.remove(new_index)
