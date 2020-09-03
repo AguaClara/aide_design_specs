@@ -121,6 +121,7 @@ def merge_indexes(new_index, old_index):
 
     old_section_limits = []
     old_start = 0
+    first_newline = True
     old_index_file = open(old_index, "r+")
     old_lines = old_index_file.readlines()
 
@@ -165,17 +166,17 @@ def merge_indexes(new_index, old_index):
             if new_lines[new_start+1] == caption:
                 new_section = merge_index_sections(new_lines[new_start:new_end], old_lines[start:end])
                 del new_lines[new_start:new_end]
-                index = new_start
+                i = new_start
                 for line in new_section:
-                    new_lines.insert(index, line)
-                    index += 1
+                    new_lines.insert(i, line)
+                    i += 1
                 included = True
         if not included:
-            index = new_end
-            new_lines.insert(index, "\n")
+            i = new_end
+            new_lines.insert(i, "\n")
             for line in old_lines[start:end]:
-                index += 1
-                new_lines.insert(index, line)
+                i += 1
+                new_lines.insert(i, line)
 
     new_index_file = open(new_index, "w+")
     new_index_file.write("".join(new_lines))
@@ -184,6 +185,54 @@ def merge_indexes(new_index, old_index):
     os.remove(old_index)
     copyfile(new_index, old_index)
     os.remove(new_index)
+
+def merge_treatment_processes(new_processes, old_processes):
+    section_delimiter = ".. heading"
+
+    old_section_limits = []
+    old_start = 0
+    old_file = open(old_processes, "r+")
+    old_lines = old_file.readlines()
+
+    for i, old_line in enumerate(old_file):
+        if section_delimiter in old_line:
+            old_end = i - 1
+            old_section_limits.append([old_start, old_end])
+            old_start = i
+
+    old_section_limits.append([old_start,len(old_lines)])
+    old_file.close()
+
+    new_section_limits = []
+    new_start = 0
+    new_file = open(new_processes, "r+")
+    new_lines = new_file.readlines()
+
+    for j, new_line in enumerate(new_file):
+        if section_delimiter in new_line:
+            new_end = j - 1
+            new_section_limits.append([new_start, new_end])
+            new_start = j
+
+    new_section_limits.append([new_start,len(new_lines)])
+    new_file.close()
+
+    for start, end in new_section_limits:
+        included = False
+        heading = new_lines[start]
+        for old_start, old_end in old_section_limits:
+            if old_lines[old_start] == heading:
+                included = True
+        if not included:
+            i = old_end
+            old_lines.insert(i, "\n")
+            for line in new_lines[start:end]:
+                i += 1
+                old_lines.insert(i, line)
+
+    old_file = open(old_processes, "w+")
+    old_file.write("".join(old_lines))
+    old_file.close()
 
 def parse_variables_from_map(unparsed, default_key):
     parsed_variables = {}
@@ -210,7 +259,9 @@ def parse_variables_from_map(unparsed, default_key):
         if unparsed != "" and unparsed is not None:
             file = "Introduction/Treatment_Process.rst"
             file_path = "../../../../doc_files/Introduction/Treatment_Process_" + unparsed + ".rst"
-            if not os.path.exists(file):
+            if os.path.exists(file):
+                merge_treatment_processes(file_path, file)
+            else:
                 try:
                     copyfile(file_path, file)
                 except IOError as io_err:
