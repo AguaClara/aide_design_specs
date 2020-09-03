@@ -252,10 +252,6 @@ def parse_variables_from_map(unparsed, default_key):
                 copyfile(unparsed, 'index.rst')
         return parsed_variables, templates
     elif default_key == "process":
-        # write function to download that process
-        # name it treatmentprocess.rst unless treatmentproecss.rst already exists
-        # if treatmentprocss.rst is not None:
-            # merge_treatment_processes(treatmentprocess.rst, newprocess.rst
         if unparsed != "" and unparsed is not None:
             file = "Introduction/Treatment_Process.rst"
             file_path = "../../../../doc_files/Introduction/Treatment_Process_" + unparsed + ".rst"
