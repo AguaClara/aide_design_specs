@@ -85,7 +85,7 @@ def is_fs_type(candidate, type_name):
         result: True if candidate is of type_name, False otherwise
 
     >>> import json
-    >>> test_json = json.loads("{'type': 2077, 'typeName': 'BTFSValueMapEntry', 'message': {}}")
+    >>> test_json = json.loads('{"type": 2077, "typeName": "BTFSValueMapEntry", "message": {}}')
     >>> is_fs_type(test_json, "BTFSValueWithUnits")
     True
     >>> is_fs_type(test_json, "BTFSValueNumber")
@@ -224,7 +224,7 @@ def merge_indexes(new_index, old_index):
         none
 
     >>> old_index = '../../../../test_files/index_lfom.rst'
-    >>> new_index = '../../../../test_files/index_ET.rst'
+    >>> new_index = '../../../../test_files/new_index.rst'
     >>> merge_indexes(new_index, old_index)
     >>> index_file = open(old_index, "r+")
     >>> lines = index_file.readlines()
@@ -279,8 +279,8 @@ def find_treatment_section_limits(filename, section_delimiter=".. heading"):
     >>> _, limits = find_treatment_section_limits(process)
     >>> limits
     [[16, 21]]
-    >>> index = '../../../../test_files/Treatment_Process_ET_Floc.rst'
-    >>> _, limits = find_treatment_section_limits(index)
+    >>> process = '../../../../test_files/Treatment_Process_ET_Floc.rst'
+    >>> _, limits = find_treatment_section_limits(process)
     >>> limits
     [[16, 21], [22, 27]]
     """
@@ -460,19 +460,19 @@ def get_parsed_measurements(link):
     >>> link = 'https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/v/2990aab7c08553622d0c1402/e/e09d11406e7a9143537efe3a'
     >>> measurements, templates = get_parsed_measurements(link)
     >>> templates
-    ['./Entrance_Tank/Tank_Design_Algorithm.rst' , './Entrance_Tank/LFOM.rst']
+    ['./Entrance_Tank/LFOM.rst', './Entrance_Tank/Tank_Design_Algorithm.rst']
     >>> measurements['W.Et']
-    64.1 cm
-    >>> measurements['LfomOrifices']
-    13.0, 3.0, 4.0, 4.0]
+    '64.1 cm'
+    >>> measurements['N.LfomOrifices']
+    [13.0, 3.0, 4.0, 4.0]
     >>> measurements['HL.Lfom']
-    20.0 cm
+    '20.0 cm'
     >>> measurements['H.LfomOrifices']
     ['2.22 cm', '7.41 cm', '12.59 cm', '17.78 cm']
     >>> measurements['D.LfomOrifices']
-    4.45 cm
+    '4.45 cm'
     >>> measurements['B.LfomRows']
-    5.0 cm
+    '5.0 cm'
     """
     script = r"""
         function (context is Context, queries is map)
