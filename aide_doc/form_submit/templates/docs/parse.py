@@ -17,10 +17,10 @@ key_str = "key"
 # create global roles using this: https://stackoverflow.com/questions/9698702/how-do-i-create-a-global-role-roles-in-sphinx
 # If this grows too much, we'll need to add a global rst as described in the post above.
 def parse_quantity(q):
-    """
-    Parse an Onshape units definition
+    """Parse an Onshape units definition
+
     Args:
-        q:an Onshape units definition... for instance:
+        q: an Onshape units definition... for instance:
             {
               'typeTag': '',
               'unitToPower': [
@@ -31,8 +31,10 @@ def parse_quantity(q):
               ],
               'value': 0.0868175271040671
             }
+
     Returns:
         a string that can be converted to any other unit engine.
+
     >>> from onshape_client.utility import parse_quantity
     >>> d = {'value': 0.1414213562373095, 'unitToPower': [{'value': 1, 'key': 'METER'}], 'typeTag': ''}
     >>> parse_quantity(d)
@@ -73,6 +75,22 @@ def parse_quantity(q):
     return f'{round(units_s, 2):~}'
 
 def is_fs_type(candidate, type_name):
+    """Checks if the a JSON entry is of a specific FeatureScript type.
+
+    Args:
+        candidate: decoded JSON object to check the type of
+        type_name: string of the FeatureScript Type to check for
+
+    Returns:
+        result: True if candidate is of type_name, False otherwise
+
+    >>> import json
+    >>> test_json = json.loads("{'type': 2077, 'typeName': 'BTFSValueMapEntry', 'message': {}}")
+    >>> is_fs_type(test_json, "BTFSValueWithUnits")
+    True
+    >>> is_fs_type(test_json, "BTFSValueNumber")
+    False
+    """
     result = False
     try:
         if isinstance(type_name, str):
@@ -85,7 +103,17 @@ def is_fs_type(candidate, type_name):
         result = False
     return result
 
-def move_to_docs(file_path, base="doc_files"):
+def copy_to_docs(file_path, base="doc_files"):
+    """Copies a file to the current working directory. The new file's path
+    will be identical to the old file's path relative to the base path.
+
+    Args:
+        file_path: path to the file to be copied
+        base: base path to use in creating relative file path of the copy
+
+    Returns:
+        none
+    """
     file = os.path.basename(file_path)
     dir = os.path.dirname(file_path)
     while os.path.basename(dir) != base:
@@ -98,6 +126,15 @@ def move_to_docs(file_path, base="doc_files"):
         copyfile(file_path, file)
 
 def parse_variables_from_list(unparsed):
+    """Helper function for parse_variables_from_map parses values from a list
+    instead of a map.
+
+    Args:
+        unparsed: portion of deserialized JSON which has yet to be parsed
+
+    Returns:
+        measurement_list: list of parsed values
+    """
     measurement_list = []
 
     for to_parse in unparsed:
@@ -109,17 +146,52 @@ def parse_variables_from_list(unparsed):
     return measurement_list
 
 def merge_index_sections(new_section, old_section):
+    """Helper function for merge_indexes which loops through each section and
+    combines them
+
+    Args:
+        new_section: section which is being added to if line from old_section is absent
+        old_section: section which is pulled from
+
+    Returns:
+        none
+    """
     for line in old_section:
         if line in new_section:
             continue
         else:
             new_section.append(line)
 
-def find_section_limits(file_name):
+def find_index_section_limits(filename, section_start=".. toctree::\n",
+                              section_end="\n"):
+    """Helper function for merge_indexes which loops through the
+    file and marks the beginning and end of each section.
+
+    Args:
+        filename: path to file to be modified
+        section_start: string which marks the start of each section
+            Default: '.. toctree::\n'
+        section_end: string which marks the end of each section
+            Default: '\n'
+
+    Returns:
+        lines: list of strings of each line in the file
+        section_limits: list of the form [[start1, end1], [start2, end2]]
+            which marks the separation between sections
+
+    >>> index = '../../../../test_files/index_lfom.rst'
+    >>> _, limits = find_index_section_limits(index)
+    >>> limits
+    [[19, 26], [28, 32]]
+    >>> index = '../../../../test_files/index_ET.rst'
+    >>> _, limits = find_index_section_limits(index)
+    >>> limits
+    [[19, 26], [28, 33]]
+    """
     section_limits = []
     start = 0
     first_newline = True
-    index_file = open(file_name, "r+")
+    index_file = open(filename, "r+")
     lines = index_file.readlines()
 
     for i, line in enumerate(index_file):
@@ -139,11 +211,30 @@ def find_section_limits(file_name):
     return lines, section_limits
 
 def merge_indexes(new_index, old_index):
-    section_start = ".. toctree::\n"
-    section_end = "\n"
+    """Merges two indexes by comparing the two files, index.rst and new_index.rst
+    section by section and adding pieces which exist in index.rst but are missing
+    from new_index.rst . At the end, the one which was added to is maintained as
+    index.rst and new_index.rst is deleted.
 
-    old_lines, old_section_limits = find_section_limits(old_index)
-    new_lines, new_section_limits = find_section_limits(new_index)
+    Args:
+        new_index: path to index file which is being merged from
+        old_index: path to existing index file which is being merged into
+
+    Returns:
+        none
+
+    >>> old_index = '../../../../test_files/index_lfom.rst'
+    >>> new_index = '../../../../test_files/index_ET.rst'
+    >>> merge_indexes(new_index, old_index)
+    >>> index_file = open(old_index, "r+")
+    >>> lines = index_file.readlines()
+    >>> test_file = open('../../../../test_files/index_lfom_ET.rst')
+    >>> test_lines = test_file.readlines()
+    >>> test_lines == lines
+    True
+    """
+    old_lines, old_section_limits = find_index_section_limits(old_index)
+    new_lines, new_section_limits = find_index_section_limits(new_index)
 
     for start, end in old_section_limits:
         included = False
@@ -164,44 +255,75 @@ def merge_indexes(new_index, old_index):
                 i += 1
                 new_lines.insert(i, line)
 
-    new_index_file = open(new_index, "w+")
-    new_index_file.write("".join(new_lines))
-    new_index_file.close()
+    old_index_file = open(old_index, "w+")
+    old_index_file.write("".join(new_lines))
+    old_index_file.close()
 
-    os.remove(old_index)
-    copyfile(new_index, old_index)
     os.remove(new_index)
 
+def find_treatment_section_limits(filename, section_delimiter=".. heading"):
+    """Helper function for merge_treatment_processes which loops through the
+    file and marks the beginning and end of each section.
+
+    Args:
+        filename: path to file to be modified
+        section_delimiter: string which marks the separation between sections
+            Default: '.. heading'
+
+    Returns:
+        lines: list of strings of each line in the file
+        section_limits: list of the form [[start1, end1], [start2, end2]]
+            which marks the separation between sections
+
+    >>> process = '../../../../test_files/Treatment_Process_ET.rst'
+    >>> _, limits = find_treatment_section_limits(process)
+    >>> limits
+    [[16, 21]]
+    >>> index = '../../../../test_files/Treatment_Process_ET_Floc.rst'
+    >>> _, limits = find_treatment_section_limits(index)
+    >>> limits
+    [[16, 21], [22, 27]]
+    """
+    section_limits = []
+    start = 0
+    file = open(filename, "r+")
+    lines = file.readlines()
+
+    for i, line in enumerate(file):
+        if section_delimiter in line:
+            end = i - 1
+            section_limits.append([start, end])
+            start = i
+
+    section_limits.append([start,len(lines)])
+    file.close()
+
+    return lines, section_limits
+
 def merge_treatment_processes(new_processes, old_processes):
-    section_delimiter = ".. heading"
+    """Merges two treatment process descriptions by comparing the two files
+    section by section and adding pieces which exist in new_processes but are missing
+    from old_processes.
 
-    old_section_limits = []
-    old_start = 0
-    old_file = open(old_processes, "r+")
-    old_lines = old_file.readlines()
+    Args:
+        new_processes: path to treatment process file which is being merged from
+        old_processes: path to existing treatment process file which is being merged into
 
-    for i, old_line in enumerate(old_file):
-        if section_delimiter in old_line:
-            old_end = i - 1
-            old_section_limits.append([old_start, old_end])
-            old_start = i
+    Returns:
+        none
 
-    old_section_limits.append([old_start,len(old_lines)])
-    old_file.close()
-
-    new_section_limits = []
-    new_start = 0
-    new_file = open(new_processes, "r+")
-    new_lines = new_file.readlines()
-
-    for j, new_line in enumerate(new_file):
-        if section_delimiter in new_line:
-            new_end = j - 1
-            new_section_limits.append([new_start, new_end])
-            new_start = j
-
-    new_section_limits.append([new_start,len(new_lines)])
-    new_file.close()
+    >>> old_processes = '../../../../test_files/Treatment_Process_ET.rst'
+    >>> new_processes = '../../../../test_files/Treatment_Process_Floc.rst'
+    >>> merge_treatment_processes(new_processes, old_processes)
+    >>> file = open(old_processes, "r+")
+    >>> lines = file.readlines()
+    >>> test_file = open('../../../../test_files/Treatment_Process_ET_Floc.rst')
+    >>> test_lines = test_file.readlines()
+    >>> test_lines == lines
+    True
+    """
+    old_lines, old_section_limits = find_treatment_section_limits(old_processes)
+    new_lines, new_section_limits = find_treatment_section_limits(new_processes)
 
     for start, end in new_section_limits:
         included = False
@@ -221,12 +343,24 @@ def merge_treatment_processes(new_processes, old_processes):
     old_file.close()
 
 def parse_variables_from_map(unparsed, default_key):
+    """Helper function for parse_attributes which loops through an unparsed map
+    that matched one of the desired fields
+
+    Args:
+        unparsed: portion of deserialized JSON which has yet to be parsed
+        default_key: key for the field. Used to detect special entries like index
+
+    Returns:
+        parsed_variables: dictionary of parsed variables
+        templates: list of templates to move from doc_files and render in the
+            design specs.
+    """
     parsed_variables = {}
     value = None
     templates = []
 
     if default_key == "template":
-        move_to_docs(unparsed)
+        copy_to_docs(unparsed)
         templates.append(unparsed)
         return parsed_variables, templates
     elif default_key == "index":
@@ -271,7 +405,21 @@ def parse_variables_from_map(unparsed, default_key):
 
     return parsed_variables, templates
 
-def parse_attributes(attributes, type_tag, fields):
+def parse_attributes(attributes, fields, type_tag="Documenter"):
+    """Helper function for get_parsed_measurements which loops through the
+    atributes, parsing only the specified fields.
+
+    Args:
+        attributes: deserialized JSON object returned by Onshape link
+        fields: fields which we are interested in parsing, e.g. 'variables' or 'index'
+        type_tag: type from Onshape of the configuration we are parsing for
+            Default: 'Documenter'
+
+    Returns:
+        measurements: dictionary of parsed variables
+        templates: list of templates to move from doc_files and render in the
+            design specs.
+    """
     measurements = {}
     templates = []
 
@@ -298,6 +446,34 @@ def parse_attributes(attributes, type_tag, fields):
     return measurements, templates
 
 def get_parsed_measurements(link):
+    """Parses the output of the Onshape Documenter feature found in the Onshape
+    document at the given url.
+
+    Args:
+        link: URL of Onshape document
+
+    Returns:
+        measurements: dictionary of parsed variables
+        templates: list of templates to move from doc_files and render in the
+            design specs.
+
+    >>> link = 'https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/v/2990aab7c08553622d0c1402/e/e09d11406e7a9143537efe3a'
+    >>> measurements, templates = get_parsed_measurements(link)
+    >>> templates
+    ['./Entrance_Tank/Tank_Design_Algorithm.rst' , './Entrance_Tank/LFOM.rst']
+    >>> measurements['W.Et']
+    64.1 cm
+    >>> measurements['LfomOrifices']
+    13.0, 3.0, 4.0, 4.0]
+    >>> measurements['HL.Lfom']
+    20.0 cm
+    >>> measurements['H.LfomOrifices']
+    ['2.22 cm', '7.41 cm', '12.59 cm', '17.78 cm']
+    >>> measurements['D.LfomOrifices']
+    4.45 cm
+    >>> measurements['B.LfomRows']
+    5.0 cm
+    """
     script = r"""
         function (context is Context, queries is map)
         {
@@ -316,9 +492,7 @@ def get_parsed_measurements(link):
         }
     )
 
-    # will probably need to turn this into a loop if there are more parts together but need to handle duplicate variables
     element = OnshapeElement(link)
-    # element = OnshapeElement("https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/w/de9ad5474448b34f33fef097/e/d75b2f7a41dde39791b154e8")
 
     script_call = BTFeatureScriptEvalCall2377(script=script)
     response = client.part_studios_api.eval_feature_script(
@@ -331,28 +505,52 @@ def get_parsed_measurements(link):
     )
 
     attributes = json.loads(response.data.decode("utf-8"))["result"][msg_str][val_str]
-    type_tag = "Documenter"
     fields = ["variables", "template", "index", "process"]
 
-    measurements, templates = parse_attributes(attributes, type_tag, fields)
+    measurements, templates = parse_attributes(attributes, fields)
 
     return measurements, templates
 
 # from https://stackoverflow.com/questions/5914627/prepend-line-to-beginning-of-a-file
 def line_prepender(filename, line):
+    """Prepends a file with the given line.
+
+    Args:
+        filename: path to file to be modified
+        line: string of text to prepend to the file
+
+    Returns:
+        none
+    """
     with open(filename, 'r+') as f:
         content = f.read()
         f.seek(0, 0)
         f.write(line.rstrip('\r\n') + '\n' + content)
 
 # TODO: change name
-def make_replace_file(parsed_dict, filename, var_attachment=''):
+def make_replace_list(parsed_dict, filename, var_attachment=''):
+    """Adds the dictionary of variables which have been parsed to the top of the
+    given file.
+
+    Args:
+        parsed_dict: dictionary of variables parsed from Onshape document
+        filename: path to file to be modified
+        var_attachment: string to prepend to all variables, e.g. "LFOM"
+            Default: ''
+
+    Returns:
+        none
+    """
     prefix = '.. |'
     suffix = '| replace:: '
 
     for var in parsed_dict:
         if type(parsed_dict[var]) == dict:
-            make_replace_file(parsed_dict[var], filename, var_attachment + var + "_")
+            make_replace_list(parsed_dict[var], filename, var_attachment + var + "_")
         else:
             line = prefix + var_attachment + str(var) + suffix + str(parsed_dict[var])
             line_prepender(filename, line)
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
