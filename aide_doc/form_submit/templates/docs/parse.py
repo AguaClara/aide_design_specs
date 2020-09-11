@@ -115,49 +115,35 @@ def merge_index_sections(new_section, old_section):
         else:
             new_section.append(line)
 
+def find_section_limits(file_name):
+    section_limits = []
+    start = 0
+    first_newline = True
+    index_file = open(file_name, "r+")
+    lines = index_file.readlines()
+
+    for i, line in enumerate(index_file):
+        if line == section_start:
+            start = i
+        if line == section_end and start != 0:
+            if first_newline:
+                first_newline = False
+            else:
+                end = i
+                section_limits.append([start, end])
+                start = end = 0
+                first_newline = True
+
+    index_file.close()
+
+    return lines, section_limits
+
 def merge_indexes(new_index, old_index):
     section_start = ".. toctree::\n"
     section_end = "\n"
 
-    old_section_limits = []
-    old_start = 0
-    first_newline = True
-    old_index_file = open(old_index, "r+")
-    old_lines = old_index_file.readlines()
-
-    for i, old_line in enumerate(old_index_file):
-        if old_line == section_start:
-            old_start = i
-        if old_line == section_end and old_start != 0:
-            if first_newline:
-                first_newline = False
-            else:
-                old_end = i
-                old_section_limits.append([old_start, old_end])
-                old_start = old_end = 0
-                first_newline = True
-
-    old_index_file.close()
-
-    new_section_limits = []
-    new_start = 0
-    first_newline = True
-    new_index_file = open(new_index, "r+")
-    new_lines = new_index_file.readlines()
-
-    for j, new_line in enumerate(new_index_file):
-        if new_line == section_start:
-            new_start = j
-        if new_line == section_end and new_start != 0:
-            if first_newline:
-                first_newline = False
-            else:
-                new_end = j
-                new_section_limits.append([new_start, new_end])
-                new_start = new_end = 0
-                first_newline = True
-
-    new_index_file.close()
+    old_lines, old_section_limits = find_section_limits(old_index)
+    new_lines, new_section_limits = find_section_limits(new_index)
 
     for start, end in old_section_limits:
         included = False
