@@ -86,7 +86,7 @@ def is_fs_type(candidate, type_name):
 
     >>> import json
     >>> test_json = json.loads('{"type": 2077, "typeName": "BTFSValueMapEntry", "message": {}}')
-    >>> is_fs_type(test_json, "BTFSValueWithUnits")
+    >>> is_fs_type(test_json, "BTFSValueMapEntry")
     True
     >>> is_fs_type(test_json, "BTFSValueNumber")
     False
@@ -155,12 +155,19 @@ def merge_index_sections(new_section, old_section):
 
     Returns:
         none
+
+    >>> new_section = ['test_line', 'test_line2']
+    >>> old_section = ['test_line', 'test_line3']
+    >>> merge_index_sections(new_section, old_section)
+    ['test_line', 'test_line2', 'test_line3']
     """
     for line in old_section:
         if line in new_section:
             continue
         else:
             new_section.append(line)
+
+    return new_section
 
 def find_index_section_limits(filename, section_start=".. toctree::\n",
                               section_end="\n"):
@@ -182,19 +189,20 @@ def find_index_section_limits(filename, section_start=".. toctree::\n",
     >>> index = '../../../../test_files/index_lfom.rst'
     >>> _, limits = find_index_section_limits(index)
     >>> limits
-    [[19, 26], [28, 32]]
+    [[18, 26], [27, 32]]
     >>> index = '../../../../test_files/index_ET.rst'
     >>> _, limits = find_index_section_limits(index)
     >>> limits
-    [[19, 26], [28, 33]]
+    [[18, 26], [27, 33]]
     """
     section_limits = []
     start = 0
     first_newline = True
     index_file = open(filename, "r+")
     lines = index_file.readlines()
+    index_file.close()
 
-    for i, line in enumerate(index_file):
+    for i, line in enumerate(lines):
         if line == section_start:
             start = i
         if line == section_end and start != 0:
@@ -205,8 +213,6 @@ def find_index_section_limits(filename, section_start=".. toctree::\n",
                 section_limits.append([start, end])
                 start = end = 0
                 first_newline = True
-
-    index_file.close()
 
     return lines, section_limits
 
@@ -224,7 +230,7 @@ def merge_indexes(new_index, old_index):
         none
 
     >>> old_index = '../../../../test_files/index_lfom.rst'
-    >>> new_index = '../../../../test_files/new_index.rst'
+    >>> new_index = '../../../../test_files/new_index_ET.rst'
     >>> merge_indexes(new_index, old_index)
     >>> index_file = open(old_index, "r+")
     >>> lines = index_file.readlines()
@@ -261,14 +267,14 @@ def merge_indexes(new_index, old_index):
 
     os.remove(new_index)
 
-def find_treatment_section_limits(filename, section_delimiter=".. heading"):
+def find_treatment_section_limits(filename, section_delimiter=".. _heading"):
     """Helper function for merge_treatment_processes which loops through the
     file and marks the beginning and end of each section.
 
     Args:
         filename: path to file to be modified
         section_delimiter: string which marks the separation between sections
-            Default: '.. heading'
+            Default: '.. _heading'
 
     Returns:
         lines: list of strings of each line in the file
@@ -278,25 +284,25 @@ def find_treatment_section_limits(filename, section_delimiter=".. heading"):
     >>> process = '../../../../test_files/Treatment_Process_ET.rst'
     >>> _, limits = find_treatment_section_limits(process)
     >>> limits
-    [[16, 21]]
+    [[0, 14], [15, 20]]
     >>> process = '../../../../test_files/Treatment_Process_ET_Floc.rst'
     >>> _, limits = find_treatment_section_limits(process)
     >>> limits
-    [[16, 21], [22, 27]]
+    [[0, 14], [15, 20], [21, 26]]
     """
     section_limits = []
     start = 0
     file = open(filename, "r+")
     lines = file.readlines()
+    file.close()
 
-    for i, line in enumerate(file):
+    for i, line in enumerate(lines):
         if section_delimiter in line:
             end = i - 1
             section_limits.append([start, end])
             start = i
 
     section_limits.append([start,len(lines)])
-    file.close()
 
     return lines, section_limits
 
