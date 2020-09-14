@@ -147,7 +147,7 @@ def parse_variables_from_list(unparsed):
 
 def merge_index_sections(new_section, old_section):
     """Helper function for merge_indexes which loops through each section and
-    combines them
+    combines them.
 
     Args:
         new_section: section which is being added to if line from old_section is absent
@@ -190,7 +190,7 @@ def find_index_section_limits(filename, section_start=".. toctree::\n",
     >>> _, limits = find_index_section_limits(index)
     >>> limits
     [[18, 26], [27, 32]]
-    >>> index = '../../../../test_files/index_ET.rst'
+    >>> index = '../../../../test_files/index_lfom_ET.rst'
     >>> _, limits = find_index_section_limits(index)
     >>> limits
     [[18, 26], [27, 33]]
@@ -485,7 +485,6 @@ def get_parsed_measurements(link):
         {
             return getAttributes(context, {
                 "entities" : qEverything(),
-                // "attributePattern" : { 'type' : 'Documenter' }
             });
         }
         """
@@ -533,7 +532,6 @@ def line_prepender(filename, line):
         f.seek(0, 0)
         f.write(line.rstrip('\r\n') + '\n' + content)
 
-# TODO: change name
 def make_replace_list(parsed_dict, filename, var_attachment=''):
     """Adds the dictionary of variables which have been parsed to the top of the
     given file.
@@ -546,6 +544,16 @@ def make_replace_list(parsed_dict, filename, var_attachment=''):
 
     Returns:
         none
+
+    >>> var_dict = {'test': '3.0 cm'}
+    >>> file_path = "../../../../test_files/test_prepend.rst"
+    >>> make_replace_list(var_dict, file_path)
+    >>> file = open(file_path, "r+")
+    >>> lines = file.readlines()
+    >>> test_file = open('../../../../test_files/test_prepend_result.rst')
+    >>> test_lines = test_file.readlines()
+    >>> test_lines == lines
+    True
     """
     prefix = '.. |'
     suffix = '| replace:: '
