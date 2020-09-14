@@ -17,5 +17,6 @@ def main():
     execute_from_command_line(sys.argv)
 
 # running locally: https://cloud.google.com/python/django/appengine
+# python manage.py runserver
 if __name__ == '__main__':
     main()
