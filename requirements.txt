@@ -26,8 +26,8 @@ Pygments==2.2.0
 pyparsing==2.2.0
 python-dateutil==2.7.3
 pytz==2018.5
-PyYAML==3.13
-requests==2.19.1
+PyYAML==5.1
+requests==2.20.0
 six==1.11.0
 snowballstemmer==1.2.1
 -e git://github.com/rmk135/sphinxcontrib-disqus.git#egg=sphinxcontrib-disqus
@@ -36,4 +36,4 @@ sphinx-intl==2.0.1
 sphinx-rtd-theme==0.4.0
 sphinxcontrib-bibtex==0.4.2
 sphinxcontrib-websupport==1.1.0
-urllib3==1.23
+urllib3==1.24.2
