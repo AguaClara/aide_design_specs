@@ -1,1 +1,1 @@
-web: gunicorn aide_doc.wsgi
+web: gunicorn aide_doc.aide_doc.wsgi
