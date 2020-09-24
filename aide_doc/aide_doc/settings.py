@@ -118,9 +118,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "form_submit/templates/docs/_static"),
-    "/home/polls.com/polls/static",
-    "/opt/webfiles/common",
+    os.path.join(BASE_DIR, "form_submit/templates/docs/_static")
 ]
 
 STATIC_URL = '/_static/'
