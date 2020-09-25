@@ -1,4 +1,3 @@
-.. include:: ../global.rst
 
 .. _title_Tank_Algoritmo_de_Diseño:
 
