@@ -348,7 +348,7 @@ def merge_treatment_processes(new_processes, old_processes):
     old_file.write("".join(old_lines))
     old_file.close()
 
-def parse_variables_from_map(unparsed, default_key):
+def parse_variables_from_map(unparsed, default_key=""):
     """Helper function for parse_attributes which loops through an unparsed map
     that matched one of the desired fields
 
@@ -380,7 +380,7 @@ def parse_variables_from_map(unparsed, default_key):
     elif default_key == "process":
         if unparsed != "" and unparsed is not None:
             file = "Introduction/Treatment_Process.rst"
-            file_path = "../../../../doc_files/Introduction/Treatment_Process_" + unparsed + ".rst"
+            file_path = "../../../doc_files/Introduction/Treatment_Process_" + unparsed + ".rst"
             if os.path.exists(file):
                 merge_treatment_processes(file_path, file)
             else:
