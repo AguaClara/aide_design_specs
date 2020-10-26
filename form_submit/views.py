@@ -37,10 +37,10 @@ def submit_form(request):
                 os.chdir("form_submit/templates/docs")
             # TODO: add 'make clean' equivalent before 'build_sphinx'
 
-            f = open("settings.py", "w")
-            f.write("language = '" + language + "'\n")
-            f.write("link = '" + link + "'\n")
-            f.close()
+            # f = open("settings.py", "w")
+            # f.write("language = '" + language + "'\n")
+            # f.write("link = '" + link + "'\n")
+            # f.close()
 
             if file_type == 'website':
                 subprocess.call(['python', 'setup.py', 'build_sphinx'])

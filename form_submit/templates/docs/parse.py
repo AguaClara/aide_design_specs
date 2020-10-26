@@ -281,11 +281,11 @@ def find_treatment_section_limits(filename, section_delimiter=".. _heading"):
         section_limits: list of the form [[start1, end1], [start2, end2]]
             which marks the separation between sections
 
-    >>> process = '../../../../test_files/Treatment_Process_ET.rst'
+    >>> process = '../../../test_files/Treatment_Process_ET.rst'
     >>> _, limits = find_treatment_section_limits(process)
     >>> limits
     [[0, 14], [15, 20]]
-    >>> process = '../../../../test_files/Treatment_Process_ET_Floc.rst'
+    >>> process = '../../../test_files/Treatment_Process_ET_Floc.rst'
     >>> _, limits = find_treatment_section_limits(process)
     >>> limits
     [[0, 14], [15, 20], [21, 26]]
@@ -318,12 +318,12 @@ def merge_treatment_processes(new_processes, old_processes):
     Returns:
         none
 
-    >>> old_processes = '../../../../test_files/Treatment_Process_ET.rst'
-    >>> new_processes = '../../../../test_files/Treatment_Process_Floc.rst'
+    >>> old_processes = '../../../test_files/Treatment_Process_ET.rst'
+    >>> new_processes = '../../../test_files/Treatment_Process_Floc.rst'
     >>> merge_treatment_processes(new_processes, old_processes)
     >>> file = open(old_processes, "r+")
     >>> lines = file.readlines()
-    >>> test_file = open('../../../../test_files/Treatment_Process_ET_Floc.rst')
+    >>> test_file = open('../../../test_files/Treatment_Process_ET_Floc.rst')
     >>> test_lines = test_file.readlines()
     >>> test_lines == lines
     True
