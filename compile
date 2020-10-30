@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# bin/compile <build-dir> <cache-dir>
+# compile <build-dir> <cache-dir>
 # from https://github.com/Thermondo/heroku-buildpack-tex/blob/master/bin/compile
 
 # fail fast
@@ -7,8 +7,8 @@ set -e
 
 BUILD_DIR=$1
 CACHE_DIR=$2
-BIN_DIR=$(cd "$(dirname "$0")"; pwd) # absolute path
 
+mkdir -p $BUILD_DIR $CACHE_DIR
 
 TEXLIVE_REPOSITORY="http://mirror.ctan.org/systems/texlive/tlnet"
 
@@ -32,7 +32,7 @@ PROFILE_D=$BUILD_DIR/.profile.d/texlive.sh
 
 # Output helpers
 # shellcheck source=bin/utils
-source "$BIN_DIR/utils"
+source "utils"
 
 # Prepare the various paths
 mkdir -p "$TEXLIVE_HOME"
@@ -53,7 +53,7 @@ fi
 if [ ! "$(which pdflatex)" ]; then
     build-step "Installing TeX Live..."
 
-    PROF=$BIN_DIR/../conf/texlive.profile
+    PROF=texlive.profile
     {
       echo "TEXDIR $TEXLIVE_HOME";
       echo "TEXMFCONFIG $TEXLIVE_HOME/var/texmf-config";
