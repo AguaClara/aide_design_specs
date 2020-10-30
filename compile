@@ -5,8 +5,8 @@
 # fail fast
 set -e
 
-BUILD_DIR=
-CACHE_DIR=
+BUILD_DIR="var/env"
+CACHE_DIR="tmp/build_cache"
 
 TEXLIVE_REPOSITORY="http://mirror.ctan.org/systems/texlive/tlnet"
 
@@ -31,11 +31,6 @@ PROFILE_D=$BUILD_DIR/.profile.d/texlive.sh
 # Output helpers
 # shellcheck source=bin/utils
 source "utils"
-
-# Prepare the various paths
-mkdir -p "$TEXLIVE_HOME"
-mkdir -p "$TEXLIVE_CACHE"
-mkdir -p "$(dirname "$PROFILE_D")"
 
 if [ "$(ls -A "$TEXLIVE_CACHE")" ]; then
     build-step "Setting up build cache..."
