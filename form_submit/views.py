@@ -33,7 +33,6 @@ def submit_form(request):
             file_type = form.cleaned_data["file_type"]
 
             if (os.path.basename(os.getcwd()) != "docs"):
-                print(os.getcwd())
                 os.chdir("form_submit/templates/docs")
             # TODO: add 'make clean' equivalent before 'build_sphinx'
 
@@ -59,6 +58,9 @@ def submit_form(request):
                 response['Content-Disposition'] = 'attachment; filename="AideDesignSpecs.pdf"'
 
                 output_file.close()
+
+                # reset directory so if website is called again it's back in docs
+                os.chdir("../../..")
 
                 return response
 
