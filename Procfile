@@ -1,2 +1,2 @@
-release: chmod u+x tex_live.profile && chmod u+x compile && ./compile
+release: chmod u+x texlive.profile && chmod u+x compile && ./compile
 web: gunicorn aide_doc.wsgi
