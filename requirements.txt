@@ -32,7 +32,7 @@ requests==2.24.0
 six==1.11.0
 snowballstemmer==2.0.0
 git+git://github.com/rmk135/sphinxcontrib-disqus.git#egg=sphinxcontrib-disqus
-git+git://github.com/Thermondo/heroku-buildpack-tex.git
+git+git://github.com/Thermondo/heroku-buildpack-tex.git#egg=heroku-buildpack-tex
 Sphinx==1.8.1
 sphinx-intl==2.0.1
 sphinx-rtd-theme==0.4.0
