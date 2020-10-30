@@ -5,10 +5,8 @@
 # fail fast
 set -e
 
-BUILD_DIR=$1
-CACHE_DIR=$2
-
-mkdir -p $BUILD_DIR $CACHE_DIR
+BUILD_DIR=
+CACHE_DIR=
 
 TEXLIVE_REPOSITORY="http://mirror.ctan.org/systems/texlive/tlnet"
 
