@@ -53,7 +53,7 @@ if [ ! "$(which pdflatex)" ]; then
 
     cd "$TEXLIVE_HOME"
 
-    ./install-tl --repository="$TEXLIVE_REPOSITORY" --profile="$PROF"
+    sudo ./install-tl --repository="$TEXLIVE_REPOSITORY" --profile="$PROF"
 fi
 
 build-step "Updating TeX Live..."
