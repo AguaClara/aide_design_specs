@@ -10,12 +10,6 @@ BUILD_DIR="var/env"
 
 TEXLIVE_REPOSITORY="http://mirror.ctan.org/systems/texlive/tlnet"
 
-# TODO: remove this in future versions.
-# This is only kept for backwards support
-if [ -f "$BUILD_DIR/.texlive-repository" ]; then
-    TEXLIVE_REPOSITORY=$(cat "$BUILD_DIR/.texlive-repository")
-fi
-
 # Optional: use custom path to texlive installer
 if [ -f "$BUILD_DIR/texlive.repository" ]; then
     TEXLIVE_REPOSITORY=$(cat "$BUILD_DIR/texlive.repository")
@@ -46,7 +40,7 @@ fi
 if [ ! "$(which pdflatex)" ]; then
     build-step "Installing TeX Live..."
 
-    PROF=texlive.profile
+    PROF="../../../texlive.profile"
     {
       echo "TEXDIR $TEXLIVE_HOME";
       echo "TEXMFCONFIG $TEXLIVE_HOME/var/texmf-config";
