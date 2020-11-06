@@ -77,11 +77,14 @@ class PDFLaTeX:
 
         with tempfile.TemporaryDirectory(dir="temp") as td:
             print("Temp Directory is: " + td)
+            os.stat(td)
             self.set_output_directory(td)
             self.set_jobname('file')
 
             args = self.get_run_args()
+            print("arguments are : " + str(args))
             fp = subprocess.run(args, input=self.latex, env=env, timeout=15, stdout=PIPE, stderr=PIPE)
+            return
             with open(os.path.join(td, 'file.pdf'), 'rb') as f:
                 self.pdf = f.read()
             with open(os.path.join(td, 'file.log'), 'rb') as f:
