@@ -50,8 +50,10 @@ def submit_form(request):
                 subprocess.call(['python', 'setup.py', 'build_sphinx'])
                 print("Was LaTeX folder created? " + str(os.path.isdir("./build/sphinx/latex")))
                 os.chdir("./build/sphinx/latex")
+                print("Does AideDesignSpecs.tex exist? " + str(os.path.isfile("AideDesignSpecs.tex")))
                 pdfl = PDFLaTeX.from_texfile('AideDesignSpecs.tex')
-                pdf, _, _ = pdfl.create_pdf(keep_pdf_file=True)
+                pdf, log, _ = pdfl.create_pdf(keep_pdf_file=True, keep_log_file=True)
+                print(log)
 
                 output_file = open('AideDesignSpecs.pdf', 'rb')
 
