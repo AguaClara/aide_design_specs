@@ -70,6 +70,7 @@ class PDFLaTeX:
         if dir is None:
             dir = ""
 
+        os.mkdir("temp")
         with tempfile.TemporaryDirectory(dir="temp") as td:
             print("Temp Directory is: " + td)
             self.set_output_directory(td)

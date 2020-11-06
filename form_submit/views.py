@@ -49,6 +49,7 @@ def submit_form(request):
             elif file_type == 'pdf':
                 subprocess.call(['python', 'setup.py', 'build_sphinx'])
                 print("Was LaTeX folder created? " + str(os.path.isdir("./build/sphinx/latex")))
+                print(os.getcwd())
                 os.chdir("./build/sphinx/latex")
                 print("Does AideDesignSpecs.tex exist? " + str(os.path.isfile("AideDesignSpecs.tex")))
                 # os.environ['TMPDIR'] = 'temp'
