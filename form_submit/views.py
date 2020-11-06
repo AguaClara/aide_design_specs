@@ -3,7 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 import subprocess
 import os
-from pdflatex import PDFLaTeX
+from .custom_pdflatex import PDFLaTeX
 
 LANGUAGES = [
     ('es', 'Español'),
@@ -52,9 +52,10 @@ def submit_form(request):
                 os.chdir("./build/sphinx/latex")
                 print("Does AideDesignSpecs.tex exist? " + str(os.path.isfile("AideDesignSpecs.tex")))
                 # os.environ['TMPDIR'] = 'temp'
-                env = {'TMPDIR': 'temp'}
+                # env = {'TMPDIR': 'temp'}
                 pdfl = PDFLaTeX.from_texfile('AideDesignSpecs.tex')
-                pdf, log, _ = pdfl.create_pdf(keep_pdf_file=True, keep_log_file=True, env=env)
+                # pdf, log, _ = pdfl.create_pdf(keep_pdf_file=True, keep_log_file=True, env=env)
+                pdf, log, _ = pdfl.create_pdf(keep_pdf_file=True, keep_log_file=True)
                 print(log)
 
                 output_file = open('AideDesignSpecs.pdf', 'rb')
