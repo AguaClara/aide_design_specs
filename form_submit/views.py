@@ -48,6 +48,7 @@ def submit_form(request):
 
             elif file_type == 'pdf':
                 subprocess.call(['python', 'setup.py', 'build_sphinx'])
+                print("Was LaTeX folder created? " + str(os.path.isdir("./build/sphinx/latex")))
                 os.chdir("./build/sphinx/latex")
                 pdfl = PDFLaTeX.from_texfile('AideDesignSpecs.tex')
                 pdf, _, _ = pdfl.create_pdf(keep_pdf_file=True)
