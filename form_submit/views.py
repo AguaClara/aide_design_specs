@@ -51,8 +51,10 @@ def submit_form(request):
                 print("Was LaTeX folder created? " + str(os.path.isdir("./build/sphinx/latex")))
                 os.chdir("./build/sphinx/latex")
                 print("Does AideDesignSpecs.tex exist? " + str(os.path.isfile("AideDesignSpecs.tex")))
+                # os.environ['TMPDIR'] = 'temp'
+                env = {'TMPDIR': 'temp'}
                 pdfl = PDFLaTeX.from_texfile('AideDesignSpecs.tex')
-                pdf, log, _ = pdfl.create_pdf(keep_pdf_file=True, keep_log_file=True)
+                pdf, log, _ = pdfl.create_pdf(keep_pdf_file=True, keep_log_file=True, env=env)
                 print(log)
 
                 output_file = open('AideDesignSpecs.pdf', 'rb')
