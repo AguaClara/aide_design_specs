@@ -13,7 +13,7 @@ install:
   - pipenv install --dev --verbose
   - gem install html-proofer
 script:
-  - cd aide_doc/form_submit/templates/docs
+  - cd form_submit/templates/docs
   - pipenv run make html
   - pipenv run make doctest
   # Require a link check to work to pass a PR.
