@@ -13,11 +13,9 @@ kiwisolver==1.0.1
 latexcodec==1.0.5
 MarkupSafe==1.1.1
 matplotlib==2.2.5
-numpy==1.14.5
 onshape_client==1.6.3
 oset==0.1.3
 packaging==20.4
-pandas==0.23.3
 pathlib==1.0.1
 pdflatex==0.1.3
 pint==0.13

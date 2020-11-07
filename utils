@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# from https://github.com/Thermondo/heroku-buildpack-tex/blob/master/bin/utils
-
-# Output helpers
-function build-step (){ echo "-----> $*"; }
-function build-warn (){ echo " !     $*"; }
-function build-info (){ echo "       $*"; }

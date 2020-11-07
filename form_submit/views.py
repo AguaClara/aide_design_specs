@@ -36,10 +36,10 @@ def submit_form(request):
                 os.chdir("form_submit/templates/docs")
             # TODO: add 'make clean' equivalent before 'build_sphinx'
 
-            # f = open("settings.py", "w")
-            # f.write("language = '" + language + "'\n")
-            # f.write("link = '" + link + "'\n")
-            # f.close()
+            f = open("settings.py", "w")
+            f.write("language = '" + language + "'\n")
+            f.write("link = '" + link + "'\n")
+            f.close()
 
             if file_type == 'website':
                 subprocess.call(['python', 'setup.py', 'build_sphinx'])
@@ -49,7 +49,7 @@ def submit_form(request):
                 subprocess.call(['python', 'setup.py', 'build_sphinx'])
                 os.chdir("./build/sphinx/latex")
                 pdfl = PDFLaTeX.from_texfile('AideDesignSpecs.tex')
-                pdf, _, _ = pdfl.create_pdf(keep_pdf_file=True)
+                pdf, log, _ = pdfl.create_pdf(keep_pdf_file=True)
 
                 output_file = open('AideDesignSpecs.pdf', 'rb')
 
