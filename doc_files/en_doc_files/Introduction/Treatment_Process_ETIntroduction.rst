@@ -1,38 +1,20 @@
+.. _title_treatment_processes:
 
-    .. _title_procesos_de_tratamiento:
+********************
+Treatment Processes
+********************
+The plants produce clean and safe water, after the removal of sediments and pathogens. AguaClara technology uses the unitary processes of coagulation, flocculation, sedimentation, rapid sand filtration, and chlorine disinfection (:numref:`figure_process`)
 
-    
+.. _figure_process:
 
-        Procesos de Tratamiento
-=======================
+.. figure:: Images/process.png
+    :width: 650px
+    :align: center
 
+    The treatment processes used in the AguaClara plant.
 
-        Las plantas producen agua limpia y segura, tras la remoción de sedimentos y patógenos. La tecnología AguaClara emplea los procesos unitarios de coagulación, floculación, sedimentación, filtración rápida con arena, y desinfección con cloro (``figure_process``).
+.. _heading_entrance_tank:
 
-        
-.. _:
-
-        
-.. figure:: 
-               Introduction\Images/process.png
-   :align: center
-   :candidates: {'*': 'Introduction\\Images/process.png'}
-   :width: 650px
-
-
-                  Los procesos de tratamiento que se utilizan en la planta AguaClara.
-
-           
-        
-.. _heading_el_tanque_de_entrada:
-
-        
-
-            El tanque de entrada
+Entrance Tank
 --------------------
-
-
-            El proceso inicia en el **tanque de entrada**, que sirve tanto para quitar del agua el material grueso como para medir el caudal de agua para la dosificación de los químicos. El tanque de entrada funciona como tanque de sedimentación en que las partículas gruesas se caen al fondo del tanque por gravedad. Debido al diseño especial de la salida, el nivel de agua en el tanque varía en proporción al caudal de agua en la planta. Este nivel de agua está conectado con el sistema semi-automático de dosificación de químicos, de tal forma que las dosis del coagulante y del cloro se mantienen aun cuando cambia el caudal de agua en la planta. Mediante el dosificador de químicos, en la salida del tanque de entrada se aplica un coagulante, que se une con el agua cruda en la **mezcla rápida**.
-
-        
-    
+The process starts in the **inlet tank**, which serves both to remove the coarse material from the water and to measure the water flow for the dosing of the chemicals. The inlet tank functions as a sedimentation tank in which coarse particles fall to the bottom of the tank by gravity. Due to the special design of the outlet, the water level in the tank varies in proportion to the water flow in the plant. This water level is connected to the semi-automatic chemical dosing system, so that doses of coagulant and chlorine are maintained even when the water flow in the plant changes. By means of the chemical dosing system, a coagulant is applied at the outlet of the inlet tank, which joins with the raw water in the **quick mix**.
