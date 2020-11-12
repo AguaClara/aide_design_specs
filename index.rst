@@ -29,6 +29,7 @@ Este documento está escrito y mantenido en `Github <https://github.com/AguaClar
   :caption: Tanque de Entrada
   :maxdepth: 1
 
+  Entrance_Tank/Tank_Design_Algorithm.rst
   Entrance_Tank/LFOM.rst
 
 `Las versiones de PDF y LaTeX <https://github.com/AguaClara/aide_design_specs/releases/latest>`_ [#pdf_warning]_.

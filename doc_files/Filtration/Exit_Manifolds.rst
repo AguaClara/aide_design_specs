@@ -27,7 +27,7 @@ A diferencia de los manifolds de entrada, los manifolds de salida cuentan con tu
 El área colectiva de las ranuras por manifold es el doble del área colectiva de los orificios en el manifold de retrolavado, porque estos manifolds de salida extraen el agua de dos capas de arena cada uno. El largo de las ranuras se define para lograr el área colectiva querida:
 
 .. math::
-    :label: goove_length
+    :label: groove_length
 
     L_{Ranura}=\frac{A_{Capa}\bullet S_{Ranura}}{W_{Ranura}\bullet N_{Ramal}\bullet L_{Ramal}\bullet N_{Filas}}
 
@@ -42,7 +42,7 @@ El área colectiva de las ranuras por manifold es el doble del área colectiva d
 La pérdida de carga a través de las ranuras durante la filtración normal es dada por:
 
 .. math::
-    :label: goove_head_loss
+    :label: groove_head_loss
 
     {HL}_{Orificio}=\frac{\left(\frac{Q_{Capa}}{A_{Capa}\Pi_{VC}\varepsilon_{Arena}}\right)^2}{2g}
 
