@@ -12,7 +12,7 @@ setup(
     url='https://github.com/AguaClara/aide_design_specs',
     version=release,
     #cmdclass=cmdclass,
-    python_requires="==3.7",
+    python_requires="==3.8",
     # add requirements, e.g. alabaster
 
     # these are optional and override conf.py settings
