@@ -33,7 +33,6 @@ def submit_form(request):
             file_type = form.cleaned_data["file_type"]
 
             if (os.path.basename(os.getcwd()) != "docs"):
-                print(os.getcwd())
                 os.chdir("form_submit/templates/docs")
             # TODO: add 'make clean' equivalent before 'build_sphinx'
 
@@ -50,7 +49,7 @@ def submit_form(request):
                 subprocess.call(['python', 'setup.py', 'build_sphinx'])
                 os.chdir("./build/sphinx/latex")
                 pdfl = PDFLaTeX.from_texfile('AideDesignSpecs.tex')
-                pdf, _, _ = pdfl.create_pdf(keep_pdf_file=True)
+                pdf, log, _ = pdfl.create_pdf(keep_pdf_file=True)
 
                 output_file = open('AideDesignSpecs.pdf', 'rb')
 
@@ -59,6 +58,9 @@ def submit_form(request):
                 response['Content-Disposition'] = 'attachment; filename="AideDesignSpecs.pdf"'
 
                 output_file.close()
+
+                # reset directory so if website is called again it's back in docs
+                os.chdir("../../..")
 
                 return response
 

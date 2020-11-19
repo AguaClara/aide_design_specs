@@ -186,11 +186,11 @@ def find_index_section_limits(filename, section_start=".. toctree::\n",
         section_limits: list of the form [[start1, end1], [start2, end2]]
             which marks the separation between sections
 
-    >>> index = '../../../../test_files/index_lfom.rst'
+    >>> index = '../../../test_files/index_lfom.rst'
     >>> _, limits = find_index_section_limits(index)
     >>> limits
     [[18, 26], [27, 32]]
-    >>> index = '../../../../test_files/index_lfom_ET.rst'
+    >>> index = '../../../test_files/index_lfom_ET.rst'
     >>> _, limits = find_index_section_limits(index)
     >>> limits
     [[18, 26], [27, 33]]
@@ -229,12 +229,12 @@ def merge_indexes(new_index, old_index):
     Returns:
         none
 
-    >>> old_index = '../../../../test_files/index_lfom.rst'
-    >>> new_index = '../../../../test_files/new_index_ET.rst'
+    >>> old_index = '../../../test_files/index_lfom.rst'
+    >>> new_index = '../../../test_files/new_index_ET.rst'
     >>> merge_indexes(new_index, old_index)
     >>> index_file = open(old_index, "r+")
     >>> lines = index_file.readlines()
-    >>> test_file = open('../../../../test_files/index_lfom_ET.rst')
+    >>> test_file = open('../../../test_files/index_lfom_ET.rst')
     >>> test_lines = test_file.readlines()
     >>> test_lines == lines
     True
@@ -281,11 +281,11 @@ def find_treatment_section_limits(filename, section_delimiter=".. _heading"):
         section_limits: list of the form [[start1, end1], [start2, end2]]
             which marks the separation between sections
 
-    >>> process = '../../../../test_files/Treatment_Process_ET.rst'
+    >>> process = '../../../test_files/Treatment_Process_ET.rst'
     >>> _, limits = find_treatment_section_limits(process)
     >>> limits
     [[0, 14], [15, 20]]
-    >>> process = '../../../../test_files/Treatment_Process_ET_Floc.rst'
+    >>> process = '../../../test_files/Treatment_Process_ET_Floc.rst'
     >>> _, limits = find_treatment_section_limits(process)
     >>> limits
     [[0, 14], [15, 20], [21, 26]]
@@ -318,12 +318,12 @@ def merge_treatment_processes(new_processes, old_processes):
     Returns:
         none
 
-    >>> old_processes = '../../../../test_files/Treatment_Process_ET.rst'
-    >>> new_processes = '../../../../test_files/Treatment_Process_Floc.rst'
+    >>> old_processes = '../../../test_files/Treatment_Process_ET.rst'
+    >>> new_processes = '../../../test_files/Treatment_Process_Floc.rst'
     >>> merge_treatment_processes(new_processes, old_processes)
     >>> file = open(old_processes, "r+")
     >>> lines = file.readlines()
-    >>> test_file = open('../../../../test_files/Treatment_Process_ET_Floc.rst')
+    >>> test_file = open('../../../test_files/Treatment_Process_ET_Floc.rst')
     >>> test_lines = test_file.readlines()
     >>> test_lines == lines
     True
@@ -348,7 +348,7 @@ def merge_treatment_processes(new_processes, old_processes):
     old_file.write("".join(old_lines))
     old_file.close()
 
-def parse_variables_from_map(unparsed, default_key):
+def parse_variables_from_map(unparsed, default_key=""):
     """Helper function for parse_attributes which loops through an unparsed map
     that matched one of the desired fields
 
@@ -380,7 +380,7 @@ def parse_variables_from_map(unparsed, default_key):
     elif default_key == "process":
         if unparsed != "" and unparsed is not None:
             file = "Introduction/Treatment_Process.rst"
-            file_path = "../../../../doc_files/Introduction/Treatment_Process_" + unparsed + ".rst"
+            file_path = "../../../doc_files/Introduction/Treatment_Process_" + unparsed + ".rst"
             if os.path.exists(file):
                 merge_treatment_processes(file_path, file)
             else:
@@ -463,22 +463,20 @@ def get_parsed_measurements(link):
         templates: list of templates to move from doc_files and render in the
             design specs.
 
-    >>> link = 'https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/v/2990aab7c08553622d0c1402/e/e09d11406e7a9143537efe3a'
+    >>> link = 'https://cad.onshape.com/documents/c3a8ce032e33ebe875b9aab4/v/dc76b3f674d3d5d4f6237f35/e/d75b2f7a41dde39791b154e8'
     >>> measurements, templates = get_parsed_measurements(link)
     >>> templates
-    ['./Entrance_Tank/LFOM.rst', './Entrance_Tank/Tank_Design_Algorithm.rst']
-    >>> measurements['W.Et']
-    '64.1 cm'
+    ['./Entrance_Tank/LFOM.rst']
     >>> measurements['N.LfomOrifices']
-    [13.0, 3.0, 4.0, 4.0]
+    [17.0, 4.0, 6.0, 3.0, 4.0, 3.0, 3.0, 3.0, 3.0, 2.0, 3.0, 1.0]
     >>> measurements['HL.Lfom']
     '20.0 cm'
     >>> measurements['H.LfomOrifices']
-    ['2.22 cm', '7.41 cm', '12.59 cm', '17.78 cm']
+    ['7.94 mm', '2.47 cm', '4.14 cm', '5.82 cm', '7.49 cm', '9.16 cm', '10.84 cm', '12.51 cm', '14.18 cm', '15.86 cm', '17.53 cm', '19.21 cm']
     >>> measurements['D.LfomOrifices']
-    '4.45 cm'
+    '1.59 cm'
     >>> measurements['B.LfomRows']
-    '5.0 cm'
+    '1.67 cm'
     """
     script = r"""
         function (context is Context, queries is map)
@@ -546,11 +544,11 @@ def make_replace_list(parsed_dict, filename, var_attachment=''):
         none
 
     >>> var_dict = {'test': '3.0 cm'}
-    >>> file_path = "../../../../test_files/test_prepend.rst"
+    >>> file_path = "../../../test_files/test_prepend.rst"
     >>> make_replace_list(var_dict, file_path)
     >>> file = open(file_path, "r+")
     >>> lines = file.readlines()
-    >>> test_file = open('../../../../test_files/test_prepend_result.rst')
+    >>> test_file = open('../../../test_files/test_prepend_result.rst')
     >>> test_lines = test_file.readlines()
     >>> test_lines == lines
     True
