@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
-
+import django_heroku
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -118,9 +118,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 STATICFILES_DIRS = [
-    "/form_submit/templates/docs/build/sphinx/html/_static",
-    "/home/polls.com/polls/static",
-    "/opt/webfiles/common",
+    os.path.join(BASE_DIR, "form_submit/templates/docs/_static")
 ]
 
 STATIC_URL = '/_static/'
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
