@@ -212,11 +212,11 @@ math_number_all = True
 # -- Inclusion of Plots? --------------------------------------------------
 
 
-
 # -- Custom roles ---------------------------------------------------------
 rst_prolog = """
 .. role:: red
 """
+
 
 def setup(app):
     parsed_measurements, templates = parse.get_parsed_measurements(settings.link)

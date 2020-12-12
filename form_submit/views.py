@@ -15,6 +15,7 @@ FILE_TYPE = [
     ('pdf', 'Pdf')
 ]
 
+
 class DocGenForm(forms.Form):
     link = forms.URLField()
     language = forms.CharField(widget=forms.Select(choices=LANGUAGES))
@@ -53,20 +54,22 @@ def submit_form(request):
 
                 output_file = open('AideDesignSpecs.pdf', 'rb')
 
-                response = HttpResponse(output_file, content_type='application/pdf')
+                response = HttpResponse(output_file,
+                                        content_type='application/pdf')
 
-                response['Content-Disposition'] = 'attachment; filename="AideDesignSpecs.pdf"'
+                response['Content-Disposition'] = ('attachment; filename='
+                                                   '"AideDesignSpecs.pdf"')
 
                 output_file.close()
 
-                # reset directory so if website is called again it's back in docs
+                # reset directory so if called again it's back in docs
                 os.chdir("../../..")
 
                 return response
 
         else:
-            # If the form is invalid, re-render the page with existing information.
-            return render(request, "form_submit/submit.html", {
+            # If the form is invalid, re-render the page with existing info
+            return render(request, 'form_submit/submit.html', {
                 "form": form
             })
 
@@ -76,13 +79,16 @@ def submit_form(request):
 
 
 def index(request):
-    return render(request,'docs/build/sphinx/html/index.html')
+    return render(request, 'docs/build/sphinx/html/index.html')
+
 
 def docs(request, doc=index, page=None):
     if page:
-        return render(request,'docs/build/sphinx/html/' + doc + '/' + page + '.html')
+        return render(request, 'docs/build/sphinx/html/'
+                      + doc + '/' + page + '.html')
     else:
         return render(request, 'docs/build/sphinx/html/' + page + '.html')
 
+
 def image(request, image):
-    return render(request,'docs/build/sphinx/html/_images/' + image + '.png')
+    return render(request, 'docs/build/sphinx/html/_images/' + image + '.png')
