@@ -4,6 +4,7 @@ from django.shortcuts import render
 import subprocess
 import os
 from pdflatex import PDFLaTeX
+from aide_doc import settings
 
 LANGUAGES = [
     ('es', 'Español'),
@@ -12,7 +13,7 @@ LANGUAGES = [
 
 FILE_TYPE = [
     ('website', 'Website'),
-    ('pdf', 'Pdf')
+    ('pdf', 'PDF')
 ]
 
 

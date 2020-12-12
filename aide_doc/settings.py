@@ -122,6 +122,7 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_URL = '/_static/'
+STATIC_ROOT = '/staticfiles/'
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
