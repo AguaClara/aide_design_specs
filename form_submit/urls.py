@@ -8,4 +8,4 @@ urlpatterns = [
     path('index', views.index),
     path('<slug:doc>/<slug:page>.html', views.docs),
     path('_images/<slug:image>.png', views.image)
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] + static('_static', document_root=settings.STATIC_ROOT)
