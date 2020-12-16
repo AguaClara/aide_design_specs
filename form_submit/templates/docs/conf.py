@@ -21,7 +21,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 # TODO: check correct syntax
-import parse
+import aguaclara.core.onshape_parser as parse
 import os
 import settings
 
@@ -212,11 +212,11 @@ math_number_all = True
 # -- Inclusion of Plots? --------------------------------------------------
 
 
-
 # -- Custom roles ---------------------------------------------------------
 rst_prolog = """
 .. role:: red
 """
+
 
 def setup(app):
     parsed_measurements, templates = parse.get_parsed_measurements(settings.link)
