@@ -92,4 +92,4 @@ def docs(request, doc=index, page=None):
 
 
 def image(request, image):
-    return render(request, '_images/' + image + '.png')
+    return render(request, '../../_images/' + image + '.png')
