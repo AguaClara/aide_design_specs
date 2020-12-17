@@ -24,6 +24,7 @@ local_settings.py
 __pycache__
 
 # files moved by Sphinx builder
+form_submit/templates/docs/Flocculator/*
 form_submit/templates/docs/Entrance_Tank/*
 form_submit/templates/docs/Introduction/*
 form_submit/templates/docs/index.rst

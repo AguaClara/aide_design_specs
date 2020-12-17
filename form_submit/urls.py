@@ -7,5 +7,5 @@ urlpatterns = [
     path('', views.submit_form, name="form"),
     path('index', views.index),
     path('<slug:doc>/<slug:page>.html', views.docs),
-    path('_images/<slug:image>.png', views.image)
 ] + static('_static', document_root=settings.STATIC_ROOT)
+urlpatterns += static('_images', document_root=settings.MEDIA_ROOT)
