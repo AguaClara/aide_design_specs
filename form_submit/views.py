@@ -89,7 +89,3 @@ def docs(request, doc=index, page=None):
                       + doc + '/' + page + '.html')
     else:
         return render(request, 'docs/build/sphinx/html/' + page + '.html')
-
-
-def image(request, image):
-    return render(request, '../../_images/' + image + '.png')
