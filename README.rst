@@ -64,25 +64,19 @@ Poedit is opened, the user can follow these instructions:
 #. Navigate to the open button on the sidebar in the upper left corner.
 #. Find the desired .po file to translate within the ./locale/<target language>/LC_MESSAGES/ directory. If not already, make sure the field next to "file name" is set to either "All Translation Files" or "PO Translation Files (*.po)" :
 
-    .. _figure_choose_file:
-
-    .. figure:: .images/choose_file.png
+    .. figure:: _images/choose_file.png
           :width: 400px
           :align: center
 
 #. If it is the first time editing that file, the following warning message will appear:
 
-    .. _figure_Poedit_lang_warning:
-
-    .. figure:: .images/poedit_lang_warning.JPG
+    .. figure:: _images/poedit_lang_warning.JPG
         :width: 550px
         :align: center
 
         select "Set language". A new window will open:
 
-    .. _figure_catalog_properties:
-
-    .. figure:: .images/catalog_properties.JPG
+    .. figure:: _images/catalog_properties.JPG
         :width: 300px
         :align: center
 
@@ -94,9 +88,7 @@ Poedit is opened, the user can follow these instructions:
 
 #. At the top of the file, below the first "msgid" and "msgstr" messages, "X-Generator: Poedit 2.3.1\\n" can be found. Right below this, insert "X-Source-Language: <source language>\\n" so that it looks like line 22 in the following example where <source language> is "es" (Spanish):
 
-    .. _figure_change_source_lang_ex:
-
-    .. figure:: .images/change_source_lang_ex.JPG
+    .. figure:: _images/change_source_lang_ex.JPG
         :width: 500px
         :align: center
 
