@@ -219,7 +219,7 @@ rst_prolog = """
 
 
 def setup(app):
-    parsed_measurements, templates = parse.get_parsed_measurements(settings.link)
+    parsed_measurements, templates, processes = parse.get_parsed_measurements(settings.link)
 
     for template in templates:
         parse.make_replace_list(parsed_measurements, template)
