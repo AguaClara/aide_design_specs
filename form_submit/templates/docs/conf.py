@@ -35,34 +35,35 @@ import settings
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-extensions = ['sphinx.ext.doctest',
-              'sphinx.ext.mathjax',
-              'sphinx.ext.todo',
-              'sphinxcontrib.bibtex',
-              'sphinxcontrib.disqus',
-              'matplotlib.sphinxext.only_directives',
-              'matplotlib.sphinxext.plot_directive'
-              ]
+extensions = [
+    "sphinx.ext.doctest",
+    "sphinx.ext.mathjax",
+    "sphinx.ext.todo",
+    "sphinxcontrib.bibtex",
+    "sphinxcontrib.disqus",
+    "matplotlib.sphinxext.only_directives",
+    "matplotlib.sphinxext.plot_directive",
+]
 
 # To setup mathjax with required extensions for all files
 mathjax_path = "mathjax_config.js"
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ".rst"
 
 # The master toctree document.
-master_doc = 'index'
+master_doc = "index"
 
 # General information about the project.
-project = 'AIDE Design Specifications'
-copyright = '2020, AguaClara Cornell'
-author = 'AguaClara Cornell'
+project = "AIDE Design Specifications"
+copyright = "2020, AguaClara Cornell"
+author = "AguaClara Cornell"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -82,23 +83,23 @@ language = settings.language
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 # TODO: set based on language param passed from Documenter
-locale_dirs = ['locale/']
+locale_dirs = ["locale/"]
 gettext_compact = False
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build']
+exclude_patterns = ["_build"]
 html_extra_path = [".nojekyll"]
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = "sphinx"
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
 # disqus setup
-disqus_shortname = 'AguaClara'
+disqus_shortname = "AguaClara"
 
 
 # -- Options for HTML output ----------------------------------------------
@@ -106,7 +107,7 @@ disqus_shortname = 'AguaClara'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = "sphinx_rtd_theme"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -117,13 +118,13 @@ html_theme = 'sphinx_rtd_theme'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ["_static"]
 
 html_context = {
-    'css_files': [
-        '_static/theme_overrides.css',  # override wide tables in RTD theme
-        ],
-     }
+    "css_files": [
+        "_static/theme_overrides.css",  # override wide tables in RTD theme
+    ],
+}
 # taken from https://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html
 
 # Custom sidebar templates, must be a dictionary that maps document names
@@ -145,12 +146,13 @@ html_context = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'AideDesignSpecs'
+htmlhelp_basename = "AideDesignSpecs"
 
 # -- Options for LaTeX output ---------------------------------------------
 
-# The config value `latex_engine` has to be a one of ('pdflatex', 'xelatex', 'lualatex', 'platex')
-latex_engine = 'pdflatex'
+# The config value `latex_engine` has to be a one of
+# ('pdflatex', 'xelatex', 'lualatex', 'platex')
+latex_engine = "pdflatex"
 
 # Add required latex elements for processing. Add things to be imported that aren't
 # automatically to the preamble section.
@@ -158,17 +160,14 @@ latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
     # 'papersize': 'letterpaper',
-
     # The font size ('10pt', '11pt' or '12pt').
     #
     # 'pointsize': '10pt',
-
     # Additional stuff for the LaTeX preamble.
     #
-    'preamble': r'''
+    "preamble": r"""
         \usepackage{cancel}
-    ''',
-
+    """,
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
@@ -178,8 +177,13 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'AideDesignSpecs.tex', 'AIDE Design Specifications',
-     'AguaClara Cornell', 'manual'),
+    (
+        master_doc,
+        "AideDesignSpecs.tex",
+        "AIDE Design Specifications",
+        "AguaClara Cornell",
+        "manual",
+    ),
 ]
 
 
@@ -187,10 +191,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'aidedesignspecs', 'AIDE Design Specifications',
-     [author], 1)
-]
+man_pages = [(master_doc, "aidedesignspecs", "AIDE Design Specifications", [author], 1)]
 
 
 # -- Options for Texinfo output -------------------------------------------
@@ -199,9 +200,15 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'AideDesignSpecs', 'AIDE Design Specification',
-     author, 'AideDesignSpecs', 'One line description of project.',
-     'Miscellaneous'),
+    (
+        master_doc,
+        "AideDesignSpecs",
+        "AIDE Design Specification",
+        author,
+        "AideDesignSpecs",
+        "One line description of project.",
+        "Miscellaneous",
+    ),
 ]
 
 # -- Options for figure, equation and table referencing -------------------
@@ -219,9 +226,11 @@ rst_prolog = """
 
 
 def setup(app):
-    parsed_measurements, templates = parse.get_parsed_measurements(settings.link)
+    parsed_measurements, templates, processes = parse.get_parsed_measurements(
+        settings.link
+    )
 
     for template in templates:
         parse.make_replace_list(parsed_measurements, template)
 
-    app.add_stylesheet('css/custom.css')
+    app.add_stylesheet("css/custom.css")
