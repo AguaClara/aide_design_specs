@@ -16,7 +16,6 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.6' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
-      run: ruby hello.rb
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
