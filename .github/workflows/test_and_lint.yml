@@ -17,7 +17,7 @@ jobs:
       with:
         ruby-version: '2.6' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
     - name: Install Ruby Dependencies
-      run: sudo apt-get libcurl4-openssl-dev
+      run: sudo apt install libcurl4-openssl-dev
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
