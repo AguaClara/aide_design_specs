@@ -24,7 +24,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pipenv
-        pipenv install --dev
+        pipenv install -r requirements.txt
         gem install html-proofer
     - name: Test with doctest
       run: |
@@ -45,7 +45,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pipenv
-        pipenv install --dev
+        pipenv install -r requirements.txt
     - name: Lint with flake8
       run: |
         flake8 aide_doc --count --verbose --show-source --statistics
