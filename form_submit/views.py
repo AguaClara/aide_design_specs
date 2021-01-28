@@ -32,17 +32,16 @@ def submit_form(request):
             if file_type == "validation_pdf":
                 validator = Validator()
                 validator.validate(link)
-                file_name = ".".join(validator.report_writer.report_name.split(".")[:-1]
-                                     + ["pdf"])
+                file_name = ".".join(
+                    validator.report_writer.report_name.split(".")[:-1] + ["pdf"]
+                )
 
                 output_file = open(file_name, "rb")
 
                 response = HttpResponse(output_file, content_type="application/pdf")
 
                 response["Content-Disposition"] = (
-                    "attachment; filename=\""
-                    + file_name
-                    + '"'
+                    'attachment; filename="' + file_name + '"'
                 )
 
                 output_file.close()
