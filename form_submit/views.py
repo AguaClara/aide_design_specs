@@ -4,19 +4,27 @@ from django.shortcuts import render
 import subprocess
 import os
 from pdflatex import PDFLaTeX
+from aide_validation.validator import Validator
 
 LANGUAGES = [("es", "Español"), ("en", "English")]
 
-FILE_TYPE = [("website", "Website"), ("pdf", "PDF")]
+FILE_TYPE = [
+    ("docs_website", "Design Specifications: HTML"),
+    ("docs_pdf", "Design Specifications: PDF"),
+    ("validation_pdf", "Validation Report: PDF"),
+]
+
+REPORT_TYPE = [
+    ("documentation", "Design Specifications"),
+    ("validation", "Validation Report")
+]
 
 
 class DocGenForm(forms.Form):
     link = forms.URLField()
     language = forms.CharField(widget=forms.Select(choices=LANGUAGES))
     file_type = forms.CharField(widget=forms.Select(choices=FILE_TYPE))
-
-
-# Create your views here.
+    report_type = forms.CharField(widget=forms.Select(choices=REPORT_TYPE))
 
 
 def submit_form(request):
@@ -27,26 +35,11 @@ def submit_form(request):
             language = form.cleaned_data["language"]
             file_type = form.cleaned_data["file_type"]
 
-            if os.path.basename(os.getcwd()) != "docs":
-                os.chdir("form_submit/templates/docs")
-            # TODO: add 'make clean' equivalent before 'build_sphinx'
+            if file_type == "validation_pdf":
+                validator = Validator()
+                validator.validate(link)
 
-            f = open("settings.py", "w")
-            f.write("language = '" + language + "'\n")
-            f.write("link = '" + link + "'\n")
-            f.close()
-
-            if file_type == "website":
-                subprocess.call(["python", "setup.py", "build_html"])
-                return HttpResponseRedirect("/index")
-
-            elif file_type == "pdf":
-                subprocess.call(["python", "setup.py", "build_latex"])
-                os.chdir("./build/sphinx/latex")
-                pdfl = PDFLaTeX.from_texfile("AideDesignSpecs.tex")
-                pdf, log, _ = pdfl.create_pdf(keep_pdf_file=True)
-
-                output_file = open("AideDesignSpecs.pdf", "rb")
+                output_file = open(validator.report_writer.report_name, "rb")
 
                 response = HttpResponse(output_file, content_type="application/pdf")
 
@@ -56,10 +49,42 @@ def submit_form(request):
 
                 output_file.close()
 
-                # reset directory so if called again it's back in docs
-                os.chdir("../../..")
-
                 return response
+
+            else:
+                if os.path.basename(os.getcwd()) != "docs":
+                    os.chdir("form_submit/templates/docs")
+                # TODO: add 'make clean' equivalent before 'build_sphinx'
+
+                f = open("settings.py", "w")
+                f.write("language = '" + language + "'\n")
+                f.write("link = '" + link + "'\n")
+                f.close()
+
+                if file_type == "docs_website":
+                    subprocess.call(["python", "setup.py", "build_html"])
+                    return HttpResponseRedirect("/index")
+
+                elif file_type == "docs_pdf":
+                    subprocess.call(["python", "setup.py", "build_latex"])
+                    os.chdir("./build/sphinx/latex")
+                    pdfl = PDFLaTeX.from_texfile("AideDesignSpecs.tex")
+                    pdf, log, _ = pdfl.create_pdf(keep_pdf_file=True)
+
+                    output_file = open("AideDesignSpecs.pdf", "rb")
+
+                    response = HttpResponse(output_file, content_type="application/pdf")
+
+                    response["Content-Disposition"] = (
+                        "attachment; filename=" '"AideDesignSpecs.pdf"'
+                    )
+
+                    output_file.close()
+
+                    # reset directory so if called again it's back in docs
+                    os.chdir("../../..")
+
+                    return response
 
         else:
             # If the form is invalid, re-render the page with existing info
