@@ -11,7 +11,7 @@ LANGUAGES = [("es", "Español"), ("en", "English")]
 FILE_TYPE = [
     ("docs_website", "Design Specifications: HTML"),
     ("docs_pdf", "Design Specifications: PDF"),
-    ("validation_txt", "Validation Report: .txt"),
+    ("validation_pdf", "Validation Report: PDF"),
 ]
 
 
@@ -29,17 +29,19 @@ def submit_form(request):
             language = form.cleaned_data["language"]
             file_type = form.cleaned_data["file_type"]
 
-            if file_type == "validation_txt":
+            if file_type == "validation_pdf":
                 validator = Validator()
                 validator.validate(link)
+                file_name = ".".join(validator.report_writer.report_name.split(".")[:-1]
+                                     + ["pdf"])
 
-                output_file = open(validator.report_writer.report_name, "rb")
+                output_file = open(file_name, "rb")
 
                 response = HttpResponse(output_file, content_type="application/pdf")
 
                 response["Content-Disposition"] = (
                     "attachment; filename=\""
-                    + validator.report_writer.report_name
+                    + file_name
                     + '"'
                 )
 
