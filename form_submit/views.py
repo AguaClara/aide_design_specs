@@ -11,12 +11,7 @@ LANGUAGES = [("es", "Español"), ("en", "English")]
 FILE_TYPE = [
     ("docs_website", "Design Specifications: HTML"),
     ("docs_pdf", "Design Specifications: PDF"),
-    ("validation_pdf", "Validation Report: PDF"),
-]
-
-REPORT_TYPE = [
-    ("documentation", "Design Specifications"),
-    ("validation", "Validation Report")
+    ("validation_txt", "Validation Report: .txt"),
 ]
 
 
@@ -24,7 +19,6 @@ class DocGenForm(forms.Form):
     link = forms.URLField()
     language = forms.CharField(widget=forms.Select(choices=LANGUAGES))
     file_type = forms.CharField(widget=forms.Select(choices=FILE_TYPE))
-    report_type = forms.CharField(widget=forms.Select(choices=REPORT_TYPE))
 
 
 def submit_form(request):
@@ -35,7 +29,7 @@ def submit_form(request):
             language = form.cleaned_data["language"]
             file_type = form.cleaned_data["file_type"]
 
-            if file_type == "validation_pdf":
+            if file_type == "validation_txt":
                 validator = Validator()
                 validator.validate(link)
 
@@ -44,7 +38,9 @@ def submit_form(request):
                 response = HttpResponse(output_file, content_type="application/pdf")
 
                 response["Content-Disposition"] = (
-                    "attachment; filename=" '"AideDesignSpecs.pdf"'
+                    "attachment; filename=\""
+                    + validator.report_writer.report_name
+                    + '"'
                 )
 
                 output_file.close()
