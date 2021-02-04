@@ -6,19 +6,24 @@ import os
 from pdflatex import PDFLaTeX
 from aide_validation.validator import Validator
 
-LANGUAGES = [("es", "Español"), ("en", "English")]
+# LANGUAGES = [("es", "Español"), ("en", "English")]
 
-FILE_TYPE = [
-    ("docs_website", "Design Specifications: HTML"),
-    ("docs_pdf", "Design Specifications: PDF"),
-    ("validation_pdf", "Validation Report: PDF"),
+# FILE_TYPE = [("pdf", "PDF"), ("html", "HTML")]
+
+REPORT_TYPE = [
+    ("docs_website_eng", "Design Specifications: HTML (English)"),
+    ("docs_website_esp", "Memoria Tecnica: HTML (Español)"),
+    ("docs_pdf_eng", "Design Specifications: PDF (English)"),
+    ("docs_pdf_esp", "Memoria Tecnica: PDF (Español)"),
+    ("validation_pdf", "Validation Report: PDF (English)"),
 ]
 
 
 class DocGenForm(forms.Form):
     link = forms.URLField()
-    language = forms.CharField(widget=forms.Select(choices=LANGUAGES))
-    file_type = forms.CharField(widget=forms.Select(choices=FILE_TYPE))
+    # language = forms.CharField(widget=forms.Select(choices=LANGUAGES))
+    report_type = forms.CharField(widget=forms.Select(choices=REPORT_TYPE))
+    # file_type = forms.CharField(widget=forms.Select(choices=FILE_TYPE))
 
 
 def submit_form(request):
@@ -26,10 +31,16 @@ def submit_form(request):
         form = DocGenForm(request.POST)
         if form.is_valid():
             link = form.cleaned_data["link"]
-            language = form.cleaned_data["language"]
-            file_type = form.cleaned_data["file_type"]
+            report_type = form.cleaned_data["report_type"]
 
-            if file_type == "validation_pdf":
+            if "esp" in report_type:
+                language = "es"
+            elif "eng" in report_type:
+                language = "en"
+            # language = form.cleaned_data["language"]
+            # file_type = form.cleaned_data["file_type"]
+
+            if "validation_pdf" in report_type:
                 validator = Validator()
                 validator.validate(link)
                 file_name = ".".join(
@@ -58,11 +69,11 @@ def submit_form(request):
                     f.close()
 
                 # TODO: add 'make clean' equivalent before 'build_sphinx'
-                if file_type == "docs_website":
+                if "docs_website" in report_type:
                     subprocess.call(["python", "setup.py", "build_html"])
                     return HttpResponseRedirect("/index")
 
-                elif file_type == "docs_pdf":
+                elif "docs_pdf" in report_type:
                     subprocess.call(["python", "setup.py", "build_latex"])
                     os.chdir("./build/sphinx/latex")
                     pdfl = PDFLaTeX.from_texfile("AideDesignSpecs.tex")
