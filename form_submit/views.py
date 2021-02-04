@@ -51,13 +51,13 @@ def submit_form(request):
             else:
                 if os.path.basename(os.getcwd()) != "docs":
                     os.chdir("form_submit/templates/docs")
+
+                with open("settings.py", "w") as f:
+                    f.write("language = '" + language + "'\n")
+                    f.write("link = '" + link + "'\n")
+                    f.close()
+
                 # TODO: add 'make clean' equivalent before 'build_sphinx'
-
-                f = open("settings.py", "w")
-                f.write("language = '" + language + "'\n")
-                f.write("link = '" + link + "'\n")
-                f.close()
-
                 if file_type == "docs_website":
                     subprocess.call(["python", "setup.py", "build_html"])
                     return HttpResponseRedirect("/index")
