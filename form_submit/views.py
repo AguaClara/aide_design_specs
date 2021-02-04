@@ -20,6 +20,7 @@ REPORT_TYPE = [
 
 
 class DocGenForm(forms.Form):
+    # TODO: Add logic restricting certain language/file_type combinations
     link = forms.URLField()
     # language = forms.CharField(widget=forms.Select(choices=LANGUAGES))
     report_type = forms.CharField(widget=forms.Select(choices=REPORT_TYPE))
