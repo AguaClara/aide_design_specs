@@ -16,6 +16,7 @@ FILE_TYPE = [
 
 
 class DocGenForm(forms.Form):
+    # TODO: Add logic restricting certain language/file_type combinations
     link = forms.URLField()
     language = forms.CharField(widget=forms.Select(choices=LANGUAGES))
     file_type = forms.CharField(widget=forms.Select(choices=FILE_TYPE))
