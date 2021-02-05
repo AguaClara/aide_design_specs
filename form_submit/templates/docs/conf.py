@@ -41,8 +41,6 @@ extensions = [
     "sphinx.ext.todo",
     "sphinxcontrib.bibtex",
     "sphinxcontrib.disqus",
-    "matplotlib.sphinxext.only_directives",
-    "matplotlib.sphinxext.plot_directive",
 ]
 
 # To setup mathjax with required extensions for all files
@@ -90,7 +88,7 @@ gettext_compact = False
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
 exclude_patterns = ["_build"]
-html_extra_path = [".nojekyll"]
+html_extra_path = []
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = "sphinx"
