@@ -3,7 +3,7 @@
 ================
 Technical Report
 ================
-This document is written and mantained in `Github <https://github.com/AguaClara/aide_design_specs>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_. It uses and refers to code and functions for AguaClara in `AguaClara <https://github.com/AguaClara/aguaclara>`_. The versions of the programs we use are listed below:
+This document is written and maintained in `Github <https://github.com/AguaClara/aide_design_specs>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_. It uses and refers to code and functions for AguaClara in `AguaClara <https://github.com/AguaClara/aguaclara>`_. The versions of the programs we use are listed below:
 
 .. _software_versions:
 .. csv-table:: These are the software versions used to compile this document.
@@ -82,25 +82,25 @@ This document is written and mantained in `Github <https://github.com/AguaClara/
    Sedimentation/Sed_Tank_General_DataSedimentation.rst
 
 .. toctree::
-  :caption: Filtration
-  :maxdepth: 1
+   :caption: Filtration
+   :maxdepth: 1
 
-  Filtration/Filt_Purpose_and_DescriptionFiltration.rst
-  Filtration/Fluid_DistributionFiltration.rst
-  Filtration/Filter_SizeFiltration.rst
-  Filtration/SandFiltration.rst
-  Filtration/Entry_ManifoldsFiltration.rst
-  Filtration/Exit_ManifoldsFiltration.rst
-  Filtration/Backwash_SiphonFiltration.rst
-  Filtration/Flow_ControlFiltration.rst
-  Filtration/Filt_General_DataFiltration.rst
+   Filtration/Filt_Purpose_and_DescriptionFiltration.rst
+   Filtration/Fluid_DistributionFiltration.rst
+   Filtration/Filter_SizeFiltration.rst
+   Filtration/SandFiltration.rst
+   Filtration/Entry_ManifoldsFiltration.rst
+   Filtration/Exit_ManifoldsFiltration.rst
+   Filtration/Backwash_SiphonFiltration.rst
+   Filtration/Flow_ControlFiltration.rst
+   Filtration/Filt_General_DataFiltration.rst
 
 .. toctree::
-  :caption: Appendix
-  :maxdepth: 1
+   :caption: Appendix
+   :maxdepth: 1
 
-  Appendix/General_Design_DataAppendix.rst
-  Appendix/LicenseAppendix.rst
+   Appendix/General_Design_DataAppendix.rst
+   Appendix/LicenseAppendix.rst
 
 
 `The PDF and LaTeX versions <https://github.com/AguaClara/aide_design_specs/releases/latest>`_ [#pdf_warning]_.

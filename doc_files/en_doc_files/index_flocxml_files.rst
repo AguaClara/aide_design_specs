@@ -1,8 +1,8 @@
 .. _toc:
 
-===============
+================
 Technical Report
-===============
+================
 This document is written and maintained in `Github <https://github.com/AguaClara/aide_design_specs>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_. It uses and refers to code and functions for AguaClara in `AguaClara <https://github.com/AguaClara/aguaclara>`_. The versions of the programs we use are listed below:
 
 .. _software_versions:
@@ -17,19 +17,22 @@ This document is written and maintained in `Github <https://github.com/AguaClara
    "Python", "3.6.5"
 
 .. toctree::
-   :caption: Introduction to AguaClara Technology
-   :maxdepth: 1
+  :caption: Introduction to AguaClara Technology
+  :maxdepth: 1
 
-   Introduction/HistoryIntroduction.rst
-   Introduction/Treatment_ProcessIntrodution.rst
-   Introduction/RequirementsIntroduction.rst
-   Introduction/AIDE_ToolsIntroduction.rst
+  Introduction/HistoryIntroduction.rst
+  Introduction/Treatment_ProcessIntrodution.rst
+  Introduction/RequirementsIntroduction.rst
+  Introduction/AIDE_ToolsIntroduction.rst
 
 .. toctree::
-   :caption: Entrance Tank
-   :maxdepth: 1
+  :caption: Flocculation
+  :maxdepth: 1
 
-   Entrance_Tank/LFOMEntrance_Tank.rst
+  Flocculation/Floc_Purpose_and_DescriptionFlocculation.rst
+  Flocculation/Floc_Design_DataFlocculation.rst
+  Flocculation/Floc_Design_ConceptsFlocculation.rst
+  Flocculation/Floc_Design_AlgorithmFlocculation.rst
 
 `The PDF and LaTeX versions <https://github.com/AguaClara/aide_design_specs/releases/latest>`_ [#pdf_warning]_.
 
