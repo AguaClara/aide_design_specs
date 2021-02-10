@@ -1,4 +1,4 @@
-.. _titlew_Tank_Design_Data:
+.. _title_Tank_Design_Data:
 
 *******************
 Design Data
@@ -38,4 +38,4 @@ Design Data
     "Height of each row above the zero level, starting with the bottom row", |H.LfomOrifices|
     **Hydraulic parameters**
     Design capture velocity, |V.EtCaptureBod|
-    Final capture rate of the sedimentation plates, |V.EtCapture| |
+    Final capture rate of the sedimentation plates, |V.EtCapture| 
