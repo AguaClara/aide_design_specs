@@ -14,8 +14,8 @@ General Design Data
   Maximum design flow rate, |Q.Plant|
   "Treatment processes", "Coagulation with aluminium polychloride, rapid mixing, vertical hydraulic flocculation, upward sedimentation with plates and sludge blanket, rapid sand filtration, disinfection with calcium hypochlorite"
   Approximate total hydraulic pressure loss, |HL.PlantTotal|
-  Coagulant dispenser design, Maximum Dose: |C.CoagDoseMax|, Hydraulic Pressure Drop: |HL.Cdc|, Number of Small Diameter Hoses: |N.CoagTubes| (|N.CoagTubesActive| are used at the same time), Internal Diameter of Hoses: |ID.CoagTube|, Length of Hoses: |L.CoagTube|, Concentration Mother: |C.CoagStock|
-  Sizing of the chlorine dispenser, Maximum Dose: |C.ChlorDoseMax|, Hydraulic Pressure Drop: |HL.Cdc|, Number of Small Diameter Hoses: |N.ChlorTubes| (used |N.ChlorTubesActive| at a time), Internal Diameter of Hoses: |ID.ChlorTube|, Length of Hoses: |L.ChlorTube|, Concentration Mother: |C.ChlorStock|
+  Coagulant dispenser design, "Maximum Dose: |C.CoagDoseMax|, Hydraulic Pressure Drop: |HL.Cdc|, Number of Small Diameter Hoses: |N.CoagTubes| (|N.CoagTubesActive| are used at the same time), Internal Diameter of Hoses: |ID.CoagTube|, Length of Hoses: |L.CoagTube|, Concentration Mother: |C.CoagStock|"
+  Sizing of the chlorine dispenser, "Maximum Dose: |C.ChlorDoseMax|, Hydraulic Pressure Drop: |HL.Cdc|, Number of Small Diameter Hoses: |N.ChlorTubes| (used |N.ChlorTubesActive| at a time), Internal Diameter of Hoses: |ID.ChlorTube|, Length of Hoses: |L.ChlorTube|, Concentration Mother: |C.ChlorStock|"
   Quick mixing type, Orifice of |D.RMOrifice| at flocculator inlet
   Number of channels in the flocculation tank, |N.FlocChannels|
   Dimensions of each flocculation channel, "|W.FlocChannel| in width, |L.Floc| in length, |H.Floc| in depth"

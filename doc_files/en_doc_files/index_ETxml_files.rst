@@ -1,12 +1,12 @@
 .. _toc:
 
-===============
-Memoria Tecnica
-===============
+================
+Technical Report
+================
 This document is written and mantained in `Github <https://github.com/AguaClara/aide_design_specs>`_ via `Sphinx <http://www.sphinx-doc.org/en/master/>`_. It uses and refers to code and functions for AguaClara in `AguaClara <https://github.com/AguaClara/aguaclara>`_. The versions of the programs we use are listed below:
 
 .. _software_versions:
-.. csv-table:: Estas son las versiones de software utilizadas para compilar esta documentación.
+.. csv-table:: These are the software versions used to compile this document.
    :header: "Software", "version"
    :widths: 10, 10
    :align: center
@@ -16,23 +16,23 @@ This document is written and mantained in `Github <https://github.com/AguaClara/
    "Anaconda", "4.5.4"
    "Python", "3.6.5"
 
- .. toctree::
+.. toctree::
    :caption: Introduction to AguaClara Technology
    :maxdepth: 1
 
-   Introduction/History.rst
-   Introduction/Treatment_Process.rst
-   Introduction/Requirements.rst
-   Introduction/AIDE_Tools.rst
+   Introduction/HistoryIntroduction.rst
+   Introduction/Treatment_ProcessIntrodution.rst
+   Introduction/RequirementsIntroduction.rst
+   Introduction/AIDE_ToolsIntroduction.rst
 
- .. toctree::
+.. toctree::
    :caption: Entrance Tank
    :maxdepth: 1
 
-   Entrance_Tank/Tank_Design_Algorithm.rst
-        
+   Entrance_Tank/Tank_Design_AlgorithmEntrance_Tank.rst
+
 `The PDF and LaTeX versions <https://github.com/AguaClara/aide_design_specs/releases/latest>`_ [#pdf_warning]_.
 
 .. rubric:: **Notes**
 
-.. [#] Las versiones de PDF y LaTeX pueden contener rarezas visuales porque se genera automáticamente. El sitio web es la forma recomendada de leer este documento. `Por favor visite nuestro GitHub <https://github.com/AguaClara/aide_design_specs>`_ para enviar un problema, contribuir o comentar.
+.. [#pdf_warning] The PDF and LaTeX versions are generated automatically, so they might contain odd visuals. To read this document, the web site is recommended. `Please visit our GitHub <https://github.com/AguaClara/aide_design_specs>`_ to post an issue, contribute, or comment.
