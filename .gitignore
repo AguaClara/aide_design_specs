@@ -1,6 +1,9 @@
-# sphinx build files:
+# Sphinx build files:
 **/build
 **/_build
+
+# Validation reports
+Reports
 
 # Byte-compiled / optimized / DLL files
 **__pycache__
