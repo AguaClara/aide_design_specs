@@ -41,8 +41,6 @@ extensions = [
     "sphinx.ext.todo",
     "sphinxcontrib.bibtex",
     "sphinxcontrib.disqus",
-    "matplotlib.sphinxext.only_directives",
-    "matplotlib.sphinxext.plot_directive",
 ]
 
 # To setup mathjax with required extensions for all files
@@ -90,7 +88,7 @@ gettext_compact = False
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
 exclude_patterns = ["_build"]
-html_extra_path = [".nojekyll"]
+html_extra_path = []
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = "sphinx"
@@ -150,7 +148,9 @@ htmlhelp_basename = "AideDesignSpecs"
 
 # -- Options for LaTeX output ---------------------------------------------
 
-# The config value `latex_engine` has to be a one of ('pdflatex', 'xelatex', 'lualatex', 'platex')
+# The config value `latex_engine` has to be a one of
+# ('pdflatex', 'xelatex', 'lualatex', 'platex')
+
 latex_engine = "pdflatex"
 
 # Add required latex elements for processing. Add things to be imported that aren't
@@ -225,7 +225,9 @@ rst_prolog = """
 
 
 def setup(app):
-    parsed_measurements, templates = parse.get_parsed_measurements(settings.link)
+    parsed_measurements, templates, processes = parse.get_parsed_measurements(
+        settings.link
+    )
 
     for template in templates:
         parse.make_replace_list(parsed_measurements, template)
