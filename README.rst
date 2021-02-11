@@ -1,4 +1,11 @@
 .. _title_Translation_Process:
+
+.. image::
+   https://github.com/AguaClara/aide_design_specs/workflows/Build%20Master/badge.svg
+   :height: 30
+   :target: https://github.com/AguaClara/aide_design_specs/actions
+   :alt: Build Status
+
 **********************************************
 The Translation Process
 **********************************************
