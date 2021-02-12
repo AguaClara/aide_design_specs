@@ -5,7 +5,8 @@ from . import views
 
 urlpatterns = [
     path("", views.submit_form, name="form"),
-    path("index", views.index),
+    path("index", views.docs),
+    path("index.html", views.docs),
     path("<slug:doc>/<slug:page>.html", views.docs),
 ] + static("_static", document_root=settings.STATIC_ROOT)
 urlpatterns += static("_images", document_root=settings.MEDIA_ROOT)

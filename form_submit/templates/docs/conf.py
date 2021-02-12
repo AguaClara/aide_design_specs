@@ -150,6 +150,7 @@ htmlhelp_basename = "AideDesignSpecs"
 
 # The config value `latex_engine` has to be a one of
 # ('pdflatex', 'xelatex', 'lualatex', 'platex')
+
 latex_engine = "pdflatex"
 
 # Add required latex elements for processing. Add things to be imported that aren't
