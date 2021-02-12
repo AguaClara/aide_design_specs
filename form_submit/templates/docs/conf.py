@@ -39,7 +39,6 @@ extensions = [
     "sphinx.ext.doctest",
     "sphinx.ext.mathjax",
     "sphinx.ext.todo",
-    "sphinxcontrib.bibtex",
     "sphinxcontrib.disqus",
 ]
 
@@ -232,4 +231,4 @@ def setup(app):
     for template in templates:
         parse.make_replace_list(parsed_measurements, template)
 
-    app.add_stylesheet("css/custom.css")
+    app.add_css_file("css/custom.css")
