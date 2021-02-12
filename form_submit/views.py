@@ -17,6 +17,7 @@ REPORT_TYPE = [
     ("docs_pdf_eng", "Design Specifications: PDF (English)"),
     ("docs_pdf_esp", "Memoria Tecnica: PDF (Español)"),
     ("validation_pdf", "Validation Report: PDF (English)"),
+]
 
 
 class DocGenForm(forms.Form):
