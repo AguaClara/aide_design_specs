@@ -36,7 +36,6 @@ git+git://github.com/rmk135/sphinxcontrib-disqus.git#egg=sphinxcontrib-disqus
 Sphinx==3.4.3
 sphinx-intl==2.0.1
 sphinx-rtd-theme==0.5.1
-sphinxcontrib-bibtex==2.4.1
 sphinxcontrib-websupport==1.2.4
 urllib3==1.24.2
 gunicorn==20.0.4
