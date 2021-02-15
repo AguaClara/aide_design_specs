@@ -30,6 +30,7 @@ __pycache__
 form_submit/templates/docs/Flocculator/*
 form_submit/templates/docs/Entrance_Tank/*
 form_submit/templates/docs/Introduction/*
+form_submit/templates/docs/Sedimentation/*
 form_submit/templates/docs/index.rst
 form_submit/templates/docs/new_index.rst
 
