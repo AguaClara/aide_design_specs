@@ -7,7 +7,7 @@ certifi==2018.4.16
 chardet==3.0.4
 cycler==0.10.0
 Django==3.1.1
-django-heroku==0.3.1
+git+https://github.com/fletchapin/django-heroku.git#egg=django-heroku
 docutils==0.16
 flake8==3.8.3
 idna==2.10
@@ -21,7 +21,7 @@ oset==0.1.3
 packaging==20.4
 pathlib==1.0.1
 pdflatex==0.1.3
-pybtex==0.21
+pybtex==0.24
 pybtex-docutils==0.2.1
 Pygments==2.7.1
 pyparsing==2.4.7
@@ -32,7 +32,7 @@ requests==2.24.0
 scipy==1.5.4
 six==1.11.0
 snowballstemmer==2.0.0
-git+git://github.com/rmk135/sphinxcontrib-disqus.git#egg=sphinxcontrib-disqus
+git+https://github.com/rmk135/sphinxcontrib-disqus.git#egg=sphinxcontrib-disqus
 Sphinx==3.4.3
 sphinx-intl==2.0.1
 sphinx-rtd-theme==0.5.1
