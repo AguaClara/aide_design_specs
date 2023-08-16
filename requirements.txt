@@ -33,6 +33,7 @@ scipy==1.5.4
 six==1.11.0
 snowballstemmer==2.0.0
 git+https://github.com/rmk135/sphinxcontrib-disqus.git#egg=sphinxcontrib-disqus
+setuptools==60.0.0
 Sphinx==3.4.3
 sphinx-intl==2.0.1
 sphinx-rtd-theme==0.5.1
